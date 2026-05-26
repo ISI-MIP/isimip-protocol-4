@@ -346,6 +346,24 @@
   - water_global
   group3: true
 
+- specifier: scen7-vl_vl_extrasoc
+  parent: scen7-vl_vl_default
+  title: Extrasoc sensitivity (Very Low)
+  subtitles:
+  - scen7-vl_vl_extrasoc
+  priority: 2st priority, see Table 2.5 for Group III experiment priorities
+  pre-industrial: Identical to the similar **picontrol/1850soc** run  above.
+  historical: Identical to the similar **historical/histsoc** run above.
+  future:
+    climate: scen7-vl
+    soc: vl
+    soc_sens: extrasoc
+  simulation_rounds:
+  - ISIMIP4b
+  sectors:
+  - water_global
+  group3: true
+
 - specifier: scen7-vl_vl-adapt_default
   title: Very Low emission scenario
   subtitles:
@@ -365,6 +383,24 @@
   - fire
   - peat
   - permafrost
+  - water_global
+  group3: true
+
+- specifier: scen7-vl_vl-adapt_extrasoc
+  parent: scen7-vl_vl-adapt_default
+  title: Extrasoc sensitivity (Very Low)
+  subtitles:
+  - scen7-vl_vl-adapt_extrasoc
+  priority: 2st priority, see Table 2.5 for Group III experiment priorities
+  pre-industrial: Identical to the similar **picontrol/1850soc** run above.
+  historical: Identical to the similar **historical/histsoc** run above.
+  future:
+    climate: scen7-vl
+    soc: vl-adapt
+    soc_sens: extrasoc
+  simulation_rounds:
+  - ISIMIP4b
+  sectors:
   - water_global
   group3: true
 
@@ -522,6 +558,24 @@
   - water_global
   group3: true
 
+- specifier: scen7-h_h_extrasoc
+  parent: scen7-h_h_default
+  title: Extrasoc sensitivity (High)
+  subtitles:
+  - scen7-h_h_extrasoc
+  priority: 2st priority, see Table 2.5 for Group III experiment priorities
+  pre-industrial: Identical to the similar **picontrol/1850soc** run above.
+  historical: Identical to the similar **historical/histsoc** run above.
+  future:
+    climate: scen7-h
+    soc: h
+    soc_sens: extrasoc
+  simulation_rounds:
+  - ISIMIP4b
+  sectors:
+  - water_global
+  group3: true
+
 - specifier: scen7-h_h-adapt_default
   title: High emission scenario
   subtitles:
@@ -543,6 +597,25 @@
   - permafrost
   - water_global
   group3: true
+
+- specifier: scen7-h_h-adapt_extrasoc
+  parent: scen7-h_h-adapt_default
+  title: Extrasoc sensitivity (High)
+  subtitles:
+  - scen7-h_h-adapt_extrasoc
+  priority: 2st priority, see Table 2.5 for Group III experiment priorities
+  pre-industrial: Identical to the similar **picontrol/1850soc** run above.
+  historical: Identical to the similar **historical/histsoc** run above.
+  future:
+    climate: scen7-h
+    soc: h-adapt
+    soc_sens: extrasoc
+  simulation_rounds:
+  - ISIMIP4b
+  sectors:
+  - water_global
+  group3: true
+
 
 - specifier: scen7-h_2021soc-from-histsoc_2021co2
   parent: scen7-h_2021soc-from-histsoc_default
