@@ -150,7 +150,7 @@
   - water_regional
   - water_quality
 
-- specifier: vl
+- specifier: ssp1vlsoc-noadapt
   description: >-
     Varying direct human influences in the future period according to the *Very Low emission scenario*,
     not accounting for the impact of climate change under the corresponding climate.
@@ -166,10 +166,12 @@
   - water_global
   group3: true
 
-- specifier: vl-adapt
+- specifier: ssp1vlsoc-adapt
   description: >-
     Varying direct human influences in the future period according to the *Very Low emission scenario*,
     accounting for the impact of climate change under the corresponding climate.
+  description_note: >-
+    **This experiment is not part of the ISIMIP4b Fast Track.**
   simulation_rounds:
   - ISIMIP4b
   sectors:
@@ -182,7 +184,7 @@
   - water_global
   group3: true
 
-- specifier: h
+- specifier: ssp3hsoc-noadapt
   description: >-
     Varying direct human influences in the future period according to the *High emission scenario*,
     not accounting for the impact of climate change under the corresponding climate.
@@ -198,10 +200,12 @@
   - water_global
   group3: true
 
-- specifier: h-adapt
+- specifier: ssp3hsoc-adapt
   description: >-
     Varying direct human influences in the future period according to the *High emission scenario*,
     accounting for the impact of climate change under the corresponding climate.
+  description_note: >-
+    **This experiment is not part of the ISIMIP4b Fast Track.**
   simulation_rounds:
   - ISIMIP4b
   sectors:
