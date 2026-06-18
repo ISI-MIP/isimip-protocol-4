@@ -1,7 +1,7 @@
-ISIMIP3 simulation protocol
+ISIMIP4 simulation protocol
 ===========================
 
-This repository contains all information and tools to build the ISIMIP3 protocol as presented on [protocol.isimip.org](https://protocol.isimip.org). The YAML files containing the information for the tables are located under [definitions](definitions/) and the markdown files for the text under [protocol](protocol/).
+This repository contains all information and tools to build the ISIMIP4 protocol as presented on [protocol.isimip.org](https://protocol.isimip.org). The YAML files containing the information for the tables are located under [definitions](definitions/) and the markdown files for the text under [protocol](protocol/).
 
 You can clone this repository and work and render the files locally as documented below.
 
@@ -98,8 +98,8 @@ The definition YAML files however can be changed without touching the JavaScript
     accounts for varying direct human forcings while another part of the the direct
     human forcing is considered constant or is ignored.
   simulation_rounds:
-  - ISIMIP3a
-  - ISIMIP3b
+  - ISIMIP4a
+  - ISIMIP4b
 
 - specifier: 1850soc
   description: >-
@@ -111,7 +111,7 @@ The definition YAML files however can be changed without touching the JavaScript
     forcings. This scenario may be thought of an approximation of pre-industrial levels
     of human impacts.
   simulation_rounds:
-  - ISIMIP3b
+  - ISIMIP4b
   sectors:
   - agriculture
   - biodiversity
@@ -132,12 +132,12 @@ The definition YAML files however can be changed without touching the JavaScript
 ...
 ```
 
-Here `1850soc` only applies to the given set of sectors and only to `ISIMIP3b`, while `histsoc` is used both in `ISIMIP3a` and `ISIMIP3b` and in every sector. Some attributes (e.g. `frequency` in `definitions/variable`) can have objects as value, which the are evaluated for the particular sector.
+Here `1850soc` only applies to the given set of sectors and only to `ISIMIP4b`, while `histsoc` is used both in `ISIMIP4a` and `ISIMIP4b` and in every sector. Some attributes (e.g. `frequency` in `definitions/variable`) can have objects as value, which the are evaluated for the particular sector.
 
 In order to add a new sector, the following steps need to be taken:
 
 * Add the sector with `specifier` and `title` to `definitions/sector.yaml`.
-* Add `pattern/ISIMIP3a/OutputData/<sector>.yaml` and `pattern/ISIMIP3b/OutputData/<sector>.yaml` with the file patterns for the new sector.
+* Add `pattern/ISIMIP4a/OutputData/<sector>.yaml` and `pattern/ISIMIP4b/OutputData/<sector>.yaml` with the file patterns for the new sector.
 * Add new `variable` group(s) to `definitions/group.yaml`.
 * Add sector variables to `definitions/variable.yaml` and/or update existing variables with the new sector.
 

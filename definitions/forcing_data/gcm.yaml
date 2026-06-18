@@ -47,7 +47,7 @@
   - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-h/
   comment: >-
     Extractions of grid cell data from global atmospheric climate forcing. See list
-    of lakes sites [here](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/isimip3-local-lake-sites/).
+    of lakes sites [here](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
   simulation_rounds:
   - ISIMIP4b
   sectors:

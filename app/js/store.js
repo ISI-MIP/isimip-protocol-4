@@ -12,7 +12,7 @@ const commitUrl = window.store.commit_url
 const baseUrl = location.protocol + '//' + location.host + location.pathname
 
 const initialConfig = {
-  simulation_round: 'ISIMIP3a',
+  simulation_round: 'ISIMIP4a',
   products: ['OutputData'],
   sectors: [],
   experiments: [],

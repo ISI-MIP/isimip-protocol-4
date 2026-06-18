@@ -7,12 +7,12 @@ path: >-
 
 dataset: >-
   (?P<soc_dataset>[a-z0-9_-]+)?
-  _(isimip3a)
+  _(ISIMIP4a)
   _(?P<soc_scenario>[a-z]+)
 
 file: >-
   (?P<soc_dataset>[a-z0-9_-]+)?
-  _(isimip3a)
+  _(ISIMIP4a)
   _(?P<soc_scenario>[a-z]+)
   _(?P<start_year>\d{4})
   _(?P<end_year>\d{4})

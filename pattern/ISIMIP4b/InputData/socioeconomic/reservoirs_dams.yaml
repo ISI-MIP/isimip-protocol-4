@@ -1,5 +1,5 @@
 path: >-
-  (?P<simulation_round>(ISIMIP3b))
+  (?P<simulation_round>(ISIMIP4b))
   /(?P<product>[A-Za-z]+)
   /(?P<category>[a-z0-9-_]+)
   /(?P<subcategory>[a-z0-9-_]+)

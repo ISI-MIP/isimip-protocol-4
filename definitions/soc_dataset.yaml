@@ -1093,7 +1093,7 @@
     long_name: ""
     units: "km2"
   simulation_rounds:
-  - ISIMIP3b
+  - ISIMIP4b
   sectors:
   - agriculture
   - biodiversity
@@ -1755,29 +1755,29 @@
   frequency: annual
   resolution: national
   path:
-    ISIMIP3a:
-    - ISIMIP3a/InputData/socioeconomic/pop/histsoc/population-stratification_histsoc_national_annual_<age-stratification>_<start>_<end>.csv
-    - ISIMIP3a/InputData/socioeconomic/pop/2015soc/population-stratification_2015soc_national_annual_<age-stratification>_<start>_<end>.csv
-    - ISIMIP3a/InputData/socioeconomic/pop/1901soc/population-stratification_1901soc_national_annual_<age-stratification>_<start>_<end>.csv
-    ISIMIP3b:
-    - ISIMIP3b/InputData/socioeconomic/pop/histsoc/population-stratification_histsoc_national_annual_<age-stratification>_<start>_<end>.csv
-    - ISIMIP3b/InputData/socioeconomic/pop/2015soc/population-stratification_2015soc_national_annual_<age-stratification>_<start>_<end>.csv
-    - ISIMIP3b/InputData/socioeconomic/pop/1850soc/population-stratification_1850soc_national_annual_<age-stratification>_<start>_<end>.csv
-    - ISIMIP3b/InputData/socioeconomic/pop/ssp126soc-noadapt/population-stratification_ssp1_national_annual_<age-stratification>_2015_2100.csv
-    - ISIMIP3b/InputData/socioeconomic/pop/ssp370soc-noadapt/population-stratification_ssp3_national_annual_<age-stratification>_2015_2100.csv
-    - ISIMIP3b/InputData/socioeconomic/pop/ssp585soc-noadapt/population-stratification_ssp5_national_annual_<age-stratification>_2015_2100.csv
-    - ISIMIP3b/InputData/socioeconomic/pop/ssp126soc-adapt/population-stratification_ssp1_national_annual_<age-stratification>_2015_2100.csv
-    - ISIMIP3b/InputData/socioeconomic/pop/ssp370soc-adapt/population-stratification_ssp3_national_annual_<age-stratification>_2015_2100.csv
-    - ISIMIP3b/InputData/socioeconomic/pop/ssp585soc-adapt/population-stratification_ssp5_national_annual_<age-stratification>_2015_2100.csv
+    ISIMIP4a:
+    - ISIMIP4a/InputData/socioeconomic/pop/histsoc/population-stratification_histsoc_national_annual_<age-stratification>_<start>_<end>.csv
+    - ISIMIP4a/InputData/socioeconomic/pop/2015soc/population-stratification_2015soc_national_annual_<age-stratification>_<start>_<end>.csv
+    - ISIMIP4a/InputData/socioeconomic/pop/1901soc/population-stratification_1901soc_national_annual_<age-stratification>_<start>_<end>.csv
+    ISIMIP4b:
+    - ISIMIP4b/InputData/socioeconomic/pop/histsoc/population-stratification_histsoc_national_annual_<age-stratification>_<start>_<end>.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/2015soc/population-stratification_2015soc_national_annual_<age-stratification>_<start>_<end>.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/1850soc/population-stratification_1850soc_national_annual_<age-stratification>_<start>_<end>.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/ssp126soc-noadapt/population-stratification_ssp1_national_annual_<age-stratification>_2015_2100.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/ssp370soc-noadapt/population-stratification_ssp3_national_annual_<age-stratification>_2015_2100.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/ssp585soc-noadapt/population-stratification_ssp5_national_annual_<age-stratification>_2015_2100.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/ssp126soc-adapt/population-stratification_ssp1_national_annual_<age-stratification>_2015_2100.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/ssp370soc-adapt/population-stratification_ssp3_national_annual_<age-stratification>_2015_2100.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/ssp585soc-adapt/population-stratification_ssp5_national_annual_<age-stratification>_2015_2100.csv
   variables:
   - specifier: population
     long_name: share of national population
     units: 1
   time_periods:
-    ISIMIP3a:
+    ISIMIP4a:
     - 1850-1900
     - 1901-2021
-    ISIMIP3b:
+    ISIMIP4b:
     - 1850-2014
     - 2015-2100
 
