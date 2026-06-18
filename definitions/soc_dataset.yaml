@@ -1732,8 +1732,8 @@
     - ISIMIP4b/InputData/socioeconomic/pop/histsoc/population_histsoc_national_annual_<start>_<end>.csv
     - ISIMIP4b/InputData/socioeconomic/pop/2021soc/population_2021soc_national_annual_<start>_<end>.csv
     - ISIMIP4b/InputData/socioeconomic/pop/1850soc/population_1850soc_national_annual_<start>_<end>.csv
-    - ISIMIP4b/InputData/socioeconomic/pop/ssp1vlsoc-noadapt/population_vl_national_annual_2022_2100.csv
-    - ISIMIP4b/InputData/socioeconomic/pop/ssp3hsoc-noadapt/population_h_national_annual_2022_2100.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/ssp1vlsoc-noadapt/population_ssp1_national_annual_2022_2100.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/ssp3hsoc-noadapt/population_ssp3_national_annual_2022_2100.csv
   variables:
   - specifier: population
     long_name: total number of people per country
@@ -1757,18 +1757,14 @@
   path:
     ISIMIP4a:
     - ISIMIP4a/InputData/socioeconomic/pop/histsoc/population-stratification_histsoc_national_annual_<age-stratification>_<start>_<end>.csv
-    - ISIMIP4a/InputData/socioeconomic/pop/2015soc/population-stratification_2015soc_national_annual_<age-stratification>_<start>_<end>.csv
+    - ISIMIP4a/InputData/socioeconomic/pop/2021soc/population-stratification_2021soc_national_annual_<age-stratification>_<start>_<end>.csv
     - ISIMIP4a/InputData/socioeconomic/pop/1901soc/population-stratification_1901soc_national_annual_<age-stratification>_<start>_<end>.csv
     ISIMIP4b:
     - ISIMIP4b/InputData/socioeconomic/pop/histsoc/population-stratification_histsoc_national_annual_<age-stratification>_<start>_<end>.csv
-    - ISIMIP4b/InputData/socioeconomic/pop/2015soc/population-stratification_2015soc_national_annual_<age-stratification>_<start>_<end>.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/2021soc/population-stratification_2021soc_national_annual_<age-stratification>_<start>_<end>.csv
     - ISIMIP4b/InputData/socioeconomic/pop/1850soc/population-stratification_1850soc_national_annual_<age-stratification>_<start>_<end>.csv
-    - ISIMIP4b/InputData/socioeconomic/pop/ssp126soc-noadapt/population-stratification_ssp1_national_annual_<age-stratification>_2015_2100.csv
-    - ISIMIP4b/InputData/socioeconomic/pop/ssp370soc-noadapt/population-stratification_ssp3_national_annual_<age-stratification>_2015_2100.csv
-    - ISIMIP4b/InputData/socioeconomic/pop/ssp585soc-noadapt/population-stratification_ssp5_national_annual_<age-stratification>_2015_2100.csv
-    - ISIMIP4b/InputData/socioeconomic/pop/ssp126soc-adapt/population-stratification_ssp1_national_annual_<age-stratification>_2015_2100.csv
-    - ISIMIP4b/InputData/socioeconomic/pop/ssp370soc-adapt/population-stratification_ssp3_national_annual_<age-stratification>_2015_2100.csv
-    - ISIMIP4b/InputData/socioeconomic/pop/ssp585soc-adapt/population-stratification_ssp5_national_annual_<age-stratification>_2015_2100.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/ssp1vlsoc-noadapt/population-stratification_ssp1_national_annual_<age-stratification>_2015_2100.csv
+    - ISIMIP4b/InputData/socioeconomic/pop/ssp3hsoc-noadapt/population-stratification_ssp3_national_annual_<age-stratification>_2015_2100.csv
   variables:
   - specifier: population
     long_name: share of national population
