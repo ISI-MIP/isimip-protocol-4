@@ -1,0 +1,181 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/forestry.yaml",
+  "commit": "265961ddadba9f59a5af6ecb6dd6415889243e07",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "model",
+        "climate_forcing",
+        "bias_adjustment",
+        "climate_scenario",
+        "soc_scenario",
+        "sens_scenario",
+        "variable",
+        "forest_stand",
+        "time_step"
+      ],
+      "properties": {
+        "model": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "example-xyz"
+          ]
+        },
+        "bias_adjustment": {
+          "type": "string",
+          "enum": [
+            "w5e5",
+            "nobasd"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "historical",
+            "scen7-h",
+            "scen7-vl",
+            "picontrol"
+          ]
+        },
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "2021soc-from-histsoc",
+            "histsoc",
+            "nat"
+          ]
+        },
+        "sens_scenario": {
+          "type": "string",
+          "enum": [
+            "2021co2",
+            "default"
+          ]
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "cvegbg",
+            "nroot",
+            "cvegag",
+            "clitterag",
+            "cwood",
+            "rr",
+            "harv",
+            "ba",
+            "soil",
+            "nsoil",
+            "trans",
+            "nlitterbg",
+            "clitter",
+            "nwood",
+            "esoil",
+            "ncwd",
+            "clitterbg",
+            "nee",
+            "gpp",
+            "dist",
+            "cleaf",
+            "intercep",
+            "domhei",
+            "tsl",
+            "dbh",
+            "age",
+            "hei",
+            "lai",
+            "mai",
+            "csoillayer",
+            "croot",
+            "vol",
+            "cveg",
+            "csoil",
+            "fapar",
+            "cproduct",
+            "nlitterag",
+            "rh",
+            "ra",
+            "density",
+            "species",
+            "mortstemno",
+            "soilmoist",
+            "harvstemno",
+            "evap",
+            "dbhdomhei",
+            "ccwd",
+            "npp",
+            "nleaf",
+            "stemno",
+            "mort"
+          ]
+        },
+        "species": {
+          "type": "string",
+          "enum": [
+            "rops",
+            "eugl",
+            "poni",
+            "qupe",
+            "quro",
+            "pipi",
+            "soau",
+            "pisy",
+            "fasy",
+            "fi",
+            "bepu",
+            "piab",
+            "bepe",
+            "lade",
+            "acpl",
+            "wi",
+            "c3gr",
+            "frex",
+            "hawo",
+            "ins"
+          ]
+        },
+        "forest_stand": {
+          "type": "string",
+          "enum": [
+            "hyytiala",
+            "peitz",
+            "bily-kriz",
+            "solling-beech",
+            "solling-spruce",
+            "soro",
+            "kroof",
+            "collelongo",
+            "le-bray"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "annual",
+            "monthly",
+            "2hr",
+            "fixed",
+            "6hr",
+            "3hr",
+            "hourly",
+            "daily"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

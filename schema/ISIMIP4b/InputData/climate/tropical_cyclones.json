@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/InputData/climate/tropical_cyclones.yaml",
+  "commit": "265961ddadba9f59a5af6ecb6dd6415889243e07",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "tc_model",
+        "climate_forcing",
+        "climate_scenario"
+      ],
+      "properties": {
+        "tc_model": {
+          "type": "string",
+          "enum": [
+            "chaz",
+            "mit",
+            "MIT"
+          ]
+        },
+        "model": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "example-xyz"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "historical",
+            "scen7-h",
+            "scen7-vl",
+            "picontrol"
+          ]
+        },
+        "climate_dataset": {
+          "type": "string",
+          "enum": [
+            "hcc",
+            "tracks",
+            "chr"
+          ]
+        },
+        "climate_variable": {
+          "type": "string",
+          "enum": [
+            "ch4",
+            "ushear",
+            "intppdiat",
+            "pres",
+            "uo",
+            "zooc",
+            "tasmin",
+            "thetao",
+            "prsn",
+            "intppmisc",
+            "phydiat",
+            "hurs",
+            "co2",
+            "tas",
+            "o2",
+            "ua250",
+            "huss",
+            "basin",
+            "lon",
+            "zmicro",
+            "va850",
+            "phymisc",
+            "chl",
+            "phyc",
+            "intppdiaz",
+            "lat",
+            "tob",
+            "vse",
+            "rmwse",
+            "intpoc",
+            "rsntds",
+            "windspatialmax",
+            "ua850",
+            "ps",
+            "thkcello",
+            "penv",
+            "ta600",
+            "rlds",
+            "phydiaz",
+            "shear",
+            "sos",
+            "pr",
+            "rsds",
+            "intpp",
+            "zmeso",
+            "tos",
+            "so",
+            "sfcwind",
+            "phypico",
+            "maxrain",
+            "vo",
+            "tasmax",
+            "rh600",
+            "ph",
+            "vp",
+            "vshear",
+            "lightning",
+            "wo",
+            "rmw",
+            "time",
+            "expc",
+            "intpppico",
+            "mlotstmax",
+            "siconc",
+            "windlifetimemax",
+            "va250"
+          ]
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "europe",
+            "global",
+            "along-track"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "annual",
+            "monthly-gs",
+            "monthly",
+            "2hr",
+            "fixed",
+            "6hr",
+            "annual-gs",
+            "3hr",
+            "hourly",
+            "daily"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

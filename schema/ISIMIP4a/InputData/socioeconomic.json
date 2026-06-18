@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/socioeconomic.yaml",
+  "commit": "265961ddadba9f59a5af6ecb6dd6415889243e07",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "soc_dataset": {
+          "type": "string",
+          "enum": [
+            "forest_management",
+            "ndep-wetnhx",
+            "landuse-5crops",
+            "population",
+            "n-fertilizer-15crops",
+            "reservoirs-dams",
+            "gdp-ppp-countrylevel",
+            "ndep-drynoy",
+            "ndep-nhx",
+            "n-fertilizer-5crops",
+            "fishing-effort",
+            "land-transformation",
+            "landuse-totals",
+            "ndep-drynhx",
+            "landuse-pastures",
+            "pctlake",
+            "landuse-forests-and-natural-vegetation",
+            "landuse-urbanareas",
+            "gdp-mer-countrylevel",
+            "ndep-wetnoy",
+            "wood_harvesting",
+            "ndep-noy",
+            "landuse-15crops",
+            "population-stratification"
+          ]
+        },
+        "soc_variable": {
+          "type": "string"
+        },
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "histsoc",
+            "nat",
+            "1901soc",
+            "1850soc",
+            "2021soc"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "annual",
+            "monthly-gs",
+            "monthly",
+            "2hr",
+            "fixed",
+            "6hr",
+            "annual-gs",
+            "3hr",
+            "hourly",
+            "daily"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

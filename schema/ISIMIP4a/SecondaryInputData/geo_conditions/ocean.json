@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/SecondaryInputData/geo_conditions/ocean.yaml",
+  "commit": "265961ddadba9f59a5af6ecb6dd6415889243e07",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "climate_forcing",
+        "geo_dataset",
+        "resolution",
+        "region",
+        "time_step"
+      ],
+      "properties": {
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "example-w5e5"
+          ]
+        },
+        "geo_dataset": {
+          "type": "string",
+          "enum": [
+            "landseamask_water-global",
+            "landseamask_no-ant",
+            "landseamask",
+            "deptho",
+            "LMEs66_masks",
+            "surface_area",
+            "hydrolakes_id",
+            "RME_masks",
+            "hwsd_soil_data_on_cropland",
+            "max_lakedepth",
+            "countrymasks-fractional",
+            "mean_lakedepth",
+            "ddm30_basins_cru_neva",
+            "gswp3_hwsd",
+            "countrymasks-binary",
+            "biglakes_mask",
+            "mpa",
+            "orog",
+            "ddm30_slopes_cru_neva",
+            "ddm30_flowdir_cru_neva",
+            "gadm",
+            "elevation",
+            "hwsd_soil_data_all_land",
+            "hydrolakes_id_biglakes",
+            "hypso_area",
+            "volume",
+            "hypso_volume"
+          ]
+        },
+        "resolution": {
+          "type": "string",
+          "enum": [
+            "30arcmin"
+          ]
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "europe",
+            "global",
+            "along-track"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "annual",
+            "monthly-gs",
+            "monthly",
+            "2hr",
+            "fixed",
+            "6hr",
+            "annual-gs",
+            "3hr",
+            "hourly",
+            "daily"
+          ]
+        }
+      }
+    }
+  }
+}

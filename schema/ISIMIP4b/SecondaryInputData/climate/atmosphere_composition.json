@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/SecondaryInputData/climate/atmosphere_composition.yaml",
+  "commit": "265961ddadba9f59a5af6ecb6dd6415889243e07",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "climate_variable",
+        "climate_scenario",
+        "time_step"
+      ],
+      "properties": {
+        "climate_variable": {
+          "type": "string",
+          "enum": [
+            "ch4",
+            "ushear",
+            "intppdiat",
+            "pres",
+            "uo",
+            "zooc",
+            "tasmin",
+            "prw",
+            "thetao",
+            "prsn",
+            "intppmisc",
+            "phydiat",
+            "va",
+            "hurs",
+            "co2",
+            "tas",
+            "o2",
+            "ua250",
+            "huss",
+            "hur",
+            "basin",
+            "lon",
+            "zmicro",
+            "va850",
+            "phymisc",
+            "chl",
+            "phyc",
+            "intppdiaz",
+            "lat",
+            "tob",
+            "vse",
+            "rmwse",
+            "intpoc",
+            "rsntds",
+            "windspatialmax",
+            "ua850",
+            "ps",
+            "ta",
+            "hus",
+            "thkcello",
+            "penv",
+            "ta600",
+            "ts",
+            "rlds",
+            "phydiaz",
+            "ua",
+            "shear",
+            "psl",
+            "sos",
+            "pr",
+            "rsds",
+            "intpp",
+            "zmeso",
+            "tos",
+            "so",
+            "sfcwind",
+            "phypico",
+            "maxrain",
+            "vo",
+            "tasmax",
+            "rh600",
+            "ph",
+            "vp",
+            "vshear",
+            "lightning",
+            "wo",
+            "rmw",
+            "time",
+            "expc",
+            "intpppico",
+            "mlotstmax",
+            "siconc",
+            "windlifetimemax",
+            "va250"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "historical",
+            "scen7-h",
+            "scen7-vl",
+            "picontrol"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "annual",
+            "monthly-gs",
+            "monthly",
+            "2hr",
+            "fixed",
+            "6hr",
+            "annual-gs",
+            "3hr",
+            "hourly",
+            "daily"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

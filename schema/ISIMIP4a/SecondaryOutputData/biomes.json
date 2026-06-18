@@ -1,0 +1,200 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/SecondaryOutputData/biomes.yaml",
+  "commit": "265961ddadba9f59a5af6ecb6dd6415889243e07",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "model",
+        "climate_forcing",
+        "climate_scenario",
+        "soc_scenario",
+        "sens_scenario",
+        "variable",
+        "region",
+        "time_step"
+      ],
+      "properties": {
+        "model": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "example-w5e5"
+          ]
+        },
+        "detrending": {
+          "type": "string",
+          "enum": [
+            "observed",
+            "detrended"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "obsclim",
+            "counterclim"
+          ]
+        },
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "2021soc",
+            "histsoc",
+            "nat",
+            "1901soc"
+          ]
+        },
+        "sens_scenario": {
+          "type": "string",
+          "enum": [
+            "nofire",
+            "1901co2",
+            "obsco2",
+            "default"
+          ]
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "clitterag",
+            "harvyear",
+            "nincum",
+            "wetlandfrac",
+            "pft",
+            "fnnetmin",
+            "fluc",
+            "nproduct",
+            "nleachcum",
+            "gpp",
+            "cleaf",
+            "intercep",
+            "croot",
+            "fndep",
+            "fvegsoil",
+            "nmineralnh4",
+            "qs",
+            "matyday",
+            "nlosscum",
+            "qsb",
+            "plantday",
+            "nleaf",
+            "burntarea",
+            "ch4",
+            "fnveglitter",
+            "pirnreqcum",
+            "nroot",
+            "fngasfire",
+            "fnproduct",
+            "fnleach",
+            "nlitterbg",
+            "landalbedo",
+            "nveg",
+            "ncwd",
+            "clitterbg",
+            "nmineralno3",
+            "lai",
+            "rsoil",
+            "csoil",
+            "wetlandch4",
+            "anthday",
+            "flitter",
+            "evapcum",
+            "fnh3",
+            "evap",
+            "ccwd",
+            "cvegbg",
+            "initrcum",
+            "cvegag",
+            "fbioenergyharvest",
+            "contfrac",
+            "rr",
+            "snd",
+            "nupcum",
+            "fnanthdisturb",
+            "soil",
+            "cellarea",
+            "trans",
+            "nvegag",
+            "swe",
+            "plantyear",
+            "qtot",
+            "fbnf",
+            "fngas",
+            "tsl",
+            "nvegbg",
+            "flittersoil",
+            "csoillayer",
+            "cveg",
+            "fapar",
+            "cproduct",
+            "rh",
+            "npp",
+            "fnlittersoil",
+            "fcropharvest",
+            "fnfert",
+            "nmineral",
+            "cwood",
+            "fgrazing",
+            "thawdepth",
+            "nsoil",
+            "landfrac",
+            "soilmoistfroz",
+            "clitter",
+            "fn2o",
+            "nwood",
+            "esoil",
+            "yield",
+            "ffire",
+            "rlitter",
+            "nlitterag",
+            "ra",
+            "soilmoist",
+            "nbp",
+            "biom",
+            "fnvegsoil",
+            "ffireluc",
+            "nloss"
+          ]
+        },
+        "pft": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "europe",
+            "global",
+            "along-track"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "annual",
+            "monthly",
+            "2hr",
+            "fixed",
+            "6hr",
+            "3hr",
+            "hourly",
+            "daily"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

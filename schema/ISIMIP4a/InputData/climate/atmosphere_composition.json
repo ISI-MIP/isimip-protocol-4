@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/climate/atmosphere_composition.yaml",
+  "commit": "265961ddadba9f59a5af6ecb6dd6415889243e07",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "climate_variable",
+        "climate_scenario",
+        "time_step"
+      ],
+      "properties": {
+        "climate_variable": {
+          "type": "string",
+          "enum": [
+            "ch4",
+            "u850",
+            "flddph",
+            "intppdiat",
+            "pres",
+            "96knarea",
+            "64knarea",
+            "uo",
+            "zooc",
+            "48knpop",
+            "tasmin",
+            "thetao",
+            "prsn",
+            "48knarea",
+            "intppmisc",
+            "phydiat",
+            "64knpop",
+            "mask",
+            "hurs",
+            "34knassets",
+            "34knpop",
+            "co2",
+            "o2",
+            "tas",
+            "huss",
+            "basin",
+            "rain",
+            "lon",
+            "zmicro",
+            "fldarea",
+            "mlotst",
+            "chl",
+            "phyc",
+            "intppdiaz",
+            "lat",
+            "tob",
+            "wind",
+            "geocentricwaterlevel",
+            "intpoc",
+            "rsntds",
+            "windspatialmax",
+            "ps",
+            "orog",
+            "waterlevel",
+            "thkcello",
+            "penv",
+            "rlds",
+            "phydiaz",
+            "t600",
+            "pr",
+            "rsds",
+            "48knassets",
+            "intpp",
+            "zmeso",
+            "tos",
+            "so",
+            "v850",
+            "96knassets",
+            "phypico",
+            "maxrain",
+            "vo",
+            "96knpop",
+            "roci",
+            "sfcwind",
+            "ph",
+            "tasmax",
+            "lightning",
+            "rmw",
+            "64knassets",
+            "time",
+            "expc",
+            "intpppico",
+            "siconc",
+            "windlifetimemax",
+            "34knarea"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "spinclim",
+            "counterclim",
+            "transclim",
+            "ctrlclim",
+            "obsclim"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "annual",
+            "monthly-gs",
+            "monthly",
+            "2hr",
+            "fixed",
+            "6hr",
+            "annual-gs",
+            "3hr",
+            "hourly",
+            "daily"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "265961ddadba9f59a5af6ecb6dd6415889243e07",
+  "identifiers": [
+    "simulation_round",
+    "product",
+    "category",
+    "subcategory",
+    "soc_scenario"
+  ]
+}

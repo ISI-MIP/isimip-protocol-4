@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/SecondaryInputData/climate/atmosphere.yaml",
+  "commit": "265961ddadba9f59a5af6ecb6dd6415889243e07",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "climate_forcing",
+        "climate_scenario",
+        "climate_variable",
+        "region",
+        "time_step"
+      ],
+      "properties": {
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "example-w5e5"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "ctrlclim",
+            "transclim",
+            "obsclim",
+            "counterclim"
+          ]
+        },
+        "climate_variable": {
+          "type": "string",
+          "enum": [
+            "pres",
+            "tasmin",
+            "prw",
+            "64knpop",
+            "basin",
+            "fldarea",
+            "chl",
+            "lat",
+            "thkcello",
+            "zmeso",
+            "96knassets",
+            "phypico",
+            "hurs",
+            "ch4",
+            "flddph",
+            "96knarea",
+            "64knarea",
+            "zooc",
+            "va",
+            "34knpop",
+            "tas",
+            "rain",
+            "geocentricwaterlevel",
+            "intpoc",
+            "rsntds",
+            "windspatialmax",
+            "ps",
+            "ts",
+            "intpp",
+            "tos",
+            "so",
+            "vo",
+            "tasmax",
+            "48knassets",
+            "co2",
+            "thetao",
+            "prsn",
+            "intppmisc",
+            "mask",
+            "34knassets",
+            "hur",
+            "zmicro",
+            "phyc",
+            "intppdiaz",
+            "wind",
+            "tob",
+            "ta",
+            "orog",
+            "hus",
+            "ua",
+            "t600",
+            "psl",
+            "pr",
+            "rsds",
+            "v850",
+            "96knpop",
+            "roci",
+            "ph",
+            "lightning",
+            "64knassets",
+            "time",
+            "siconc",
+            "u850",
+            "intppdiat",
+            "uo",
+            "48knpop",
+            "48knarea",
+            "phydiat",
+            "o2",
+            "huss",
+            "lon",
+            "mlotst",
+            "waterlevel",
+            "penv",
+            "rlds",
+            "phydiaz",
+            "sfcwind",
+            "maxrain",
+            "rmw",
+            "expc",
+            "intpppico",
+            "windlifetimemax",
+            "34knarea"
+          ]
+        },
+        "resolution": {
+          "type": "string",
+          "enum": [
+            "30arcmin"
+          ]
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "europe",
+            "global",
+            "along-track"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "annual",
+            "monthly-gs",
+            "monthly",
+            "2hr",
+            "fixed",
+            "6hr",
+            "annual-gs",
+            "3hr",
+            "hourly",
+            "daily"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}
