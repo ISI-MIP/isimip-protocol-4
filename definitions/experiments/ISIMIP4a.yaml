@@ -1,7 +1,5 @@
 - specifier: obsclim_histsoc_default
   title: Model evaluation
-  subtitles:
-  - obsclim_histsoc_default
   priority: 1st priority
   historical:
     climate: obsclim
@@ -31,8 +29,6 @@
 
 - specifier: obsclim_2021soc_default
   title: Model evaluation
-  subtitles:
-  - obsclim_2021soc_default
   priority: 1st priority
   historical:
     climate: obsclim
@@ -59,8 +55,6 @@
 
 - specifier: obsclim_1901soc_default
   title: Model evaluation
-  subtitles:
-  - obsclim_1901soc_default
   priority: 2nd priority
   historical:
     climate: obsclim
@@ -79,8 +73,6 @@
 
 - specifier: obsclim_nat_default
   title: Model evaluation
-  subtitles:
-  - obsclim_nat_default
   priority: 2nd priority
   historical:
     climate: obsclim
@@ -95,8 +87,6 @@
 
 - specifier: counterclim_histsoc_default
   title: Counterfactual climate
-  subtitles:
-  - counterclim_histsoc_default
   priority: 1st priority
   historical:
     climate: counterclim
@@ -124,8 +114,6 @@
 
 - specifier: counterclim_2021soc_default
   title: Counterfactual climate
-  subtitles:
-  - counterclim_2021soc_default
   priority: 1st priority
   historical:
     climate: counterclim
@@ -152,8 +140,6 @@
 
 - specifier: counterclim_1901soc_default
   title: Counterfactual climate
-  subtitles:
-  - counterclim_1901soc_default
   priority: 2nd priority
   historical:
     climate: counterclim
@@ -172,8 +158,6 @@
 
 - specifier: counterclim_nat_default
   title: Counterfactual climate
-  subtitles:
-  - counterclim_nat_default
   priority: 2nd priority
   historical:
     climate: counterclim
@@ -189,8 +173,6 @@
 - specifier: obsclim_histsoc_1901co2
   parent: obsclim_histsoc_default
   title: CO₂ sensitivity
-  subtitles:
-  - obsclim_histsoc_1901co2
   priority: 2nd priority
   historical:
     climate: obsclim
@@ -216,8 +198,6 @@
 - specifier: obsclim_2021soc_1901co2
   parent: obsclim_2021soc_default
   title: CO₂ sensitivity
-  subtitles:
-  - obsclim_2021soc_1901co2
   priority: 2nd priority
   historical:
     climate: obsclim
@@ -242,8 +222,6 @@
 - specifier: obsclim_1901soc_1901co2
   parent: obsclim_1901soc_default
   title: CO₂ sensitivity
-  subtitles:
-  - obsclim_1901soc_1901co2
   priority: 2nd priority
   historical:
     climate: obsclim
@@ -262,8 +240,6 @@
 - specifier: obsclim_histsoc_nowatermgt
   parent: obsclim_histsoc_default
   title: Water management sensitivity
-  subtitles:
-  - obsclim_histsoc_nowatermgt
   priority: 2nd priority
   historical:
     climate: obsclim
@@ -279,8 +255,6 @@
 - specifier: obsclim_2021soc_nowatermgt
   parent: obsclim_2021soc_default
   title: Water management sensitivity
-  subtitles:
-  - obsclim_2021soc_nowatermgt
   priority: 2nd priority
   historical:
     climate: obsclim
@@ -296,8 +270,6 @@
 - specifier: obsclim_histsoc_1901irr
   parent: obsclim_histsoc_default
   title: Irrigation sensitivity
-  subtitles:
-  - obsclim_histsoc_1901irr
   priority: 2nd priority
   historical:
     climate: obsclim
@@ -312,8 +284,6 @@
 - specifier: obsclim_histsoc_nofire
   parent: obsclim_histsoc_default
   title: No-fire sensitivity
-  subtitles:
-  - obsclim_histsoc_nofire
   priority: 2nd priority
   historical:
     climate: obsclim
@@ -330,8 +300,6 @@
 - specifier: counterclim_histsoc_obsco2
   parent: obsclim_histsoc_default
   title: Counterfactual climate and CO₂ sensitivity
-  subtitles:
-  - counterclim_histsoc_obsco2
   priority: 2nd priority
   historical:
     climate: counterclim
@@ -345,8 +313,6 @@
 
 - specifier: obsclim_nat_default_fishmip
   title: Model evaluation
-  subtitles:
-  - obsclim_nat_default
   priority: 1st priority
   historical:
     climate: obsclim

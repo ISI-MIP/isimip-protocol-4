@@ -1,9 +1,5 @@
 - specifier: picontrol_2021soc-from-histsoc_default
   title: Pre-industrial control
-  subtitles:
-  - picontrol_1850soc_default
-  - picontrol_histsoc_default
-  - picontrol_2021soc-from-histsoc_default
   priority: 1st priority
   pre-industrial:
     climate: picontrol
@@ -39,8 +35,6 @@
 
 - specifier: picontrol_2021soc_default
   title: Pre-industrial control
-  subtitles:
-  - picontrol_2021soc_default
   priority: 1st priority
   pre-industrial: Does not have to be simulated, spin-up should be based on the 2021
     DHF (see note below the table).
@@ -73,8 +67,6 @@
 
 - specifier: picontrol_1850soc_default
   title: Pre-industrial control
-  subtitles:
-  - picontrol_1850soc_default
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical:
@@ -97,8 +89,6 @@
 
 - specifier: picontrol_nat_default
   title: Pre-industrial control
-  subtitles:
-  - picontrol_nat_default
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not use any DHF (see
     note below the table).
@@ -119,8 +109,6 @@
 
 - specifier: picontrol_ssp1vlsoc-noadapt_default
   title: Pre-industrial control
-  subtitles:
-  - picontrol_ssp1vlsoc-noadapt_default
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **picontrol/histsoc** run above.
@@ -140,8 +128,6 @@
 
 - specifier: picontrol_ssp3hsoc-noadapt_default
   title: Pre-industrial control
-  subtitles:
-  - picontrol_ssp3hsoc-noadapt_default
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **picontrol/histsoc** run above.
@@ -161,9 +147,6 @@
 
 - specifier: scen7-vl_2021soc-from-histsoc_default
   title: Very Low emission scenario
-  subtitles:
-  - historical_histsoc_default
-  - scen7-vl_2021soc-from-histsoc_default
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical:
@@ -198,9 +181,6 @@
 
 - specifier: scen7-vl_2021soc_default
   title: Very Low emission scenario
-  subtitles:
-  - historical_2021soc_default
-  - scen7-vl_2021soc_default
   priority: 1st priority
   pre-industrial: Does not have to be simulated, spin-up should be based on the 2021
     DHF (see note below the table).
@@ -234,9 +214,6 @@
 
 - specifier: scen7-vl_1850soc_default
   title: Very Low emission scenario
-  subtitles:
-  - historical_1850soc_default
-  - scen7-vl_1850soc_default
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical:
@@ -260,9 +237,6 @@
 
 - specifier: scen7-vl_nat_default
   title: Very Low emission scenario
-  subtitles:
-  - historical_nat_default
-  - scen7-vl_nat_default
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not use any DHF (see
     note below the table).
@@ -284,8 +258,6 @@
 
 - specifier: scen7-vl_ssp1vlsoc-noadapt_default
   title: Very Low emission scenario
-  subtitles:
-  - scen7-vl_ssp1vlsoc-noadapt_default
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run  above.
   historical: Identical to the similar **historical/histsoc** run above.
@@ -307,8 +279,6 @@
 - specifier: scen7-vl_ssp1vlsoc-noadapt_extrasoc
   parent: scen7-vl_ssp1vlsoc-noadapt_default
   title: Extrasoc sensitivity (Very Low emission scenario)
-  subtitles:
-  - scen7-vl_ssp1vlsoc-noadapt_extrasoc
   priority: 2st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run  above.
   historical: Identical to the similar **historical/histsoc** run above.
@@ -325,8 +295,6 @@
 - specifier: scen7-vl_2021soc-from-histsoc_2021co2
   parent: scen7-vl_2021soc-from-histsoc_default
   title: CO₂ sensitivity (Very Low emission scenario)
-  subtitles:
-  - scen7-vl_2021soc-from-histsoc_2021co2
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
@@ -346,8 +314,6 @@
 - specifier: scen7-vl_2021soc-from-histsoc_hndep
   parent: scen7-vl_2021soc-from-histsoc_default
   title: Nitrogen deposition sensitivity (Very Low emission scenario)
-  subtitles:
-  - scen7-vl_2021soc-from-histsoc_hndep
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
@@ -362,8 +328,6 @@
 
 - specifier: scen7-h_2021soc-from-histsoc_default
   title: High emission scenario
-  subtitles:
-  - scen7-h_2021soc-from-histsoc_default
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
@@ -396,8 +360,6 @@
 
 - specifier: scen7-h_2021soc_default
   title: High emission scenario
-  subtitles:
-  - scen7-h_2021soc_default
   priority: 1st priority
   pre-industrial: Does not have to be simulated, spin-up should be based on the 2021
     DHF (see note below the table).
@@ -429,8 +391,6 @@
 
 - specifier: scen7-h_1850soc_default
   title: High emission scenario
-  subtitles:
-  - scen7-h_1850soc_default
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/1850soc** run above.
@@ -452,8 +412,6 @@
 
 - specifier: scen7-h_nat_default
   title: High emission scenario
-  subtitles:
-  - scen7-h_nat_default
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not use any DHF (see
     note below the table).
@@ -473,8 +431,6 @@
 
 - specifier: scen7-h_ssp3hsoc-noadapt_default
   title: High emission scenario
-  subtitles:
-  - scen7-h_ssp3hsoc-noadapt_default
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
@@ -496,8 +452,6 @@
 - specifier: scen7-h_ssp3hsoc-noadapt_extrasoc
   parent: scen7-h_ssp3hsoc-noadapt_default
   title: Extrasoc sensitivity (High emission scenario)
-  subtitles:
-  - scen7-h_ssp3hsoc-noadapt_extrasoc
   priority: 2st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
@@ -514,8 +468,6 @@
 - specifier: scen7-h_2021soc-from-histsoc_2021co2
   parent: scen7-h_2021soc-from-histsoc_default
   title: CO₂ sensitivity (High emission scenario)
-  subtitles:
-  - scen7-h_2021soc-from-histsoc_2021co2
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
@@ -542,8 +494,6 @@
 - specifier: scen7-h_2021soc_2021co2
   parent: scen7-h_2021soc_default
   title: CO₂ sensitivity (High emission scenario)
-  subtitles:
-  - scen7-h_2021soc_2021co2
   priority: 1st priority
   pre-industrial: Does not have to be simulated, spin-up should be based on the 2021
     DHF (see note below the table).
@@ -569,8 +519,6 @@
 - specifier: scen7-h_1850soc_2021co2
   parent: scen7-h_1850soc_default
   title: CO₂ sensitivity (High emission scenario)
-  subtitles:
-  - scen7-h_1850soc_2021co2
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/1850soc** run above.
@@ -591,8 +539,6 @@
 - specifier: scen7-h_nat_2021co2
   parent: scen7-h_nat_default
   title: CO₂ sensitivity (High emission scenario)
-  subtitles:
-  - scen7-h_nat_2021co2
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not use any DHF (see
     note below the table).
@@ -610,8 +556,6 @@
 - specifier: scen7-vl_2021soc-from-histsoc_hco2
   parent: scen7-vl_2021soc-from-histsoc_default
   title: Climate sensitivity (Very Low emission scenario with high CO₂)
-  subtitles:
-  - scen7-vl_2021soc-from-histsoc_hco2
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
@@ -627,8 +571,6 @@
 - specifier: scen7-h_2021soc-from-histsoc_hndep
   parent: scen7-h_2021soc-from-histsoc_default
   title: Nitrogen deposition sensitivity (High emission scenario)
-  subtitles:
-  - scen7-h_2021soc-from-histsoc_hndep
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
@@ -644,9 +586,6 @@
 - specifier: scen7-h_2021soc-from-histsoc_nondep
   parent: scen7-h_2021soc-from-histsoc_default
   title: No nitrogen cycling sensitivity (High emission scenario)
-  subtitles:
-  - historical_histsoc_nondep
-  - scen7-h_2021soc-from-histsoc_nondep
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not include any nitrogen
     cycling (see note below the table).
@@ -666,8 +605,6 @@
 - specifier: scen7-h_2021soc-from-histsoc_nondep2021co2
   parent: scen7-h_2021soc-from-histsoc_default
   title: No nitrogen cycling and CO₂ sensitivity (High emission scenario)
-  subtitles:
-  - scen7-h_2021soc-from-histsoc_nondep2021co2
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not include any nitrogen
     cycling (see note below the table).
@@ -684,10 +621,6 @@
 - specifier: scen7-vl_ssp1vlsoc-noadapt_nofire
   parent: scen7-vl_ssp1vlsoc-noadapt_default
   title: No-fire sensitivity (Very Low emission scenario)
-  subtitles:
-  - picontrol_1850soc_nofire
-  - historical_histsoc_nofire
-  - scen7-vl_ssp1vlsoc-noadapt_nofire
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not include any fire (see note below the table).
   historical:
@@ -710,8 +643,6 @@
 - specifier: scen7-h_ssp3hsoc-noadapt_nofire
   parent: scen7-h_ssp3hsoc-noadapt_default
   title: No-fire sensitivity (High emission scenario)
-  subtitles:
-  - scen7-h_ssp3hsoc-noadapt_nofire
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not include any fire (see note below the table).
   historical: "Identical to the similar **historical/histsoc/nofire** run above."

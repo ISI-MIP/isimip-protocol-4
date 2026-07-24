@@ -1,4 +1,5 @@
 import csv
+import itertools
 import logging
 import os
 import re
@@ -98,6 +99,31 @@ def filter_row(row, simulation_round, product, category=None, sector=None):
     return values
 
 
+def compute_subtitles(definition, climate_scenarios):
+    subtitles = []
+
+    for period in ['pre-industrial', 'historical', 'future']:
+        period_definition = definition.get(period)
+        if period_definition and isinstance(period_definition, dict):
+            climate = [period_definition.get('climate')]
+            for climate_scenario in climate_scenarios:
+                if climate_scenario['specifier'] == period_definition.get('climate'):
+                    specifier_file = climate_scenario.get('specifier_file')
+                    if specifier_file:
+                        climate = specifier_file
+                        break
+
+            soc = [period_definition.get('soc')]
+            sens = [period_definition.get('climate_sens') or period_definition.get('soc_sens') or 'default']
+
+            for permutation in itertools.product(climate, soc, sens):
+                subtitle = '_'.join(permutation)
+                if subtitle not in subtitles:
+                    subtitles.append(subtitle)
+
+    return subtitles
+
+
 def read_yaml_file(file_path):
     logging.debug('read %s', file_path)
     try:
@@ -117,6 +143,10 @@ def read_definitions():
                     definitions[file_path.stem] += read_yaml_file(group_path) or []
         elif file_path.suffix == '.yaml':
             definitions[file_path.stem] = read_yaml_file(file_path) or []
+
+    # add subtitles to experiments
+    for definition in definitions['experiments']:
+        definition['subtitles'] = compute_subtitles(definition, definitions['climate_scenario'])
 
     return definitions
 
