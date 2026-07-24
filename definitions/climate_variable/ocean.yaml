@@ -18,12 +18,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: expc
   long_name: Downward Flux of Particulate Organic Carbon
@@ -47,12 +47,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: intpoc
   long_name: Particulate Organic Carbon Content
@@ -74,12 +74,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: intpp
   long_name: Primary Organic Carbon Production by All Types of Phytoplankton
@@ -101,12 +101,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: intppdiat
   long_name: Net Primary Organic Carbon Production by Diatoms
@@ -128,12 +128,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: intppdiaz
   long_name: Net Primary Mole Productivity of Carbon by Diazotrophs
@@ -155,12 +155,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: intpppico
   long_name: Net Primary Mole Productivity of Carbon by Picophytoplankton
@@ -185,12 +185,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: intppmisc
   long_name: Net Primary Organic Carbon Production by Other Phytoplankton
@@ -215,12 +215,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: mlotstmax
   long_name: Maximum Ocean Mixed Layer Thickness Defined by Sigma T
@@ -242,12 +242,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: mlotst
   long_name: Maximum Ocean Mixed Layer Thickness Defined by Sigma T
@@ -273,12 +273,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: o2
   long_name: Dissolved Oxygen Concentration
@@ -304,12 +304,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: ph
   long_name: pH
@@ -335,12 +335,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: phyc
   long_name: Phytoplankton Carbon Concentration
@@ -365,12 +365,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: phydiat
   long_name: Mole Concentration of Diatoms expressed as Carbon in sea water
@@ -395,12 +395,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: phydiaz
   long_name: Mole Concentration of Diazotrophs Expressed as Carbon in Sea Water
@@ -425,12 +425,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: phypico
   long_name: Mole Concentration of Picophytoplankton Expressed as Carbon in Sea Water
@@ -455,12 +455,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: phymisc
   long_name: Mole Concentration of Miscellaneous Phytoplankton expressed as Carbon
@@ -486,12 +486,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: rsntds
   long_name: Net Downward Shortwave Radiation at Sea Water Surface
@@ -516,12 +516,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: siconc
   long_name: Sea Ice Area Fraction
@@ -546,12 +546,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: so
   long_name: Sea Water Salinity
@@ -577,12 +577,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: sos
   long_name: Sea Water Salinity at Surface
@@ -601,12 +601,12 @@
   - health
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: thetao
   long_name: Sea Water Potential Temperature
@@ -629,12 +629,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: thkcello
   long_name: Ocean Model Cell Thickness
@@ -656,12 +656,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: tob
   long_name: Sea Water Potential Temperature at Sea Floor
@@ -683,12 +683,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: tos
   long_name: Sea Surface Temperature
@@ -712,12 +712,12 @@
   - health
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: uo
   long_name: Sea Water X Velocity
@@ -739,12 +739,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: vo
   long_name: Sea Water Y Velocity
@@ -766,12 +766,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: wo
   long_name: Sea Water Z Velocity
@@ -794,12 +794,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: zmeso
   long_name: Mole Concentration of Mesozooplankton expressed as Carbon in sea water
@@ -824,12 +824,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: zmicro
   long_name: Mole Concentration of Microzooplankton expressed as Carbon in sea water
@@ -854,12 +854,12 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: zooc
   long_name: Zooplankton Carbon Concentration
@@ -884,9 +884,9 @@
   - marine-fishery_regional
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1

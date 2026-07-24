@@ -9,11 +9,7 @@
   - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-vl/
   - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-h/
   comment: >-
-    Input dataset documentation → [GFDL-ESM4](https://www.isimip.org/gettingstarted/input-data-bias-adjustment),
-    [IPSL-CM6A-LR](https://www.isimip.org/gettingstarted/input-data-bias-adjustment),
-    [MPI-ESM1-2-HR](https://www.isimip.org/gettingstarted/input-data-bias-adjustment),
-    [MRI-ESM2-0](https://www.isimip.org/gettingstarted/input-data-bias-adjustment),
-    [UKESM1-0-LL](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
+    Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   simulation_rounds:
   - ISIMIP4b
   sectors:

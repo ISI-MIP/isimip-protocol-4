@@ -10,7 +10,7 @@
     ISIMIP4b: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_hurs_global_daily_<start_year>_<end_year>.nc
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   sectors:
   - agriculture
   - biodiversity
@@ -35,7 +35,7 @@
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: huss
   long_name: Near-Surface Specific Humidity
@@ -49,7 +49,7 @@
     ISIMIP4b: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_huss_global_daily_<start_year>_<end_year>.nc
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   sectors:
   - agriculture
   - biodiversity
@@ -74,7 +74,7 @@
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: pr
   long_name: Precipitation
@@ -93,7 +93,7 @@
     ISIMIP4b: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_pr_global_daily_<start_year>_<end_year>.nc
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   sectors:
   - agriculture
   - biodiversity
@@ -118,7 +118,7 @@
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: prsn
   long_name: Snowfall Flux
@@ -132,7 +132,7 @@
     ISIMIP4b: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_prsn_global_daily_<start_year>_<end_year>.nc
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   sectors:
   - agriculture
   - biodiversity
@@ -157,7 +157,7 @@
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: ps
   long_name: Surface Air Pressure
@@ -171,7 +171,7 @@
     ISIMIP4b: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_ps_global_daily_<start_year>_<end_year>.nc
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   sectors:
   - agriculture
   - biodiversity
@@ -196,7 +196,7 @@
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: rlds
   long_name: Surface Downwelling Longwave Radiation
@@ -210,7 +210,7 @@
     ISIMIP4b: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_rlds_global_daily_<start_year>_<end_year>.nc
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   sectors:
   - agriculture
   - biodiversity
@@ -235,7 +235,7 @@
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: rsds
   long_name: Surface Downwelling Shortwave Radiation
@@ -254,7 +254,7 @@
     ISIMIP4b: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_rsds_global_daily_<start_year>_<end_year>.nc
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   sectors:
   - agriculture
   - biodiversity
@@ -279,7 +279,7 @@
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: sfcwind
   long_name: Near-Surface Wind Speed
@@ -293,7 +293,7 @@
     ISIMIP4b: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_sfcwind_global_daily_<start_year>_<end_year>.nc
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   sectors:
   - agriculture
   - biodiversity
@@ -318,7 +318,7 @@
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: tas
   long_name: Near-Surface Air Temperature
@@ -337,7 +337,7 @@
     ISIMIP4b: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tas_global_daily_<start_year>_<end_year>.nc
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   sectors:
   - agriculture
   - biodiversity
@@ -362,7 +362,7 @@
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: tasmax
   long_name: Daily Maximum Near-Surface Air Temperature
@@ -381,7 +381,7 @@
     ISIMIP4b: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmax_global_daily_<start_year>_<end_year>.nc
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   sectors:
   - agriculture
   - biodiversity
@@ -406,7 +406,7 @@
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: tasmin
   long_name: Daily Minimum Near-Surface Air Temperature
@@ -425,7 +425,7 @@
     ISIMIP4b: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmin_global_daily_<start_year>_<end_year>.nc
   comment:
     ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
-    ISIMIP4b: Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   sectors:
   - agriculture
   - biodiversity
@@ -450,7 +450,7 @@
     ISIMIP4a:
     - Example-W5E5
     ISIMIP4b:
-    - Example-XYZ
+    - EC-Earth3-ESM-1-1
 
 - specifier: prw
   products:

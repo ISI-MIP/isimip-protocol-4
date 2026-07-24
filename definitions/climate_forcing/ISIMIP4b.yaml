@@ -1,5 +1,5 @@
-- specifier: example-xyz
-  title: Example-XYZ
+- specifier: EC-Earth3-ESM-1-1
+  title: EC-Earth3-ESM-1-1
   priority: 1
   url: https://www.isimip.org/gettingstarted/input-data-bias-adjustment
   simulation_rounds:
@@ -11,8 +11,8 @@
   - SecondaryOutputData
   - DerivedInputData
   - DerivedOutputData
-  ensemble_member: '123456'
+  ensemble_member: r1i1p1f1
   original_resolution:
-    marine-fishery_global: 720x576
-    marine-fishery_regional: 720x576
-    other: 288x180
+    marine-fishery_global: 362x292
+    marine-fishery_regional: 362x292
+    other: 512x256
