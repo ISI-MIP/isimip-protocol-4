@@ -108,10 +108,8 @@ def compute_subtitles(definition, climate_scenarios):
             climate = [period_definition.get('climate')]
             for climate_scenario in climate_scenarios:
                 if climate_scenario['specifier'] == period_definition.get('climate'):
-                    specifier_file = climate_scenario.get('specifier_file')
-                    if specifier_file:
-                        climate = specifier_file
-                        break
+                    climate = get_specifier_list(climate_scenario)
+                    break
 
             soc = [period_definition.get('soc')]
             sens = [period_definition.get('climate_sens') or period_definition.get('soc_sens') or 'default']
