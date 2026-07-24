@@ -56,12 +56,8 @@
 - specifier: gcm_tropical_cyclones_tracks
   group: gcm-forcing
   title: Tropical cyclone tracks
-  status: mandatory
-  doi:
-  path:
-  - "?"
-  comment: >-
-    ?
+  mandatory: true
+  status: under development
   simulation_rounds:
   - ISIMIP4b
   sectors:
@@ -70,12 +66,8 @@
 - specifier: gcm_tropical_cyclones_global
   group: gcm-forcing
   title: Tropical cyclone wind and rain fields
-  status: mandatory
-  doi:
-  path:
-  - "?"
-  comment: >-
-    ?
+  mandatory: true
+  status: under development
   simulation_rounds:
   - ISIMIP4b
   sectors:
