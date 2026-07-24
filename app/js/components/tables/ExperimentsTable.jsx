@@ -57,13 +57,19 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
             {
               row.historical.climate ? <td className="table-secondary">
                 <p>
-                  <strong title={climateScenarios[row.historical.climate].description}>
+                  <strong
+                    className="cursor-help"
+                    title={climateScenarios[row.historical.climate].description}
+                  >
                     {row.historical.climate}
                   </strong>
                 </p>
                 {
                   row.historical.climate_sens && <p>
-                    <strong title={sensScenarios[row.historical.climate_sens].description}>
+                    <strong
+                      className="cursor-help"
+                      title={sensScenarios[row.historical.climate_sens].description}
+                    >
                       Sensitivity experiment: {row.historical.climate_sens}
                     </strong>
                   </p>
@@ -79,13 +85,19 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
             {
               row['pre-industrial'].climate ? <td className="table-secondary">
                 <p>
-                  <strong title={climateScenarios[row['pre-industrial'].climate].description}>
+                  <strong
+                    className="cursor-help"
+                    title={climateScenarios[row['pre-industrial'].climate].description}
+                  >
                     {row['pre-industrial'].climate}
                   </strong>
                 </p>
                 {
                   row['pre-industrial'].climate_sens && <p>
-                    <strong title={sensScenarios[row['pre-industrial'].climate_sens].description}>
+                    <strong
+                      className="cursor-help"
+                      title={sensScenarios[row['pre-industrial'].climate_sens].description}
+                    >
                       Sensitivity experiment: {row['pre-industrial'].climate_sens}
                     </strong>
                   </p>
@@ -97,13 +109,19 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
             {
               row.historical.climate ? <td className="table-secondary">
                 <p>
-                  <strong title={climateScenarios[row.historical.climate].description}>
+                  <strong
+                    className="cursor-help"
+                    title={climateScenarios[row.historical.climate].description}
+                  >
                     {getSpecifierList(climateScenarios[row.historical.climate]).join(', ')}
                   </strong>
                 </p>
                 {
                   row.historical.climate_sens && <p>
-                    <strong title={sensScenarios[row.historical.climate_sens].description}>
+                    <strong
+                      className="cursor-help"
+                      title={sensScenarios[row.historical.climate_sens].description}
+                    >
                       Sensitivity experiment:<br />{row.historical.climate_sens}
                     </strong>
                   </p>
@@ -115,13 +133,19 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
             {
               row.future.climate ? <td className={futureTableClass}>
                 <p>
-                  <strong title={climateScenarios[row.future.climate].description}>
+                  <strong
+                    className="cursor-help"
+                    title={climateScenarios[row.future.climate].description}
+                  >
                     {getSpecifierList(climateScenarios[row.future.climate]).join(', ')}
                   </strong>
                 </p>
                 {
                   row.future.climate_sens && <p>
-                    <strong title={sensScenarios[row.future.climate_sens].description}>
+                    <strong
+                      className="cursor-help"
+                      title={sensScenarios[row.future.climate_sens].description}
+                    >
                       Sensitivity experiment: {row.future.climate_sens}
                     </strong>
                   </p>
@@ -139,13 +163,19 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
             {
               row.historical.soc && <td className="table-secondary">
                 <p>
-                  <strong title={socScenarios[row.historical.soc].description}>
+                  <strong
+                    className="cursor-help"
+                    title={socScenarios[row.historical.soc].description}
+                  >
                     {row.historical.soc}
                   </strong>
                 </p>
                 {
                   row.historical.soc_sens && <p>
-                    <strong title={sensScenarios[row.historical.soc_sens].description}>
+                    <strong
+                      className="cursor-help"
+                      title={sensScenarios[row.historical.soc_sens].description}
+                    >
                       Sensitivity experiment: {row.historical.soc_sens}
                     </strong>
                   </p>
@@ -159,13 +189,19 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
             {
               row['pre-industrial'].soc && <td className="table-secondary">
                 <p>
-                  <strong title={socScenarios[row['pre-industrial'].soc].description}>
+                  <strong
+                    className="cursor-help"
+                    title={socScenarios[row['pre-industrial'].soc].description}
+                  >
                     {row['pre-industrial'].soc}
                   </strong>
                 </p>
                 {
                   row['pre-industrial'].soc_sens && <p>
-                    <strong title={sensScenarios[row['pre-industrial'].soc_sens].description}>
+                    <strong
+                      className="cursor-help"
+                      title={sensScenarios[row['pre-industrial'].soc_sens].description}
+                    >
                       Sensitivity experiment: {row['pre-industrial'].soc_sens}
                     </strong>
                   </p>
@@ -175,13 +211,19 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
             {
               row.historical.soc && <td className="table-secondary">
                 <p>
-                  <strong title={socScenarios[row.historical.soc].description}>
+                  <strong
+                    className="cursor-help"
+                    title={socScenarios[row.historical.soc].description}
+                  >
                     {row.historical.soc}
                   </strong>
                 </p>
                 {
                   row.historical.soc_sens && <p>
-                    <strong title={sensScenarios[row.historical.soc_sens].description}>
+                    <strong
+                      className="cursor-help"
+                      title={sensScenarios[row.historical.soc_sens].description}
+                    >
                       Sensitivity experiment: {row.historical.soc_sens}
                     </strong>
                   </p>
@@ -191,13 +233,19 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
             {
               row.future.soc && <td className={futureTableClass}>
                 <p>
-                  <strong title={socScenarios[row.future.soc].description}>
+                  <strong
+                    className="cursor-help"
+                    title={socScenarios[row.future.soc].description}
+                  >
                     {row.future.soc}
                   </strong>
                 </p>
                 {
                   row.future.soc_sens && <p>
-                    <strong title={sensScenarios[row.future.soc_sens.description]}>
+                    <strong
+                      className="cursor-help"
+                      title={sensScenarios[row.future.soc_sens.description]}
+                    >
                       Sensitivity experiment: {row.future.soc_sens}
                     </strong>
                   </p>
