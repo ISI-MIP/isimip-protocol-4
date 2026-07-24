@@ -145,7 +145,7 @@
   - water_global
   group3: true
 
-- specifier: scen7-vl_2021soc-from-histsoc_default
+- specifier: vl_2021soc-from-histsoc_default
   title: Very Low emission scenario
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
@@ -153,7 +153,7 @@
     climate: historical
     soc: histsoc
   future:
-    climate: scen7-vl
+    climate: vl
     soc: 2021soc-from-histsoc
   simulation_rounds:
   - ISIMIP4b
@@ -179,7 +179,7 @@
   - water_regional
   - water_quality
 
-- specifier: scen7-vl_2021soc_default
+- specifier: vl_2021soc_default
   title: Very Low emission scenario
   priority: 1st priority
   pre-industrial: Does not have to be simulated, spin-up should be based on the 2021
@@ -188,7 +188,7 @@
     climate: historical
     soc: 2021soc
   future:
-    climate: scen7-vl
+    climate: vl
     soc: 2021soc
   simulation_rounds:
   - ISIMIP4b
@@ -212,7 +212,7 @@
   - water_regional
   - water_quality
 
-- specifier: scen7-vl_1850soc_default
+- specifier: vl_1850soc_default
   title: Very Low emission scenario
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
@@ -220,7 +220,7 @@
     climate: historical
     soc: 1850soc
   future:
-    climate: scen7-vl
+    climate: vl
     soc: 1850soc
   simulation_rounds:
   - ISIMIP4b
@@ -235,7 +235,7 @@
   - permafrost
   - water_global
 
-- specifier: scen7-vl_nat_default
+- specifier: vl_nat_default
   title: Very Low emission scenario
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not use any DHF (see
@@ -244,7 +244,7 @@
     climate: historical
     soc: nat
   future:
-    climate: scen7-vl
+    climate: vl
     soc: nat
   simulation_rounds:
   - ISIMIP4b
@@ -256,13 +256,13 @@
   - marine-fishery_global
   - marine-fishery_regional
 
-- specifier: scen7-vl_ssp1vlsoc-noadapt_default
+- specifier: vl_ssp1vlsoc-noadapt_default
   title: Very Low emission scenario
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run  above.
   historical: Identical to the similar **historical/histsoc** run above.
   future:
-    climate: scen7-vl
+    climate: vl
     soc: ssp1vlsoc-noadapt
   simulation_rounds:
   - ISIMIP4b
@@ -276,14 +276,14 @@
   - water_global
   group3: true
 
-- specifier: scen7-vl_ssp1vlsoc-noadapt_extrasoc
-  parent: scen7-vl_ssp1vlsoc-noadapt_default
-  title: Extrasoc sensitivity (Very Low emission scenario)
+- specifier: vl_ssp1vlsoc-noadapt_extrasoc
+  parent: vl_ssp1vlsoc-noadapt_default
+  title: Extrasoc sensitivity
   priority: 2st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run  above.
   historical: Identical to the similar **historical/histsoc** run above.
   future:
-    climate: scen7-vl
+    climate: vl
     soc: ssp1vlsoc-noadapt
     soc_sens: extrasoc
   simulation_rounds:
@@ -292,14 +292,14 @@
   - water_global
   group3: true
 
-- specifier: scen7-vl_2021soc-from-histsoc_2021co2
-  parent: scen7-vl_2021soc-from-histsoc_default
-  title: CO₂ sensitivity (Very Low emission scenario)
+- specifier: vl_2021soc-from-histsoc_2021co2
+  parent: vl_2021soc-from-histsoc_default
+  title: CO₂ sensitivity
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
   future:
-    climate: scen7-vl
+    climate: vl
     climate_sens: 2021co2
     soc: 2021soc-from-histsoc
   simulation_rounds:
@@ -311,14 +311,14 @@
   - peat
   - permafrost
 
-- specifier: scen7-vl_2021soc-from-histsoc_hndep
-  parent: scen7-vl_2021soc-from-histsoc_default
-  title: Nitrogen deposition sensitivity (Very Low emission scenario)
+- specifier: vl_2021soc-from-histsoc_hndep
+  parent: vl_2021soc-from-histsoc_default
+  title: Nitrogen deposition sensitivity
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
   future:
-    climate: scen7-vl
+    climate: vl
     soc: 2021soc-from-histsoc
     soc_sens: hndep
   simulation_rounds:
@@ -326,13 +326,13 @@
   sectors:
   - biomes
 
-- specifier: scen7-h_2021soc-from-histsoc_default
+- specifier: h_2021soc-from-histsoc_default
   title: High emission scenario
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
   future:
-    climate: scen7-h
+    climate: h
     soc: 2021soc-from-histsoc
   simulation_rounds:
   - ISIMIP4b
@@ -358,14 +358,14 @@
   - water_regional
   - water_quality
 
-- specifier: scen7-h_2021soc_default
+- specifier: h_2021soc_default
   title: High emission scenario
   priority: 1st priority
   pre-industrial: Does not have to be simulated, spin-up should be based on the 2021
     DHF (see note below the table).
   historical: Identical to the similar **historical/2021soc** run above.
   future:
-    climate: scen7-h
+    climate: h
     soc: 2021soc
   simulation_rounds:
   - ISIMIP4b
@@ -389,13 +389,13 @@
   - water_regional
   - water_quality
 
-- specifier: scen7-h_1850soc_default
+- specifier: h_1850soc_default
   title: High emission scenario
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/1850soc** run above.
   future:
-    climate: scen7-h
+    climate: h
     soc: 1850soc
   simulation_rounds:
   - ISIMIP4b
@@ -410,14 +410,14 @@
   - permafrost
   - water_global
 
-- specifier: scen7-h_nat_default
+- specifier: h_nat_default
   title: High emission scenario
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not use any DHF (see
     note below the table).
   historical: Identical to the similar **historical/nat** run above.
   future:
-    climate: scen7-h
+    climate: h
     soc: nat
   simulation_rounds:
   - ISIMIP4b
@@ -429,13 +429,13 @@
   - marine-fishery_regional
   - peat
 
-- specifier: scen7-h_ssp3hsoc-noadapt_default
+- specifier: h_ssp3hsoc-noadapt_default
   title: High emission scenario
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
   future:
-    climate: scen7-h
+    climate: h
     soc: ssp3hsoc-noadapt
   simulation_rounds:
   - ISIMIP4b
@@ -449,15 +449,15 @@
   - water_global
   group3: true
 
-- specifier: scen7-h_ssp3hsoc-noadapt_extrasoc
-  parent: scen7-h_ssp3hsoc-noadapt_default
-  title: Extrasoc sensitivity (High emission scenario)
+- specifier: h_ssp3hsoc-noadapt_extrasoc
+  parent: h_ssp3hsoc-noadapt_default
+  title: Extrasoc sensitivity
   priority: 2st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
   future:
-    climate: scen7-h
-    soc: h
+    climate: h
+    soc: ssp3hsoc-noadapt
     soc_sens: extrasoc
   simulation_rounds:
   - ISIMIP4b
@@ -465,14 +465,14 @@
   - water_global
   group3: true
 
-- specifier: scen7-h_2021soc-from-histsoc_2021co2
-  parent: scen7-h_2021soc-from-histsoc_default
-  title: CO₂ sensitivity (High emission scenario)
+- specifier: h_2021soc-from-histsoc_2021co2
+  parent: h_2021soc-from-histsoc_default
+  title: CO₂ sensitivity
   priority: 1st priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
   future:
-    climate: scen7-h
+    climate: h
     climate_sens: 2021co2
     soc: 2021soc-from-histsoc
   simulation_rounds:
@@ -491,15 +491,15 @@
   - water_regional
   - water_quality
 
-- specifier: scen7-h_2021soc_2021co2
-  parent: scen7-h_2021soc_default
-  title: CO₂ sensitivity (High emission scenario)
+- specifier: h_2021soc_2021co2
+  parent: h_2021soc_default
+  title: CO₂ sensitivity
   priority: 1st priority
   pre-industrial: Does not have to be simulated, spin-up should be based on the 2021
     DHF (see note below the table).
   historical: Identical to the similar **historical/2021soc** run above.
   future:
-    climate: scen7-h
+    climate: h
     climate_sens: 2021co2
     soc: 2021soc
   simulation_rounds:
@@ -516,14 +516,14 @@
   - water_regional
   - water_quality
 
-- specifier: scen7-h_1850soc_2021co2
-  parent: scen7-h_1850soc_default
-  title: CO₂ sensitivity (High emission scenario)
+- specifier: h_1850soc_2021co2
+  parent: h_1850soc_default
+  title: CO₂ sensitivity
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/1850soc** run above.
   future:
-    climate: scen7-h
+    climate: h
     climate_sens: 2021co2
     soc: 1850soc
   simulation_rounds:
@@ -536,15 +536,15 @@
   - permafrost
   - water_global
 
-- specifier: scen7-h_nat_2021co2
-  parent: scen7-h_nat_default
-  title: CO₂ sensitivity (High emission scenario)
+- specifier: h_nat_2021co2
+  parent: h_nat_default
+  title: CO₂ sensitivity
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not use any DHF (see
     note below the table).
   historical: Identical to the similar **historical/nat** run above.
   future:
-    climate: scen7-h
+    climate: h
     climate_sens: 2021co2
     soc: nat
   simulation_rounds:
@@ -553,14 +553,14 @@
   - biomes
   - forestry
 
-- specifier: scen7-vl_2021soc-from-histsoc_hco2
-  parent: scen7-vl_2021soc-from-histsoc_default
-  title: Climate sensitivity (Very Low emission scenario with high CO₂)
+- specifier: vl_2021soc-from-histsoc_hco2
+  parent: vl_2021soc-from-histsoc_default
+  title: Climate sensitivity
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
   future:
-    climate: scen7-vl
+    climate: vl
     climate_sens: hco2
     soc: 2021soc-from-histsoc
   simulation_rounds:
@@ -568,14 +568,14 @@
   sectors:
   - peat
 
-- specifier: scen7-h_2021soc-from-histsoc_hndep
-  parent: scen7-h_2021soc-from-histsoc_default
-  title: Nitrogen deposition sensitivity (High emission scenario)
+- specifier: h_2021soc-from-histsoc_hndep
+  parent: h_2021soc-from-histsoc_default
+  title: Nitrogen deposition sensitivity
   priority: 2nd priority
   pre-industrial: Identical to the similar **picontrol/1850soc** run above.
   historical: Identical to the similar **historical/histsoc** run above.
   future:
-    climate: scen7-h
+    climate: h
     soc: 2021soc-from-histsoc
     soc_sens: hndep
   simulation_rounds:
@@ -583,9 +583,9 @@
   sectors:
   - biomes
 
-- specifier: scen7-h_2021soc-from-histsoc_nondep
-  parent: scen7-h_2021soc-from-histsoc_default
-  title: No nitrogen cycling sensitivity (High emission scenario)
+- specifier: h_2021soc-from-histsoc_nondep
+  parent: h_2021soc-from-histsoc_default
+  title: No nitrogen cycling sensitivity
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not include any nitrogen
     cycling (see note below the table).
@@ -594,7 +594,7 @@
     soc: histsoc
     soc_sens: nondep
   future:
-    climate: scen7-h
+    climate: h
     soc: 2021soc-from-histsoc
     soc_sens: nondep
   simulation_rounds:
@@ -602,15 +602,15 @@
   sectors:
   - biomes
 
-- specifier: scen7-h_2021soc-from-histsoc_nondep2021co2
-  parent: scen7-h_2021soc-from-histsoc_default
-  title: No nitrogen cycling and CO₂ sensitivity (High emission scenario)
+- specifier: h_2021soc-from-histsoc_nondep2021co2
+  parent: h_2021soc-from-histsoc_default
+  title: No nitrogen cycling and CO₂ sensitivity
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not include any nitrogen
     cycling (see note below the table).
   historical: Identical to the similar **historical/histsoc/nondep** run above.
   future:
-    climate: scen7-h
+    climate: h
     soc: 2021soc-from-histsoc
     soc_sens: nondep2021co2
   simulation_rounds:
@@ -618,9 +618,9 @@
   sectors:
   - biomes
 
-- specifier: scen7-vl_ssp1vlsoc-noadapt_nofire
-  parent: scen7-vl_ssp1vlsoc-noadapt_default
-  title: No-fire sensitivity (Very Low emission scenario)
+- specifier: vl_ssp1vlsoc-noadapt_nofire
+  parent: vl_ssp1vlsoc-noadapt_default
+  title: No-fire sensitivity
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not include any fire (see note below the table).
   historical:
@@ -628,7 +628,7 @@
     soc: histsoc
     soc_sens: nofire
   future:
-    climate: scen7-vl
+    climate: vl
     soc: ssp1vlsoc-noadapt
     soc_sens: nofire
   simulation_rounds:
@@ -640,14 +640,14 @@
   - permafrost
   group3: true
 
-- specifier: scen7-h_ssp3hsoc-noadapt_nofire
-  parent: scen7-h_ssp3hsoc-noadapt_default
-  title: No-fire sensitivity (High emission scenario)
+- specifier: h_ssp3hsoc-noadapt_nofire
+  parent: h_ssp3hsoc-noadapt_default
+  title: No-fire sensitivity
   priority: 2nd priority
   pre-industrial: Does not have to be simulated, spin-up should not include any fire (see note below the table).
   historical: "Identical to the similar **historical/histsoc/nofire** run above."
   future:
-    climate: scen7-h
+    climate: h
     soc: ssp3hsoc-noadapt
     soc_sens: nofire
   simulation_rounds:
