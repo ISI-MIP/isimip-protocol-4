@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/marine-fishery_global.yaml",
-  "commit": "265961ddadba9f59a5af6ecb6dd6415889243e07",
+  "commit": "504694f9d598a5ddef9b4caded3271327e9d9853",
   "type": "object",
   "required": [
     "specifiers"
@@ -32,8 +32,8 @@
         "detrending": {
           "type": "string",
           "enum": [
-            "observed",
-            "detrended"
+            "detrended",
+            "observed"
           ]
         },
         "climate_scenario": {
@@ -58,47 +58,47 @@
         "variable": {
           "type": "string",
           "enum": [
-            "cd90cm",
-            "tpb",
-            "tc",
-            "cd30to90cm",
-            "tcblog10",
-            "tdc",
-            "cd30cm",
-            "tdb",
-            "bp30cm",
-            "bd30cm",
-            "bd90cm",
-            "tpc",
-            "cp30cm",
-            "tclog10",
-            "bp90cm",
-            "bd30to90cm",
-            "cp30to90cm",
             "tcb",
+            "tdc",
             "cp90cm",
-            "bp30to90cm"
+            "cd30cm",
+            "tc",
+            "cd90cm",
+            "bp90cm",
+            "cd30to90cm",
+            "bd90cm",
+            "bp30to90cm",
+            "tclog10",
+            "tpc",
+            "bd30to90cm",
+            "tcblog10",
+            "cp30cm",
+            "cp30to90cm",
+            "bp30cm",
+            "tpb",
+            "bd30cm",
+            "tdb"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "europe",
             "global",
-            "along-track"
+            "along-track",
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
+            "hourly",
             "monthly",
-            "2hr",
+            "daily",
+            "annual",
             "fixed",
             "6hr",
-            "3hr",
-            "hourly",
-            "daily"
+            "2hr",
+            "3hr"
           ]
         },
         "start_year": {
