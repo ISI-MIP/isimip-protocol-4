@@ -1,5 +1,5 @@
 {
-  "commit": "382f25067d254eed68c27fc6ae6fea31ab18b221",
+  "commit": "23621847057e6c178d79b13ffccc842e26b5b39c",
   "category": [
     {
       "specifier": "climate",
@@ -122,7 +122,7 @@
         "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-vl/",
         "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-h/"
       ],
-      "comment": "Input dataset documentation → [GFDL-ESM4](https://www.isimip.org/gettingstarted/input-data-bias-adjustment), [IPSL-CM6A-LR](https://www.isimip.org/gettingstarted/input-data-bias-adjustment), [MPI-ESM1-2-HR](https://www.isimip.org/gettingstarted/input-data-bias-adjustment), [MRI-ESM2-0](https://www.isimip.org/gettingstarted/input-data-bias-adjustment), [UKESM1-0-LL](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
@@ -675,8 +675,8 @@
   ],
   "climate_forcing": [
     {
-      "specifier": "example-xyz",
-      "title": "Example-XYZ",
+      "specifier": "EC-Earth3-ESM-1-1",
+      "title": "EC-Earth3-ESM-1-1",
       "priority": 1,
       "url": "https://www.isimip.org/gettingstarted/input-data-bias-adjustment",
       "simulation_rounds": [
@@ -690,8 +690,8 @@
         "DerivedInputData",
         "DerivedOutputData"
       ],
-      "ensemble_member": "123456",
-      "original_resolution": "288x180"
+      "ensemble_member": "r1i1p1f1",
+      "original_resolution": "512x256"
     }
   ],
   "climate_variable": [
@@ -704,7 +704,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_hurs_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -727,7 +727,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -739,7 +739,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_huss_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -762,7 +762,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -780,7 +780,7 @@
         "1800\" grid"
       ],
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_pr_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -803,7 +803,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -815,7 +815,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_prsn_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -838,7 +838,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -850,7 +850,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_ps_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -873,7 +873,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -885,7 +885,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_rlds_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -908,7 +908,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -926,7 +926,7 @@
         "1800\" grid"
       ],
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_rsds_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -949,7 +949,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -961,7 +961,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_sfcwind_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -984,7 +984,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -1002,7 +1002,7 @@
         "1800\" grid"
       ],
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tas_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1025,7 +1025,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -1043,7 +1043,7 @@
         "1800\" grid"
       ],
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmax_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1066,7 +1066,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -1084,7 +1084,7 @@
         "1800\" grid"
       ],
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmin_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1107,7 +1107,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     }
   ],

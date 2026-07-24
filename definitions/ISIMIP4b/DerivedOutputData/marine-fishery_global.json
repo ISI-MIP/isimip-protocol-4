@@ -1,5 +1,5 @@
 {
-  "commit": "382f25067d254eed68c27fc6ae6fea31ab18b221",
+  "commit": "23621847057e6c178d79b13ffccc842e26b5b39c",
   "category": [
     {
       "specifier": "climate",
@@ -358,8 +358,8 @@
   ],
   "climate_forcing": [
     {
-      "specifier": "example-xyz",
-      "title": "Example-XYZ",
+      "specifier": "EC-Earth3-ESM-1-1",
+      "title": "EC-Earth3-ESM-1-1",
       "priority": 1,
       "url": "https://www.isimip.org/gettingstarted/input-data-bias-adjustment",
       "simulation_rounds": [
@@ -373,8 +373,8 @@
         "DerivedInputData",
         "DerivedOutputData"
       ],
-      "ensemble_member": "123456",
-      "original_resolution": "720x576"
+      "ensemble_member": "r1i1p1f1",
+      "original_resolution": "362x292"
     }
   ],
   "climate_variable": [
@@ -393,9 +393,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -416,9 +416,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -436,9 +436,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -456,9 +456,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -476,9 +476,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -496,9 +496,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -520,9 +520,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -544,9 +544,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -567,9 +567,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -592,9 +592,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -617,9 +617,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -641,9 +641,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -665,9 +665,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -689,9 +689,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -713,9 +713,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -740,9 +740,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -764,9 +764,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -788,9 +788,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -813,9 +813,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -834,9 +834,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -854,9 +854,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -874,9 +874,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -896,9 +896,9 @@
         "marine-fishery_regional",
         "health"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -916,9 +916,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -936,9 +936,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -960,9 +960,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -984,9 +984,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -1008,9 +1008,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     },
     {
@@ -1032,9 +1032,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "climate_forcing": [
-        "Example-XYZ"
+        "EC-Earth3-ESM-1-1"
       ]
     }
   ],

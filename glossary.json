@@ -1,5 +1,5 @@
 {
-  "commit": "382f25067d254eed68c27fc6ae6fea31ab18b221",
+  "commit": "23621847057e6c178d79b13ffccc842e26b5b39c",
   "terms": {
     "category": {
       "climate": {
@@ -214,7 +214,7 @@
           "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-vl/",
           "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-h/"
         ],
-        "comment": "Input dataset documentation → [GFDL-ESM4](https://www.isimip.org/gettingstarted/input-data-bias-adjustment), [IPSL-CM6A-LR](https://www.isimip.org/gettingstarted/input-data-bias-adjustment), [MPI-ESM1-2-HR](https://www.isimip.org/gettingstarted/input-data-bias-adjustment), [MRI-ESM2-0](https://www.isimip.org/gettingstarted/input-data-bias-adjustment), [UKESM1-0-LL](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+        "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
         "simulation_rounds": [
           "ISIMIP4b"
         ],
@@ -2315,9 +2315,9 @@
           "DerivedOutputData"
         ]
       },
-      "example-xyz": {
-        "specifier": "example-xyz",
-        "title": "Example-XYZ",
+      "EC-Earth3-ESM-1-1": {
+        "specifier": "EC-Earth3-ESM-1-1",
+        "title": "EC-Earth3-ESM-1-1",
         "priority": 1,
         "url": "https://www.isimip.org/gettingstarted/input-data-bias-adjustment",
         "simulation_rounds": [
@@ -2331,11 +2331,11 @@
           "DerivedInputData",
           "DerivedOutputData"
         ],
-        "ensemble_member": "123456",
+        "ensemble_member": "r1i1p1f1",
         "original_resolution": {
-          "marine-fishery_global": "720x576",
-          "marine-fishery_regional": "720x576",
-          "other": "288x180"
+          "marine-fishery_global": "362x292",
+          "marine-fishery_regional": "362x292",
+          "other": "512x256"
         }
       }
     },
@@ -2473,14 +2473,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2513,14 +2513,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2550,14 +2550,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2587,14 +2587,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2624,14 +2624,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2661,14 +2661,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2702,14 +2702,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2743,14 +2743,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2780,14 +2780,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2822,14 +2822,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2864,14 +2864,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2906,14 +2906,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2947,14 +2947,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -2988,14 +2988,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3029,14 +3029,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3070,14 +3070,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3111,14 +3111,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3152,14 +3152,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3193,14 +3193,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3235,14 +3235,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3269,14 +3269,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3307,14 +3307,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3344,14 +3344,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3381,14 +3381,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3420,14 +3420,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3457,14 +3457,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3494,14 +3494,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3532,14 +3532,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3573,14 +3573,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3614,14 +3614,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -3655,14 +3655,14 @@
         ],
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -4526,7 +4526,7 @@
         },
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
           "agriculture",
@@ -4554,7 +4554,7 @@
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -4572,7 +4572,7 @@
         },
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
           "agriculture",
@@ -4600,7 +4600,7 @@
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -4624,7 +4624,7 @@
         },
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
           "agriculture",
@@ -4652,7 +4652,7 @@
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -4670,7 +4670,7 @@
         },
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
           "agriculture",
@@ -4698,7 +4698,7 @@
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -4716,7 +4716,7 @@
         },
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
           "agriculture",
@@ -4744,7 +4744,7 @@
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -4762,7 +4762,7 @@
         },
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
           "agriculture",
@@ -4790,7 +4790,7 @@
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -4814,7 +4814,7 @@
         },
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
           "agriculture",
@@ -4842,7 +4842,7 @@
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -4860,7 +4860,7 @@
         },
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
           "agriculture",
@@ -4888,7 +4888,7 @@
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -4912,7 +4912,7 @@
         },
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
           "agriculture",
@@ -4940,7 +4940,7 @@
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -4964,7 +4964,7 @@
         },
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
           "agriculture",
@@ -4992,7 +4992,7 @@
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
@@ -5016,7 +5016,7 @@
         },
         "comment": {
           "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
-          "ISIMIP4b": "Input dataset documentation → [Example-XYZ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
+          "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
           "agriculture",
@@ -5044,7 +5044,7 @@
             "Example-W5E5"
           ],
           "ISIMIP4b": [
-            "Example-XYZ"
+            "EC-Earth3-ESM-1-1"
           ]
         }
       },
