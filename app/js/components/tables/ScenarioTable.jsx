@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import ReactMarkdown from 'react-markdown'
 
+import { getSpecifierList } from '../../utils/definitions'
 import { filterRows } from '../../utils/filter'
 
 import Sectors from '../badges/Sectors'
@@ -26,7 +27,9 @@ const ScenarioTable = function({ config, caption, rows, group3 }) {
               <tr key={row.specifier}>
                 <td>
                   <p>
-                    <strong>{row.specifier}</strong>
+                    <strong>
+                      {getSpecifierList(row).join(', ')}
+                    </strong>
                   </p>
                   <p>
                     <SimulationRounds config={config} simulationRounds={row.simulation_rounds} />

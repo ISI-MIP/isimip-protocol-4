@@ -1,6 +1,14 @@
 from pathlib import Path
 
-from utils import filter_rows, get_commit_hash, read_definitions, read_yaml_file, setup_logs, write_json
+from utils import (
+    filter_rows,
+    get_commit_hash,
+    get_specifier_list,
+    read_definitions,
+    read_yaml_file,
+    setup_logs,
+    write_json,
+)
 
 URL = 'https://protocol.isimip.org/schema/'
 EXCLUDE = ['model']
@@ -43,15 +51,19 @@ def main():
                 if identifier not in EXCLUDE:
                     rows = definitions[identifier]
                     enum = []
+
                     if product.endswith('InputData'):
                         for row in filter_rows(rows, simulation_round, product, category=category):
-                            enum.append(row.get('specifier_file') or row.get('specifier'))
+                            for specifier_value in get_specifier_list(row):
+                                enum.append(specifier_value)
                     elif product == 'DerivedOutputData':
                         for row in filter_rows(rows, simulation_round, product):
-                            enum.append(row.get('specifier_file') or row.get('specifier'))
+                            for specifier_value in get_specifier_list(row):
+                                enum.append(specifier_value)
                     else:
                         for row in filter_rows(rows, simulation_round, product, sector=sector):
-                            enum.append(row.get('specifier_file') or row.get('specifier'))
+                            for specifier_value in get_specifier_list(row):
+                                enum.append(specifier_value)
 
                     properties['enum'] = list(set(enum))
 

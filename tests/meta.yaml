@@ -190,8 +190,10 @@ items:
       type: string
     species:
       type: array
-    specifier_file:
-      type: string
+    specifier_alias:
+      oneOf:
+      - type: array
+      - type: string
     standard_name:
       type: string
     start_year:

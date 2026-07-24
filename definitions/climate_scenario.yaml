@@ -58,19 +58,28 @@
   - ISIMIP4b
 
 - specifier: historical
+  specifier_alias:
+  - historical
+  - esm-hist
   description: >-
     GCM-based historical climate related forcing, historical changes in CO₂ and CH₄
     concentrations.
   simulation_rounds:
   - ISIMIP4b
 
-- specifier: scen7-vl
+- specifier: vl
+  specifier_alias:
+  - scen7-vl
+  - esm-scen7-vl
   description: >-
     GCM-based climate related forcing according to the *Very Low emission scenario*.
   simulation_rounds:
   - ISIMIP4b
 
-- specifier: scen7-h
+- specifier: h
+  specifier_alias:
+  - scen7-h
+  - esm-scen7-h
   description: >-
     GCM-based climate related forcing according to the *High emission scenario*.
   simulation_rounds:

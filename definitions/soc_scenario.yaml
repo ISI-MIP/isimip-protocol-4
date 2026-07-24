@@ -58,7 +58,7 @@
   - water_quality
 
 - specifier: 1850soc-input-only
-  specifier_file: 1850soc
+  specifier_alias: 1850soc
   simulation_rounds:
   - ISIMIP4a
   products:

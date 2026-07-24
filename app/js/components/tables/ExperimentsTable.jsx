@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import ReactMarkdown from 'react-markdown'
 
+import { getSpecifierList } from '../../utils/definitions'
 import { filterRows } from '../../utils/filter'
 
 import Sectors from '../badges/Sectors'
@@ -97,13 +98,13 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
               row.historical.climate ? <td className="table-secondary">
                 <p>
                   <strong title={climateScenarios[row.historical.climate]}>
-                    {row.historical.climate}
+                    {getSpecifierList(climateScenarios[row.historical.climate]).join(', ')}
                   </strong>
                 </p>
                 {
                   row.historical.climate_sens && <p>
                     <strong title={sensScenarios[row.historical.climate_sens]}>
-                      Sensitivity experiment: {row.historical.climate_sens}
+                      Sensitivity experiment:<br />{row.historical.climate_sens}
                     </strong>
                   </p>
                 }
@@ -115,7 +116,7 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
               row.future.climate ? <td className={futureTableClass}>
                 <p>
                   <strong title={climateScenarios[row.future.climate]}>
-                    {row.future.climate}
+                    {getSpecifierList(climateScenarios[row.future.climate]).join(', ')}
                   </strong>
                 </p>
                 {
@@ -327,7 +328,7 @@ ExperimentRow.propTypes = {
   climateScenarios: PropTypes.object.isRequired,
   socScenarios: PropTypes.object.isRequired,
   sensScenarios: PropTypes.object.isRequired,
-  toggleExperiments: PropTypes.func.isRequired
+  toggleExperiments: PropTypes.func
 }
 
 ExperimentsTable.propTypes = {
@@ -335,7 +336,7 @@ ExperimentsTable.propTypes = {
   config: PropTypes.object.isRequired,
   caption: PropTypes.string.isRequired,
   rows: PropTypes.array.isRequired,
-  toggleExperiments: PropTypes.func.isRequired
+  toggleExperiments: PropTypes.func
 }
 
 export default ExperimentsTable

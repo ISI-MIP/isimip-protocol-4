@@ -1,5 +1,5 @@
 - specifier: lightning_fixed
-  specifier_file: lightning
+  specifier_alias: lightning
   long_name: Flash Rate Monthly Climatology
   group: lightning
   mandatory: true

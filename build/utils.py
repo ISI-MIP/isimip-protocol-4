@@ -46,6 +46,18 @@ def get_commit_date():
     return datetime.strptime(commit_date, '%Y-%m-%d %H:%M:%S %z').strftime('%d %B %Y')
 
 
+def get_specifier_list(row):
+    specifier = row.get('specifier')
+    specifier_alias = row.get('specifier_alias')
+
+    if isinstance(specifier_alias, list):
+        return specifier_alias
+    elif isinstance(specifier_alias, str):
+        return [specifier_alias]
+    else:
+        return [specifier]
+
+
 def filter_rows(rows, simulation_round, product, category=None, sector=None):
     for row in rows:
         if 'simulation_rounds' not in row or simulation_round in row['simulation_rounds']:

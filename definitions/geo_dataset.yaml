@@ -505,7 +505,7 @@
   format: NetCDF
 
 - specifier: lake_elevation
-  specifier_file: elevation
+  specifier_alias: elevation
   title: Lake Elevation
   group: lakes
   resolution: 0.5° grid
@@ -650,7 +650,7 @@
   format: NetCDF
 
 - specifier: bathymetry
-  specifier_file: deptho
+  specifier_alias: deptho
   title: Sea Floor Depth
   group: ocean-static
   resolution:
@@ -668,7 +668,7 @@
   format: NetCDF
 
 - specifier: lme
-  specifier_file: LMEs66_masks
+  specifier_alias: LMEs66_masks
   title: Large Marine Ecosystems
   group: ocean-static
   resolution:
@@ -689,7 +689,7 @@
   format: NetCDF
 
 - specifier: rme
-  specifier_file: RME_masks
+  specifier_alias: RME_masks
   title: Regional Marine Ecosystem masks
   group: ocean-static
   resolution:
@@ -711,7 +711,7 @@
   format: NetCDF
 
 - specifier: mpa
-  specifier_file: mpa
+  specifier_alias: mpa
   title: Marine Protected Areas (MPA) masks
   group: ocean-static
   resolution:

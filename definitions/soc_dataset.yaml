@@ -1114,7 +1114,7 @@
     - 2022-2100
 
 - specifier: area_using_seawater_desalination
-  specifier_file: ausd
+  specifier_alias: ausd
   title: Area using seawater desalination
   group: desalination
   frequency: annual
@@ -1142,7 +1142,7 @@
     - 2022-2100
 
 - specifier: inter_basin_water_transfer
-  specifier_file: ibwt
+  specifier_alias: ibwt
   title: Inter basin water transfer
   group: inter_basin_water_transfer
   frequency: fixed
@@ -1679,7 +1679,7 @@
     - 1850-2021
 
 - specifier: population-gridded
-  specifier_file: population
+  specifier_alias: population
   title: Population (gridded)
   group: population
   mandatory: true
@@ -1716,7 +1716,7 @@
     - 2022-2100
 
 - specifier: population-countrylevel
-  specifier_file: population
+  specifier_alias: population
   title: Population (country-level)
   group: population
   mandatory: true
@@ -1747,7 +1747,7 @@
     - 2022-2100
 
 - specifier: population-stratification
-  specifier_file: population-stratification
+  specifier_alias: population-stratification
   title: Population statification (country-level)
   group: population
   mandatory: true

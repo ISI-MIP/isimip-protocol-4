@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from utils import get_commit_hash, read_definitions, setup_logs, write_json
+from utils import get_commit_hash, get_specifier_list, read_definitions, setup_logs, write_json
 
 setup_logs()
 
@@ -16,10 +16,8 @@ def main():
             glossary['terms'][identifier] = {}
 
         for row in rows:
-            specifier = row.pop('specifier')
-            specifier_file = row.pop('specifier_file', None)
-
-            glossary['terms'][identifier][specifier_file or specifier] = row
+            for specifier_value in get_specifier_list(row):
+                glossary['terms'][identifier][specifier_value] = row
 
     glossary_path = Path('output') / 'glossary.json'
     write_json(glossary_path, glossary)
