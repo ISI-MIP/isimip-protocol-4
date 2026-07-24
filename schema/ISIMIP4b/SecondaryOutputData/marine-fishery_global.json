@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/SecondaryOutputData/marine-fishery_global.yaml",
-  "commit": "d43c2a670bf73050b86ca1fb9b7be586ab72d63a",
+  "commit": "382f25067d254eed68c27fc6ae6fea31ab18b221",
   "type": "object",
   "required": [
     "specifiers"
@@ -40,21 +40,21 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "scen7-h",
-            "scen7-vl",
-            "esm-scen7-h",
-            "historical",
-            "esm-scen7-vl",
             "picontrol",
+            "scen7-vl",
+            "scen7-h",
+            "historical",
+            "esm-scen7-h",
+            "esm-scen7-vl",
             "esm-hist"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
+            "2021soc-from-histsoc",
             "histsoc",
-            "2021soc-from-histsoc"
+            "nat"
           ]
         },
         "sens_scenario": {
@@ -67,47 +67,47 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tdc",
-            "bp90cm",
             "bd90cm",
-            "bd30to90cm",
-            "bp30cm",
-            "tcblog10",
-            "cd30cm",
-            "tc",
-            "tpc",
-            "bd30cm",
-            "tdb",
-            "bp30to90cm",
-            "tclog10",
-            "cp30cm",
-            "cd90cm",
-            "cp30to90cm",
-            "tcb",
-            "cd30to90cm",
+            "tdc",
+            "tpb",
             "cp90cm",
-            "tpb"
+            "cd30to90cm",
+            "bp90cm",
+            "tpc",
+            "cd30cm",
+            "cd90cm",
+            "bd30to90cm",
+            "tdb",
+            "cp30to90cm",
+            "cp30cm",
+            "tcblog10",
+            "bp30cm",
+            "bp30to90cm",
+            "tcb",
+            "tc",
+            "bd30cm",
+            "tclog10"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "europe",
             "global",
+            "europe",
             "along-track"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "fixed",
-            "annual",
-            "6hr",
-            "3hr",
             "monthly",
-            "daily",
+            "2hr",
             "hourly",
-            "2hr"
+            "fixed",
+            "6hr",
+            "daily",
+            "annual",
+            "3hr"
           ]
         },
         "start_year": {

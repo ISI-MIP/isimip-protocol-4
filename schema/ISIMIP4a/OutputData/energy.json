@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/energy.yaml",
-  "commit": "d43c2a670bf73050b86ca1fb9b7be586ab72d63a",
+  "commit": "382f25067d254eed68c27fc6ae6fea31ab18b221",
   "type": "object",
   "required": [
     "specifiers"
@@ -32,8 +32,8 @@
         "detrending": {
           "type": "string",
           "enum": [
-            "observed",
-            "detrended"
+            "detrended",
+            "observed"
           ]
         },
         "climate_scenario": {
@@ -59,22 +59,22 @@
         "region": {
           "type": "string",
           "enum": [
-            "europe",
             "global",
+            "europe",
             "along-track"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "fixed",
-            "annual",
-            "6hr",
-            "3hr",
             "monthly",
-            "daily",
+            "2hr",
             "hourly",
-            "2hr"
+            "fixed",
+            "6hr",
+            "daily",
+            "annual",
+            "3hr"
           ]
         },
         "start_year": {
