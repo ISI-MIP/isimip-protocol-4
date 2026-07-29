@@ -5,9 +5,13 @@
   doi:
   path:
   - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/picontrol/
+  - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-picontrol/
   - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/historical/
+  - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-historical/
   - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-vl/
+  - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-scen7-vl/
   - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-h/
+  - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-scen7-h/
   comment: >-
     Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   simulation_rounds:
@@ -38,9 +42,13 @@
   doi:
   path:
   - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/picontrol/
+  - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-picontrol/
   - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/historical/
+  - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-hist/
   - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-vl/
+  - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-scen7-vl/
   - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-h/
+  - ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-scen7-h/
   comment: >-
     Extractions of grid cell data from global atmospheric climate forcing. See list
     of lakes sites [here](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
@@ -89,9 +97,13 @@
   status: mandatory
   path:
   - ISIMIP4b/InputData/climate/ocean/uncorrected/global/monthly/picontrol/
+  - ISIMIP4b/InputData/climate/ocean/uncorrected/global/monthly/esm-picontrol/
   - ISIMIP4b/InputData/climate/ocean/uncorrected/global/monthly/historical/
+  - ISIMIP4b/InputData/climate/ocean/uncorrected/global/monthly/esm-historical/
   - ISIMIP4b/InputData/climate/ocean/uncorrected/global/monthly/scen7-vl/
+  - ISIMIP4b/InputData/climate/ocean/uncorrected/global/monthly/esm-scen7-vl/
   - ISIMIP4b/InputData/climate/ocean/uncorrected/global/monthly/scen7-h/
+  - ISIMIP4b/InputData/climate/ocean/uncorrected/global/monthly/esm-scen7-h/
   simulation_rounds:
   - ISIMIP4b
   sectors:
@@ -132,8 +144,8 @@
   path:
   - ISIMIP4b/InputData/climate/atmosphere_composition/co2/picontrol/
   - ISIMIP4b/InputData/climate/atmosphere_composition/co2/historical/
-  - ISIMIP4b/InputData/climate/atmosphere_composition/co2/scen7-vl/
-  - ISIMIP4b/InputData/climate/atmosphere_composition/co2/scen7-h/
+  - ISIMIP4b/InputData/climate/atmosphere_composition/co2/vl/
+  - ISIMIP4b/InputData/climate/atmosphere_composition/co2/h/
   simulation_rounds:
   - ISIMIP4b
   sectors:
@@ -163,8 +175,8 @@
   path:
   - ISIMIP4b/InputData/climate/atmosphere_composition/ch4/picontrol/
   - ISIMIP4b/InputData/climate/atmosphere_composition/ch4/historical/
-  - ISIMIP4b/InputData/climate/atmosphere_composition/ch4/scen7-vl/
-  - ISIMIP4b/InputData/climate/atmosphere_composition/ch4/scen7-h/
+  - ISIMIP4b/InputData/climate/atmosphere_composition/ch4/vl/
+  - ISIMIP4b/InputData/climate/atmosphere_composition/ch4/h/
   simulation_rounds:
   - ISIMIP4b
   sectors:
