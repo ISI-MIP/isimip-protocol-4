@@ -5,7 +5,7 @@
   doi:
   path: ISIMIP4a/InputData/climate/atmosphere/obsclim/global/
   comment: >-
-    Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/)
+    Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/)
   simulation_rounds:
   - ISIMIP4a
   sectors:

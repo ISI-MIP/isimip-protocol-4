@@ -17,11 +17,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -46,11 +46,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -73,11 +73,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -100,11 +100,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -127,11 +127,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -154,11 +154,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -184,11 +184,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -214,11 +214,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -241,11 +241,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -272,11 +272,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -303,11 +303,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -334,11 +334,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -364,11 +364,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -394,11 +394,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -424,11 +424,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -454,11 +454,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -485,11 +485,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -515,11 +515,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -545,11 +545,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -576,11 +576,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -600,11 +600,11 @@
   sectors:
   - health
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -628,11 +628,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -655,11 +655,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -682,11 +682,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -711,11 +711,11 @@
   - marine-fishery_regional
   - health
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -738,11 +738,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -765,11 +765,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -793,11 +793,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -823,11 +823,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -853,11 +853,11 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
 
@@ -883,10 +883,10 @@
   - marine-fishery_global
   - marine-fishery_regional
   comment:
-    ISIMIP4a: Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
+    ISIMIP4a: Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
     ISIMIP4b: Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)
   climate_forcing:
     ISIMIP4a:
-    - Example-W5E5
+    - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1

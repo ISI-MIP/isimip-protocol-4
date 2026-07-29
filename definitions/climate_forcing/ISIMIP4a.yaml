@@ -1,8 +1,8 @@
-- specifier: example-w5e5
-  title: Example-W5E5
-  time_period: 1901-2021
+- specifier: gswp3-era5
+  title: GSWP3-ERA5
+  time_period: 1901-2025
   reanalysis: ERA5
-  bias_adjustment_target: XYZ
+  bias_adjustment_target: none
   priority: 1
   url: https://www.isimip.org/gettingstarted/input-data-bias-adjustment
   simulation_rounds:
