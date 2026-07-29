@@ -13,3 +13,40 @@
   - SecondaryInputData
   - SecondaryOutputData
   - DerivedOutputData
+  sectors:
+  - agriculture
+  - biodiversity
+  - biomes
+  - coastal
+  - diarrhea
+  - energy_demand
+  - fire
+  - forestry
+  - groundwater
+  - health
+  - fs-n
+  - labour
+  - lakes_global
+  - lakes_local
+  - peat
+  - permafrost
+  - water_global
+  - water_regional
+  - water_quality
+
+- specifier: gfdl-mom6-cobalt2
+  specifier_file: gfdl-mom6-cobalt2
+  title: GFDL-MOM6-COBALT2
+  time_period: 1961-2010
+  reanalysis: JRA55
+  bias_adjustment_target: none
+  priority: 1
+  url: https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/136
+  simulation_rounds:
+  - ISIMIP4a
+  products:
+  - InputData
+  - OutputData
+  sectors:
+  - marine-fishery_global
+  - marine-fishery_regional
