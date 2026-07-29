@@ -1212,34 +1212,6 @@
   time_periods:
   - "?"
 
-- specifier: forest_management
-  title: Forest management
-  group: forest_management
-  mandatory: true
-  frequency: annual
-  resolution: plot-specific
-  url: http://doi.org/10.5880/PIK.2019.008
-  variables:
-  - specifier: stemno
-    long_name: stem numbers
-    units: ''
-  - specifier: species
-    long_name: tree species
-    units: ''
-  sectors:
-  - forestry
-  - groundwater
-  time_periods:
-  - 'Bily Kriz: 1997-2021'
-  - 'Collelongo: 1992-2012'
-  - 'Hyytiälä: 1995-2011'
-  - 'KROOF: 1997-2010'
-  - 'Le Bray: 1986-2009'
-  - 'Peitz: 1948-2011'
-  - 'Solling-beech: 1967-2021'
-  - 'Solling-spruce: 1967-2021'
-  - 'Soro: 1944-2010'
-
 - specifier: wood_harvesting
   title: Wood harvesting
   group: wood_harvesting
