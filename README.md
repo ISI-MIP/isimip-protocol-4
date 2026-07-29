@@ -1,11 +1,11 @@
 ISIMIP4 simulation protocol
 ===========================
 
-This repository contains all information and tools to build the ISIMIP4 protocol as presented on [protocol.isimip.org](https://protocol.isimip.org). The YAML files containing the information for the tables are located under [definitions](definitions/) and the markdown files for the text under [protocol](protocol/).
+This repository contains all information and tools to build the ISIMIP4 protocol as presented on [protocol4.isimip.org](https://protocol4.isimip.org). The YAML files containing the information for the tables are located under [definitions](definitions/) and the markdown files for the text under [protocol](protocol/).
 
 You can clone this repository and work and render the files locally as documented below.
 
-You can also edit the markdown files at github directly. With a delay of minutes, your updates will be visible at `https://protocol.isimip.org`.
+You can also edit the markdown files at github directly. With a delay of minutes, your updates will be visible at `https://protocol4.isimip.org`.
 
 As a rule, the sector-specific text should be kept to a minimum and cover as much structure as possible by machine-readable code under [definitions](definitions/).
 
@@ -38,19 +38,19 @@ pip install -r requirements.txt
 Build
 -----
 
-The different `build` scripts can be run by using:
-
-```bash
-make
-```
-
-The output files are located in `output`.
+The different `build` scripts can be run by using `make`. The output files are located in `output`.
 
 The JavaScript part of the protocol needs to be build using [NodeJS](https://nodejs.org) and [vite](https://vite.dev/). For convenience this can be done by using ([nvm](https://github.com/nvm-sh/nvm) and the Node dependencies are downloaded automatically, this requires `curl`):
 
 ```bash
 make app
-make watch  # automatically rebuild when the source changes
+make watch  # alternatively, automatically rebuild when the source changes
+```
+
+After the app is build, the main build process of the protocol can be invoked using:
+
+```
+make
 ```
 
 When working with different branches or after dependency changed, the following make targets can be used to clean the local copy:
