@@ -1,5 +1,5 @@
 {
-  "commit": "3e74c481cbe342c6ce6d7108bfb796d1a2ca2bee",
+  "commit": "0c4d656a04c55fa744420dca344cae70b3de7b93",
   "category": [
     {
       "specifier": "climate",
@@ -7241,7 +7241,7 @@
   "soc_scenario": [
     {
       "specifier": "histsoc",
-      "description": "Varying direct human influences in the historical period.",
+      "description": "**Varying direct human influences** in the historical period.",
       "description_note": "Please label your model run `histsoc` **even if** it only partly accounts for varying direct human forcings while another part of the the direct human forcing is considered constant or is ignored.",
       "simulation_rounds": [
         "ISIMIP4a",
@@ -7272,7 +7272,7 @@
     },
     {
       "specifier": "1901soc",
-      "description": "Fixed year-1901 direct human influences (e.g. land use, nitrogen deposition and fertilizer input, fishing effort).",
+      "description": "**Fixed year-1901 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort).",
       "description_note": "Please only label your model run `1901soc` if it does not at all account for historical changes in direct human forcing, but they do represent constant year-1901 levels of direct human forcing for at least some direct human forcings. This scenario may be thought of an approximation of pre-industrial levels of human impacts.",
       "simulation_rounds": [
         "ISIMIP4a"
@@ -7291,7 +7291,7 @@
     },
     {
       "specifier": "2021soc",
-      "description": "Fixed year-2021 direct human influences (e.g. land use, nitrogen deposition and fertilizer input, fishing effort).",
+      "description": "**Fixed year-2021 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort).",
       "description_note": "Please label your simulations `2021soc` if they do not at all account for historical changes in direct human forcing, but they do represent constant year-2021 levels of direct human forcing for at least some direct human forcings.",
       "simulation_rounds": [
         "ISIMIP4a",
@@ -7319,7 +7319,7 @@
     },
     {
       "specifier": "nat",
-      "description": "No direct human influences (naturalized run).",
+      "description": "**No direct human influences** (naturalized run).",
       "description_note": "Please only label your model run `nat` if it does not at all account for any direct human forcings, including e.g. human land use or fishing. For Nitrogen deposition please use the prepared files (with the values for 1850) or specify which other preindustrial value you used in the model documentation.",
       "simulation_rounds": [
         "ISIMIP4a",

@@ -1,5 +1,5 @@
 {
-  "commit": "3e74c481cbe342c6ce6d7108bfb796d1a2ca2bee",
+  "commit": "0c4d656a04c55fa744420dca344cae70b3de7b93",
   "category": [
     {
       "specifier": "climate",
@@ -118,9 +118,13 @@
       "doi": null,
       "path": [
         "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/picontrol/",
+        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-picontrol/",
         "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/historical/",
+        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-historical/",
         "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-vl/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-h/"
+        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-scen7-vl/",
+        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-h/",
+        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-scen7-h/"
       ],
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "simulation_rounds": [
@@ -182,8 +186,8 @@
       "path": [
         "ISIMIP4b/InputData/climate/atmosphere_composition/co2/picontrol/",
         "ISIMIP4b/InputData/climate/atmosphere_composition/co2/historical/",
-        "ISIMIP4b/InputData/climate/atmosphere_composition/co2/scen7-vl/",
-        "ISIMIP4b/InputData/climate/atmosphere_composition/co2/scen7-h/"
+        "ISIMIP4b/InputData/climate/atmosphere_composition/co2/vl/",
+        "ISIMIP4b/InputData/climate/atmosphere_composition/co2/h/"
       ],
       "simulation_rounds": [
         "ISIMIP4b"
@@ -217,8 +221,8 @@
       "path": [
         "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/picontrol/",
         "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/historical/",
-        "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/scen7-vl/",
-        "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/scen7-h/"
+        "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/vl/",
+        "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/h/"
       ],
       "simulation_rounds": [
         "ISIMIP4b"
@@ -995,7 +999,12 @@
   "climate_scenario": [
     {
       "specifier": "picontrol",
-      "description": "GCM-based pre-industrial climate related forcing, CO₂ and CH₄ concentrations fixed at 1850 levels.",
+      "specifier_alias": [
+        "picontrol",
+        "esm-picontrol"
+      ],
+      "description": "GCM-based **pre-industrial climate related forcing**, CO₂ and CH₄ concentrations fixed at 1850 levels.",
+      "description_note": "We follow the CMIP7 vocabulary and label the concentration driven runs `picontrol` and the emission driven runs `esm-picontrol`.",
       "simulation_rounds": [
         "ISIMIP4b"
       ]
@@ -1006,7 +1015,8 @@
         "historical",
         "esm-hist"
       ],
-      "description": "GCM-based historical climate related forcing, historical changes in CO₂ and CH₄ concentrations.",
+      "description": "GCM-based **historical climate related forcing**, historical changes in CO₂ and CH₄ concentrations.",
+      "description_note": "We follow the CMIP7 vocabulary and label the concentration driven runs `histocical` and the emission driven runs `esm-hist`.",
       "simulation_rounds": [
         "ISIMIP4b"
       ]
@@ -1017,7 +1027,8 @@
         "scen7-vl",
         "esm-scen7-vl"
       ],
-      "description": "GCM-based climate related forcing according to the *Very Low emission scenario*.",
+      "description": "GCM-based climate related forcing according to the **very low emission scenario**.",
+      "description_note": "We follow the CMIP7 vocabulary and label the concentration driven runs `scen7-vl` and the emission driven runs `esm-scen7-vl`.",
       "simulation_rounds": [
         "ISIMIP4b"
       ]
@@ -1028,7 +1039,8 @@
         "scen7-h",
         "esm-scen7-h"
       ],
-      "description": "GCM-based climate related forcing according to the *High emission scenario*.",
+      "description": "GCM-based climate related forcing according to the **high emission scenario**.",
+      "description_note": "We follow the CMIP7 vocabulary and label the concentration driven runs `scen7-h` and the emission driven runs `esm-scen7-h`.",
       "simulation_rounds": [
         "ISIMIP4b"
       ]
@@ -7689,7 +7701,7 @@
   "soc_scenario": [
     {
       "specifier": "histsoc",
-      "description": "Varying direct human influences in the historical period.",
+      "description": "**Varying direct human influences** in the historical period.",
       "description_note": "Please label your model run `histsoc` **even if** it only partly accounts for varying direct human forcings while another part of the the direct human forcing is considered constant or is ignored.",
       "simulation_rounds": [
         "ISIMIP4a",
@@ -7720,7 +7732,7 @@
     },
     {
       "specifier": "1850soc",
-      "description": "Fixed year-1850 direct human influences (e.g. land use, nitrogen deposition and fertilizer input, fishing effort).",
+      "description": "**Fixed year-1850 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort).",
       "description_note": "Please label your simulations `1850soc` if they do not at all account for historical changes in direct human forcing, but they do represent constant year-1850 levels of direct human forcing for at least some direct human forcings. This scenario may be thought of an approximation of pre-industrial levels of human impacts.",
       "simulation_rounds": [
         "ISIMIP4b"
@@ -7745,7 +7757,7 @@
     },
     {
       "specifier": "2021soc",
-      "description": "Fixed year-2021 direct human influences (e.g. land use, nitrogen deposition and fertilizer input, fishing effort).",
+      "description": "**Fixed year-2021 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort).",
       "description_note": "Please label your simulations `2021soc` if they do not at all account for historical changes in direct human forcing, but they do represent constant year-2021 levels of direct human forcing for at least some direct human forcings.",
       "simulation_rounds": [
         "ISIMIP4a",
@@ -7773,7 +7785,7 @@
     },
     {
       "specifier": "2021soc-from-histsoc",
-      "description": "Fixed year-2021 direct human influences (e.g. land use, nitrogen deposition and fertilizer input, fishing effort) for the future period, if the historical period was using varying direct human influences in the historical period.",
+      "description": "**Fixed year-2021 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort) for the future period, if the historical period was using varying direct human influences in the historical period.",
       "description_note": "Please label your simulations `2021soc-from-histsoc` for the future period, if your model run extends a historical period which used the `histsoc` scenario. This distinguishes the data from experiments which use both `2021soc` in the past and the future. If your model output is identical for both cases, please only submit the `2021soc` files for the future period.",
       "simulation_rounds": [
         "ISIMIP4b"
@@ -7803,7 +7815,7 @@
     },
     {
       "specifier": "ssp1vlsoc-noadapt",
-      "description": "Varying direct human influences in the future period according to the *Very Low emission scenario*, not accounting for the impact of climate change under the corresponding climate.",
+      "description": "Varying direct human influences in the future period according to the **very low emission scenario**, not accounting for the impact of climate change under the corresponding climate.",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
@@ -7820,7 +7832,7 @@
     },
     {
       "specifier": "ssp1vlsoc-adapt",
-      "description": "Varying direct human influences in the future period according to the *Very Low emission scenario*, accounting for the impact of climate change under the corresponding climate.",
+      "description": "Varying direct human influences in the future period according to the **very low emission scenario**, accounting for the impact of climate change under the corresponding climate.",
       "description_note": "**This experiment is not part of the ISIMIP4b Fast Track.**",
       "simulation_rounds": [
         "ISIMIP4b"
@@ -7838,7 +7850,7 @@
     },
     {
       "specifier": "ssp3hsoc-noadapt",
-      "description": "Varying direct human influences in the future period according to the *High emission scenario*, not accounting for the impact of climate change under the corresponding climate.",
+      "description": "Varying direct human influences in the future period according to the **high emission scenario**, not accounting for the impact of climate change under the corresponding climate.",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
@@ -7855,7 +7867,7 @@
     },
     {
       "specifier": "ssp3hsoc-adapt",
-      "description": "Varying direct human influences in the future period according to the *High emission scenario*, accounting for the impact of climate change under the corresponding climate.",
+      "description": "Varying direct human influences in the future period according to the **high emission scenario**, accounting for the impact of climate change under the corresponding climate.",
       "description_note": "**This experiment is not part of the ISIMIP4b Fast Track.**",
       "simulation_rounds": [
         "ISIMIP4b"
@@ -8819,8 +8831,11 @@
       ],
       "subtitles": [
         "picontrol_1850soc_default",
+        "esm-picontrol_1850soc_default",
         "picontrol_histsoc_default",
-        "picontrol_2021soc-from-histsoc_default"
+        "esm-picontrol_histsoc_default",
+        "picontrol_2021soc-from-histsoc_default",
+        "esm-picontrol_2021soc-from-histsoc_default"
       ]
     },
     {
@@ -8859,7 +8874,8 @@
         "water_quality"
       ],
       "subtitles": [
-        "picontrol_2021soc_default"
+        "picontrol_2021soc_default",
+        "esm-picontrol_2021soc_default"
       ]
     },
     {
@@ -8889,7 +8905,8 @@
         "water_global"
       ],
       "subtitles": [
-        "picontrol_1850soc_default"
+        "picontrol_1850soc_default",
+        "esm-picontrol_1850soc_default"
       ]
     },
     {
@@ -8915,7 +8932,8 @@
       ],
       "group3": true,
       "subtitles": [
-        "picontrol_ssp1vlsoc-noadapt_default"
+        "picontrol_ssp1vlsoc-noadapt_default",
+        "esm-picontrol_ssp1vlsoc-noadapt_default"
       ]
     },
     {
@@ -8941,7 +8959,8 @@
       ],
       "group3": true,
       "subtitles": [
-        "picontrol_ssp3hsoc-noadapt_default"
+        "picontrol_ssp3hsoc-noadapt_default",
+        "esm-picontrol_ssp3hsoc-noadapt_default"
       ]
     },
     {

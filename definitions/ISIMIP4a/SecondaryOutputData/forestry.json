@@ -1,5 +1,5 @@
 {
-  "commit": "3e74c481cbe342c6ce6d7108bfb796d1a2ca2bee",
+  "commit": "0c4d656a04c55fa744420dca344cae70b3de7b93",
   "category": [
     {
       "specifier": "climate",
@@ -5763,7 +5763,7 @@
   "soc_scenario": [
     {
       "specifier": "histsoc",
-      "description": "Varying direct human influences in the historical period.",
+      "description": "**Varying direct human influences** in the historical period.",
       "description_note": "Please label your model run `histsoc` **even if** it only partly accounts for varying direct human forcings while another part of the the direct human forcing is considered constant or is ignored.",
       "simulation_rounds": [
         "ISIMIP4a",
@@ -5794,7 +5794,7 @@
     },
     {
       "specifier": "nat",
-      "description": "No direct human influences (naturalized run).",
+      "description": "**No direct human influences** (naturalized run).",
       "description_note": "Please only label your model run `nat` if it does not at all account for any direct human forcings, including e.g. human land use or fishing. For Nitrogen deposition please use the prepared files (with the values for 1850) or specify which other preindustrial value you used in the model documentation.",
       "simulation_rounds": [
         "ISIMIP4a",

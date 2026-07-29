@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/marine-fishery_regional.yaml",
-  "commit": "3e74c481cbe342c6ce6d7108bfb796d1a2ca2bee",
+  "commit": "0c4d656a04c55fa744420dca344cae70b3de7b93",
   "type": "object",
   "required": [
     "specifiers"
@@ -40,21 +40,22 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
+            "esm-hist",
             "esm-scen7-vl",
             "scen7-vl",
-            "esm-hist",
             "historical",
+            "picontrol",
+            "esm-picontrol",
             "scen7-h",
-            "esm-scen7-h",
-            "picontrol"
+            "esm-scen7-h"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
+            "histsoc",
             "nat",
-            "2021soc-from-histsoc",
-            "histsoc"
+            "2021soc-from-histsoc"
           ]
         },
         "sens_scenario": {
@@ -67,73 +68,73 @@
         "variable": {
           "type": "string",
           "enum": [
+            "tclog10",
+            "cp30cm",
             "tcb",
+            "bp30cm",
+            "bd30cm",
+            "cd30to90cm",
+            "tpc",
+            "tdc",
+            "cd30cm",
+            "tdb",
+            "bp90cm",
+            "bp30to90cm",
+            "cd90cm",
+            "cp30to90cm",
+            "bd90cm",
+            "cp90cm",
             "tcblog10",
             "tc",
-            "tdb",
-            "bd30cm",
-            "bd30to90cm",
-            "cp90cm",
-            "tpc",
             "tpb",
-            "bd90cm",
-            "tdc",
-            "cd90cm",
-            "cd30to90cm",
-            "bp30to90cm",
-            "bp90cm",
-            "cp30to90cm",
-            "bp30cm",
-            "tclog10",
-            "cd30cm",
-            "cp30cm"
+            "bd30to90cm"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "se-australia",
-            "northernhumboldt",
-            "baltic-sea",
-            "gulf-alaska",
-            "benguela",
-            "med-glob",
             "tasman-golden-bays-nz",
-            "east-bearing-sea-shelf",
-            "nw-med-sea",
-            "east-bering-sea",
-            "prydz-bay",
-            "himi",
+            "med-glob",
+            "northsea-ibts",
+            "mediterraneansea",
+            "cook-strait",
+            "brasil-ne",
+            "northernhumboldt",
             "humboldt-n",
+            "adriatic-sea",
+            "eastern-scotian-shelf",
+            "gulf-alaska",
+            "seaustralia-atlantis",
+            "nw-med-sea",
+            "taiwancentralsouthpacific",
+            "east-bering-sea",
+            "northsea-ewe",
+            "prydz-bay",
+            "east-bass-strait",
+            "hawaiian-longline",
             "north-sea",
             "hawaii",
-            "seaustralia-mizer",
-            "seaustralia-atlantis",
-            "eastern-scotian-shelf",
-            "taiwancentralsouthpacific",
             "kerguelen",
-            "northsea-ibts",
-            "hawaiian-longline",
-            "northsea-ewe",
+            "himi",
             "chatham-rise-ll-nz",
-            "adriatic-sea",
-            "cook-strait",
-            "east-bass-strait",
-            "mediterraneansea",
-            "brasil-ne"
+            "baltic-sea",
+            "benguela",
+            "seaustralia-mizer",
+            "east-bearing-sea-shelf",
+            "se-australia"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "hourly",
-            "fixed",
-            "daily",
-            "2hr",
+            "6hr",
             "3hr",
-            "monthly",
+            "2hr",
             "annual",
-            "6hr"
+            "daily",
+            "hourly",
+            "monthly",
+            "fixed"
           ]
         },
         "start_year": {
