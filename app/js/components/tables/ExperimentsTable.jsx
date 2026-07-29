@@ -89,7 +89,7 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
                     className="cursor-help"
                     title={climateScenarios[row['pre-industrial'].climate].description}
                   >
-                    {row['pre-industrial'].climate}
+                    {getSpecifierList(climateScenarios[row['pre-industrial'].climate]).join(', ')}
                   </strong>
                 </p>
                 {
