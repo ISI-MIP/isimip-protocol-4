@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/SecondaryInputData/geo_conditions/ocean.yaml",
-  "commit": "6d0eb7df2831e00c80fa336909e95dba1f0acc85",
+  "commit": "3e74c481cbe342c6ce6d7108bfb796d1a2ca2bee",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,33 +26,33 @@
         "geo_dataset": {
           "type": "string",
           "enum": [
-            "RME_masks",
-            "hydrolakes_id_biglakes",
-            "orog",
-            "ddm30_basins_cru_neva",
-            "volume",
-            "landseamask",
-            "biglakes_mask",
-            "gadm",
-            "LMEs66_masks",
-            "surface_area",
-            "gswp3_hwsd",
-            "hwsd_soil_data_all_land",
-            "landseamask_no-ant",
-            "elevation",
-            "ddm30_flowdir_cru_neva",
             "mpa",
-            "mean_lakedepth",
-            "countrymasks-fractional",
             "hydrolakes_id",
+            "biglakes_mask",
+            "volume",
             "landseamask_water-global",
-            "hypso_volume",
             "max_lakedepth",
-            "hwsd_soil_data_on_cropland",
-            "hypso_area",
-            "countrymasks-binary",
             "ddm30_slopes_cru_neva",
-            "deptho"
+            "gadm",
+            "hwsd_soil_data_on_cropland",
+            "LMEs66_masks",
+            "ddm30_basins_cru_neva",
+            "countrymasks-binary",
+            "RME_masks",
+            "hypso_volume",
+            "landseamask",
+            "gswp3_hwsd",
+            "deptho",
+            "ddm30_flowdir_cru_neva",
+            "landseamask_no-ant",
+            "surface_area",
+            "countrymasks-fractional",
+            "mean_lakedepth",
+            "orog",
+            "hwsd_soil_data_all_land",
+            "hypso_area",
+            "elevation",
+            "hydrolakes_id_biglakes"
           ]
         },
         "resolution": {
@@ -64,24 +64,24 @@
         "region": {
           "type": "string",
           "enum": [
-            "global",
+            "europe",
             "along-track",
-            "europe"
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "6hr",
-            "monthly",
             "hourly",
-            "annual",
             "fixed",
             "daily",
-            "2hr",
+            "annual-gs",
             "monthly-gs",
+            "2hr",
             "3hr",
-            "annual-gs"
+            "monthly",
+            "annual",
+            "6hr"
           ]
         }
       }

@@ -1,5 +1,5 @@
 {
-  "commit": "6d0eb7df2831e00c80fa336909e95dba1f0acc85",
+  "commit": "3e74c481cbe342c6ce6d7108bfb796d1a2ca2bee",
   "category": [
     {
       "specifier": "climate",
@@ -278,27 +278,7 @@
       ]
     }
   ],
-  "climate_forcing": [
-    {
-      "specifier": "gswp3-era5",
-      "title": "GSWP3-ERA5",
-      "time_period": "1901-2025",
-      "reanalysis": "ERA5",
-      "bias_adjustment_target": "none",
-      "priority": 1,
-      "url": "https://www.isimip.org/gettingstarted/input-data-bias-adjustment",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
-      "products": [
-        "InputData",
-        "OutputData",
-        "SecondaryInputData",
-        "SecondaryOutputData",
-        "DerivedOutputData"
-      ]
-    }
-  ],
+  "climate_forcing": [],
   "climate_variable": [
     {
       "specifier": "chl",
@@ -316,9 +296,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -340,9 +320,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -361,9 +341,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -382,9 +362,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -403,9 +383,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -424,9 +404,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -449,9 +429,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -474,9 +454,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -502,9 +482,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -528,9 +508,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -554,9 +534,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -579,9 +559,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -604,9 +584,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -629,9 +609,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -654,9 +634,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -679,9 +659,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -704,9 +684,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -730,9 +710,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -751,9 +731,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -772,9 +752,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -793,9 +773,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -815,9 +795,9 @@
         "marine-fishery_regional",
         "health"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -836,9 +816,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -857,9 +837,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -882,9 +862,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -907,9 +887,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {
@@ -932,9 +912,9 @@
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
-      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
       "climate_forcing": [
-        "GSWP3-ERA5"
+        "GFDL-MOM6-COBALT2"
       ]
     },
     {

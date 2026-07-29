@@ -1,5 +1,5 @@
 {
-  "commit": "6d0eb7df2831e00c80fa336909e95dba1f0acc85",
+  "commit": "3e74c481cbe342c6ce6d7108bfb796d1a2ca2bee",
   "path": "(?P<simulation_round>(ISIMIP4b))/(?P<product>[A-Za-z]+)/(?P<category>[a-z0-9-_]+)/(?P<subcategory>[a-z0-9-_]+)/(?P<soc_scenario>[a-z0-9-]+)$",
   "dataset": "^(?P<soc_dataset>[a-z0-9-]+)(_(?P<model>[a-z0-9-]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<climate_scenario>(scen7-vl|scen7-h))?)?(?P<soc_pathway>(ssp1|ssp3|ssp5))?",
   "file": "^(?P<soc_dataset>[a-z0-9-]+)(_(?P<model>[a-z0-9-]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<climate_scenario>(scen7-vl|scen7-h))?)?(?P<soc_pathway>(ssp1|ssp3|ssp5))?_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.xlsx|.csv)$",

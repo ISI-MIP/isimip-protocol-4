@@ -1,5 +1,5 @@
 {
-  "commit": "6d0eb7df2831e00c80fa336909e95dba1f0acc85",
+  "commit": "3e74c481cbe342c6ce6d7108bfb796d1a2ca2bee",
   "terms": {
     "category": {
       "climate": {
@@ -2313,6 +2313,47 @@
           "SecondaryInputData",
           "SecondaryOutputData",
           "DerivedOutputData"
+        ],
+        "sectors": [
+          "agriculture",
+          "biodiversity",
+          "biomes",
+          "coastal",
+          "diarrhea",
+          "energy_demand",
+          "fire",
+          "forestry",
+          "groundwater",
+          "health",
+          "fs-n",
+          "labour",
+          "lakes_global",
+          "lakes_local",
+          "peat",
+          "permafrost",
+          "water_global",
+          "water_regional",
+          "water_quality"
+        ]
+      },
+      "gfdl-mom6-cobalt2": {
+        "specifier": "gfdl-mom6-cobalt2",
+        "title": "GFDL-MOM6-COBALT2",
+        "time_period": "1961-2010",
+        "reanalysis": "JRA55",
+        "bias_adjustment_target": "none",
+        "priority": 1,
+        "url": "https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/136",
+        "simulation_rounds": [
+          "ISIMIP4a"
+        ],
+        "products": [
+          "InputData",
+          "OutputData"
+        ],
+        "sectors": [
+          "marine-fishery_global",
+          "marine-fishery_regional"
         ]
       },
       "EC-Earth3-ESM-1-1": {
@@ -2365,12 +2406,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2405,12 +2446,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2442,12 +2483,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2479,12 +2520,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2516,12 +2557,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2553,12 +2594,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2594,12 +2635,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2635,12 +2676,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2672,12 +2713,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2714,12 +2755,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2756,12 +2797,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2798,12 +2839,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2839,12 +2880,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2880,12 +2921,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2921,12 +2962,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2962,12 +3003,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3003,12 +3044,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3044,12 +3085,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3085,12 +3126,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3127,12 +3168,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3161,12 +3202,12 @@
           "health"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3199,12 +3240,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3236,12 +3277,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3273,12 +3314,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3312,12 +3353,12 @@
           "health"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3349,12 +3390,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3386,12 +3427,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3424,12 +3465,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3465,12 +3506,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3506,12 +3547,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3547,12 +3588,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GFDL-MOM6-COBALT2](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/136/)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "GSWP3-ERA5"
+            "GFDL-MOM6-COBALT2"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"

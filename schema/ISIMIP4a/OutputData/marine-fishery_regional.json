@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/marine-fishery_regional.yaml",
-  "commit": "6d0eb7df2831e00c80fa336909e95dba1f0acc85",
+  "commit": "3e74c481cbe342c6ce6d7108bfb796d1a2ca2bee",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,14 +26,14 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3-era5"
+            "gfdl-mom6-cobalt2"
           ]
         },
         "detrending": {
           "type": "string",
           "enum": [
-            "detrended",
-            "observed"
+            "observed",
+            "detrended"
           ]
         },
         "climate_scenario": {
@@ -45,8 +45,8 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "histsoc",
-            "nat"
+            "nat",
+            "histsoc"
           ]
         },
         "sens_scenario": {
@@ -58,73 +58,73 @@
         "variable": {
           "type": "string",
           "enum": [
-            "bp90cm",
-            "tc",
-            "bd90cm",
-            "tdc",
-            "cp30cm",
             "tcb",
-            "tpc",
-            "tpb",
+            "tcblog10",
+            "tc",
             "tdb",
+            "bd30cm",
             "bd30to90cm",
             "cp90cm",
-            "cd30cm",
-            "cp30to90cm",
+            "tpc",
+            "tpb",
+            "bd90cm",
+            "tdc",
+            "cd90cm",
             "cd30to90cm",
-            "bd30cm",
             "bp30to90cm",
-            "tclog10",
-            "tcblog10",
+            "bp90cm",
+            "cp30to90cm",
             "bp30cm",
-            "cd90cm"
+            "tclog10",
+            "cd30cm",
+            "cp30cm"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "prydz-bay",
-            "nw-med-sea",
-            "northsea-ewe",
-            "tasman-golden-bays-nz",
-            "med-glob",
             "se-australia",
-            "north-sea",
-            "seaustralia-mizer",
-            "baltic-sea",
             "northernhumboldt",
-            "seaustralia-atlantis",
-            "mediterraneansea",
-            "hawaiian-longline",
-            "hawaii",
-            "northsea-ibts",
-            "adriatic-sea",
-            "himi",
-            "east-bering-sea",
-            "east-bearing-sea-shelf",
-            "kerguelen",
-            "eastern-scotian-shelf",
-            "east-bass-strait",
-            "taiwancentralsouthpacific",
-            "chatham-rise-ll-nz",
-            "benguela",
-            "humboldt-n",
+            "baltic-sea",
             "gulf-alaska",
-            "brasil-ne",
-            "cook-strait"
+            "benguela",
+            "med-glob",
+            "tasman-golden-bays-nz",
+            "east-bearing-sea-shelf",
+            "nw-med-sea",
+            "east-bering-sea",
+            "prydz-bay",
+            "himi",
+            "humboldt-n",
+            "north-sea",
+            "hawaii",
+            "seaustralia-mizer",
+            "seaustralia-atlantis",
+            "eastern-scotian-shelf",
+            "taiwancentralsouthpacific",
+            "kerguelen",
+            "northsea-ibts",
+            "hawaiian-longline",
+            "northsea-ewe",
+            "chatham-rise-ll-nz",
+            "adriatic-sea",
+            "cook-strait",
+            "east-bass-strait",
+            "mediterraneansea",
+            "brasil-ne"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "6hr",
-            "monthly",
             "hourly",
-            "annual",
             "fixed",
             "daily",
             "2hr",
-            "3hr"
+            "3hr",
+            "monthly",
+            "annual",
+            "6hr"
           ]
         },
         "start_year": {
