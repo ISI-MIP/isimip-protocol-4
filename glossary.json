@@ -1,5 +1,5 @@
 {
-  "commit": "093b98dcc538c777d120ed9d717142f8e4ccc890",
+  "commit": "6d0eb7df2831e00c80fa336909e95dba1f0acc85",
   "terms": {
     "category": {
       "climate": {
@@ -424,7 +424,7 @@
         "status": "mandatory",
         "doi": null,
         "path": "ISIMIP4a/InputData/climate/atmosphere/obsclim/global/",
-        "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/)",
+        "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/)",
         "simulation_rounds": [
           "ISIMIP4a"
         ],
@@ -2296,12 +2296,12 @@
       }
     },
     "climate_forcing": {
-      "example-w5e5": {
-        "specifier": "example-w5e5",
-        "title": "Example-W5E5",
-        "time_period": "1901-2021",
+      "gswp3-era5": {
+        "specifier": "gswp3-era5",
+        "title": "GSWP3-ERA5",
+        "time_period": "1901-2025",
         "reanalysis": "ERA5",
-        "bias_adjustment_target": "XYZ",
+        "bias_adjustment_target": "none",
         "priority": 1,
         "url": "https://www.isimip.org/gettingstarted/input-data-bias-adjustment",
         "simulation_rounds": [
@@ -2340,113 +2340,6 @@
       }
     },
     "climate_variable": {
-      "fwi": {
-        "specifier": "fwi",
-        "long_name": "Canadian Fire Weather Index (FWI)",
-        "simulation_rounds": [
-          "ISIMIP4b"
-        ],
-        "products": [
-          "DerivedInputData"
-        ]
-      },
-      "fwi-annual-max": {
-        "specifier": "fwi-annual-max",
-        "long_name": "Annual maximum of FWI (FWIXX)",
-        "simulation_rounds": [
-          "ISIMIP4b"
-        ],
-        "products": [
-          "DerivedInputData"
-        ]
-      },
-      "fwi-avg-seasonal": {
-        "specifier": "fwi-avg-seasonal",
-        "long_name": "Annual Maximum of Seasonal Average of Fire Weather Index (90 days running mean), (FWISA)",
-        "simulation_rounds": [
-          "ISIMIP4b"
-        ],
-        "products": [
-          "DerivedInputData"
-        ]
-      },
-      "fwi-ndays-extreme": {
-        "specifier": "fwi-ndays-extreme",
-        "long_name": "Number of days With Extreme Fire Weather (above 95th percentile of 1974-2004 baseline (FWIXD)",
-        "units": "days",
-        "simulation_rounds": [
-          "ISIMIP4b"
-        ],
-        "products": [
-          "DerivedInputData"
-        ]
-      },
-      "fwi-season-length": {
-        "specifier": "fwi-season-length",
-        "long_name": "Length of the fire season (FWILS)",
-        "units": "days",
-        "simulation_rounds": [
-          "ISIMIP4b"
-        ],
-        "products": [
-          "DerivedInputData"
-        ]
-      },
-      "pr-annual-max": {
-        "specifier": "pr-annual-max",
-        "long_name": "Annual Maximum Daily Precipitation (Rx1day)",
-        "units": "mm a-1",
-        "simulation_rounds": [
-          "ISIMIP4b"
-        ],
-        "products": [
-          "DerivedInputData"
-        ]
-      },
-      "pr-extreme-99-9": {
-        "specifier": "pr-extreme-99-9",
-        "long_name": "Extreme Daily Precipitation Annual Sum (above 99.9th percentile of baseline period daily data)",
-        "units": "mm a-1",
-        "simulation_rounds": [
-          "ISIMIP4b"
-        ],
-        "products": [
-          "DerivedInputData"
-        ]
-      },
-      "pr-wetdays-gt1mm": {
-        "specifier": "pr-wetdays-gt1mm",
-        "long_name": "Number of wet days (W)",
-        "units": "days",
-        "simulation_rounds": [
-          "ISIMIP4b"
-        ],
-        "products": [
-          "DerivedInputData"
-        ]
-      },
-      "temp-annual-max": {
-        "specifier": "temp-annual-max",
-        "long_name": "Annual maximum temperature (TXx)",
-        "units": "K",
-        "simulation_rounds": [
-          "ISIMIP4b"
-        ],
-        "products": [
-          "DerivedInputData"
-        ]
-      },
-      "temp-variability": {
-        "specifier": "temp-variability",
-        "long_name": "Temperate Variability (TV)",
-        "units": "K",
-        "simulation_rounds": [
-          "ISIMIP4b"
-        ],
-        "products": [
-          "DerivedInputData"
-        ]
-      },
       "chl": {
         "specifier": "chl",
         "long_name": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll",
@@ -2472,12 +2365,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2512,12 +2405,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2549,12 +2442,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2586,12 +2479,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2623,12 +2516,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2660,12 +2553,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2701,12 +2594,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2742,12 +2635,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2779,12 +2672,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2821,12 +2714,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2863,12 +2756,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2905,12 +2798,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2946,12 +2839,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -2987,12 +2880,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3028,12 +2921,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3069,12 +2962,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3110,12 +3003,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3151,12 +3044,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3192,12 +3085,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3234,12 +3127,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3268,12 +3161,12 @@
           "health"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3306,12 +3199,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3343,12 +3236,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3380,12 +3273,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3419,12 +3312,12 @@
           "health"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3456,12 +3349,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3493,12 +3386,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3531,12 +3424,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3572,12 +3465,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3613,12 +3506,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -3654,12 +3547,12 @@
           "marine-fishery_regional"
         ],
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -4525,7 +4418,7 @@
           "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_hurs_global_daily_<start_year>_<end_year>.nc"
         },
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
@@ -4551,7 +4444,7 @@
         ],
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -4571,7 +4464,7 @@
           "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_huss_global_daily_<start_year>_<end_year>.nc"
         },
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
@@ -4597,7 +4490,7 @@
         ],
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -4623,7 +4516,7 @@
           "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_pr_global_daily_<start_year>_<end_year>.nc"
         },
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
@@ -4649,7 +4542,7 @@
         ],
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -4669,7 +4562,7 @@
           "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_prsn_global_daily_<start_year>_<end_year>.nc"
         },
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
@@ -4695,7 +4588,7 @@
         ],
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -4715,7 +4608,7 @@
           "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_ps_global_daily_<start_year>_<end_year>.nc"
         },
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
@@ -4741,7 +4634,7 @@
         ],
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -4761,7 +4654,7 @@
           "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_rlds_global_daily_<start_year>_<end_year>.nc"
         },
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
@@ -4787,7 +4680,7 @@
         ],
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -4813,7 +4706,7 @@
           "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_rsds_global_daily_<start_year>_<end_year>.nc"
         },
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
@@ -4839,7 +4732,7 @@
         ],
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -4859,7 +4752,7 @@
           "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_sfcwind_global_daily_<start_year>_<end_year>.nc"
         },
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
@@ -4885,7 +4778,7 @@
         ],
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -4911,7 +4804,7 @@
           "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tas_global_daily_<start_year>_<end_year>.nc"
         },
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
@@ -4937,7 +4830,7 @@
         ],
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -4963,7 +4856,7 @@
           "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmax_global_daily_<start_year>_<end_year>.nc"
         },
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
@@ -4989,7 +4882,7 @@
         ],
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"
@@ -5015,7 +4908,7 @@
           "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmin_global_daily_<start_year>_<end_year>.nc"
         },
         "comment": {
-          "ISIMIP4a": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+          "ISIMIP4a": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
           "ISIMIP4b": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)"
         },
         "sectors": [
@@ -5041,7 +4934,7 @@
         ],
         "climate_forcing": {
           "ISIMIP4a": [
-            "Example-W5E5"
+            "GSWP3-ERA5"
           ],
           "ISIMIP4b": [
             "EC-Earth3-ESM-1-1"

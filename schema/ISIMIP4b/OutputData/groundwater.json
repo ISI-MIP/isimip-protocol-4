@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/groundwater.yaml",
-  "commit": "093b98dcc538c777d120ed9d717142f8e4ccc890",
+  "commit": "6d0eb7df2831e00c80fa336909e95dba1f0acc85",
   "type": "object",
   "required": [
     "specifiers"
@@ -40,20 +40,20 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "esm-hist",
-            "esm-scen7-h",
-            "scen7-vl",
-            "historical",
             "picontrol",
+            "historical",
             "scen7-h",
-            "esm-scen7-vl"
+            "esm-scen7-vl",
+            "scen7-vl",
+            "esm-scen7-h",
+            "esm-hist"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2021soc",
             "histsoc",
+            "2021soc",
             "2021soc-from-histsoc"
           ]
         },
@@ -67,50 +67,50 @@
         "variable": {
           "type": "string",
           "enum": [
-            "qrd",
-            "absliv",
-            "abs",
-            "lfrf",
-            "capillary",
             "absirr",
-            "lfn",
-            "wtd",
-            "gwdrn",
-            "gwdrnlak",
-            "absd",
-            "absind",
-            "depl",
-            "absdom",
-            "gwdrnriv",
-            "gwdrnspr",
-            "head",
             "lfff",
+            "qrd",
             "groundwstor",
-            "sgd",
-            "ret",
+            "head",
+            "absd",
+            "absdom",
+            "absliv",
+            "wtd",
+            "lfrf",
+            "lfn",
+            "gwdrnlak",
             "lflf",
-            "gwdrnwet"
+            "abs",
+            "sgd",
+            "gwdrn",
+            "gwdrnwet",
+            "ret",
+            "gwdrnriv",
+            "depl",
+            "absind",
+            "capillary",
+            "gwdrnspr"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "europe",
+            "global",
             "along-track",
-            "global"
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
+            "6hr",
+            "monthly",
+            "hourly",
             "annual",
             "fixed",
-            "6hr",
-            "hourly",
-            "monthly",
-            "3hr",
-            "2hr"
+            "daily",
+            "2hr",
+            "3hr"
           ]
         },
         "start_year": {

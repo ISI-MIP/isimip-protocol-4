@@ -1,5 +1,5 @@
 {
-  "commit": "093b98dcc538c777d120ed9d717142f8e4ccc890",
+  "commit": "6d0eb7df2831e00c80fa336909e95dba1f0acc85",
   "category": [
     {
       "specifier": "climate",
@@ -145,7 +145,7 @@
       "status": "mandatory",
       "doi": null,
       "path": "ISIMIP4a/InputData/climate/atmosphere/obsclim/global/",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/)",
       "simulation_rounds": [
         "ISIMIP4a"
       ],
@@ -779,11 +779,11 @@
   ],
   "climate_forcing": [
     {
-      "specifier": "example-w5e5",
-      "title": "Example-W5E5",
-      "time_period": "1901-2021",
+      "specifier": "gswp3-era5",
+      "title": "GSWP3-ERA5",
+      "time_period": "1901-2025",
       "reanalysis": "ERA5",
-      "bias_adjustment_target": "XYZ",
+      "bias_adjustment_target": "none",
       "priority": 1,
       "url": "https://www.isimip.org/gettingstarted/input-data-bias-adjustment",
       "simulation_rounds": [
@@ -808,7 +808,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_hurs_global_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -831,7 +831,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-W5E5"
+        "GSWP3-ERA5"
       ]
     },
     {
@@ -843,7 +843,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_huss_global_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -866,7 +866,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-W5E5"
+        "GSWP3-ERA5"
       ]
     },
     {
@@ -884,7 +884,7 @@
         "1800\" grid"
       ],
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_pr_global_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -907,7 +907,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-W5E5"
+        "GSWP3-ERA5"
       ]
     },
     {
@@ -919,7 +919,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_prsn_global_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -942,7 +942,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-W5E5"
+        "GSWP3-ERA5"
       ]
     },
     {
@@ -954,7 +954,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_ps_global_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -977,7 +977,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-W5E5"
+        "GSWP3-ERA5"
       ]
     },
     {
@@ -989,7 +989,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_rlds_global_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1012,7 +1012,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-W5E5"
+        "GSWP3-ERA5"
       ]
     },
     {
@@ -1030,7 +1030,7 @@
         "1800\" grid"
       ],
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_rsds_global_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1053,7 +1053,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-W5E5"
+        "GSWP3-ERA5"
       ]
     },
     {
@@ -1065,7 +1065,7 @@
       "frequency": "daily",
       "resolution": "0.5° grid",
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_sfcwind_global_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1088,7 +1088,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-W5E5"
+        "GSWP3-ERA5"
       ]
     },
     {
@@ -1106,7 +1106,7 @@
         "1800\" grid"
       ],
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_tas_global_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1129,7 +1129,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-W5E5"
+        "GSWP3-ERA5"
       ]
     },
     {
@@ -1147,7 +1147,7 @@
         "1800\" grid"
       ],
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_tasmax_global_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1170,7 +1170,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-W5E5"
+        "GSWP3-ERA5"
       ]
     },
     {
@@ -1188,7 +1188,7 @@
         "1800\" grid"
       ],
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_tasmin_global_<start_year>_<end_year>.nc",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
+      "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1211,7 +1211,7 @@
         "water_quality"
       ],
       "climate_forcing": [
-        "Example-W5E5"
+        "GSWP3-ERA5"
       ]
     },
     {

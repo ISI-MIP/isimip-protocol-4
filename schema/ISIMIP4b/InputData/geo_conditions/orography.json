@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/InputData/geo_conditions/orography.yaml",
-  "commit": "093b98dcc538c777d120ed9d717142f8e4ccc890",
+  "commit": "6d0eb7df2831e00c80fa336909e95dba1f0acc85",
   "type": "object",
   "required": [
     "specifiers"
@@ -24,33 +24,33 @@
         "geo_dataset": {
           "type": "string",
           "enum": [
-            "landseamask_water-global",
-            "volume",
-            "LMEs66_masks",
-            "hydrolakes_id",
-            "deptho",
-            "gadm",
-            "hypso_volume",
-            "mean_lakedepth",
-            "landseamask",
-            "hwsd_soil_data_all_land",
-            "elevation",
-            "hwsd_soil_data_on_cropland",
-            "countrymasks-fractional",
-            "hypso_area",
-            "orog",
-            "hydrolakes_id_biglakes",
-            "biglakes_mask",
-            "mpa",
-            "gswp3_hwsd",
-            "ddm30_basins_cru_neva",
-            "countrymasks-binary",
             "RME_masks",
-            "landseamask_no-ant",
-            "ddm30_flowdir_cru_neva",
-            "ddm30_slopes_cru_neva",
+            "hydrolakes_id_biglakes",
+            "orog",
+            "ddm30_basins_cru_neva",
+            "volume",
+            "landseamask",
+            "biglakes_mask",
+            "gadm",
+            "LMEs66_masks",
             "surface_area",
-            "max_lakedepth"
+            "gswp3_hwsd",
+            "hwsd_soil_data_all_land",
+            "landseamask_no-ant",
+            "elevation",
+            "ddm30_flowdir_cru_neva",
+            "mpa",
+            "mean_lakedepth",
+            "countrymasks-fractional",
+            "hydrolakes_id",
+            "landseamask_water-global",
+            "hypso_volume",
+            "max_lakedepth",
+            "hwsd_soil_data_on_cropland",
+            "hypso_area",
+            "countrymasks-binary",
+            "ddm30_slopes_cru_neva",
+            "deptho"
           ]
         },
         "resolution": {
@@ -62,9 +62,9 @@
         "region": {
           "type": "string",
           "enum": [
-            "europe",
+            "global",
             "along-track",
-            "global"
+            "europe"
           ]
         }
       }
