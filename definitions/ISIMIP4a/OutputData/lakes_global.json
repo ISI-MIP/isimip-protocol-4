@@ -1,5 +1,5 @@
 {
-  "commit": "0c4d656a04c55fa744420dca344cae70b3de7b93",
+  "commit": "5de447513113d170bced589d1b9774526fafd107",
   "category": [
     {
       "specifier": "climate",
@@ -3907,7 +3907,7 @@
     },
     {
       "specifier": "gcm-forcing",
-      "title": "Climate related forcing (picontrol, historical, scen7-vl, scen7-h)",
+      "title": "Climate related forcing (picontrol, historical, vl, h)",
       "identifier": "forcing_data"
     },
     {

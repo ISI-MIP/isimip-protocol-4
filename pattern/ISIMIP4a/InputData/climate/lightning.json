@@ -1,5 +1,5 @@
 {
-  "commit": "0c4d656a04c55fa744420dca344cae70b3de7b93",
+  "commit": "5de447513113d170bced589d1b9774526fafd107",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<category>[a-z0-9-_]+)/(?P<subcategory>[a-z0-9-_]+)$",
   "dataset": "^(?P<climate_variable>[a-z0-9-]+)_(?P<time_step>[a-z0-9-]+)",
   "file": "^(?P<climate_variable>[a-z0-9-]+)_(?P<time_step>[a-z0-9-]+)(.nc)$",
