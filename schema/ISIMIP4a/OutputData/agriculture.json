@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/agriculture.yaml",
-  "commit": "5de447513113d170bced589d1b9774526fafd107",
+  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
   "type": "object",
   "required": [
     "specifiers"
@@ -62,52 +62,52 @@
         "variable": {
           "type": "string",
           "enum": [
+            "soilmoist",
+            "matyday",
+            "anthday",
+            "harvyear",
+            "initrcum",
             "nlosscum",
-            "nincum",
+            "plantyear",
+            "yield",
+            "evapcum",
             "biom",
             "nleachcum",
-            "anthday",
-            "evapcum",
-            "soilmoist",
-            "plantyear",
-            "harvyear",
-            "matyday",
-            "nupcum",
             "pirnreqcum",
             "plantday",
-            "yield",
-            "initrcum"
+            "nupcum",
+            "nincum"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "cot",
-            "ric",
-            "bea",
-            "sun",
-            "ri1",
-            "bar",
-            "mil",
-            "wwh",
-            "swh",
-            "sgb",
-            "cas",
-            "mai",
-            "pot",
+            "mis",
+            "whe",
             "rye",
+            "sor",
+            "pea",
+            "ric",
+            "rap",
+            "pop",
+            "mil",
             "euc",
+            "ri1",
+            "nut",
+            "swh",
+            "cot",
+            "sgc",
+            "mai",
+            "wwh",
+            "cas",
+            "pot",
+            "sun",
+            "sgb",
+            "bea",
             "soy",
             "mgr",
-            "mis",
-            "pea",
-            "sgc",
-            "sor",
             "ri2",
-            "pop",
-            "rap",
-            "nut",
-            "whe"
+            "bar"
           ]
         },
         "irrigation": {
@@ -120,24 +120,24 @@
         "region": {
           "type": "string",
           "enum": [
-            "europe",
+            "global",
             "along-track",
-            "global"
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
             "annual-gs",
-            "monthly",
             "monthly-gs",
+            "daily",
             "2hr",
             "3hr",
+            "6hr",
             "fixed",
+            "monthly",
             "annual",
-            "daily",
-            "hourly",
-            "6hr"
+            "hourly"
           ]
         },
         "start_year": {

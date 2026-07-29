@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/biodiversity.yaml",
-  "commit": "5de447513113d170bced589d1b9774526fafd107",
+  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
   "type": "object",
   "required": [
     "specifiers"
@@ -48,8 +48,8 @@
           "enum": [
             "histsoc",
             "1901soc",
-            "2021soc",
-            "nat"
+            "nat",
+            "2021soc"
           ]
         },
         "sens_scenario": {
@@ -61,51 +61,51 @@
         "variable": {
           "type": "string",
           "enum": [
-            "reptileocc",
-            "birdprob",
-            "mammalprob",
-            "landfrac",
-            "mammalpbuffer",
-            "amphibianprob",
-            "reptilepbuffer",
-            "amphibianocc",
-            "reptileprob",
             "birdoccbuff",
-            "birdpbuffer",
-            "reptilebuff",
+            "cellarea",
             "amphibianpbuffer",
+            "reptileoccbuff",
+            "mammalpbuffer",
+            "mammalprob",
+            "reptilepbuffer",
+            "birdpbuffer",
+            "birdocc",
             "birdbuff",
             "amphibianbuff",
-            "reptileoccbuff",
-            "mammaloccbuff",
-            "cellarea",
+            "birdprob",
             "mammalocc",
+            "mammalbuff",
+            "reptileprob",
+            "mammaloccbuff",
             "contfrac",
             "amphibianoccbuff",
-            "mammalbuff",
-            "birdocc"
+            "reptileocc",
+            "reptilebuff",
+            "amphibianprob",
+            "amphibianocc",
+            "landfrac"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "europe",
+            "global",
             "along-track",
-            "global"
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
             "30year-mean",
+            "daily",
             "2hr",
             "3hr",
+            "6hr",
             "fixed",
+            "monthly",
             "annual",
-            "daily",
-            "hourly",
-            "6hr"
+            "hourly"
           ]
         },
         "start_year": {

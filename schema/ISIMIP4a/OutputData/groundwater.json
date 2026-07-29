@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/groundwater.yaml",
-  "commit": "5de447513113d170bced589d1b9774526fafd107",
+  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
   "type": "object",
   "required": [
     "specifiers"
@@ -62,50 +62,50 @@
         "variable": {
           "type": "string",
           "enum": [
-            "lflf",
-            "gwdrnriv",
-            "gwdrnspr",
-            "absd",
-            "groundwstor",
             "gwdrnwet",
-            "absind",
-            "head",
-            "depl",
-            "qrd",
-            "lfn",
-            "gwdrn",
-            "lfff",
-            "capillary",
-            "sgd",
-            "absliv",
-            "absdom",
-            "ret",
-            "absirr",
-            "wtd",
             "abs",
+            "capillary",
+            "lfn",
+            "gwdrnspr",
+            "groundwstor",
+            "sgd",
+            "lfrf",
+            "absdom",
+            "wtd",
+            "absirr",
+            "head",
+            "absliv",
+            "depl",
+            "absind",
+            "gwdrn",
+            "ret",
             "gwdrnlak",
-            "lfrf"
+            "lflf",
+            "lfff",
+            "absd",
+            "gwdrnriv",
+            "qrd"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "europe",
+            "global",
             "along-track",
-            "global"
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
+            "daily",
             "2hr",
             "3hr",
+            "6hr",
             "fixed",
+            "monthly",
             "annual",
-            "daily",
-            "hourly",
-            "6hr"
+            "hourly"
           ]
         },
         "start_year": {
