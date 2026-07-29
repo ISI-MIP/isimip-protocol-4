@@ -9,6 +9,9 @@
     De-trended climate related forcing, assuming the historical 1901 value of 296.13ppm
     for the CO₂ concentration and 928.80 ppb for the CH₄ concentration for the full
     period.
+  description_note: >-
+    **We are still working on the generation of the counterfactual version of the observational atmospheric forcings
+    that will enable the counterfactual climate impact model simulations dedicated to climate impact attribution.**
   simulation_rounds:
   - ISIMIP4a
   sectors:
