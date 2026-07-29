@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/energy.yaml",
-  "commit": "23621847057e6c178d79b13ffccc842e26b5b39c",
+  "commit": "093b98dcc538c777d120ed9d717142f8e4ccc890",
   "type": "object",
   "required": [
     "specifiers"
@@ -40,12 +40,12 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "picontrol",
-            "esm-scen7-h",
-            "scen7-h",
-            "scen7-vl",
             "esm-hist",
+            "esm-scen7-h",
+            "scen7-vl",
             "historical",
+            "picontrol",
+            "scen7-h",
             "esm-scen7-vl"
           ]
         },
@@ -74,14 +74,14 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
-            "3hr",
             "daily",
-            "2hr",
+            "annual",
+            "fixed",
             "6hr",
             "hourly",
-            "annual",
-            "fixed"
+            "monthly",
+            "3hr",
+            "2hr"
           ]
         },
         "start_year": {
