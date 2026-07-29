@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/lakes_global.yaml",
-  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
+  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
   "type": "object",
   "required": [
     "specifiers"
@@ -46,8 +46,8 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "histsoc",
             "1901soc",
+            "histsoc",
             "2021soc"
           ]
         },
@@ -61,63 +61,63 @@
         "variable": {
           "type": "string",
           "enum": [
-            "icethick",
-            "sedtemp",
-            "turbdiffheat",
-            "sedheatf",
-            "momf",
-            "tn",
-            "tpd",
-            "swup",
-            "lakeheatf",
-            "snd",
-            "tdn",
-            "bottemp",
-            "pp",
-            "thermodepth",
-            "icetemp",
-            "phytobio",
-            "watertemp",
-            "do",
             "snowtemp",
-            "lakealbedo",
-            "tp",
-            "lwup",
-            "sedlittemp",
-            "latentheatf",
-            "sedpeltemp",
-            "sensheatf",
-            "extcoeff",
-            "pn",
-            "doc",
-            "chl",
-            "strat",
             "lakeicefrac",
             "si",
-            "ice",
+            "strat",
+            "latentheatf",
+            "sedtemp",
+            "extcoeff",
+            "icetemp",
+            "lakeheatf",
+            "icethick",
+            "sedpeltemp",
             "surftemp",
-            "zoobio"
+            "thermodepth",
+            "zoobio",
+            "sedlittemp",
+            "watertemp",
+            "phytobio",
+            "tp",
+            "lakealbedo",
+            "turbdiffheat",
+            "tpd",
+            "bottemp",
+            "ice",
+            "do",
+            "snd",
+            "pn",
+            "tn",
+            "tdn",
+            "sedheatf",
+            "lwup",
+            "doc",
+            "pp",
+            "chl",
+            "swup",
+            "momf",
+            "sensheatf"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
+            "europe",
             "global",
-            "along-track",
-            "europe"
+            "along-track"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
             "daily",
-            "2hr",
-            "3hr",
-            "6hr",
-            "fixed",
-            "monthly",
             "annual",
-            "hourly"
+            "2hr",
+            "monthly",
+            "3hr",
+            "hourly",
+            "6hr",
+            "fixed"
           ]
         },
         "start_year": {

@@ -1,5 +1,5 @@
 {
-  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
+  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
   "category": [
     {
       "specifier": "climate",
@@ -106,35 +106,6 @@
     },
     {
       "specifier": "plot"
-    }
-  ],
-  "upstream_variable": [
-    {
-      "specifier": "dis",
-      "long_name": "Discharge",
-      "group": "biophysical-variables",
-      "units": "m3 s-1",
-      "frequency": "daily",
-      "resolution": "0.5° grid",
-      "path": "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/<period>/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Please use one or several ISIMIP4a global water model(s), but not a multi-model mean.",
-      "sectors": [
-        "groundwater",
-        "water_quality"
-      ]
-    },
-    {
-      "specifier": "qrd",
-      "long_name": "Diffuse groundwater recharge",
-      "group": "biophysical-variables",
-      "units": "kg m-2 s-1",
-      "frequency": "monthly",
-      "resolution": "0.5° grid",
-      "path": "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/<period>/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qrd_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Please use one or several ISIMIP4a global water model(s), but not a multi-model mean.",
-      "sectors": [
-        "groundwater"
-      ]
     }
   ],
   "forcing_data": [
@@ -625,56 +596,6 @@
         "permafrost",
         "water_global",
         "water_quality"
-      ]
-    },
-    {
-      "specifier": "histsoc_forest_management_3a",
-      "group": "histsoc-forcing",
-      "title": "Forest management",
-      "status": "optional",
-      "doi": "https://doi.org/10.5194/essd-12-1295-2020",
-      "comment": "Input dataset documentation → [Forest management](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
-      "sectors": [
-        "groundwater",
-        "forestry"
-      ]
-    },
-    {
-      "specifier": "biophysical-dis",
-      "group": "biophysical-forcing",
-      "title": "Water discharge",
-      "mandatory": true,
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": [
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/pre-industrial/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/historical/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/future/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily.nc"
-      ],
-      "sectors": [
-        "groundwater",
-        "water_quality"
-      ],
-      "group3": true
-    },
-    {
-      "specifier": "biophysical-qrd",
-      "group": "biophysical-forcing",
-      "title": "Diffuse groundwater recharge",
-      "mandatory": true,
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": [
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/pre-industrial/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qrd_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/historical/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qrd_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/future/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qrd_global_daily.nc"
-      ],
-      "sectors": [
-        "groundwater"
       ]
     },
     {
@@ -3657,42 +3578,6 @@
       ],
       "time_periods": [
         "2022-2100"
-      ]
-    },
-    {
-      "specifier": "forest_management",
-      "title": "Forest management",
-      "group": "forest_management",
-      "mandatory": true,
-      "frequency": "annual",
-      "resolution": "plot-specific",
-      "url": "http://doi.org/10.5880/PIK.2019.008",
-      "variables": [
-        {
-          "specifier": "stemno",
-          "long_name": "stem numbers",
-          "units": ""
-        },
-        {
-          "specifier": "species",
-          "long_name": "tree species",
-          "units": ""
-        }
-      ],
-      "sectors": [
-        "forestry",
-        "groundwater"
-      ],
-      "time_periods": [
-        "Bily Kriz: 1997-2021",
-        "Collelongo: 1992-2012",
-        "Hyytiälä: 1995-2011",
-        "KROOF: 1997-2010",
-        "Le Bray: 1986-2009",
-        "Peitz: 1948-2011",
-        "Solling-beech: 1967-2021",
-        "Solling-spruce: 1967-2021",
-        "Soro: 1944-2010"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
+  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
   "category": [
     {
       "specifier": "climate",
@@ -108,7 +108,6 @@
       "specifier": "plot"
     }
   ],
-  "upstream_variable": [],
   "forcing_data": [
     {
       "specifier": "gcm_climate_ocean",
@@ -2019,59 +2018,6 @@
     }
   ],
   "soc_dataset": [
-    {
-      "specifier": "fishing-effort",
-      "title": "Fishing effort",
-      "group": "fishing",
-      "mandatory": true,
-      "frequency": "annual",
-      "resolution": "Marine ecosystems or exclusive economic zones",
-      "path": [
-        "?"
-      ],
-      "variables": [
-        {
-          "specifier": "Sector",
-          "long_name": "Fishing sector (artisanal/industrial), defined by the law of the country (varies by country)"
-        },
-        {
-          "specifier": "LME",
-          "long_name": "The generic name of the Large Marine ecosystem in which the Effort/Catch is occurring"
-        },
-        {
-          "specifier": "eez_country_name",
-          "long_name": "The exclusive economic zone/high seas name in which fishing effort is occurring"
-        },
-        {
-          "specifier": "SAUP",
-          "long_name": "A number code for the fishing country, following Sea Around Us numbering"
-        },
-        {
-          "specifier": "Gear",
-          "long_name": "The fishing gear"
-        },
-        {
-          "specifier": "FGroup",
-          "long_name": "Functional Group of the target species"
-        },
-        {
-          "specifier": "NomActive",
-          "long_name": "Total nominal active fishing effort",
-          "units": "kW.days"
-        },
-        {
-          "specifier": "Phase",
-          "long_name": "Either \"spin-up\" or \"transition\""
-        }
-      ],
-      "sectors": [
-        "marine-fishery_global",
-        "marine-fishery_regional"
-      ],
-      "time_periods": [
-        "?"
-      ]
-    },
     {
       "specifier": "population-gridded",
       "specifier_alias": "population",

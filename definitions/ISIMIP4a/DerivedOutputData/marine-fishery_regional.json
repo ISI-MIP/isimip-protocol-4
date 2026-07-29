@@ -1,5 +1,5 @@
 {
-  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
+  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
   "category": [
     {
       "specifier": "climate",
@@ -108,7 +108,6 @@
       "specifier": "plot"
     }
   ],
-  "upstream_variable": [],
   "forcing_data": [
     {
       "specifier": "obsclim_ocean",
@@ -1821,14 +1820,15 @@
   ],
   "soc_dataset": [
     {
-      "specifier": "fishing-effort",
+      "specifier": "fishing_effort",
+      "specifier_alias": "effort",
       "title": "Fishing effort",
       "group": "fishing",
       "mandatory": true,
       "frequency": "annual",
       "resolution": "Marine ecosystems or exclusive economic zones",
       "path": [
-        "?"
+        "ISIMIP3a/InputData/socioeconomic/fishing/histsoc/effort_isimip3a_histsoc_1841_2010.csv"
       ],
       "variables": [
         {
@@ -1865,12 +1865,72 @@
           "long_name": "Either \"spin-up\" or \"transition\""
         }
       ],
+      "comment": "[Rousseau et al., 2024](https://doi.org/10.1038/s41597-023-02824-6) and [Rousseau et al., 2022](https://doi.org/10.25959/MNGY-0Q43). Input dataset documentation → [Fishing effort](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/128/).",
+      "simulation_rounds": [
+        "ISIMIP4a"
+      ],
       "sectors": [
         "marine-fishery_global",
         "marine-fishery_regional"
       ],
       "time_periods": [
-        "?"
+        "1841-2010"
+      ]
+    },
+    {
+      "specifier": "gridded_artisanal_fishing_effort",
+      "specifier_alias": "effort-artisanal-gridded",
+      "title": "Gridded artisanal fishing effort",
+      "group": "fishing",
+      "mandatory": true,
+      "frequency": "annual",
+      "resolution": "0.5° grid",
+      "path": "ISIMIP3a/InputData/socioeconomic/fishing/histsoc/effort-artisanal-gridded_isimip3a_histsoc_1961_2010.csv",
+      "variables": [
+        {
+          "specifier": "NomActive",
+          "long_name": "Total nominal active fishing effort",
+          "units": "kW.days"
+        }
+      ],
+      "comment": "[Rousseau et al., 2024](https://doi.org/10.1038/s41597-023-02824-6) and [Rousseau et al., 2022](https://doi.org/10.25959/MNGY-0Q43). Input dataset documentation → [Fishing effort](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/128/).",
+      "simulation_rounds": [
+        "ISIMIP4a"
+      ],
+      "sectors": [
+        "marine-fishery_global",
+        "marine-fishery_regional"
+      ],
+      "time_periods": [
+        "1961-2010"
+      ]
+    },
+    {
+      "specifier": "gridded_industrial_fishing_effort",
+      "specifier_alias": "effort-industrial-gridded",
+      "title": "Gridded industrial fishing effort",
+      "group": "fishing",
+      "mandatory": true,
+      "frequency": "annual",
+      "resolution": "0.5° grid",
+      "path": "ISIMIP3a/InputData/socioeconomic/fishing/histsoc/effort-industrial-gridded_isimip3a_histsoc_1961_2010.csv",
+      "variables": [
+        {
+          "specifier": "NomActive",
+          "long_name": "Total nominal active fishing effort",
+          "units": "kW.days"
+        }
+      ],
+      "comment": "[Rousseau et al., 2024](https://doi.org/10.1038/s41597-023-02824-6) and [Rousseau et al., 2022](https://doi.org/10.25959/MNGY-0Q43). Input dataset documentation → [Fishing effort](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/128/).",
+      "simulation_rounds": [
+        "ISIMIP4a"
+      ],
+      "sectors": [
+        "marine-fishery_global",
+        "marine-fishery_regional"
+      ],
+      "time_periods": [
+        "1961-2010"
       ]
     },
     {

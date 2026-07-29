@@ -1,5 +1,5 @@
 {
-  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
+  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
   "category": [
     {
       "specifier": "climate",
@@ -108,62 +108,6 @@
       "specifier": "plot"
     }
   ],
-  "upstream_variable": [
-    {
-      "specifier": "yield",
-      "long_name": "Crop Yields",
-      "group": "biophysical-variables",
-      "mandatory": true,
-      "units": "dry matter (t ha-1)",
-      "frequency": "annual",
-      "resolution": "0.5° grid",
-      "path": "ISIMIP4b/OutputData/agriculture/<model>/<climate-forcing>/<period>/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_yield-<irrigation>-<crop>_global_annual-gs.nc",
-      "comment": "The biophysical forcing data consists of the crop yield data provided by a subset of crop models, including: DSSAT-Pythia, EPIC-IIASA, LPJmL, PEPIC, pDSSAT, and GEPIC. Only crop yields  and not crop production, at GADM administrative level-2, are required. The gridded crop yield data will be aggregated to the sub-national level. Only the 2021soc and 2021soc-from-histsoc runs will be used.",
-      "sectors": [
-        "fs-n"
-      ]
-    },
-    {
-      "specifier": "qtot",
-      "long_name": "Total Runoff",
-      "group": "biophysical-variables",
-      "units": "kg m-2 s-1",
-      "frequency": "daily",
-      "resolution": "0.5° grid",
-      "path": "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/<period>/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qtot_global_daily.nc",
-      "comment": "Please use one or several ISIMIP4a global water model(s), but not a multi-model mean.",
-      "sectors": [
-        "water_quality"
-      ]
-    },
-    {
-      "specifier": "dis",
-      "long_name": "Discharge",
-      "group": "biophysical-variables",
-      "units": "m3 s-1",
-      "frequency": "daily",
-      "resolution": "0.5° grid",
-      "path": "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/<period>/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Please use one or several ISIMIP4a global water model(s), but not a multi-model mean.",
-      "sectors": [
-        "groundwater",
-        "water_quality"
-      ]
-    },
-    {
-      "specifier": "qrd",
-      "long_name": "Diffuse groundwater recharge",
-      "group": "biophysical-variables",
-      "units": "kg m-2 s-1",
-      "frequency": "monthly",
-      "resolution": "0.5° grid",
-      "path": "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/<period>/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qrd_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Please use one or several ISIMIP4a global water model(s), but not a multi-model mean.",
-      "sectors": [
-        "groundwater"
-      ]
-    }
-  ],
   "forcing_data": [
     {
       "specifier": "gcm_climate_atmosphere",
@@ -203,43 +147,6 @@
         "water_global",
         "water_regional",
         "water_quality"
-      ]
-    },
-    {
-      "specifier": "gcm_climate_atmosphere_local",
-      "group": "gcm-forcing",
-      "title": "Local atmospheric climate forcing for lake locations",
-      "status": "mandatory",
-      "doi": null,
-      "path": [
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/picontrol/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-picontrol/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/historical/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-hist/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-vl/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-scen7-vl/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-h/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-scen7-h/"
-      ],
-      "comment": "Extractions of grid cell data from global atmospheric climate forcing. See list of lakes sites [here](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "lakes_local"
-      ]
-    },
-    {
-      "specifier": "gcm_tropical_cyclones_tracks",
-      "group": "gcm-forcing",
-      "title": "Tropical cyclone tracks",
-      "mandatory": true,
-      "status": "under development",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "coastal"
       ]
     },
     {
@@ -1375,93 +1282,6 @@
         "permafrost",
         "water_global",
         "water_quality"
-      ]
-    },
-    {
-      "specifier": "histsoc_forest_management_3a",
-      "group": "histsoc-forcing",
-      "title": "Forest management",
-      "status": "optional",
-      "doi": "https://doi.org/10.5194/essd-12-1295-2020",
-      "comment": "Input dataset documentation → [Forest management](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
-      "sectors": [
-        "groundwater",
-        "forestry"
-      ]
-    },
-    {
-      "specifier": "biophysical-yield",
-      "group": "biophysical-forcing",
-      "title": "Crop Yields",
-      "mandatory": true,
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": [
-        "ISIMIP4b/OutputData/agriculture/<model>/<climate-forcing>/pre-industrial/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_yield-<irrigation>-<crop>_global_annual-gs.nc",
-        "ISIMIP4b/OutputData/agriculture/<model>/<climate-forcing>/historical/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_yield-<irrigation>-<crop>_global_annual-gs.nc",
-        "ISIMIP4b/OutputData/agriculture/<model>/<climate-forcing>/future/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_yield-<irrigation>-<crop>_global_annual-gs.nc"
-      ],
-      "sectors": [
-        "fs-n"
-      ]
-    },
-    {
-      "specifier": "biophysical-qtot",
-      "group": "biophysical-forcing",
-      "title": "Runoff",
-      "mandatory": true,
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": [
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/pre-industrial/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qtot_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/historical/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qtot_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/future/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qtot_global_daily.nc"
-      ],
-      "sectors": [
-        "water_quality"
-      ],
-      "group3": true
-    },
-    {
-      "specifier": "biophysical-dis",
-      "group": "biophysical-forcing",
-      "title": "Water discharge",
-      "mandatory": true,
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": [
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/pre-industrial/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/historical/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/future/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily.nc"
-      ],
-      "sectors": [
-        "groundwater",
-        "water_quality"
-      ],
-      "group3": true
-    },
-    {
-      "specifier": "biophysical-qrd",
-      "group": "biophysical-forcing",
-      "title": "Diffuse groundwater recharge",
-      "mandatory": true,
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": [
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/pre-industrial/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qrd_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/historical/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qrd_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/future/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qrd_global_daily.nc"
-      ],
-      "sectors": [
-        "groundwater"
       ]
     },
     {
@@ -6153,95 +5973,6 @@
       ],
       "time_periods": [
         "2022-2100"
-      ]
-    },
-    {
-      "specifier": "fishing-effort",
-      "title": "Fishing effort",
-      "group": "fishing",
-      "mandatory": true,
-      "frequency": "annual",
-      "resolution": "Marine ecosystems or exclusive economic zones",
-      "path": [
-        "?"
-      ],
-      "variables": [
-        {
-          "specifier": "Sector",
-          "long_name": "Fishing sector (artisanal/industrial), defined by the law of the country (varies by country)"
-        },
-        {
-          "specifier": "LME",
-          "long_name": "The generic name of the Large Marine ecosystem in which the Effort/Catch is occurring"
-        },
-        {
-          "specifier": "eez_country_name",
-          "long_name": "The exclusive economic zone/high seas name in which fishing effort is occurring"
-        },
-        {
-          "specifier": "SAUP",
-          "long_name": "A number code for the fishing country, following Sea Around Us numbering"
-        },
-        {
-          "specifier": "Gear",
-          "long_name": "The fishing gear"
-        },
-        {
-          "specifier": "FGroup",
-          "long_name": "Functional Group of the target species"
-        },
-        {
-          "specifier": "NomActive",
-          "long_name": "Total nominal active fishing effort",
-          "units": "kW.days"
-        },
-        {
-          "specifier": "Phase",
-          "long_name": "Either \"spin-up\" or \"transition\""
-        }
-      ],
-      "sectors": [
-        "marine-fishery_global",
-        "marine-fishery_regional"
-      ],
-      "time_periods": [
-        "?"
-      ]
-    },
-    {
-      "specifier": "forest_management",
-      "title": "Forest management",
-      "group": "forest_management",
-      "mandatory": true,
-      "frequency": "annual",
-      "resolution": "plot-specific",
-      "url": "http://doi.org/10.5880/PIK.2019.008",
-      "variables": [
-        {
-          "specifier": "stemno",
-          "long_name": "stem numbers",
-          "units": ""
-        },
-        {
-          "specifier": "species",
-          "long_name": "tree species",
-          "units": ""
-        }
-      ],
-      "sectors": [
-        "forestry",
-        "groundwater"
-      ],
-      "time_periods": [
-        "Bily Kriz: 1997-2021",
-        "Collelongo: 1992-2012",
-        "Hyytiälä: 1995-2011",
-        "KROOF: 1997-2010",
-        "Le Bray: 1986-2009",
-        "Peitz: 1948-2011",
-        "Solling-beech: 1967-2021",
-        "Solling-spruce: 1967-2021",
-        "Soro: 1944-2010"
       ]
     },
     {

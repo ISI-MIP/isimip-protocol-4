@@ -1,5 +1,5 @@
 {
-  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
+  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
   "category": [
     {
       "specifier": "climate",
@@ -108,22 +108,6 @@
       "specifier": "plot"
     }
   ],
-  "upstream_variable": [
-    {
-      "specifier": "yield",
-      "long_name": "Crop Yields",
-      "group": "biophysical-variables",
-      "mandatory": true,
-      "units": "dry matter (t ha-1)",
-      "frequency": "annual",
-      "resolution": "0.5° grid",
-      "path": "ISIMIP4b/OutputData/agriculture/<model>/<climate-forcing>/<period>/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_yield-<irrigation>-<crop>_global_annual-gs.nc",
-      "comment": "The biophysical forcing data consists of the crop yield data provided by a subset of crop models, including: DSSAT-Pythia, EPIC-IIASA, LPJmL, PEPIC, pDSSAT, and GEPIC. Only crop yields  and not crop production, at GADM administrative level-2, are required. The gridded crop yield data will be aggregated to the sub-national level. Only the 2021soc and 2021soc-from-histsoc runs will be used.",
-      "sectors": [
-        "fs-n"
-      ]
-    }
-  ],
   "forcing_data": [
     {
       "specifier": "group3_pop",
@@ -184,24 +168,6 @@
       },
       "path": "ISIMIP4b/InputData/socioeconomic/gdp/histsoc/",
       "comment": "Input dataset documentation → [National historical Gross Domestic Product (GDP)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/)."
-    },
-    {
-      "specifier": "biophysical-yield",
-      "group": "biophysical-forcing",
-      "title": "Crop Yields",
-      "mandatory": true,
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": [
-        "ISIMIP4b/OutputData/agriculture/<model>/<climate-forcing>/pre-industrial/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_yield-<irrigation>-<crop>_global_annual-gs.nc",
-        "ISIMIP4b/OutputData/agriculture/<model>/<climate-forcing>/historical/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_yield-<irrigation>-<crop>_global_annual-gs.nc",
-        "ISIMIP4b/OutputData/agriculture/<model>/<climate-forcing>/future/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_yield-<irrigation>-<crop>_global_annual-gs.nc"
-      ],
-      "sectors": [
-        "fs-n"
-      ]
     },
     {
       "specifier": "countrymasks",

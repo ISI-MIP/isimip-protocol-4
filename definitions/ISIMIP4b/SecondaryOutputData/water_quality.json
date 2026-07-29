@@ -1,5 +1,5 @@
 {
-  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
+  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
   "category": [
     {
       "specifier": "climate",
@@ -106,35 +106,6 @@
     },
     {
       "specifier": "plot"
-    }
-  ],
-  "upstream_variable": [
-    {
-      "specifier": "qtot",
-      "long_name": "Total Runoff",
-      "group": "biophysical-variables",
-      "units": "kg m-2 s-1",
-      "frequency": "daily",
-      "resolution": "0.5° grid",
-      "path": "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/<period>/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qtot_global_daily.nc",
-      "comment": "Please use one or several ISIMIP4a global water model(s), but not a multi-model mean.",
-      "sectors": [
-        "water_quality"
-      ]
-    },
-    {
-      "specifier": "dis",
-      "long_name": "Discharge",
-      "group": "biophysical-variables",
-      "units": "m3 s-1",
-      "frequency": "daily",
-      "resolution": "0.5° grid",
-      "path": "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/<period>/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily_<start_year>_<end_year>.nc",
-      "comment": "Please use one or several ISIMIP4a global water model(s), but not a multi-model mean.",
-      "sectors": [
-        "groundwater",
-        "water_quality"
-      ]
     }
   ],
   "forcing_data": [
@@ -893,45 +864,6 @@
         "water_global",
         "water_quality"
       ]
-    },
-    {
-      "specifier": "biophysical-qtot",
-      "group": "biophysical-forcing",
-      "title": "Runoff",
-      "mandatory": true,
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": [
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/pre-industrial/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qtot_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/historical/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qtot_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/future/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_qtot_global_daily.nc"
-      ],
-      "sectors": [
-        "water_quality"
-      ],
-      "group3": true
-    },
-    {
-      "specifier": "biophysical-dis",
-      "group": "biophysical-forcing",
-      "title": "Water discharge",
-      "mandatory": true,
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": [
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/pre-industrial/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/historical/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily.nc",
-        "ISIMIP4b/OutputData/water_global/<model>/<climate-forcing>/future/<model>_<climate-forcing>_w5e5_<climate-scenario>_<soc-scenario>_<sens-scenario>_dis_global_daily.nc"
-      ],
-      "sectors": [
-        "groundwater",
-        "water_quality"
-      ],
-      "group3": true
     },
     {
       "specifier": "static-lakes",

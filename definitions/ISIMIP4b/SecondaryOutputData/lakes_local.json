@@ -1,5 +1,5 @@
 {
-  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
+  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
   "category": [
     {
       "specifier": "climate",
@@ -108,7 +108,6 @@
       "specifier": "plot"
     }
   ],
-  "upstream_variable": [],
   "forcing_data": [
     {
       "specifier": "gcm_climate_atmosphere",
@@ -148,30 +147,6 @@
         "water_global",
         "water_regional",
         "water_quality"
-      ]
-    },
-    {
-      "specifier": "gcm_climate_atmosphere_local",
-      "group": "gcm-forcing",
-      "title": "Local atmospheric climate forcing for lake locations",
-      "status": "mandatory",
-      "doi": null,
-      "path": [
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/picontrol/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-picontrol/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/historical/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-hist/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-vl/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-scen7-vl/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/scen7-h/",
-        "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/esm-scen7-h/"
-      ],
-      "comment": "Extractions of grid cell data from global atmospheric climate forcing. See list of lakes sites [here](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "lakes_local"
       ]
     },
     {

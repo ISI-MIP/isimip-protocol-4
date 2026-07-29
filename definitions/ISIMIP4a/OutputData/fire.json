@@ -1,5 +1,5 @@
 {
-  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
+  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
   "category": [
     {
       "specifier": "climate",
@@ -108,7 +108,6 @@
       "specifier": "plot"
     }
   ],
-  "upstream_variable": [],
   "forcing_data": [
     {
       "specifier": "obsclim_climate_atmosphere",
@@ -454,10 +453,8 @@
       "specifier": "counterclim_climate_atmosphere",
       "group": "counterclim-forcing",
       "title": "Counterfactual \"no-climate change\" atmospheric climate forcing",
-      "status": "mandatory",
-      "doi": null,
-      "path": "ISIMIP4a/InputData/climate/atmosphere/counterclim/global/",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/)",
+      "status": "under construction",
+      "comment": "We are still working on the generation of the counterfactual version of the observational atmospheric forcings that will enable the counterfactual climate impact model simulations dedicated to climate impact attribution.",
       "simulation_rounds": [
         "ISIMIP4a"
       ],
@@ -709,6 +706,7 @@
     {
       "specifier": "counterclim",
       "description": "De-trended climate related forcing, assuming the historical 1901 value of 296.13ppm for the CO₂ concentration and 928.80 ppb for the CH₄ concentration for the full period.",
+      "description_note": "**We are still working on the generation of the counterfactual version of the observational atmospheric forcings that will enable the counterfactual climate impact model simulations dedicated to climate impact attribution.**",
       "simulation_rounds": [
         "ISIMIP4a"
       ],

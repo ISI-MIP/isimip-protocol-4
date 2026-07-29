@@ -1,5 +1,5 @@
 {
-  "commit": "e455daa1c7dbe0da66d280f79e3260ce660a6925",
+  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
   "category": [
     {
       "specifier": "climate",
@@ -108,7 +108,6 @@
       "specifier": "plot"
     }
   ],
-  "upstream_variable": [],
   "forcing_data": [
     {
       "specifier": "obsclim_climate_atmosphere",
@@ -343,25 +342,11 @@
       ]
     },
     {
-      "specifier": "histsoc_forest_management_3a",
-      "group": "histsoc-forcing",
-      "title": "Forest management",
-      "status": "optional",
-      "doi": "https://doi.org/10.5194/essd-12-1295-2020",
-      "comment": "Input dataset documentation → [Forest management](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
-      "sectors": [
-        "groundwater",
-        "forestry"
-      ]
-    },
-    {
       "specifier": "counterclim_climate_atmosphere",
       "group": "counterclim-forcing",
       "title": "Counterfactual \"no-climate change\" atmospheric climate forcing",
-      "status": "mandatory",
-      "doi": null,
-      "path": "ISIMIP4a/InputData/climate/atmosphere/counterclim/global/",
-      "comment": "Input dataset documentation → [Example-W5E5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/)",
+      "status": "under construction",
+      "comment": "We are still working on the generation of the counterfactual version of the observational atmospheric forcings that will enable the counterfactual climate impact model simulations dedicated to climate impact attribution.",
       "simulation_rounds": [
         "ISIMIP4a"
       ],
@@ -575,6 +560,7 @@
     {
       "specifier": "counterclim",
       "description": "De-trended climate related forcing, assuming the historical 1901 value of 296.13ppm for the CO₂ concentration and 928.80 ppb for the CH₄ concentration for the full period.",
+      "description_note": "**We are still working on the generation of the counterfactual version of the observational atmospheric forcings that will enable the counterfactual climate impact model simulations dedicated to climate impact attribution.**",
       "simulation_rounds": [
         "ISIMIP4a"
       ],
@@ -3187,42 +3173,6 @@
       "time_periods": [
         "1850-1900",
         "1901-2024"
-      ]
-    },
-    {
-      "specifier": "forest_management",
-      "title": "Forest management",
-      "group": "forest_management",
-      "mandatory": true,
-      "frequency": "annual",
-      "resolution": "plot-specific",
-      "url": "http://doi.org/10.5880/PIK.2019.008",
-      "variables": [
-        {
-          "specifier": "stemno",
-          "long_name": "stem numbers",
-          "units": ""
-        },
-        {
-          "specifier": "species",
-          "long_name": "tree species",
-          "units": ""
-        }
-      ],
-      "sectors": [
-        "forestry",
-        "groundwater"
-      ],
-      "time_periods": [
-        "Bily Kriz: 1997-2021",
-        "Collelongo: 1992-2012",
-        "Hyytiälä: 1995-2011",
-        "KROOF: 1997-2010",
-        "Le Bray: 1986-2009",
-        "Peitz: 1948-2011",
-        "Solling-beech: 1967-2021",
-        "Solling-spruce: 1967-2021",
-        "Soro: 1944-2010"
       ]
     },
     {
