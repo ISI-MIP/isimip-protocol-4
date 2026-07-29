@@ -12,7 +12,7 @@ from utils import get_commit_date, get_commit_hash, read_definitions, read_patte
 
 setup_logs()
 
-URL = 'https://github.com/ISI-MIP/isimip-protocol-3'
+URL = 'https://github.com/ISI-MIP/isimip-protocol-4'
 
 
 def config_generator(ctx):
