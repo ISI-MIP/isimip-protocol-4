@@ -7,7 +7,7 @@
   resolution: 30arcsec
   path:
     ISIMIP4a:
-    - ISIMIP4a/InputData/climate/tropical_cyclones_flooding/global/storm/historical/GeoClaw/geoclaw_<climate-forcing>_historical_fldarea_<coastal-water-level-offset>_30arcsec_<year>.nc
+    - ISIMIP4a/InputData/climate/tropical_cyclones_flooding/<climate_scenario>/global/storm/historical/GeoClaw/geoclaw_<climate-forcing>_historical_fldarea_<coastal-water-level-offset>_30arcsec_<year>.nc
   simulation_rounds:
   - ISIMIP4a
   sectors:
@@ -22,7 +22,7 @@
   resolution: 30arcsec
   path:
     ISIMIP4a:
-    - ISIMIP4a/InputData/climate/tropical_cyclones_flooding/global/storm/historical/GeoClaw/geoclaw_<climate-forcing>_historical_fldarea_<coastal-water-level-offset>_30arcsec_<year>.nc
+    - ISIMIP4a/InputData/climate/tropical_cyclones_flooding/<climate_scenario>/global/storm/historical/GeoClaw/geoclaw_<climate-forcing>_historical_fldarea_<coastal-water-level-offset>_30arcsec_<year>.nc
   simulation_rounds:
   - ISIMIP4a
   sectors:
