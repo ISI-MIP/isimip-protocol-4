@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/health.yaml",
-  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
+  "commit": "eab47f47307a7ba418a7dddf3e205876abd916ec",
   "type": "object",
   "required": [
     "specifiers"
@@ -32,22 +32,22 @@
         "detrending": {
           "type": "string",
           "enum": [
-            "detrended",
-            "observed"
+            "observed",
+            "detrended"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "counterclim",
-            "obsclim"
+            "obsclim",
+            "counterclim"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "histsoc",
-            "2021soc"
+            "2021soc",
+            "histsoc"
           ]
         },
         "sens_scenario": {
@@ -62,8 +62,8 @@
           "enum": [
             "anheat",
             "ancold",
-            "btm",
-            "pop"
+            "pop",
+            "btm"
           ]
         },
         "r": {
@@ -77,21 +77,21 @@
         "region": {
           "type": "string",
           "enum": [
+            "along-track",
             "europe",
-            "global",
-            "along-track"
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
-            "annual",
-            "2hr",
             "monthly",
-            "3hr",
-            "hourly",
             "6hr",
+            "3hr",
+            "2hr",
+            "annual",
+            "daily",
+            "hourly",
             "fixed"
           ]
         },

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/marine-fishery_global.yaml",
-  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
+  "commit": "eab47f47307a7ba418a7dddf3e205876abd916ec",
   "type": "object",
   "required": [
     "specifiers"
@@ -33,29 +33,29 @@
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "w5e5",
-            "nobasd"
+            "nobasd",
+            "w5e5"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
+            "historical",
+            "scen7-h",
             "esm-scen7-h",
             "esm-scen7-vl",
             "esm-picontrol",
-            "scen7-h",
             "scen7-vl",
             "esm-hist",
-            "historical",
             "picontrol"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
+            "nat",
             "histsoc",
-            "2021soc-from-histsoc",
-            "nat"
+            "2021soc-from-histsoc"
           ]
         },
         "sens_scenario": {
@@ -68,46 +68,46 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tpb",
-            "cd30to90cm",
-            "bd90cm",
-            "tdb",
-            "tcblog10",
-            "tc",
-            "bd30cm",
+            "tdc",
             "cd90cm",
-            "tcb",
             "cp90cm",
-            "cp30cm",
-            "cd30cm",
-            "bp90cm",
-            "tclog10",
-            "cp30to90cm",
+            "cd30to90cm",
+            "tpb",
+            "tcb",
             "bd30to90cm",
-            "tpc",
+            "bp90cm",
             "bp30to90cm",
             "bp30cm",
-            "tdc"
+            "tcblog10",
+            "tc",
+            "tdb",
+            "tclog10",
+            "cd30cm",
+            "cp30to90cm",
+            "bd90cm",
+            "bd30cm",
+            "cp30cm",
+            "tpc"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
+            "along-track",
             "europe",
-            "global",
-            "along-track"
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
-            "annual",
-            "2hr",
             "monthly",
-            "3hr",
-            "hourly",
             "6hr",
+            "3hr",
+            "2hr",
+            "annual",
+            "daily",
+            "hourly",
             "fixed"
           ]
         },

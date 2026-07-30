@@ -1,5 +1,5 @@
 {
-  "commit": "9c665622f5b71bfe5b7bb8ecb9b97cc0def57978",
+  "commit": "eab47f47307a7ba418a7dddf3e205876abd916ec",
   "category": [
     {
       "specifier": "climate",
@@ -3490,9 +3490,9 @@
       "frequency": "annual",
       "resolution": "0.5° grid",
       "path": [
-        "ISIMIP4a/InputData/socioeconomic/pop/histsoc/population_histsoc_30arcmin_annual_<start>_<end>.nc",
-        "ISIMIP4a/InputData/socioeconomic/pop/2021soc/population_2021soc_30arcmin_annual_<start>_<end>.nc",
-        "ISIMIP4a/InputData/socioeconomic/pop/1901soc/population_1901soc_30arcmin_annual_<start>_<end>.nc"
+        "ISIMIP4a/InputData/socioeconomic/population/histsoc/population_histsoc_30arcmin_annual_<start>_<end>.nc",
+        "ISIMIP4a/InputData/socioeconomic/population/2021soc/population_2021soc_30arcmin_annual_<start>_<end>.nc",
+        "ISIMIP4a/InputData/socioeconomic/population/1901soc/population_1901soc_30arcmin_annual_<start>_<end>.nc"
       ],
       "variables": [
         {
@@ -3526,9 +3526,9 @@
       "frequency": "annual",
       "resolution": "national",
       "path": [
-        "ISIMIP4a/InputData/socioeconomic/pop/histsoc/population_histsoc_national_annual_<start>_<end>.csv",
-        "ISIMIP4a/InputData/socioeconomic/pop/2021soc/population_2021soc_national_annual_<start>_<end>.csv",
-        "ISIMIP4a/InputData/socioeconomic/pop/1901soc/population_1901soc_national_annual_<start>_<end>.csv"
+        "ISIMIP4a/InputData/socioeconomic/population/histsoc/population_histsoc_national_annual_<start>_<end>.csv",
+        "ISIMIP4a/InputData/socioeconomic/population/2021soc/population_2021soc_national_annual_<start>_<end>.csv",
+        "ISIMIP4a/InputData/socioeconomic/population/1901soc/population_1901soc_national_annual_<start>_<end>.csv"
       ],
       "variables": [
         {
@@ -3552,9 +3552,9 @@
       "frequency": "annual",
       "resolution": "national",
       "path": [
-        "ISIMIP4a/InputData/socioeconomic/pop/histsoc/population-stratification_histsoc_national_annual_<age-stratification>_<start>_<end>.csv",
-        "ISIMIP4a/InputData/socioeconomic/pop/2021soc/population-stratification_2021soc_national_annual_<age-stratification>_<start>_<end>.csv",
-        "ISIMIP4a/InputData/socioeconomic/pop/1901soc/population-stratification_1901soc_national_annual_<age-stratification>_<start>_<end>.csv"
+        "ISIMIP4a/InputData/socioeconomic/population/histsoc/population-stratification_histsoc_national_annual_<age-stratification>_<start>_<end>.csv",
+        "ISIMIP4a/InputData/socioeconomic/population/2021soc/population-stratification_2021soc_national_annual_<age-stratification>_<start>_<end>.csv",
+        "ISIMIP4a/InputData/socioeconomic/population/1901soc/population-stratification_1901soc_national_annual_<age-stratification>_<start>_<end>.csv"
       ],
       "variables": [
         {
