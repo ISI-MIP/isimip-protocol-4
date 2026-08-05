@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/energy.yaml",
-  "commit": "eab47f47307a7ba418a7dddf3e205876abd916ec",
+  "commit": "b91bb613d2622bfed4820e457d3839f1c12dfa40",
   "type": "object",
   "required": [
     "specifiers"
@@ -66,12 +66,12 @@
           "type": "string",
           "enum": [
             "monthly",
-            "6hr",
-            "3hr",
-            "2hr",
             "annual",
             "daily",
+            "3hr",
+            "6hr",
             "hourly",
+            "2hr",
             "fixed"
           ]
         },

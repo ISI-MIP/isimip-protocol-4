@@ -4938,11 +4938,14 @@
       "resolution": "global",
       "path": {
         "ISIMIP4a": "ISIMIP4a/InputData/climate/atmosphere_composition/co2/<climate-scenario>/co2_<climate-scenario>_annual_<start_year>_<end_year>.txt",
-        "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere_composition/co2/<climate-scenario>/co2_<climate-scenario>_annual_<start_year>_<end_year>.txt"
+        "ISIMIP4b": [
+          "ISIMIP4b/InputData/climate/atmosphere_composition/co2/<emission-scenario>/co2_<emission-scenario>_annual_<start_year>_<end_year>.txt",
+          "ISIMIP4b/InputData/climate/atmosphere_composition/co2/<climate-scenario>/co2_<climate_forcing>_<climate-scenario>_annual_1850_2021.txt"
+        ]
       },
       "comment": {
         "ISIMIP4a": "Input dataset documentation \u2192 [Globally averaged CO\u2082 and CH\u2084 annual data](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
-        "ISIMIP4b": ""
+        "ISIMIP4b": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario (`vl`, `h`) to be used with concentration driven runs.\n"
       },
       "sectors": [
         "agriculture",
@@ -4975,11 +4978,14 @@
       "resolution": "global",
       "path": {
         "ISIMIP4a": "ISIMIP4a/InputData/climate/atmosphere_composition/ch4/<climate-scenario>/ch4_<climate-scenario>_annual_<start_year>_<end_year>.txt",
-        "ISIMIP4b": "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/<climate-scenario>/ch4_<climate-scenario>_annual_<start_year>_<end_year>.txt"
+        "ISIMIP4b": [
+          "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/<emission-scenario>/ch4_<emission-scenario>_annual_<start_year>_<end_year>.txt",
+          "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/<climate-scenario>/ch4_<climate-forcing>_<climate-scenario>_annual_<start_year>_<end_year>.txt"
+        ]
       },
       "comment": {
         "ISIMIP4a": "Input dataset documentation \u2192 [Globally averaged CO\u2082 and CH\u2084 annual data](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
-        "ISIMIP4b": ""
+        "ISIMIP4b": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario (`vl`, `h`) to be used with concentration driven runs.\n"
       },
       "sectors": [
         "agriculture",
@@ -22876,9 +22882,9 @@
     "water_quality": "(?P<model>[a-z0-9-+.]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<bias_adjustment>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9-]+)_(?P<sens_scenario>[a-z0-9-]+)_(?P<variable>[a-z0-9]+)(-(?P<crop>[a-z0-9]{3})-(?P<irrigation>(firr|cirr|noirr))|-(?P<pft>[a-z0-9-]+))?_(?P<station>[a-z-]+)_(?P<time_step>[a-z0-9-]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})"
   }
 },
-                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/eab47f47307a7ba418a7dddf3e205876abd916ec',
-                commit_hash: 'eab47f47307a7ba418a7dddf3e205876abd916ec',
-                commit_date: '30 July 2026'
+                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/b91bb613d2622bfed4820e457d3839f1c12dfa40',
+                commit_hash: 'b91bb613d2622bfed4820e457d3839f1c12dfa40',
+                commit_date: '05 August 2026'
             }
         </script>
     </head>

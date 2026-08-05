@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/groundwater.yaml",
-  "commit": "eab47f47307a7ba418a7dddf3e205876abd916ec",
+  "commit": "b91bb613d2622bfed4820e457d3839f1c12dfa40",
   "type": "object",
   "required": [
     "specifiers"
@@ -46,45 +46,45 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "1901soc",
             "2021soc",
-            "histsoc"
+            "histsoc",
+            "1901soc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "1901co2",
+            "default",
             "nowatermgt",
-            "default"
+            "1901co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "lfrf",
-            "gwdrnspr",
-            "head",
-            "lfn",
-            "absirr",
-            "sgd",
-            "gwdrnriv",
-            "abs",
-            "gwdrnwet",
-            "absliv",
+            "depl",
+            "lflf",
             "wtd",
+            "abs",
+            "absdom",
             "absind",
             "ret",
-            "gwdrn",
-            "absdom",
-            "lfff",
-            "lflf",
-            "absd",
-            "gwdrnlak",
+            "head",
             "capillary",
             "groundwstor",
+            "lfn",
+            "absd",
+            "gwdrn",
+            "gwdrnriv",
+            "sgd",
+            "lfrf",
+            "lfff",
             "qrd",
-            "depl"
+            "gwdrnlak",
+            "absliv",
+            "absirr",
+            "gwdrnwet",
+            "gwdrnspr"
           ]
         },
         "region": {
@@ -99,12 +99,12 @@
           "type": "string",
           "enum": [
             "monthly",
-            "6hr",
-            "3hr",
-            "2hr",
             "annual",
             "daily",
+            "3hr",
+            "6hr",
             "hourly",
+            "2hr",
             "fixed"
           ]
         },

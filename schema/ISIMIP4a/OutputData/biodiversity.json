@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/biodiversity.yaml",
-  "commit": "eab47f47307a7ba418a7dddf3e205876abd916ec",
+  "commit": "b91bb613d2622bfed4820e457d3839f1c12dfa40",
   "type": "object",
   "required": [
     "specifiers"
@@ -46,10 +46,10 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "1901soc",
             "2021soc",
+            "histsoc",
             "nat",
-            "histsoc"
+            "1901soc"
           ]
         },
         "sens_scenario": {
@@ -61,29 +61,29 @@
         "variable": {
           "type": "string",
           "enum": [
-            "birdpbuffer",
-            "reptilepbuffer",
-            "mammaloccbuff",
-            "amphibianocc",
-            "mammalpbuffer",
-            "birdbuff",
-            "amphibianprob",
-            "reptilebuff",
-            "birdoccbuff",
+            "birdprob",
             "birdocc",
-            "mammalocc",
-            "amphibianpbuffer",
-            "reptileocc",
-            "cellarea",
             "mammalprob",
+            "cellarea",
+            "amphibianocc",
+            "amphibianpbuffer",
+            "reptilepbuffer",
+            "landfrac",
             "amphibianbuff",
+            "amphibianprob",
             "amphibianoccbuff",
+            "reptileocc",
+            "mammaloccbuff",
+            "birdbuff",
             "contfrac",
+            "birdpbuffer",
+            "mammalocc",
             "reptileoccbuff",
             "reptileprob",
-            "birdprob",
-            "landfrac",
-            "mammalbuff"
+            "mammalbuff",
+            "reptilebuff",
+            "mammalpbuffer",
+            "birdoccbuff"
           ]
         },
         "region": {
@@ -98,13 +98,13 @@
           "type": "string",
           "enum": [
             "monthly",
-            "6hr",
-            "3hr",
-            "2hr",
-            "30year-mean",
             "annual",
             "daily",
+            "3hr",
+            "30year-mean",
+            "6hr",
             "hourly",
+            "2hr",
             "fixed"
           ]
         },
