@@ -14,7 +14,7 @@
     ISIMIP4a: Input dataset documentation → [Globally averaged CO₂ and CH₄ annual
       data](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
     ISIMIP4b: >
-      We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario (`vl`, `h`) to be used with concentration driven runs.
+      We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.
 
   sectors:
   - agriculture
@@ -52,7 +52,7 @@
     ISIMIP4a: Input dataset documentation → [Globally averaged CO₂ and CH₄ annual
       data](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
     ISIMIP4b: >
-      We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario (`vl`, `h`) to be used with concentration driven runs.
+      We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.
   sectors:
   - agriculture
   - biodiversity
