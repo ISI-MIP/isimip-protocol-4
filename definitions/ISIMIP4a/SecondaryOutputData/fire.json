@@ -1,5 +1,5 @@
 {
-  "commit": "b91bb613d2622bfed4820e457d3839f1c12dfa40",
+  "commit": "91d2279b7588d2ee234c259afd15a8f02117beda",
   "category": [
     {
       "specifier": "climate",
@@ -852,11 +852,7 @@
       "units": "kg m-2 s-1",
       "frequency": "daily",
       "resolution": [
-        "0.5° grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5° grid"
       ],
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_pr_global_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
@@ -998,11 +994,7 @@
       "units": "W m-2",
       "frequency": "daily",
       "resolution": [
-        "0.5° grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5° grid"
       ],
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_rsds_global_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
@@ -1074,11 +1066,7 @@
       "units": "K",
       "frequency": "daily",
       "resolution": [
-        "0.5° grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5° grid"
       ],
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_tas_global_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
@@ -1115,11 +1103,7 @@
       "units": "K",
       "frequency": "daily",
       "resolution": [
-        "0.5° grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5° grid"
       ],
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_tasmax_global_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
@@ -1156,11 +1140,7 @@
       "units": "K",
       "frequency": "daily",
       "resolution": [
-        "0.5° grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5° grid"
       ],
       "path": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_tasmin_global_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [GSWP3-ERA5](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
@@ -3734,7 +3714,7 @@
     {
       "specifier": "population-stratification",
       "specifier_alias": "population-stratification",
-      "title": "Population statification (country-level)",
+      "title": "Population stratification (country-level)",
       "group": "population",
       "mandatory": true,
       "group3": true,

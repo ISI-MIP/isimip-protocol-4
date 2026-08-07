@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/socioeconomic.yaml",
-  "commit": "b91bb613d2622bfed4820e457d3839f1c12dfa40",
+  "commit": "91d2279b7588d2ee234c259afd15a8f02117beda",
   "type": "object",
   "required": [
     "specifiers"
@@ -14,31 +14,31 @@
         "soc_dataset": {
           "type": "string",
           "enum": [
-            "effort",
-            "ndep-drynoy",
-            "landuse-15crops",
-            "effort-artisanal-gridded",
-            "ndep-noy",
-            "gdp-ppp-countrylevel",
-            "land-transformation",
+            "landuse-forests-and-natural-vegetation",
+            "effort-industrial-gridded",
             "population-stratification",
             "pctlake",
-            "landuse-urbanareas",
-            "landuse-pastures",
-            "landuse-totals",
-            "reservoirs-dams",
-            "gdp-mer-countrylevel",
-            "wood_harvesting",
-            "ndep-wetnoy",
-            "population",
-            "n-fertilizer-15crops",
             "ndep-nhx",
-            "landuse-forests-and-natural-vegetation",
+            "n-fertilizer-15crops",
+            "reservoirs-dams",
             "landuse-5crops",
-            "effort-industrial-gridded",
-            "ndep-drynhx",
+            "population",
+            "gdp-mer-countrylevel",
+            "landuse-pastures",
+            "effort",
+            "land-transformation",
+            "landuse-totals",
+            "wood_harvesting",
+            "ndep-drynoy",
             "ndep-wetnhx",
-            "n-fertilizer-5crops"
+            "ndep-drynhx",
+            "n-fertilizer-5crops",
+            "effort-artisanal-gridded",
+            "ndep-wetnoy",
+            "landuse-urbanareas",
+            "ndep-noy",
+            "gdp-ppp-countrylevel",
+            "landuse-15crops"
           ]
         },
         "soc_variable": {
@@ -47,26 +47,26 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
+            "1901soc",
             "histsoc",
-            "nat",
-            "2021soc",
             "1850soc",
-            "1901soc"
+            "nat",
+            "2021soc"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
-            "annual",
-            "daily",
             "3hr",
+            "2hr",
+            "hourly",
             "annual-gs",
             "6hr",
-            "hourly",
-            "2hr",
             "fixed",
-            "monthly-gs"
+            "monthly-gs",
+            "monthly",
+            "annual",
+            "daily"
           ]
         },
         "start_year": {

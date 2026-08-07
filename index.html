@@ -4322,11 +4322,7 @@
       "units": "kg m-2 s-1",
       "frequency": "daily",
       "resolution": [
-        "0.5\u00b0 grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5\u00b0 grid"
       ],
       "path": {
         "ISIMIP4a": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_pr_global_<start_year>_<end_year>.nc",
@@ -4512,11 +4508,7 @@
       "units": "W m-2",
       "frequency": "daily",
       "resolution": [
-        "0.5\u00b0 grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5\u00b0 grid"
       ],
       "path": {
         "ISIMIP4a": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_rsds_global_<start_year>_<end_year>.nc",
@@ -4610,11 +4602,7 @@
       "units": "K",
       "frequency": "daily",
       "resolution": [
-        "0.5\u00b0 grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5\u00b0 grid"
       ],
       "path": {
         "ISIMIP4a": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_tas_global_<start_year>_<end_year>.nc",
@@ -4662,11 +4650,7 @@
       "units": "K",
       "frequency": "daily",
       "resolution": [
-        "0.5\u00b0 grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5\u00b0 grid"
       ],
       "path": {
         "ISIMIP4a": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_tasmax_global_<start_year>_<end_year>.nc",
@@ -4714,11 +4698,7 @@
       "units": "K",
       "frequency": "daily",
       "resolution": [
-        "0.5\u00b0 grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5\u00b0 grid"
       ],
       "path": {
         "ISIMIP4a": "ISIMIP4a/InputData/climate/atmosphere/<climate-scenario>/global/daily/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_tasmin_global_<start_year>_<end_year>.nc",
@@ -4945,7 +4925,7 @@
       },
       "comment": {
         "ISIMIP4a": "Input dataset documentation \u2192 [Globally averaged CO\u2082 and CH\u2084 annual data](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
-        "ISIMIP4b": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario (`vl`, `h`) to be used with concentration driven runs.\n"
+        "ISIMIP4b": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.\n"
       },
       "sectors": [
         "agriculture",
@@ -4985,7 +4965,7 @@
       },
       "comment": {
         "ISIMIP4a": "Input dataset documentation \u2192 [Globally averaged CO\u2082 and CH\u2084 annual data](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
-        "ISIMIP4b": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario (`vl`, `h`) to be used with concentration driven runs.\n"
+        "ISIMIP4b": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.\n"
       },
       "sectors": [
         "agriculture",
@@ -9003,7 +8983,7 @@
     {
       "specifier": "population-stratification",
       "specifier_alias": "population-stratification",
-      "title": "Population statification (country-level)",
+      "title": "Population stratification (country-level)",
       "group": "population",
       "mandatory": true,
       "group3": true,
@@ -22882,9 +22862,9 @@
     "water_quality": "(?P<model>[a-z0-9-+.]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<bias_adjustment>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9-]+)_(?P<sens_scenario>[a-z0-9-]+)_(?P<variable>[a-z0-9]+)(-(?P<crop>[a-z0-9]{3})-(?P<irrigation>(firr|cirr|noirr))|-(?P<pft>[a-z0-9-]+))?_(?P<station>[a-z-]+)_(?P<time_step>[a-z0-9-]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})"
   }
 },
-                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/b91bb613d2622bfed4820e457d3839f1c12dfa40',
-                commit_hash: 'b91bb613d2622bfed4820e457d3839f1c12dfa40',
-                commit_date: '05 August 2026'
+                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/91d2279b7588d2ee234c259afd15a8f02117beda',
+                commit_hash: '91d2279b7588d2ee234c259afd15a8f02117beda',
+                commit_date: '07 August 2026'
             }
         </script>
     </head>
@@ -22975,10 +22955,10 @@
 <strong>About</strong>
 <p>
     The simulation protocol describes the experiments, input data sets and output variables necessary to
-    participate in the <strong>upcoming</strong> ISIMIP4 simulation round.
+    participate in the <strong>new</strong> ISIMIP4 simulation round.
 </p>
 <p>
-    The protocol for the current ISIMIP3
+    The protocol for the still ongoing ISIMIP3
     simulation round is available at <a href="https://protocol.isimip.org">protocol.isimip.org</a>.
 </p>
 <p>
@@ -23007,7 +22987,7 @@
 <p>ISIMIP is intended to be structured in successive rounds connected to the different phases of the climate model intercomparison CMIP (<a href="https://www.isimip.org/documents/355/MissionAndImplementation_12Sep2018.pdf">ISIMIP Mission &amp; Implementation document</a>).</p>
 <p>The main components of the ISIMIP framework are:</p>
 <ul>
-<li>A common set of <strong>climate and other forcing data</strong> which will be distributed via a central database;</li>
+<li>A common set of <strong>climate-related forcing and direct human forcing data</strong> which will be distributed via a central database;</li>
 <li>A common <strong>modelling protocol</strong> to ensure consistency across sectors and scales in terms of data, format and experiment set-up;</li>
 <li>A central <strong>repository</strong> where the output data will be collected and made available to the scientific community.</li>
 </ul>
@@ -23028,7 +23008,7 @@
 <p>In Table 2.1, we describe the different experiments for ISIMIP4. Each default experiment is defined by its <strong>climate related forcing (CRF)</strong> and the assumptions regarding <strong>direct human forcing (DHF)</strong>. The associated specifications all have a label such as <code>obsclim</code> or <code>histsoc</code> that are provided in Table 2.1 and further specified in Tables 2.2 and 2.3. These specifiers are used in the file names of the corresponding input files and should also be used for the names of the output files (see report model results <a href="#5-reporting-model-results">report model results</a>). Sensitivity experiments are described as deviation from a default experiment and represented by labels that are used as a third specifier of the experiments. Their specific meanings are defined in Table 2.4.</p>
 <p>Please note that the experiments are different for ISIMIP4a and ISIMIP4b and some are sector specific. You can use the menu on the top-right of the page to select the simulation round and sectors you are interested in.</p>
 <div data-component="show" data-simulation-round="ISIMIP4b">
-<p>In ISIMIP4b, we adopt the CMIP7 convention of distinguishing between concentration-driven runs (e.g., <code>scen7-h</code>) and emission-driven runs (e.g., <code>esm-scen7-h</code>). Please note that both experiment types are associated with the same ISIMIP experiments, namely the <strong>high emission scenario</strong>. See also Table 2.2.</p>
+<p>In ISIMIP4b, we adopt the CMIP7 convention of distinguishing between concentration-driven runs (e.g., <code>scen7-h</code>) and emission-driven runs (e.g., <code>esm-scen7-h</code>) of the GCM providing the climate-related forcing. Please note that both GCM set-ups types are associated with the same ISIMIP experiment. Whether a GCM provides concentration-driven or emission-driven runs is documented in Table 3.2. We provide CO₂ and Methane input files specific for each GCM to ensure modellers use consistent forcing. See also Table 2.2.</p>
 </div>
 <div data-caption="Table 2.1: Experiment set-up. Each experiment is specified by the climate related forcing (top row) and the direct human forcing (bottom row). Sensitivity labels indicate deviations from the default settings.  Experiments are colored by group: group I (grey), group II (red) and group III (blue). The subtitles in the first row indicate how the experiment is defined in filenames." data-component="table" data-identifier="experiments"></div>
 <h4 id="note-regarding-models-requiring-spin-up">Note regarding models requiring spin-up</h4>
@@ -23059,8 +23039,8 @@ any fishing effort.</p>
 <p>For models requiring spin-up, please use the pre-industrial control data and CO₂ concentration and DHF fixed at 1850 levels for the spin up as long as needed.</p>
 <p>Please note that the "pre-industrial control run" from 1601-1849 is part of the regular experiments that should be reported and hence the spin-up has to be finished before that.</p>
 <p>For experiments with fixed year-2021 direct human influences (<code>2021soc</code>), spin-up should be based on the 2021 DHF.</p>
-<p>For sector-specific experiments without direct human influence (nat), the spin-up should not use any DHF.</p>
-<p>Please note that there is no "pre-industrial control run" from 1601-1849 for these experiments (<code>2021soc</code>, <code>nat</code>, <code>fire</code>, <code>nondep</code>, <code>nondep2021co2</code>) and hence the spin-up links directly to the historical period.</p>
+<p>For sector-specific experiments without direct human influence (<code>nat</code>), the spin-up should not use any DHF.</p>
+<p>Please note that there is no "pre-industrial control run" from 1601-1849 for these experiments (<code>2021soc</code>, <code>nat</code>, <code>nofire</code>, <code>nondep</code>, <code>nondep2021co2</code>, <code>histco2</code>) and hence the spin-up links directly to the historical period.</p>
 <p>The simulations with nitrogen cycling or fire turned off should also be spun up with nitrogen cycling or fire turned off.</p>
 </div>
 <h3 id="22-experiment-specifiers">2.2 Experiment specifiers</h3>
@@ -23164,8 +23144,8 @@ variable names have been suffixed with <strong>-bot</strong> (ocean bottom), <st
 <div data-caption="Table 4.4: Harmonization specifiers (`harmonization`)." data-component="table" data-identifier="harmonization"></div>
 </div>
 <div data-component="show" data-sector="forestry">
-<h4 id="species">Species</h4>
-<div data-caption="Table 4.5: Species specifiers (`species`)." data-component="table" data-identifier="species"></div>
+<h4 id="tree-species-and-disturbance-types">Tree species and disturbance types</h4>
+<div data-caption="Table 4.5: Tree species and disturbance types (`species`)." data-component="table" data-identifier="species"></div>
 <h4 id="forest-stands">Forest stands</h4>
 <div data-caption="Table 4.6: Forest stand specifiers (`forest-stand`)." data-component="table" data-identifier="forest_stand"></div>
 </div>

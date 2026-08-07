@@ -1,5 +1,5 @@
 {
-  "commit": "b91bb613d2622bfed4820e457d3839f1c12dfa40",
+  "commit": "91d2279b7588d2ee234c259afd15a8f02117beda",
   "category": [
     {
       "specifier": "climate",
@@ -1142,11 +1142,7 @@
       "units": "kg m-2 s-1",
       "frequency": "daily",
       "resolution": [
-        "0.5° grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5° grid"
       ],
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_pr_global_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
@@ -1288,11 +1284,7 @@
       "units": "W m-2",
       "frequency": "daily",
       "resolution": [
-        "0.5° grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5° grid"
       ],
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_rsds_global_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
@@ -1364,11 +1356,7 @@
       "units": "K",
       "frequency": "daily",
       "resolution": [
-        "0.5° grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5° grid"
       ],
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tas_global_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
@@ -1405,11 +1393,7 @@
       "units": "K",
       "frequency": "daily",
       "resolution": [
-        "0.5° grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5° grid"
       ],
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmax_global_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
@@ -1446,11 +1430,7 @@
       "units": "K",
       "frequency": "daily",
       "resolution": [
-        "0.5° grid",
-        "30\" grid",
-        "90\" grid",
-        "300\" grid",
-        "1800\" grid"
+        "0.5° grid"
       ],
       "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmin_global_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
@@ -1491,7 +1471,7 @@
         "ISIMIP4b/InputData/climate/atmosphere_composition/co2/<emission-scenario>/co2_<emission-scenario>_annual_<start_year>_<end_year>.txt",
         "ISIMIP4b/InputData/climate/atmosphere_composition/co2/<climate-scenario>/co2_<climate_forcing>_<climate-scenario>_annual_1850_2021.txt"
       ],
-      "comment": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario (`vl`, `h`) to be used with concentration driven runs.\n",
+      "comment": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1525,7 +1505,7 @@
         "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/<emission-scenario>/ch4_<emission-scenario>_annual_<start_year>_<end_year>.txt",
         "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/<climate-scenario>/ch4_<climate-forcing>_<climate-scenario>_annual_<start_year>_<end_year>.txt"
       ],
-      "comment": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario (`vl`, `h`) to be used with concentration driven runs.\n",
+      "comment": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -3695,7 +3675,7 @@
     {
       "specifier": "population-stratification",
       "specifier_alias": "population-stratification",
-      "title": "Population statification (country-level)",
+      "title": "Population stratification (country-level)",
       "group": "population",
       "mandatory": true,
       "group3": true,
