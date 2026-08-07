@@ -17933,7 +17933,7 @@
     {
       "specifier": "1901soc",
       "description": "**Fixed year-1901 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort).",
-      "description_note": "Please only label your model run `1901soc` if it does not at all account for historical changes in direct human forcing, but they do represent constant year-1901 levels of direct human forcing for at least some direct human forcings. This scenario may be thought of an approximation of pre-industrial levels of human impacts.",
+      "description_note": "Please only label your simulations `1901soc` if they do not at all account for historical changes in direct human forcing, but they do represent constant year-1901 levels of direct human forcing for at least some direct human forcings. This scenario may be thought of an approximation of pre-industrial levels of human impacts.",
       "simulation_rounds": [
         "ISIMIP4a"
       ],
@@ -19596,7 +19596,7 @@
     },
     {
       "specifier": "counterclim_histsoc_obsco2",
-      "parent": "obsclim_histsoc_default",
+      "parent": "counterclim_histsoc_default",
       "title": "Counterfactual climate and CO\u2082 sensitivity",
       "priority": "2nd priority",
       "historical": {
@@ -22862,8 +22862,8 @@
     "water_quality": "(?P<model>[a-z0-9-+.]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<bias_adjustment>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9-]+)_(?P<sens_scenario>[a-z0-9-]+)_(?P<variable>[a-z0-9]+)(-(?P<crop>[a-z0-9]{3})-(?P<irrigation>(firr|cirr|noirr))|-(?P<pft>[a-z0-9-]+))?_(?P<station>[a-z-]+)_(?P<time_step>[a-z0-9-]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})"
   }
 },
-                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/91d2279b7588d2ee234c259afd15a8f02117beda',
-                commit_hash: '91d2279b7588d2ee234c259afd15a8f02117beda',
+                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/7b43e915d2e19839b128d473bb478fb53f29fd06',
+                commit_hash: '7b43e915d2e19839b128d473bb478fb53f29fd06',
                 commit_date: '07 August 2026'
             }
         </script>
@@ -22984,7 +22984,7 @@
 <h2 id="1-introduction">1. Introduction</h2>
 <h3 id="11-general-concept">1.1 General concept</h3>
 <p><a href="https://www.isimip.org">The Inter-Sectoral Impact Model Intercomparison Project (ISIMIP)</a> provides a framework for the collation of a consistent set of climate impact data across sectors and scales. It also provides a unique opportunity for considering interactions between climate change impacts across sectors through consistent scenarios.</p>
-<p>ISIMIP is intended to be structured in successive rounds connected to the different phases of the climate model intercomparison CMIP (<a href="https://www.isimip.org/documents/355/MissionAndImplementation_12Sep2018.pdf">ISIMIP Mission &amp; Implementation document</a>).</p>
+<p>ISIMIP is intended to be structured in successive rounds connected to the different phases of the climate model intercomparison project CMIP (<a href="https://www.isimip.org/documents/355/MissionAndImplementation_12Sep2018.pdf">ISIMIP Mission &amp; Implementation document</a>).</p>
 <p>The main components of the ISIMIP framework are:</p>
 <ul>
 <li>A common set of <strong>climate-related forcing and direct human forcing data</strong> which will be distributed via a central database;</li>
@@ -23014,7 +23014,6 @@
 <h4 id="note-regarding-models-requiring-spin-up">Note regarding models requiring spin-up</h4>
 <div data-component="show" data-sector="agriculture,biodiversity,biomes,coastal,diarrhea,energy,fire,forestry,health,labour,lakes_global,lakes_local,peat,permafrost,water_global,water_regional" data-simulation-round="ISIMIP4a">
 <p>For models requiring spin-up, we provide 100 years of spinclim data which is identical with the first 100 years of the counterclim data. The files are located under <code>ISIMIP4a/InputData/climate/atmosphere/spinclim</code> at DKRZ and in the ISIMIP Repository. If more than 100 years of spin-up are needed, these data can be repeated as often as needed.</p>
-<p>For <code>historical</code> runs, use the <code>transclim</code> climate time series, historical CO₂ concentration and varying DHF, for the transition period from spin-up to the start of the experiment (1850-1900). When using a longer spin-up period that (nominally) extends back further than 1850, please keep CO₂ concentration and DHF constant at 1850 level until reaching the year corresponding to 1850.</p>
 <p>For experiments with fixed direct human influences (<code>1901soc</code>, <code>2021soc</code>), the spin-up should be based on the 1901 DHF or 2021 DHF, respectively.</p>
 <p>For sector-specific experiments without direct human influence (<code>nat</code>), the spin-up should not use any DHF. Likewise, the <code>nofire</code> experiment should include a spin-up without fire.</p>
 </div>
@@ -23040,7 +23039,7 @@ any fishing effort.</p>
 <p>Please note that the "pre-industrial control run" from 1601-1849 is part of the regular experiments that should be reported and hence the spin-up has to be finished before that.</p>
 <p>For experiments with fixed year-2021 direct human influences (<code>2021soc</code>), spin-up should be based on the 2021 DHF.</p>
 <p>For sector-specific experiments without direct human influence (<code>nat</code>), the spin-up should not use any DHF.</p>
-<p>Please note that there is no "pre-industrial control run" from 1601-1849 for these experiments (<code>2021soc</code>, <code>nat</code>, <code>nofire</code>, <code>nondep</code>, <code>nondep2021co2</code>, <code>histco2</code>) and hence the spin-up links directly to the historical period.</p>
+<p>Please note that there is no "pre-industrial control run" from 1601-1849 for these experiments (<code>2021soc</code>, <code>nat</code>, <code>nofire</code>, <code>nondep</code>) and hence the spin-up links directly to the historical period.</p>
 <p>The simulations with nitrogen cycling or fire turned off should also be spun up with nitrogen cycling or fire turned off.</p>
 </div>
 <h3 id="22-experiment-specifiers">2.2 Experiment specifiers</h3>

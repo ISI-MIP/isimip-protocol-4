@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/SecondaryOutputData/marine-fishery_regional.yaml",
-  "commit": "91d2279b7588d2ee234c259afd15a8f02117beda",
+  "commit": "7b43e915d2e19839b128d473bb478fb53f29fd06",
   "type": "object",
   "required": [
     "specifiers"
@@ -33,29 +33,29 @@
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "w5e5",
-            "nobasd"
+            "nobasd",
+            "w5e5"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "historical",
-            "scen7-vl",
             "picontrol",
             "scen7-h",
             "esm-hist",
-            "esm-picontrol",
             "esm-scen7-h",
-            "esm-scen7-vl"
+            "scen7-vl",
+            "esm-picontrol",
+            "esm-scen7-vl",
+            "historical"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
             "histsoc",
-            "nat",
-            "2021soc-from-histsoc"
+            "2021soc-from-histsoc",
+            "nat"
           ]
         },
         "sens_scenario": {
@@ -68,73 +68,73 @@
         "variable": {
           "type": "string",
           "enum": [
-            "cp90cm",
-            "tc",
-            "tdc",
-            "bp30to90cm",
-            "bd30cm",
-            "tcblog10",
-            "cd90cm",
-            "cd30to90cm",
+            "bd30to90cm",
+            "tcb",
             "cd30cm",
+            "cp90cm",
+            "cd90cm",
+            "tpb",
+            "bd90cm",
+            "cd30to90cm",
+            "bd30cm",
+            "tclog10",
+            "tdb",
             "cp30cm",
             "tpc",
-            "cp30to90cm",
-            "bp90cm",
-            "tcb",
-            "tclog10",
-            "bd30to90cm",
+            "tcblog10",
+            "tdc",
             "bp30cm",
-            "tdb",
-            "bd90cm",
-            "tpb"
+            "bp90cm",
+            "bp30to90cm",
+            "cp30to90cm",
+            "tc"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "northsea-ibts",
-            "east-bass-strait",
-            "chatham-rise-ll-nz",
-            "prydz-bay",
-            "mediterraneansea",
-            "kerguelen",
-            "north-sea",
-            "taiwancentralsouthpacific",
-            "adriatic-sea",
-            "humboldt-n",
-            "brasil-ne",
-            "se-australia",
-            "benguela",
             "himi",
-            "seaustralia-atlantis",
-            "baltic-sea",
-            "northernhumboldt",
-            "east-bering-sea",
-            "eastern-scotian-shelf",
+            "se-australia",
             "seaustralia-mizer",
-            "med-glob",
-            "northsea-ewe",
-            "hawaii",
             "gulf-alaska",
-            "nw-med-sea",
-            "cook-strait",
+            "chatham-rise-ll-nz",
+            "northernhumboldt",
+            "mediterraneansea",
+            "taiwancentralsouthpacific",
             "hawaiian-longline",
+            "north-sea",
+            "nw-med-sea",
+            "kerguelen",
+            "prydz-bay",
+            "east-bearing-sea-shelf",
             "tasman-golden-bays-nz",
-            "east-bearing-sea-shelf"
+            "adriatic-sea",
+            "benguela",
+            "east-bering-sea",
+            "brasil-ne",
+            "med-glob",
+            "northsea-ibts",
+            "cook-strait",
+            "baltic-sea",
+            "east-bass-strait",
+            "humboldt-n",
+            "hawaii",
+            "eastern-scotian-shelf",
+            "seaustralia-atlantis",
+            "northsea-ewe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "3hr",
-            "2hr",
-            "hourly",
+            "daily",
             "6hr",
             "fixed",
-            "monthly",
+            "3hr",
+            "hourly",
+            "2hr",
             "annual",
-            "daily"
+            "monthly"
           ]
         },
         "start_year": {

@@ -1,5 +1,5 @@
 {
-  "commit": "91d2279b7588d2ee234c259afd15a8f02117beda",
+  "commit": "7b43e915d2e19839b128d473bb478fb53f29fd06",
   "category": [
     {
       "specifier": "climate",
@@ -6460,7 +6460,7 @@
     },
     {
       "specifier": "counterclim_histsoc_obsco2",
-      "parent": "obsclim_histsoc_default",
+      "parent": "counterclim_histsoc_default",
       "title": "Counterfactual climate and CO₂ sensitivity",
       "priority": "2nd priority",
       "historical": {
