@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/labour.yaml",
-  "commit": "7b43e915d2e19839b128d473bb478fb53f29fd06",
+  "commit": "5b4913bd7d355a214c3d53cf61238ca975371ceb",
   "type": "object",
   "required": [
     "specifiers"
@@ -32,8 +32,8 @@
         "detrending": {
           "type": "string",
           "enum": [
-            "observed",
-            "detrended"
+            "detrended",
+            "observed"
           ]
         },
         "climate_scenario": {
@@ -76,14 +76,14 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
-            "6hr",
+            "monthly",
             "fixed",
-            "3hr",
-            "hourly",
             "2hr",
             "annual",
-            "monthly"
+            "hourly",
+            "3hr",
+            "6hr",
+            "daily"
           ]
         },
         "start_year": {

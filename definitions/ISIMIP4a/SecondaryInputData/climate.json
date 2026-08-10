@@ -1,5 +1,5 @@
 {
-  "commit": "7b43e915d2e19839b128d473bb478fb53f29fd06",
+  "commit": "5b4913bd7d355a214c3d53cf61238ca975371ceb",
   "category": [
     {
       "specifier": "climate",
@@ -1643,460 +1643,2094 @@
       ]
     },
     {
-      "specifier": "time",
-      "long_name": "Time associated with a given location of the time storm centre",
+      "specifier": "numobs",
+      "long_name": "Number of observations per system",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "hours since 1950-01-01 00:00",
-      "frequency": "at least 3-hourly",
-      "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "simulation_rounds": [
-        "ISIMIP4a",
-        "ISIMIP4b"
-      ],
+      "units": "1",
+      "resolution": "per storm",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "lat",
-      "long_name": "Latitudinal coordinate of storm centre (as defined by the reporting agencies)",
+      "specifier": "sid",
+      "long_name": "SID (IBTrACS Serial ID)",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "degrees north",
       "frequency": "at least 3-hourly",
       "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "simulation_rounds": [
-        "ISIMIP4a",
-        "ISIMIP4b"
-      ],
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "lon",
-      "long_name": "Longitudinal coordinate of storm centre (as defined by the reporting agencies)",
+      "specifier": "season",
+      "long_name": "Season",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "degrees east",
-      "frequency": "at least 3-hourly",
-      "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "simulation_rounds": [
-        "ISIMIP4a",
-        "ISIMIP4b"
-      ],
+      "units": "Year",
+      "resolution": "per storm",
+      "comment": "Season when storm started",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "number",
+      "long_name": "Storm number (within season)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "1",
+      "resolution": "per storm",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
       "specifier": "basin",
-      "long_name": "Ocean basin",
+      "long_name": "Current basin",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "",
       "frequency": "at least 3-hourly",
       "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "comment": "Two-letter abbreviation: NA/SA (North/South Atlantic), EP/WP/SP (East/West/South Pacific), NI/SI (North/South Indian Ocean)",
-      "simulation_rounds": [
-        "ISIMIP4a",
-        "ISIMIP4b"
-      ],
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "pres",
-      "long_name": "Central pressure",
+      "specifier": "subbasin",
+      "long_name": "Current sub-basin",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "hPa",
       "frequency": "at least 3-hourly",
       "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "simulation_rounds": [
-        "ISIMIP4a",
-        "ISIMIP4b"
-      ],
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "penv",
-      "long_name": "Environmental pressure (pressure of the outermost closed isobar)",
+      "specifier": "name",
+      "long_name": "Name of system",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "mbar",
       "frequency": "at least 3-hourly",
       "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "simulation_rounds": [
-        "ISIMIP4a",
-        "ISIMIP4b"
-      ],
+      "comment": "May be a combination of names from different agencies",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "windspatialmax",
-      "long_name": "Maximum 1-minute sustained wind speed",
+      "specifier": "source_usa",
+      "long_name": "Source data information for this storm for USA track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "knots",
       "frequency": "at least 3-hourly",
       "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "simulation_rounds": [
-        "ISIMIP4a",
-        "ISIMIP4b"
-      ],
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "rmw",
-      "long_name": "Radius of maximum wind speeds",
+      "specifier": "source_jma",
+      "long_name": "Source data information for this storm for RSMC Tokyo (Japan Meteorological Agency)  track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "nautical miles",
       "frequency": "at least 3-hourly",
       "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "simulation_rounds": [
-        "ISIMIP4a",
-        "ISIMIP4b"
-      ],
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "roci",
-      "long_name": "Radius of the outermost closed isobar",
+      "specifier": "source_cma",
+      "long_name": "Source data information for this storm for China (Chinese Meteorological Administration) track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "nautical miles",
       "frequency": "at least 3-hourly",
       "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "u850",
-      "long_name": "Wind speed on the 850 hPa pressure level",
+      "specifier": "source_hko",
+      "long_name": "Source data information for this storm for Hong Kong (Hong Kong Observatory) track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "ms^-1",
       "frequency": "at least 3-hourly",
       "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "v850",
-      "long_name": "Wind speed on the 850 hPa pressure level",
+      "specifier": "source_kma",
+      "long_name": "Source data information for this storm for South Korea (Korea Meteorological Administration) track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "ms^-1",
       "frequency": "at least 3-hourly",
       "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "t600",
-      "long_name": "Temperature on the 600 hPa pressure level",
+      "specifier": "source_new",
+      "long_name": "Source data information for this storm for RSMC New Delhi (Indian Meteorological Department) track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "K",
       "frequency": "at least 3-hourly",
       "resolution": "along-track",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/tracks_obsclim_historical_1950_2021.nc",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "rain",
-      "long_name": "Rainfall",
+      "specifier": "source_reu",
+      "long_name": "Source data information for this storm for RSMC La Reunion track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "mm",
       "frequency": "at least 3-hourly",
-      "resolution": "300 arcsec grid",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/global/hourly/historical/<model>/<model>_obsclim_historical_rain_<storm_id>.nc",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "maxrain",
-      "long_name": "Maximum 24-hourly rainfall during the whole storm duration",
+      "specifier": "source_bom",
+      "long_name": "Source data information for this storm for Australian TCWCs (Bureau of Meteorology) track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "mm",
-      "frequency": "per storm",
-      "resolution": "300 arcsec grid",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/global/storm/historical/<model>/<model>_obsclim_historical_maxrain_<year>.nc",
-      "simulation_rounds": [
-        "ISIMIP4a",
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "coastal"
-      ]
-    },
-    {
-      "specifier": "wind",
-      "long_name": "1-minute sustained wind speed",
-      "group": "tropical-cyclones",
-      "mandatory": true,
-      "units": "ms^-1",
       "frequency": "at least 3-hourly",
-      "resolution": "300 arcsec grid",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/global/hourly/historical/<model>/<model>_obsclim_historical_wind_<storm_id>.nc",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "windlifetimemax",
-      "long_name": "Gridded lifetime maximum 1-minute sustained wind speed",
+      "specifier": "source_nad",
+      "long_name": "Source data information for this storm for RSMC Nadi (Fiji) track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "ms^-1",
-      "frequency": "per storm",
-      "resolution": "300 arcsec grid",
-      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/global/storm/historical/<model>/<model>_obsclim_historical_windlifetimemax_<year>.nc",
-      "simulation_rounds": [
-        "ISIMIP4a",
-        "ISIMIP4b"
-      ],
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "34knarea",
-      "long_name": "National territory exposed to wind speeds of at least 34 knots",
+      "specifier": "source_wel",
+      "long_name": "Source data information for this storm for TCWC Wellington track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "km^2",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "48knarea",
-      "long_name": "National territory exposed to wind speeds of at least 48 knots",
+      "specifier": "source_td5",
+      "long_name": "Source data information for this storm for TD-9635 track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "km^2",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "64knarea",
-      "long_name": "National territory exposed to wind speeds of at least 64 knots",
+      "specifier": "source_td6",
+      "long_name": "Source data information for this storm for TD-9636 track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "km^2",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "96knarea",
-      "long_name": "National territory exposed to wind speeds of at least 96 knots",
+      "specifier": "source_ds8",
+      "long_name": "Source data information for this storm for ds824 track",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "km^2",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "34knpop",
-      "long_name": "Number of people exposed to wind speeds of at least 34 knots",
+      "specifier": "source_neu",
+      "long_name": "Source data information for this storm for C. Neumann S. Hemi. track",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "source_mlc",
+      "long_name": "Source data information for this storm for M. Chenoweth track",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "time",
+      "long_name": "time",
+      "standard_name": "time",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "days since 1858-11-17 00:00:00",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "comment": "Nominally, time steps are 3 hourly, but can be more often since some agencies include extra position (e.g., times near landfall, maximum intensity, etc.)",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "iso_time",
+      "long_name": "Time (ISO)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "comment": "Nominally, time steps are 3 hourly, but can be more often since some agencies include extra position (e.g., times near landfall, maximum intensity, etc.)",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "nature",
+      "long_name": "Nature of the cyclone",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "lat",
+      "long_name": "latitude",
+      "standard_name": "latitude",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "comment": "This is merged position based on the position(s) from the various source datasets.",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "lon",
+      "long_name": "longitude",
+      "standard_name": "longitude",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "comment": "This is merged position based on the position(s) from the various source datasets.",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "wmo_wind",
+      "long_name": "Maximum sustained wind speed from Official WMO agency",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "wmo_pres",
+      "long_name": "Minimum central preossure from  Official WMO agency",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "wmo_agency",
+      "long_name": "Official WMO agency",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "track_type",
+      "long_name": "Name of track type",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "comment": "Tracks are either MAIN or SPUR. Spur tracks have points that either merge with or split from another track (or both). Main tracks are regular tracks. Spur tracks should be treated with caution.",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "main_track_sid",
+      "long_name": "SID of the main track associated with this storm.",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "comment": "If this track is a main, then this is the same as serial_id. If a spur, it namesthe associated main track.",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "dist2land",
+      "long_name": "Distance to Land at current location",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "km",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "comment": "Distance to the nearest land point. Also acts as a land mask since 0km = over land. Uses present location ONLY.",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "landfall",
+      "long_name": "Minimum distance to land between current location and next.",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "km",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "comment": "Describes landfall conditions between the present observation and the next (usually 3 hours) by providing minimum distance to land. So a value of 0 implies that the storm crosses a coastline prior to the next observation.",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "iflag",
+      "long_name": "Interpolation flag",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "comment": "Each character represents the source of the values for a particular reporting time. 15 characters represent 15 agencies.",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_agency",
+      "long_name": "Source dataset for U.S. data",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_atcf_id",
+      "long_name": "ATCF ID for the storm",
+      "standard_name": "automated_tropical_cyclone_forecasting_system_storm_identifier",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_lat",
+      "long_name": "Latitude (U.S. Agency)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_lon",
+      "long_name": "Longitude (U.S. Agency)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_record",
+      "long_name": "Storm record type",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "comment": "C – Closest approach to a coast, not followed by a landfall, G – Genesis, I – An intensity peak in terms of both pressure and wind, L – Landfall (center of system crossing a coastline), P – Minimum in central pressure, R – Provides additional detail on the intensity of the cyclone when rapid changes are underway, S – Change of status of the system, T – Provides additional detail on the track (position) of the cyclone, W – Maximum sustained wind speed",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_status",
+      "long_name": "Storm status",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "comment": " DB - disturbance,  TD - tropical depression,  TS - tropical storm,  TY - typhoon,  ST - super typhoon,  TC - tropical cyclone,  HU, HR - hurricane,  SD - subtropical depression,  SS - subtropical storm,  EX - extratropical systems,  PT - post tropical,  IN - inland,  DS - dissipating,  LO - low,  WV - tropical wave,  ET - extrapolated,  MD - monsoon depression,  XX - unknown.",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_wind",
+      "long_name": "Maximum sustained wind speed",
+      "standard_name": "tropical_cyclone_maximum_sustained_wind_speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_sshs",
+      "long_name": "Saffir-Simpson Hurricane Wind Scale Category",
       "group": "tropical-cyclones",
       "mandatory": true,
       "units": "1",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "48knpop",
-      "long_name": "Number of people exposed to wind speeds of at least 48 knots",
+      "specifier": "usa_r34",
+      "long_name": "Radius of 34 knot winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_r50",
+      "long_name": "Radius of 50 knot winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_r64",
+      "long_name": "Radius of 64 knot winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_poci",
+      "long_name": "Pressure of outermost closed isobar (not best tracked)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_roci",
+      "long_name": "Pressure of outermost closed isobar (not best tracked)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_rmw",
+      "long_name": "Radius of maximum winds (not best tracked)",
+      "standard_name": "radius_of_tropical_cyclone_maximum_sustained_wind_speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_eye",
+      "long_name": "Eye diameter (not best tracked)",
+      "standard_name": "radius_of_tropical_cyclone_eye",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "tokyo_lat",
+      "long_name": "Latitude (RSMC Tokyo)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "tokyo_lon",
+      "long_name": "Longitude (RSMC Tokyo)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "tokyo_grade",
+      "long_name": "Storm grade",
       "group": "tropical-cyclones",
       "mandatory": true,
       "units": "1",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "64knpop",
-      "long_name": "Number of people exposed to wind speeds of at least 64 knots",
+      "specifier": "tokyo_wind",
+      "long_name": "Maximum sustained wind speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "tokyo_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "tokyo_r50_dir",
+      "long_name": "Direction of maximum radius of 50 knots winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "tokyo_r50_long",
+      "long_name": "Maximum radius of 50 knots winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "tokyo_r50_short",
+      "long_name": "Minimum radius of 50 knots winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "tokyo_r30_dir",
+      "long_name": "Direction of maximum radius of 30 knots winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "tokyo_r30_long",
+      "long_name": "Maximum radius of 30 knots winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "tokyo_r30_short",
+      "long_name": "Minimum radius of 30 knots winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "tokyo_land",
+      "long_name": "Landfall flag",
       "group": "tropical-cyclones",
       "mandatory": true,
       "units": "1",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "96knpop",
-      "long_name": "Number of people exposed to wind speeds of at least 96 knots",
+      "specifier": "cma_lat",
+      "long_name": "Latitude (Chinese Met. Admin.)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "cma_lon",
+      "long_name": "Longitude (Chinese Met. Admin.)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "cma_cat",
+      "long_name": "Storm category",
       "group": "tropical-cyclones",
       "mandatory": true,
       "units": "1",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "34knassets",
-      "long_name": "Economic assets exposed to wind speeds of at least 34 knots",
+      "specifier": "cma_wind",
+      "long_name": "Maximum sustained wind speed",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "Int$ PPP 2005",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "48knassets",
-      "long_name": "Economic assets exposed to wind speeds of at least 48 knots",
+      "specifier": "cma_pres",
+      "long_name": "Minimum central pressure",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "Int$ PPP 2005",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "64knassets",
-      "long_name": "Economic assets exposed to wind speeds of at least 64 knots",
+      "specifier": "hko_lat",
+      "long_name": "Latitude (Hong Kong Observatory)",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "Int$ PPP 2005",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]
     },
     {
-      "specifier": "96knassets",
-      "long_name": "Economic assets exposed to wind speeds of at least 96 knots",
+      "specifier": "hko_lon",
+      "long_name": "Longitude (Hong Kong Observatory)",
       "group": "tropical-cyclones",
       "mandatory": true,
-      "units": "Int$ PPP 2005",
-      "frequency": "per storm",
-      "resolution": "country",
-      "path": "The data are not yet available.",
-      "simulation_rounds": [
-        "ISIMIP4a"
-      ],
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "hko_cat",
+      "long_name": "Storm category",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "hko_wind",
+      "long_name": "Maximum sustained wind speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "hko_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "kma_lat",
+      "long_name": "Latitude (KMA)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "kma_lon",
+      "long_name": "Longitude (KMA)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "kma_cat",
+      "long_name": "Storm category",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "kma_wind",
+      "long_name": "Maximum sustained wind speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "kma_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "kma_r50_dir",
+      "long_name": "Direction of minimum radius of 25 m/s winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "kma_r50_long",
+      "long_name": "Maximum radius of 25 m/s winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "kma_r50_short",
+      "long_name": "Minimum radius of 25 m/s winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "kma_r30_dir",
+      "long_name": "Direction of minimum radius of 15 m/s winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "kma_r30_long",
+      "long_name": "Maximum radius of 15 m/s winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "kma_r30_short",
+      "long_name": "Minimum radius of 15 m/s winds",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "newdelhi_lat",
+      "long_name": "Latitude (RSMC New Delhi)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "newdelhi_lon",
+      "long_name": "Longitude (RSMC New Delhi)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "newdelhi_grade",
+      "long_name": "Storm grade",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "newdelhi_wind",
+      "long_name": "Maximum sustained wind speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "newdelhi_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "newdelhi_ci",
+      "long_name": "Dvorak current intensity (RWMC New Delhi)",
+      "standard_name": "dvorak_tropical_cyclone_current_intensity_number",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "1",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "newdelhi_dp",
+      "long_name": "Storm pressure drop",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "newdelhi_poci",
+      "long_name": "Pressure of outermost closed isobar",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_lat",
+      "long_name": "Latitude (RSMC La Reunion)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_lon",
+      "long_name": "Longitude (RSMC La Reunion)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_type",
+      "long_name": "Storm type",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_wind",
+      "long_name": "Maximum sustained wind speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_tnum",
+      "long_name": "Dvorak T number",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "1",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_ci",
+      "long_name": "Dvorak Current Intensity (CI)",
+      "standard_name": "dvorak_tropical_cyclone_current_intensity_number",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "1",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_rmw",
+      "long_name": "Radius of maximum winds",
+      "standard_name": "radius_of_tropical_cyclone_maximum_sustained_wind_speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_r34",
+      "long_name": "Radius of 34 knot winds (storm force)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_r50",
+      "long_name": "Radius of 50 knot winds (gale force)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_r64",
+      "long_name": "Radius of 64 knot winds (hurricane force)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_lat",
+      "long_name": "Latitude (Australian BoM)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_lon",
+      "long_name": "Longitude (Australian BoM)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_type",
+      "long_name": "Cyclone type",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_wind",
+      "long_name": "Maximum sustained wind speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_tnum",
+      "long_name": "Dvorak T number",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "1",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_ci",
+      "long_name": "Dvorak Current Intensity (CI)",
+      "standard_name": "dvorak_tropical_cyclone_current_intensity_number",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "1",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_rmw",
+      "long_name": "Radius of maximum winds",
+      "standard_name": "radius_of_tropical_cyclone_maximum_sustained_wind_speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_r34",
+      "long_name": "Radius of 34 knot winds (storm force)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_r50",
+      "long_name": "Radius of 50 knot winds (gale force)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_r64",
+      "long_name": "Radius of 64 knot winds (hurricane force)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_roci",
+      "long_name": "Radius of outermost closed isobar",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_poci",
+      "long_name": "Environmental pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_eye",
+      "long_name": "Eye diameter",
+      "standard_name": "radius_of_tropical_cyclone_eye",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_pos_method",
+      "long_name": "Method used to derive position",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_pres_method",
+      "long_name": "Method used to derive intensity",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "nadi_lat",
+      "long_name": "Latitude (RSMC Fiji)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "nadi_lon",
+      "long_name": "Longitude (RSMC Fiji)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "nadi_cat",
+      "long_name": "Storm category",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "1",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "nadi_wind",
+      "long_name": "Maximum sustained wind speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "nadi_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "wellington_lat",
+      "long_name": "Latitude (RSMC Wellington)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "wellington_lon",
+      "long_name": "Longitude (RSMC Wellington)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "wellington_wind",
+      "long_name": "Maximum sustained wind speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "wellington_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "ds824_lat",
+      "long_name": "Latitude (DS824 dataset)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "ds824_lon",
+      "long_name": "Longitude (DS824 dataset)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "ds824_stage",
+      "long_name": "Storm classification",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "ds824_wind",
+      "long_name": "Maximum sustained wind speed",
+      "standard_name": "tropical_cyclone_maximum_sustained_wind_speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "ds824_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "td9636_lat",
+      "long_name": "Latitude (TD-9636 dataset)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "td9636_lon",
+      "long_name": "Longitude (TD-9636 dataset)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "td9636_stage",
+      "long_name": "Storm classification",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "td9636_wind",
+      "long_name": "Maximum sustained wind speed",
+      "standard_name": "tropical_cyclone_maximum_sustained_wind_speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "td9636_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "td9635_lat",
+      "long_name": "Latitude (TD-9635 dataset)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "td9635_lon",
+      "long_name": "Longitude (TD-9635 dataset)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "td9635_wind",
+      "long_name": "Maximum sustained wind speed",
+      "standard_name": "tropical_cyclone_maximum_sustained_wind_speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "td9635_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "td9635_roci",
+      "long_name": "Radius of outermost closed isober",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "neumann_lat",
+      "long_name": "Latitude (Neumann dataset)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "neumann_lon",
+      "long_name": "Longitude (Neumann dataset)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "neumann_class",
+      "long_name": "Storm classification",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "neumann_wind",
+      "long_name": "Maximum sustained wind speed",
+      "standard_name": "tropical_cyclone_maximum_sustained_wind_speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "neumann_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "mlc_lat",
+      "long_name": "Latitude (M. L. Chenoweth dataset)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_north",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "mlc_lon",
+      "long_name": "Longitude (M. L. Chenoweth dataset)",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees_east",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "mlc_class",
+      "long_name": "Storm classification",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "mlc_wind",
+      "long_name": "Maximum sustained wind speed",
+      "standard_name": "tropical_cyclone_maximum_sustained_wind_speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "mlc_pres",
+      "long_name": "Minimum central pressure",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "mb",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_gust",
+      "long_name": "Maximum reported wind gust from a US agency",
+      "standard_name": "wind_speed_of_gust",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_gust",
+      "long_name": "Maximum reported wind gust from BoM",
+      "standard_name": "wind_speed_of_gust",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "bom_gust_per",
+      "long_name": "Time period of the wind gust from BoM",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "second",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_gust",
+      "long_name": "Maximum reported wind gust from Reunion",
+      "standard_name": "wind_speed_of_gust",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "reunion_gust_per",
+      "long_name": "Time period of the wind gust from Reunion",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "second",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_seahgt",
+      "long_name": "Wave height for given radii",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "ft",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "usa_searad",
+      "long_name": "Radial extent of given sea height",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "nmile",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "storm_speed",
+      "long_name": "Storm translation speed",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "kts",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
+      "sectors": [
+        "coastal"
+      ]
+    },
+    {
+      "specifier": "storm_dir",
+      "long_name": "Storm translation direction",
+      "group": "tropical-cyclones",
+      "mandatory": true,
+      "units": "degrees",
+      "frequency": "at least 3-hourly",
+      "resolution": "along-track",
+      "path": "ISIMIP4a/InputData/climate/tropical_cyclones/obsclim/tracks/3hr/historical/ibtracs_obsclim_historical_1950_2025.nc",
       "sectors": [
         "coastal"
       ]

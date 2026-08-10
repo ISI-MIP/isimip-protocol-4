@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/InputData/socioeconomic.yaml",
-  "commit": "7b43e915d2e19839b128d473bb478fb53f29fd06",
+  "commit": "5b4913bd7d355a214c3d53cf61238ca975371ceb",
   "type": "object",
   "required": [
     "specifiers"
@@ -14,46 +14,46 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "picontrol",
-            "scen7-h",
-            "esm-hist",
-            "esm-scen7-h",
-            "scen7-vl",
-            "esm-picontrol",
             "esm-scen7-vl",
-            "historical"
+            "historical",
+            "esm-scen7-h",
+            "esm-hist",
+            "picontrol",
+            "esm-picontrol",
+            "scen7-vl",
+            "scen7-h"
           ]
         },
         "soc_dataset": {
           "type": "string",
           "enum": [
-            "pctlake",
-            "ausd",
-            "land-transformation",
-            "landuse-totals",
             "ndep-drynhx",
+            "ndep-drynoy",
+            "ggcmi-crop-calendar",
+            "land-transformation",
+            "ndep-nhx",
+            "n-fertilizer-5crops",
             "landuse-forests-and-natural-vegetation",
+            "landuse-urbanareas",
+            "ndep-wetnoy",
+            "ndep-wetnhx",
+            "population-stratification",
+            "population",
             "dams-reservoirs",
             "gdp-ppp-countrylevel",
             "landuse-15crops",
-            "landuse-pastures",
-            "ndep-wetnhx",
-            "landuse-5crops",
-            "n-fertilizer-5crops",
-            "ndep-drynoy",
-            "population-stratification",
             "wood_harvesting",
-            "population",
-            "ndep-noy",
-            "ndep-nhx",
+            "ausd",
+            "landuse-totals",
             "ibwt",
-            "ndep-wetnoy",
-            "irrigation-techniques-15crops",
-            "landuse-urbanareas",
-            "ggcmi-crop-calendar",
-            "n-fertilizer-15crops",
+            "landuse-pastures",
+            "pctlake",
             "gdp-mer-countrylevel",
-            "reservoirs-dams"
+            "irrigation-techniques-15crops",
+            "reservoirs-dams",
+            "n-fertilizer-15crops",
+            "ndep-noy",
+            "landuse-5crops"
           ]
         },
         "soc_variable": {
@@ -62,69 +62,69 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "ssp3hsoc-adapt",
-            "1850soc",
-            "2021soc-from-histsoc",
-            "ssp3hsoc-noadapt",
-            "ssp1vlsoc-noadapt",
-            "2021soc",
+            "nat",
             "ssp1vlsoc-adapt",
+            "2021soc",
+            "1850soc",
+            "ssp3hsoc-adapt",
+            "ssp1vlsoc-noadapt",
             "histsoc",
-            "nat"
+            "2021soc-from-histsoc",
+            "ssp3hsoc-noadapt"
           ]
         },
         "crop": {
           "type": "string",
           "enum": [
-            "nut",
-            "sgb",
-            "cot",
-            "mis",
-            "bea",
-            "pea",
-            "ric",
-            "ri1",
             "whe",
-            "euc",
-            "mil",
-            "rap",
-            "sgc",
-            "sor",
-            "sun",
-            "bar",
-            "swh",
+            "ric",
             "soy",
-            "mgr",
-            "mai",
-            "ri2",
+            "cas",
+            "mil",
             "pot",
             "wwh",
+            "euc",
+            "sun",
+            "mis",
+            "swh",
+            "ri2",
+            "sgb",
+            "bar",
+            "pea",
+            "rap",
+            "ri1",
+            "mai",
             "rye",
+            "bea",
+            "cot",
+            "sor",
             "pop",
-            "cas"
+            "nut",
+            "sgc",
+            "mgr"
           ]
         },
         "irrigation": {
           "type": "string",
           "enum": [
-            "firr",
             "noirr",
+            "firr",
             "cirr"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
-            "6hr",
-            "monthly-gs",
+            "monthly",
             "fixed",
-            "3hr",
-            "hourly",
             "2hr",
-            "annual-gs",
             "annual",
-            "monthly"
+            "monthly-gs",
+            "hourly",
+            "3hr",
+            "annual-gs",
+            "6hr",
+            "daily"
           ]
         },
         "start_year": {

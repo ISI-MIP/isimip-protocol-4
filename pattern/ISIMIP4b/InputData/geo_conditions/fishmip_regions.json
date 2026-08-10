@@ -1,5 +1,5 @@
 {
-  "commit": "7b43e915d2e19839b128d473bb478fb53f29fd06",
+  "commit": "5b4913bd7d355a214c3d53cf61238ca975371ceb",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<category>[a-z0-9-_]+)/(?P<subcategory>[a-z0-9-_]+)$",
   "dataset": "^(?P<geo_dataset>(LMEs66|mpa|RME_masks))(-(all|strict))?_(geotiff|netcdf|shapefile)(_(?P<resolution>(15arcmin|60arcmin)))?",
   "file": "^(?P<geo_dataset>(LMEs66|mpa|RME_masks))(-(all|strict))?_(geotiff|netcdf|shapefile)(_(?P<resolution>(15arcmin|60arcmin)))?(_(?P<start_year>\\d{4}))?(_(?P<end_year>\\d{4}))?(.nc|.zip|.tif)$",
