@@ -1,5 +1,5 @@
 {
-  "commit": "4844727a1f178fd4d7f7d0220405c90fc84e34da",
+  "commit": "cfd4328cba4001e365f95e1a6a08dee4e96926a7",
   "category": [
     {
       "specifier": "climate",
@@ -1869,7 +1869,7 @@
       "frequency": "annual",
       "resolution": "Marine ecosystems or exclusive economic zones",
       "path": [
-        "ISIMIP3a/InputData/socioeconomic/fishing/histsoc/effort_isimip3a_histsoc_1841_2010.csv"
+        "ISIMIP4a/InputData/socioeconomic/fishing/histsoc/effort_isimip3a_histsoc_1841_2010.csv"
       ],
       "variables": [
         {
@@ -1926,7 +1926,7 @@
       "mandatory": true,
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "path": "ISIMIP3a/InputData/socioeconomic/fishing/histsoc/effort-artisanal-gridded_isimip3a_histsoc_1961_2010.csv",
+      "path": "ISIMIP4a/InputData/socioeconomic/fishing/histsoc/effort-artisanal-gridded_isimip3a_histsoc_1961_2010.csv",
       "variables": [
         {
           "specifier": "NomActive",
@@ -1954,7 +1954,7 @@
       "mandatory": true,
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "path": "ISIMIP3a/InputData/socioeconomic/fishing/histsoc/effort-industrial-gridded_isimip3a_histsoc_1961_2010.csv",
+      "path": "ISIMIP4a/InputData/socioeconomic/fishing/histsoc/effort-industrial-gridded_isimip3a_histsoc_1961_2010.csv",
       "variables": [
         {
           "specifier": "NomActive",

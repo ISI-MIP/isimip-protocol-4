@@ -1,5 +1,5 @@
 {
-  "commit": "4844727a1f178fd4d7f7d0220405c90fc84e34da",
+  "commit": "cfd4328cba4001e365f95e1a6a08dee4e96926a7",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<category>[a-z0-9-_]+)/(?P<subcategory>[a-z0-9-_]+)/(?P<soc_scenario>[a-z0-9-]+)$",
   "dataset": "^(?P<soc_dataset>[a-z0-9-]+)(_(?P<lu_model>[a-z0-9-]+))?(_(?P<climate_forcing>[a-z0-9-]+))?_(?P<soc_scenario>(histsoc|2021soc|1850soc))?(?P<climate_scenario>(scen7-vl|scen7-h))?(_(?P<sens_scenario>(2015co2)))?_(?P<time_step>[a-z]+)",
   "file": "^(?P<soc_dataset>[a-z0-9-]+)(_(?P<lu_model>[a-z0-9-]+))?(_(?P<climate_forcing>[a-z0-9-]+))?_(?P<soc_scenario>(histsoc|2021soc|1850soc))?(?P<climate_scenario>(scen7-vl|scen7-h))?(_(?P<sens_scenario>(2015co2)))?_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.nc)$",

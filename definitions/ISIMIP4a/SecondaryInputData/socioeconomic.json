@@ -1,5 +1,5 @@
 {
-  "commit": "4844727a1f178fd4d7f7d0220405c90fc84e34da",
+  "commit": "cfd4328cba4001e365f95e1a6a08dee4e96926a7",
   "category": [
     {
       "specifier": "climate",
@@ -6758,7 +6758,7 @@
       "frequency": "annual",
       "resolution": "Marine ecosystems or exclusive economic zones",
       "path": [
-        "ISIMIP3a/InputData/socioeconomic/fishing/histsoc/effort_isimip3a_histsoc_1841_2010.csv"
+        "ISIMIP4a/InputData/socioeconomic/fishing/histsoc/effort_isimip3a_histsoc_1841_2010.csv"
       ],
       "variables": [
         {
@@ -6815,7 +6815,7 @@
       "mandatory": true,
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "path": "ISIMIP3a/InputData/socioeconomic/fishing/histsoc/effort-artisanal-gridded_isimip3a_histsoc_1961_2010.csv",
+      "path": "ISIMIP4a/InputData/socioeconomic/fishing/histsoc/effort-artisanal-gridded_isimip3a_histsoc_1961_2010.csv",
       "variables": [
         {
           "specifier": "NomActive",
@@ -6843,7 +6843,7 @@
       "mandatory": true,
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "path": "ISIMIP3a/InputData/socioeconomic/fishing/histsoc/effort-industrial-gridded_isimip3a_histsoc_1961_2010.csv",
+      "path": "ISIMIP4a/InputData/socioeconomic/fishing/histsoc/effort-industrial-gridded_isimip3a_histsoc_1961_2010.csv",
       "variables": [
         {
           "specifier": "NomActive",
@@ -9811,7 +9811,6 @@
       "units": "kg m-2",
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "comment": "Grid cell total",
       "sectors": [
         "biomes",
         "forestry",
@@ -9831,7 +9830,6 @@
       "units": "kg m-2",
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "comment": "Grid cell total",
       "sectors": [
         "biomes",
         "forestry",
@@ -10754,7 +10752,7 @@
       "units": "kW m-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "If calculated, weighted by burned area. Grid cell total and PFT information is essential.",
+      "comment": "If calculated, weighted by burned area.",
       "sectors": [
         "fire"
       ],
@@ -11366,7 +11364,6 @@
       "units": "kg m-2 s-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "Grid cell total and PFT information is essential.",
       "sectors": [
         "biomes",
         "fire",
@@ -11388,7 +11385,6 @@
       "units": "kg m-2 s-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "Grid cell total and PFT information is essential.",
       "sectors": [
         "biomes",
         "fire",
@@ -11410,7 +11406,6 @@
       "units": "kg m-2 s-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "Grid cell total and PFT information is essential.",
       "sectors": [
         "biomes",
         "fire",
@@ -11432,7 +11427,6 @@
       "units": "kg m-2 s-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "Grid cell total and PFT information is essential.",
       "sectors": [
         "biomes",
         "fire",
@@ -11496,10 +11490,6 @@
       "units": "kg m-2 s-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": {
-        "forestry": "As kg carbon * m-2 * s-1",
-        "other": ""
-      },
       "sectors": [
         "biomes",
         "forestry",
@@ -11540,7 +11530,6 @@
       "units": "kg m-2 s-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "Grid cell total and PFT information is essential.",
       "sectors": [
         "biomes",
         "fire",
@@ -11561,7 +11550,6 @@
       "units": "kg m-2 s-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "Grid cell total and PFT information is essential.",
       "sectors": [
         "biomes",
         "fire",
@@ -11582,7 +11570,6 @@
       "units": "kg m-2 s-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "Grid cell total and PFT information is essential.",
       "sectors": [
         "biomes",
         "fire",
@@ -11603,7 +11590,6 @@
       "units": "kg m-2 s-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "Grid cell total and PFT information is essential.",
       "sectors": [
         "biomes",
         "peat",
@@ -11648,7 +11634,7 @@
       "units": "kg m-2 s-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "Carbon going  directly into the soil pool without entering litter (e.g., root exudate). Grid cell total and PFT information is essential.",
+      "comment": "Carbon going  directly into the soil pool without entering litter (e.g., root exudate).",
       "sectors": [
         "biomes",
         "fire",
@@ -11694,7 +11680,6 @@
       "units": "kg m-2 s-1",
       "frequency": "daily if possible, else monthly",
       "resolution": "stand",
-      "comment": "As kg carbon m⁻² s⁻¹",
       "sectors": [
         "forestry"
       ],
@@ -11884,7 +11869,7 @@
       "units": "kg m-2 s-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "Refers to secondary bioenergy crops and should not be included in fcropharvest-total. Grid cell total and PFT information is essential.",
+      "comment": "Refers to secondary bioenergy crops and should not be included in fcropharvest-total.",
       "sectors": [
         "biomes",
         "fire",
@@ -12239,12 +12224,6 @@
       "units": "kg m-2",
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "comment": {
-        "biomes": "Grid cell total and PFT information is essential.",
-        "fire": "Grid cell total and PFT information is essential.",
-        "forestry": "As kg carbon m⁻². Stand total and PFT information is essential.",
-        "permafrost": "Grid cell total and PFT information is essential."
-      },
       "sectors": [
         "biomes",
         "fire",
@@ -12266,11 +12245,6 @@
       "units": "kg m-2",
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "comment": {
-        "biomes": "Grid cell total and PFT information is essential.",
-        "forestry": "As kg carbon m⁻²Stand total and PFT information is essential.",
-        "permafrost": "Grid cell total, PFT information if possible."
-      },
       "sectors": [
         "biomes",
         "forestry",
@@ -12291,11 +12265,6 @@
       "units": "kg m-2",
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "comment": {
-        "biomes": "Grid cell total and PFT information is essential.",
-        "forestry": "As kg carbon m⁻². Stand total and PFT information is essential.",
-        "permafrost": "Grid cell total, PFT information if possible."
-      },
       "sectors": [
         "biomes",
         "forestry",
@@ -12316,12 +12285,6 @@
       "units": "kg m-2",
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "comment": {
-        "biomes": "Grid cell total and PFT information is essential.",
-        "fire": "Grid cell total and PFT information is essential.",
-        "forestry": "Species information is essential. Stand total and PFT information is essential.",
-        "permafrost": "Grid cell total, PFT information if possible."
-      },
       "sectors": [
         "biomes",
         "fire",
@@ -12343,7 +12306,7 @@
       "units": "kg m-2",
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "comment": "Only if models separates below-ground litter and soil carbon. If not, only report csoil and document this in the model documentation. Grid cell total and PFT information is essential.",
+      "comment": "Only if models separates below-ground litter and soil carbon. If not, only report csoil and document this in the model documentation.",
       "sectors": [
         "biomes",
         "fire",
@@ -12365,7 +12328,7 @@
       "units": "kg m-2",
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "comment": "Sum of below and above ground carbon in litter pools. Not required if `clitterag` and `clitterbg` are provided. Grid cell total and PFT information is essential. The comments for `clitterag` and `clitterbg` apply.",
+      "comment": "Sum of below and above ground carbon in litter pools. Not required if `clitterag` and `clitterbg` are provided. The comments for `clitterag` and `clitterbg` apply.",
       "sectors": [
         "biomes",
         "fire",
@@ -12387,7 +12350,7 @@
       "units": "kg m-2",
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "comment": "Soil carbon excluding belowground litter if your model reports clitter. If not including below-ground litter, i.e. only report csoil and document this in the model documentation. Grid cell total and species information is essential.",
+      "comment": "Soil carbon excluding belowground litter if your model reports clitter. If not including below-ground litter, i.e. only report csoil and document this in the model documentation.",
       "sectors": [
         "biomes",
         "fire",
@@ -12410,11 +12373,11 @@
       "frequency": "annual",
       "resolution": "0.5° grid",
       "comment": {
-        "biomes": "Soil carbon excluding belowground litter if your model reports clitter. If not including below-ground litter, i.e. only report csoil and document this in the model documentation. Grid cell total and PFT information is essential. If possible, provide soil carbon for all depth layers (i.e. 3D-field), and indicate depth in m. Otherwise, provide soil carbon integrated over entire soil depth.",
+        "biomes": "Soil carbon excluding belowground litter if your model reports clitter. If not including below-ground litter, i.e. only report csoil and document this in the model documentation. If possible, provide soil carbon for all depth layers (i.e. 3D-field), and indicate depth in m. Otherwise, provide soil carbon integrated over entire soil depth.",
         "fire": "Soil carbon excluding belowground litter if your model reports clitter. If not including below-ground litter, i.e. only report csoil and document this in the model documentation. If possible, provide soil carbon for all depth layers (i.e. 3D-field), and indicate depth in m. Otherwise, provide soil carbon integrated over entire soil depth.",
-        "forestry": "Soil carbon excluding belowground litter if your model reports clitter. If not including below-ground litter, i.e. only report csoil and document this in the model documentation. Grid cell total and species information is essential. If possible, provide soil carbon for all depth layers (i.e. 3D-field), and indicate depth in m. Otherwise, provide soil carbon integrated over entire soil depth.",
-        "peat": "Soil carbon excluding below-ground litter if your model reports clitterag or clitterbg. If your model does not reports clitterag or clitterbg, report soil carbon including below-ground litter as csoil and document this in the model documentation. Grid cell total and PFT information is essential. If your model simulates soil organic carbon pools of different turnover times, the variable can additionally be provided separated by pools (see note below the table).",
-        "permafrost": "Soil carbon excluding below-ground litter if your model reports clitterag or clitterbg. If your model does not reports clitterag or clitterbg, report soil carbon including below-ground litter as csoil and document this in the model documentation. Grid cell total and PFT information is essential. If your model simulates soil organic carbon pools of different turnover times, the variable can additionally be provided separated by pools (see note below the table)."
+        "forestry": "Soil carbon excluding belowground litter if your model reports clitter. If not including below-ground litter, i.e. only report csoil and document this in the model documentation. If possible, provide soil carbon for all depth layers (i.e. 3D-field), and indicate depth in m. Otherwise, provide soil carbon integrated over entire soil depth.",
+        "peat": "Soil carbon excluding below-ground litter if your model reports clitterag or clitterbg. If your model does not reports clitterag or clitterbg, report soil carbon including below-ground litter as csoil and document this in the model documentation. If your model simulates soil organic carbon pools of different turnover times, the variable can additionally be provided separated by pools (see note below the table).",
+        "permafrost": "Soil carbon excluding below-ground litter if your model reports clitterag or clitterbg. If your model does not reports clitterag or clitterbg, report soil carbon including below-ground litter as csoil and document this in the model documentation. If your model simulates soil organic carbon pools of different turnover times, the variable can additionally be provided separated by pools (see note below the table)."
       },
       "sectors": [
         "biomes",
@@ -12849,7 +12812,7 @@
       "units": "%",
       "frequency": "daily else monthly",
       "resolution": "0.5° grid",
-      "comment": "Value between 0 and 100. Grid cell total and PFT information is essential.",
+      "comment": "Value between 0 and 100.",
       "sectors": [
         "biomes",
         "fire",
@@ -12871,7 +12834,7 @@
       "units": "1",
       "frequency": "daily else monthly (fixed if static)",
       "resolution": "0.5° grid",
-      "comment": "Grid cell total and PFT information is essential. If lai is static, the timestep specifier \"fixed\" can be used.",
+      "comment": "If lai is static, the timestep specifier \"fixed\" can be used.",
       "sectors": [
         "biomes",
         "fire",
