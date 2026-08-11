@@ -311,7 +311,7 @@
   - peat
   - permafrost
 
-- specifier: vl_2021soc-from-histsoc_hndep
+- specifier: vl_2021soc-from-histsoc_vlndep
   parent: vl_2021soc-from-histsoc_default
   title: Nitrogen deposition sensitivity
   priority: 2nd priority
@@ -320,7 +320,7 @@
   future:
     climate: vl
     soc: 2021soc-from-histsoc
-    soc_sens: hndep
+    soc_sens: vlndep
   simulation_rounds:
   - ISIMIP4b
   sectors:
