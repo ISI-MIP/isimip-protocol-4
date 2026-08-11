@@ -1,5 +1,5 @@
 {
-  "commit": "007715b51e5e7e619f0888c01e5e98998a4deefc",
+  "commit": "4844727a1f178fd4d7f7d0220405c90fc84e34da",
   "category": [
     {
       "specifier": "climate",
@@ -2624,39 +2624,6 @@
         "water_regional",
         "water_quality"
       ]
-    },
-    {
-      "specifier": "2021gs",
-      "description": "In this sensitivity scenario all climate-related forcings and DHF change as indicated by the climate-related forcing or DHF specifier defined above while only growing seasons are fixed at 2021 levels.",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "agriculture"
-      ],
-      "group3": true
-    },
-    {
-      "specifier": "2021fert",
-      "description": "In this sensitivity scenario all climate-related forcings and DHF change as indicated by the climate-related forcing or DHF specifier defined above while only fertilizer inputs are fixed at 2021 levels.",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "agriculture"
-      ],
-      "group3": true
-    },
-    {
-      "specifier": "fullfert",
-      "description": "In this sensitivity scenario all climate-related forcings and DHF change as indicated by the climate-related forcing or DHF specifier defined above, but fertilizer inputs are increased to a level that the crop is not limited by nitrogen deficits.",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "agriculture"
-      ],
-      "group3": true
     }
   ],
   "ensemble_member": [

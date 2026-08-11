@@ -1,5 +1,5 @@
 {
-  "commit": "007715b51e5e7e619f0888c01e5e98998a4deefc",
+  "commit": "4844727a1f178fd4d7f7d0220405c90fc84e34da",
   "category": [
     {
       "specifier": "climate",
@@ -2715,7 +2715,7 @@
     },
     {
       "specifier": "extrasoc",
-      "description": "Simulations with additional direct human forcings, such as desalination, inter-basin water transfer, and irrigation techniques share datasets.",
+      "description": "Simulations with **additional direct human forcings**, such as desalination, inter-basin water transfer, and irrigation techniques share datasets.",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
@@ -2723,20 +2723,6 @@
         "water_global"
       ],
       "group3": true
-    },
-    {
-      "specifier": "1850co2",
-      "description": "CO₂ concentration fixed at 1850 levels.",
-      "description_note": "Only for allowing the QC-Tool to let such experiment pass",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "products": [
-        "SecondaryOutputData"
-      ],
-      "sectors": [
-        "water_global"
-      ]
     }
   ],
   "ensemble_member": [

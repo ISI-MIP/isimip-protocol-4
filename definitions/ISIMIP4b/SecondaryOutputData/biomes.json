@@ -1,5 +1,5 @@
 {
-  "commit": "007715b51e5e7e619f0888c01e5e98998a4deefc",
+  "commit": "4844727a1f178fd4d7f7d0220405c90fc84e34da",
   "category": [
     {
       "specifier": "climate",
@@ -2771,7 +2771,7 @@
     },
     {
       "specifier": "nofire",
-      "description": "Simulation with fire switched off to identify impact of fire within the model.",
+      "description": "Simulation with **fire switched off** to identify impact of fire within the model.",
       "simulation_rounds": [
         "ISIMIP4a",
         "ISIMIP4b"
@@ -2813,7 +2813,7 @@
     },
     {
       "specifier": "vlndep",
-      "description": "Nitrogen deposition according to the *Very Low emission scenario*.",
+      "description": "Nitrogen deposition according to the **Very Low emission scenario**.",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
@@ -2826,7 +2826,7 @@
     },
     {
       "specifier": "hndep",
-      "description": "Nitrogen deposition according to *High emission scenario*.",
+      "description": "Nitrogen deposition according to **High emission scenario**.",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
@@ -9598,7 +9598,7 @@
       ]
     },
     {
-      "specifier": "vl_2021soc-from-histsoc_hndep",
+      "specifier": "vl_2021soc-from-histsoc_vlndep",
       "parent": "vl_2021soc-from-histsoc_default",
       "title": "Nitrogen deposition sensitivity",
       "priority": "2nd priority",
@@ -9607,7 +9607,7 @@
       "future": {
         "climate": "vl",
         "soc": "2021soc-from-histsoc",
-        "soc_sens": "hndep"
+        "soc_sens": "vlndep"
       },
       "simulation_rounds": [
         "ISIMIP4b"
@@ -9616,8 +9616,8 @@
         "biomes"
       ],
       "subtitles": [
-        "scen7-vl_2021soc-from-histsoc_hndep",
-        "esm-scen7-vl_2021soc-from-histsoc_hndep"
+        "scen7-vl_2021soc-from-histsoc_vlndep",
+        "esm-scen7-vl_2021soc-from-histsoc_vlndep"
       ]
     },
     {

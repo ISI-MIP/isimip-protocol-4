@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/energy.yaml",
-  "commit": "007715b51e5e7e619f0888c01e5e98998a4deefc",
+  "commit": "4844727a1f178fd4d7f7d0220405c90fc84e34da",
   "type": "object",
   "required": [
     "specifiers"
@@ -41,13 +41,13 @@
           "type": "string",
           "enum": [
             "esm-scen7-h",
-            "esm-scen7-vl",
-            "historical",
-            "esm-hist",
-            "picontrol",
-            "scen7-vl",
             "esm-picontrol",
-            "scen7-h"
+            "esm-scen7-vl",
+            "picontrol",
+            "esm-hist",
+            "scen7-h",
+            "scen7-vl",
+            "historical"
           ]
         },
         "soc_scenario": {
@@ -67,22 +67,22 @@
         "region": {
           "type": "string",
           "enum": [
+            "along-track",
             "europe",
-            "global",
-            "along-track"
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "hourly",
-            "fixed",
-            "monthly",
+            "6hr",
             "2hr",
-            "daily",
-            "annual",
             "3hr",
-            "6hr"
+            "annual",
+            "fixed",
+            "daily",
+            "hourly",
+            "monthly"
           ]
         },
         "start_year": {

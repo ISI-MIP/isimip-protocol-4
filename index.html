@@ -8025,7 +8025,7 @@
     },
     {
       "specifier": "1901co2",
-      "description": "CO\u2082 concentration fixed at 1901 levels as a deviation from the `obsclim` climate + CO\u2082 forcing.",
+      "description": "**CO\u2082 concentration fixed at 1901 levels** as a deviation from the `obsclim` climate + CO\u2082 forcing.",
       "simulation_rounds": [
         "ISIMIP4a"
       ],
@@ -8050,7 +8050,7 @@
     },
     {
       "specifier": "obsco2",
-      "description": "Observation-based CO\u2082 concentration (as in `obsclim`) used with `counterclim` atmospheric forcing.",
+      "description": "**Observation-based CO\u2082 concentration** (as in `obsclim`) used with `counterclim` atmospheric forcing.",
       "simulation_rounds": [
         "ISIMIP4a"
       ],
@@ -8064,7 +8064,7 @@
     },
     {
       "specifier": "nowatermgt",
-      "description": "No water management (e.g. no human water abstraction, no reservoirs) while other direct human forcings such as land use changes are considered according to `histsoc` or `2021soc`.",
+      "description": "**No water management** (e.g. no human water abstraction, no reservoirs) while other direct human forcings such as land use changes are considered according to `histsoc` or `2021soc`.",
       "simulation_rounds": [
         "ISIMIP4a"
       ],
@@ -8076,7 +8076,7 @@
     },
     {
       "specifier": "1901irr",
-      "description": "Fixed year-1901 irrigation areas and water use efficiencies but representation of other direct human influences such as land use changes according to `histsoc`. This experiment is related to the IRRMIP initiative.",
+      "description": "**Fixed year-1901 irrigation areas and water use efficiencies** but representation of other direct human influences such as land use changes according to `histsoc`. This experiment is related to the IRRMIP initiative.",
       "simulation_rounds": [
         "ISIMIP4a"
       ],
@@ -8087,7 +8087,7 @@
     },
     {
       "specifier": "nofire",
-      "description": "Simulation with fire switched off to identify impact of fire within the model.",
+      "description": "Simulation with **fire switched off** to identify impact of fire within the model.",
       "simulation_rounds": [
         "ISIMIP4a",
         "ISIMIP4b"
@@ -8129,7 +8129,7 @@
     },
     {
       "specifier": "extrasoc",
-      "description": "Simulations with additional direct human forcings, such as desalination, inter-basin water transfer, and irrigation techniques share datasets.",
+      "description": "Simulations with **additional direct human forcings**, such as desalination, inter-basin water transfer, and irrigation techniques share datasets.",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
@@ -8140,7 +8140,7 @@
     },
     {
       "specifier": "vlndep",
-      "description": "Nitrogen deposition according to the *Very Low emission scenario*.",
+      "description": "Nitrogen deposition according to the **Very Low emission scenario**.",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
@@ -8153,7 +8153,7 @@
     },
     {
       "specifier": "hndep",
-      "description": "Nitrogen deposition according to *High emission scenario*.",
+      "description": "Nitrogen deposition according to **High emission scenario**.",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
@@ -8179,53 +8179,6 @@
       ],
       "sectors": [
         "biomes"
-      ]
-    },
-    {
-      "specifier": "2021gs",
-      "description": "In this sensitivity scenario all climate-related forcings and DHF change as indicated by the climate-related forcing or DHF specifier defined above while only growing seasons are fixed at 2021 levels.",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "agriculture"
-      ],
-      "group3": true
-    },
-    {
-      "specifier": "2021fert",
-      "description": "In this sensitivity scenario all climate-related forcings and DHF change as indicated by the climate-related forcing or DHF specifier defined above while only fertilizer inputs are fixed at 2021 levels.",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "agriculture"
-      ],
-      "group3": true
-    },
-    {
-      "specifier": "fullfert",
-      "description": "In this sensitivity scenario all climate-related forcings and DHF change as indicated by the climate-related forcing or DHF specifier defined above, but fertilizer inputs are increased to a level that the crop is not limited by nitrogen deficits.",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "agriculture"
-      ],
-      "group3": true
-    },
-    {
-      "specifier": "1850co2",
-      "description": "CO\u2082 concentration fixed at 1850 levels.",
-      "description_note": "Only for allowing the QC-Tool to let such experiment pass",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "products": [
-        "SecondaryOutputData"
-      ],
-      "sectors": [
-        "water_global"
       ]
     }
   ],
@@ -21792,7 +21745,7 @@
       ]
     },
     {
-      "specifier": "vl_2021soc-from-histsoc_hndep",
+      "specifier": "vl_2021soc-from-histsoc_vlndep",
       "parent": "vl_2021soc-from-histsoc_default",
       "title": "Nitrogen deposition sensitivity",
       "priority": "2nd priority",
@@ -21801,7 +21754,7 @@
       "future": {
         "climate": "vl",
         "soc": "2021soc-from-histsoc",
-        "soc_sens": "hndep"
+        "soc_sens": "vlndep"
       },
       "simulation_rounds": [
         "ISIMIP4b"
@@ -21810,8 +21763,8 @@
         "biomes"
       ],
       "subtitles": [
-        "scen7-vl_2021soc-from-histsoc_hndep",
-        "esm-scen7-vl_2021soc-from-histsoc_hndep"
+        "scen7-vl_2021soc-from-histsoc_vlndep",
+        "esm-scen7-vl_2021soc-from-histsoc_vlndep"
       ]
     },
     {
@@ -24561,8 +24514,8 @@
     "water_quality": "(?P<model>[a-z0-9-+.]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<bias_adjustment>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9-]+)_(?P<sens_scenario>[a-z0-9-]+)_(?P<variable>[a-z0-9]+)(-(?P<crop>[a-z0-9]{3})-(?P<irrigation>(firr|cirr|noirr))|-(?P<pft>[a-z0-9-]+))?_(?P<station>[a-z-]+)_(?P<time_step>[a-z0-9-]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})"
   }
 },
-                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/007715b51e5e7e619f0888c01e5e98998a4deefc',
-                commit_hash: '007715b51e5e7e619f0888c01e5e98998a4deefc',
+                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/4844727a1f178fd4d7f7d0220405c90fc84e34da',
+                commit_hash: '4844727a1f178fd4d7f7d0220405c90fc84e34da',
                 commit_date: '11 August 2026'
             }
         </script>

@@ -1,5 +1,5 @@
 {
-  "commit": "007715b51e5e7e619f0888c01e5e98998a4deefc",
+  "commit": "4844727a1f178fd4d7f7d0220405c90fc84e34da",
   "category": [
     {
       "specifier": "climate",
@@ -2311,7 +2311,7 @@
     },
     {
       "specifier": "1901co2",
-      "description": "CO₂ concentration fixed at 1901 levels as a deviation from the `obsclim` climate + CO₂ forcing.",
+      "description": "**CO₂ concentration fixed at 1901 levels** as a deviation from the `obsclim` climate + CO₂ forcing.",
       "simulation_rounds": [
         "ISIMIP4a"
       ],
@@ -2336,7 +2336,7 @@
     },
     {
       "specifier": "obsco2",
-      "description": "Observation-based CO₂ concentration (as in `obsclim`) used with `counterclim` atmospheric forcing.",
+      "description": "**Observation-based CO₂ concentration** (as in `obsclim`) used with `counterclim` atmospheric forcing.",
       "simulation_rounds": [
         "ISIMIP4a"
       ],
@@ -2350,7 +2350,7 @@
     },
     {
       "specifier": "nofire",
-      "description": "Simulation with fire switched off to identify impact of fire within the model.",
+      "description": "Simulation with **fire switched off** to identify impact of fire within the model.",
       "simulation_rounds": [
         "ISIMIP4a",
         "ISIMIP4b"
