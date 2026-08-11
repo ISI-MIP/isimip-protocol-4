@@ -110,14 +110,6 @@
   - water_global
   group3: true
 
-- specifier: hco2
-  description: >-
-    CO₂ concentration according to the *High emission scenario*.
-  simulation_rounds:
-  - ISIMIP4b
-  sectors:
-  - peat
-
 - specifier: vlndep
   description: >-
     Nitrogen deposition according to the *Very Low emission scenario*.

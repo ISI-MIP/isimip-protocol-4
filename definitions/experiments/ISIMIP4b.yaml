@@ -553,21 +553,6 @@
   - biomes
   - forestry
 
-- specifier: vl_2021soc-from-histsoc_hco2
-  parent: vl_2021soc-from-histsoc_default
-  title: Climate sensitivity
-  priority: 2nd priority
-  pre-industrial: Identical to the similar **picontrol/1850soc** run above.
-  historical: Identical to the similar **historical/histsoc** run above.
-  future:
-    climate: vl
-    climate_sens: hco2
-    soc: 2021soc-from-histsoc
-  simulation_rounds:
-  - ISIMIP4b
-  sectors:
-  - peat
-
 - specifier: h_2021soc-from-histsoc_hndep
   parent: h_2021soc-from-histsoc_default
   title: Nitrogen deposition sensitivity
