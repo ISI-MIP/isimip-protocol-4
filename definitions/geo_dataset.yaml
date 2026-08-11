@@ -107,11 +107,11 @@
     ISIMIP4a: ISIMIP4a/InputData/geo_conditions/countrymasks/countrymasks-binary_<resolution>.nc
     ISIMIP4b: ISIMIP4b/InputData/geo_conditions/countrymasks/countrymasks-binary_<resolution>.nc
   variables:
-  - specifier: m_<country-code>
+  - specifier: <country-code>
     long_name: <country-name>
     units: ''
   comment: >-
-    The files contain an additional variable `m_world` which is a land-sea-mask constructed from the countrymasks.
+    The files contain an additional variable `world` which is a land-sea-mask constructed from the countrymasks.
   sectors:
   - agriculture
   - biodiversity
@@ -135,17 +135,19 @@
   group: countrymasks
   resolution:
   - 0.5° grid (30 arcmin)
+  - 15 arcmin
+  - 6 arcmin
   - 5 arcmin
   - 1 arcmin
   path:
     ISIMIP4a: ISIMIP4a/InputData/geo_conditions/countrymasks/countrymasks-fractional_<resolution>.nc
     ISIMIP4b: ISIMIP4b/InputData/geo_conditions/countrymasks/countrymasks-fractional_<resolution>.nc
   variables:
-  - specifier: m_<country-code>
+  - specifier: <country-code>
     long_name: <country-name>
     units: ''
   comment: >-
-    The files contain an additional variable `m_world` which is a land-sea-mask constructed from the countrymasks.
+    The files contain an additional variable `world` which is a land-sea-mask constructed from the countrymasks.
   sectors:
   - agriculture
   - biodiversity
