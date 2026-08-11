@@ -101,7 +101,7 @@
 - specifier: countrymasks-binary
   group: countrymasks
   resolution:
-  - 0.5° grid (30 arcmin)
+  - 30 arcmin (0.5° grid)
   - 30 arcsec
   path:
     ISIMIP4a: ISIMIP4a/InputData/geo_conditions/countrymasks/countrymasks-binary_<resolution>.nc
@@ -134,7 +134,7 @@
 - specifier: countrymasks-fractional
   group: countrymasks
   resolution:
-  - 0.5° grid (30 arcmin)
+  - 30 arcmin (0.5° grid)
   - 15 arcmin
   - 6 arcmin
   - 5 arcmin
