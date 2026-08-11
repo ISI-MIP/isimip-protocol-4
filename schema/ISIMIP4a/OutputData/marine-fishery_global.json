@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/marine-fishery_global.yaml",
-  "commit": "5b4913bd7d355a214c3d53cf61238ca975371ceb",
+  "commit": "f5c7243c9d0066bfa417a2e56c6966335b87361a",
   "type": "object",
   "required": [
     "specifiers"
@@ -58,47 +58,47 @@
         "variable": {
           "type": "string",
           "enum": [
-            "bd30cm",
-            "tpc",
-            "tpb",
-            "bp90cm",
-            "tdb",
-            "cd90cm",
-            "tcb",
-            "tdc",
-            "tclog10",
-            "bp30to90cm",
             "cd30cm",
+            "bd90cm",
+            "tpc",
             "tc",
             "cp30cm",
-            "bd30to90cm",
-            "cp30to90cm",
-            "bd90cm",
-            "bp30cm",
+            "tcb",
             "cd30to90cm",
+            "tclog10",
+            "tdb",
+            "tdc",
+            "bp30to90cm",
+            "bp30cm",
+            "tpb",
+            "bp90cm",
+            "bd30cm",
             "tcblog10",
+            "cd90cm",
+            "cp30to90cm",
+            "bd30to90cm",
             "cp90cm"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
+            "global",
             "along-track",
-            "europe",
-            "global"
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
-            "fixed",
-            "2hr",
-            "annual",
             "hourly",
+            "daily",
+            "fixed",
+            "monthly",
+            "annual",
+            "2hr",
             "3hr",
-            "6hr",
-            "daily"
+            "6hr"
           ]
         },
         "start_year": {

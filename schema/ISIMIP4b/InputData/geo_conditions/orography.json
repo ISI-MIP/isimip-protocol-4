@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/InputData/geo_conditions/orography.yaml",
-  "commit": "5b4913bd7d355a214c3d53cf61238ca975371ceb",
+  "commit": "f5c7243c9d0066bfa417a2e56c6966335b87361a",
   "type": "object",
   "required": [
     "specifiers"
@@ -24,33 +24,33 @@
         "geo_dataset": {
           "type": "string",
           "enum": [
+            "landseamask_no-ant",
+            "ddm30_slopes_cru_neva",
+            "LMEs66_masks",
+            "RME_masks",
+            "gadm",
             "ddm30_flowdir_cru_neva",
+            "volume",
+            "ddm30_basins_cru_neva",
+            "landseamask",
             "deptho",
             "mpa",
-            "biglakes_mask",
-            "landseamask_water-global",
-            "elevation",
-            "surface_area",
-            "orog",
-            "hypso_area",
-            "ddm30_slopes_cru_neva",
-            "landseamask_no-ant",
-            "countrymasks-binary",
-            "hypso_volume",
-            "mean_lakedepth",
-            "volume",
-            "RME_masks",
-            "gswp3_hwsd",
-            "hydrolakes_id",
-            "gadm",
             "hwsd_soil_data_all_land",
-            "LMEs66_masks",
-            "max_lakedepth",
-            "landseamask",
-            "ddm30_basins_cru_neva",
+            "landseamask_water-global",
+            "countrymasks-binary",
             "countrymasks-fractional",
+            "orog",
+            "gswp3_hwsd",
+            "mean_lakedepth",
+            "biglakes_mask",
+            "hydrolakes_id",
             "hydrolakes_id_biglakes",
-            "hwsd_soil_data_on_cropland"
+            "hwsd_soil_data_on_cropland",
+            "elevation",
+            "max_lakedepth",
+            "hypso_area",
+            "surface_area",
+            "hypso_volume"
           ]
         },
         "resolution": {
@@ -62,9 +62,9 @@
         "region": {
           "type": "string",
           "enum": [
+            "global",
             "along-track",
-            "europe",
-            "global"
+            "europe"
           ]
         }
       }

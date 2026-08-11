@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/labour.yaml",
-  "commit": "5b4913bd7d355a214c3d53cf61238ca975371ceb",
+  "commit": "f5c7243c9d0066bfa417a2e56c6966335b87361a",
   "type": "object",
   "required": [
     "specifiers"
@@ -39,15 +39,15 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "counterclim",
-            "obsclim"
+            "obsclim",
+            "counterclim"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "histsoc",
-            "2021soc"
+            "2021soc",
+            "histsoc"
           ]
         },
         "sens_scenario": {
@@ -60,30 +60,30 @@
         "variable": {
           "type": "string",
           "enum": [
-            "labprod",
             "labeff",
+            "labprod",
             "labsupp"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
+            "global",
             "along-track",
-            "europe",
-            "global"
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
-            "fixed",
-            "2hr",
-            "annual",
             "hourly",
+            "daily",
+            "fixed",
+            "monthly",
+            "annual",
+            "2hr",
             "3hr",
-            "6hr",
-            "daily"
+            "6hr"
           ]
         },
         "start_year": {

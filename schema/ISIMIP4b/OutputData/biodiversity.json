@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/biodiversity.yaml",
-  "commit": "5b4913bd7d355a214c3d53cf61238ca975371ceb",
+  "commit": "f5c7243c9d0066bfa417a2e56c6966335b87361a",
   "type": "object",
   "required": [
     "specifiers"
@@ -40,28 +40,28 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
+            "esm-scen7-h",
+            "scen7-vl",
+            "scen7-h",
+            "esm-hist",
             "esm-scen7-vl",
             "historical",
-            "esm-scen7-h",
-            "esm-hist",
             "picontrol",
-            "esm-picontrol",
-            "scen7-vl",
-            "scen7-h"
+            "esm-picontrol"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
-            "ssp1vlsoc-adapt",
-            "2021soc",
-            "1850soc",
             "ssp3hsoc-adapt",
+            "ssp1vlsoc-adapt",
             "ssp1vlsoc-noadapt",
+            "ssp3hsoc-noadapt",
+            "2021soc",
             "histsoc",
             "2021soc-from-histsoc",
-            "ssp3hsoc-noadapt"
+            "nat",
+            "1850soc"
           ]
         },
         "sens_scenario": {
@@ -73,51 +73,51 @@
         "variable": {
           "type": "string",
           "enum": [
-            "reptileocc",
-            "birdocc",
-            "amphibianocc",
-            "mammalprob",
-            "amphibianoccbuff",
-            "reptileoccbuff",
-            "landfrac",
-            "contfrac",
             "mammalbuff",
-            "mammaloccbuff",
-            "reptilepbuffer",
-            "cellarea",
-            "amphibianbuff",
-            "amphibianpbuffer",
-            "reptileprob",
-            "amphibianprob",
-            "birdpbuffer",
-            "birdprob",
-            "mammalocc",
-            "birdbuff",
-            "reptilebuff",
+            "contfrac",
             "birdoccbuff",
-            "mammalpbuffer"
+            "reptilebuff",
+            "mammalprob",
+            "cellarea",
+            "birdprob",
+            "birdocc",
+            "mammaloccbuff",
+            "landfrac",
+            "reptileoccbuff",
+            "mammalpbuffer",
+            "amphibianoccbuff",
+            "amphibianprob",
+            "amphibianpbuffer",
+            "amphibianbuff",
+            "birdbuff",
+            "mammalocc",
+            "reptileprob",
+            "birdpbuffer",
+            "reptileocc",
+            "amphibianocc",
+            "reptilepbuffer"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
+            "global",
             "along-track",
-            "europe",
-            "global"
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "30year-mean",
-            "monthly",
-            "fixed",
-            "2hr",
-            "annual",
             "hourly",
+            "daily",
+            "fixed",
+            "monthly",
+            "annual",
+            "2hr",
             "3hr",
-            "6hr",
-            "daily"
+            "30year-mean",
+            "6hr"
           ]
         },
         "start_year": {

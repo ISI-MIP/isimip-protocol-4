@@ -1,5 +1,5 @@
 {
-  "commit": "5b4913bd7d355a214c3d53cf61238ca975371ceb",
+  "commit": "f5c7243c9d0066bfa417a2e56c6966335b87361a",
   "category": [
     {
       "specifier": "climate",
@@ -18355,7 +18355,6 @@
     {
       "specifier": "biodiversity",
       "title": "Terrestrial biodiversity",
-      "dev": true,
       "urls": "https://protocol.isimip.org/#ISIMIP4b/biodiversity"
     },
     {
