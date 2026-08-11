@@ -1,5 +1,5 @@
 {
-  "commit": "f5c7243c9d0066bfa417a2e56c6966335b87361a",
+  "commit": "007715b51e5e7e619f0888c01e5e98998a4deefc",
   "category": [
     {
       "specifier": "climate",
@@ -2809,16 +2809,6 @@
         "water_global",
         "water_regional",
         "water_quality"
-      ]
-    },
-    {
-      "specifier": "hco2",
-      "description": "CO₂ concentration according to the *High emission scenario*.",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "peat"
       ]
     }
   ],
@@ -9963,29 +9953,6 @@
       "subtitles": [
         "scen7-h_2021soc-from-histsoc_2021co2",
         "esm-scen7-h_2021soc-from-histsoc_2021co2"
-      ]
-    },
-    {
-      "specifier": "vl_2021soc-from-histsoc_hco2",
-      "parent": "vl_2021soc-from-histsoc_default",
-      "title": "Climate sensitivity",
-      "priority": "2nd priority",
-      "pre-industrial": "Identical to the similar **picontrol/1850soc** run above.",
-      "historical": "Identical to the similar **historical/histsoc** run above.",
-      "future": {
-        "climate": "vl",
-        "climate_sens": "hco2",
-        "soc": "2021soc-from-histsoc"
-      },
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "peat"
-      ],
-      "subtitles": [
-        "scen7-vl_2021soc-from-histsoc_hco2",
-        "esm-scen7-vl_2021soc-from-histsoc_hco2"
       ]
     },
     {

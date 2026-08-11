@@ -8139,16 +8139,6 @@
       "group3": true
     },
     {
-      "specifier": "hco2",
-      "description": "CO\u2082 concentration according to the *High emission scenario*.",
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "peat"
-      ]
-    },
-    {
       "specifier": "vlndep",
       "description": "Nitrogen deposition according to the *Very Low emission scenario*.",
       "simulation_rounds": [
@@ -22128,29 +22118,6 @@
       ]
     },
     {
-      "specifier": "vl_2021soc-from-histsoc_hco2",
-      "parent": "vl_2021soc-from-histsoc_default",
-      "title": "Climate sensitivity",
-      "priority": "2nd priority",
-      "pre-industrial": "Identical to the similar **picontrol/1850soc** run above.",
-      "historical": "Identical to the similar **historical/histsoc** run above.",
-      "future": {
-        "climate": "vl",
-        "climate_sens": "hco2",
-        "soc": "2021soc-from-histsoc"
-      },
-      "simulation_rounds": [
-        "ISIMIP4b"
-      ],
-      "sectors": [
-        "peat"
-      ],
-      "subtitles": [
-        "scen7-vl_2021soc-from-histsoc_hco2",
-        "esm-scen7-vl_2021soc-from-histsoc_hco2"
-      ]
-    },
-    {
       "specifier": "h_2021soc-from-histsoc_hndep",
       "parent": "h_2021soc-from-histsoc_default",
       "title": "Nitrogen deposition sensitivity",
@@ -24594,8 +24561,8 @@
     "water_quality": "(?P<model>[a-z0-9-+.]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<bias_adjustment>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9-]+)_(?P<sens_scenario>[a-z0-9-]+)_(?P<variable>[a-z0-9]+)(-(?P<crop>[a-z0-9]{3})-(?P<irrigation>(firr|cirr|noirr))|-(?P<pft>[a-z0-9-]+))?_(?P<station>[a-z-]+)_(?P<time_step>[a-z0-9-]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})"
   }
 },
-                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/f5c7243c9d0066bfa417a2e56c6966335b87361a',
-                commit_hash: 'f5c7243c9d0066bfa417a2e56c6966335b87361a',
+                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/007715b51e5e7e619f0888c01e5e98998a4deefc',
+                commit_hash: '007715b51e5e7e619f0888c01e5e98998a4deefc',
                 commit_date: '11 August 2026'
             }
         </script>
