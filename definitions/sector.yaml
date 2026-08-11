@@ -9,7 +9,6 @@
 
 - specifier: biodiversity
   title: Terrestrial biodiversity
-  dev: true
   urls:
     ISIMIP4a: https://protocol.isimip.org/#ISIMIP4a/biodiversity
     ISIMIP4b: https://protocol.isimip.org/#ISIMIP4b/biodiversity
