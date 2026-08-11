@@ -1706,18 +1706,23 @@
   mandatory: true
   group3: true
   frequency: annual
-  resolution: 0.5° grid
+  resolution:
+  - 0.5° grid (30arcmin)
+  - 15arcmin
+  - 6arcmin
+  - 5arcmin
+  - 1arcmin
   path:
     ISIMIP4a:
-    - ISIMIP4a/InputData/socioeconomic/population/histsoc/population_histsoc_30arcmin_annual_<start>_<end>.nc
-    - ISIMIP4a/InputData/socioeconomic/population/2021soc/population_2021soc_30arcmin_annual_<start>_<end>.nc
-    - ISIMIP4a/InputData/socioeconomic/population/1901soc/population_1901soc_30arcmin_annual_<start>_<end>.nc
+    - ISIMIP4a/InputData/socioeconomic/population/histsoc/population_histsoc_<resolution>_annual_<start>_<end>.nc
+    - ISIMIP4a/InputData/socioeconomic/population/2021soc/population_2021soc_<resolution>_annual_<start>_<end>.nc
+    - ISIMIP4a/InputData/socioeconomic/population/1901soc/population_1901soc_<resolution>_annual_<start>_<end>.nc
     ISIMIP4b:
-    - ISIMIP4b/InputData/socioeconomic/population/histsoc/population_histsoc_30arcmin_annual_<start>_<end>.nc
-    - ISIMIP4b/InputData/socioeconomic/population/2021soc/population_2021soc_30arcmin_annual_<start>_<end>.nc
-    - ISIMIP4b/InputData/socioeconomic/population/1850soc/population_1850soc_30arcmin_annual_<start>_<end>.nc
-    - ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population_vl_30arcmin_annual_2022_2100.nc
-    - ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population_h_30arcmin_annual_2022_2100.nc
+    - ISIMIP4b/InputData/socioeconomic/population/histsoc/population_histsoc_<resolution>_annual_<start>_<end>.nc
+    - ISIMIP4b/InputData/socioeconomic/population/2021soc/population_2021soc_<resolution>_annual_<start>_<end>.nc
+    - ISIMIP4b/InputData/socioeconomic/population/1850soc/population_1850soc_<resolution>_annual_<start>_<end>.nc
+    - ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population_ssp1_<resolution>_annual_2022_2100.nc
+    - ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population_ssp3_<resolution>_annual_2022_2100.nc
   variables:
   - specifier: total-population
     long_name: total population
