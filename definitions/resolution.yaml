@@ -1,1 +1,25 @@
 - specifier: 30arcmin
+
+- specifier: 15arcmin
+  products:
+  - InputData
+
+- specifier: 6arcmin
+  products:
+  - InputData
+
+- specifier: 5arcmin
+  products:
+  - InputData
+
+- specifier: 1arcmin
+  products:
+  - InputData
+
+- specifier: 30arcsec
+  products:
+  - InputData
+
+- specifier: national
+  products:
+  - InputData
