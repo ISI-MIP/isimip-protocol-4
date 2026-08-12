@@ -1008,7 +1008,7 @@
     - 2022-2100
 
 - specifier: ggcmi-crop-calendar-2021soc
-  specifier_file: ggcmi-crop-calendar
+  specifier_alias: ggcmi-crop-calendar
   title: GGCMI crop calendar (fixed observation based)
   group: crop-calendar
   frequency: fixed
