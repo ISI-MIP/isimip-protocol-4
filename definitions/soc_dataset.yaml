@@ -572,7 +572,9 @@
   mandatory: true
   group3: true
   frequency: annual (growing season)
-  resolution: 0.5° grid
+  resolution:
+  - 30arcmin (0.5° grid)
+  - 15arcmin
   path:
     ISIMIP4a:
     - ISIMIP4a/InputData/socioeconomic/n-fertilizer/histsoc/n-fertilizer-5crops_histsoc_annual_<start>_<end>.nc
@@ -633,43 +635,67 @@
   mandatory: true
   group3: true
   frequency: annual (growing season)
-  resolution: 0.5° grid
+  resolution:
+  - 30arcmin (0.5° grid)
+  - 15arcmin
   path:
+    ISIMIP4a:
+    - ISIMIP4a/InputData/socioeconomic/n-fertilizer/histsoc/n-fertilizer-15crops_histsoc_annual_<start>_<end>.nc
+    - ISIMIP4a/InputData/socioeconomic/n-fertilizer/2021soc/n-fertilizer-15crops_2021soc_annual_<start>_<end>.nc
+    - ISIMIP4a/InputData/socioeconomic/n-fertilizer/1901soc/n-fertilizer-15crops_1850soc_annual_<start>_<end>.nc
     ISIMIP4b:
+    - ISIMIP4b/InputData/socioeconomic/n-fertilizer/histsoc/n-fertilizer-15crops_histsoc_annual_<start>_<end>.nc
+    - ISIMIP4b/InputData/socioeconomic/n-fertilizer/2021soc/n-fertilizer-15crops_2021soc_annual_<start>_<end>.nc
+    - ISIMIP4b/InputData/socioeconomic/n-fertilizer/1850soc/n-fertilizer-15crops_1850soc_annual_<start>_<end>.nc
     - ISIMIP4b/InputData/socioeconomic/n-fertilizer/ssp1vlsoc-noadapt/n-fertilizer-15crops_vl_annual_2022_2100.nc
     - ISIMIP4b/InputData/socioeconomic/n-fertilizer/ssp3hsoc-noadapt/n-fertilizer-15crops_h_annual_2022_2100.nc
   variables:
+  - specifier: c3per_fertl
+    long_name: N input through fertilizer on cropland with C3 perennial crops
+    units: kg ha-1 yr-1 (crop season)
   - specifier: c4per_fertl
-    units: kg ha-1 yr-1 (crop season)
-  - specifier: others_annual_fertl
-    units: kg ha-1 yr-1 (crop season)
-  - specifier: others_perennial_fertl
-    units: kg ha-1 yr-1 (crop season)
-  - specifier: others_N-fixing_fertl
-    units: kg ha-1 yr-1 (crop season)
-  - specifier: tropical_roots_fertl
-    units: kg ha-1 yr-1 (crop season)
-  - specifier: tropical_cereals_fertl
-    units: kg ha-1 yr-1 (crop season)
-  - specifier: temperate_roots_fertl
-    units: kg ha-1 yr-1 (crop season)
-  - specifier: temperate_cereals_fertl
-    units: kg ha-1 yr-1 (crop season)
-  - specifier: pulses_fertl
-    units: kg ha-1 yr-1 (crop season)
-  - specifier: oil_crops_sunflower_fertl
-    units: kg ha-1 yr-1 (crop season)
-  - specifier: oil_crops_soybean_fertl
-    units: kg ha-1 yr-1 (crop season)
-  - specifier: rice_fertl
+    long_name: N input through fertilizer on cropland with C4 perennial crops (sugarcane)
     units: kg ha-1 yr-1 (crop season)
   - specifier: maize_fertl
+    long_name: N input through fertilizer on cropland with maize
     units: kg ha-1 yr-1 (crop season)
   - specifier: oil_crops_groundnut_fertl
+    long_name: N input through fertilizer on cropland with groundnut oil crops
     units: kg ha-1 yr-1 (crop season)
   - specifier: oil_crops_rapeseed_fertl
+    long_name: N input through fertilizer on cropland with rapeseed oil crops
     units: kg ha-1 yr-1 (crop season)
-
+  - specifier: oil_crops_soybean_fertl
+    long_name: N input through fertilizer on cropland with soybean oil crops
+    units: kg ha-1 yr-1 (crop season)
+  - specifier: oil_crops_sunflower_fertl
+    long_name: N input through fertilizer on cropland with sunflower oil crops
+    units: kg ha-1 yr-1 (crop season)
+  - specifier: others_c3ann_fertl
+    long_name: N input through fertilizer on cropland with other C3 annual crops
+    units: kg ha-1 yr-1 (crop season)
+  - specifier: others_c3nfx_fertl
+    long_name: N input through fertilizer on cropland with other C3 nitrogen-fixing
+      crops
+    units: kg ha-1 yr-1 (crop season)
+  - specifier: pulses_fertl
+    long_name: N input through fertilizer on cropland with pulses
+    units: kg ha-1 yr-1 (crop season)
+  - specifier: rice_fertl
+    long_name: N input through fertilizer on cropland with rice
+    units: kg ha-1 yr-1 (crop season)
+  - specifier: temperate_cereals_fertl
+    long_name: N input through fertilizer on cropland with temperate cereals
+    units: kg ha-1 yr-1 (crop season)
+  - specifier: temperate_roots_fertl
+    long_name: N input through fertilizer on cropland with temperate roots
+    units: kg ha-1 yr-1 (crop season)
+  - specifier: tropical_cereals_fertl
+    long_name: N input through fertilizer on cropland with tropical cereals
+    units: kg ha-1 yr-1 (crop season)
+  - specifier: tropical_roots_fertl
+    long_name: N input through fertilizer on cropland with tropical roots
+    units: kg ha-1 yr-1 (crop season)
   comment:
     ISIMIP4a: Input dataset documentation → [Nitrogen Fertilizer](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
     ISIMIP4b: Input dataset documentation → [Nitrogen Fertilizer](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
