@@ -12,6 +12,8 @@ properties:
         type: string
       soc_scenario:
         type: string
+      resolution:
+        type: string
       time_step:
         type: string
       start_year:
