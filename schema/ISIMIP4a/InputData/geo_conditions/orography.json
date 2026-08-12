@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/geo_conditions/orography.yaml",
-  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
+  "commit": "577d0f9641aa28acfb3a37535e649b1cf9a8f7f6",
   "type": "object",
   "required": [
     "specifiers"
@@ -19,40 +19,40 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "gswp3-era5",
-            "gfdl-mom6-cobalt2"
+            "gfdl-mom6-cobalt2",
+            "gswp3-era5"
           ]
         },
         "geo_dataset": {
           "type": "string",
           "enum": [
-            "hypso_area",
-            "volume",
-            "hwsd_soil_data_all_land",
+            "elevation",
             "ddm30_slopes_cru_neva",
+            "gswp3_hwsd",
+            "ddm30_flowdir_cru_neva",
+            "volume",
+            "hwsd_soil_data_on_cropland",
+            "countrymasks-fractional",
             "RME_masks",
-            "mpa",
-            "surface_area",
+            "countrymasks-binary",
+            "hypso_area",
             "biglakes_mask",
             "deptho",
-            "landseamask_water-global",
-            "gswp3_hwsd",
-            "countrymasks-fractional",
-            "landseamask_no-ant",
-            "ddm30_flowdir_cru_neva",
-            "countrymasks-binary",
-            "max_lakedepth",
-            "mean_lakedepth",
-            "ddm30_basins_cru_neva",
             "hydrolakes_id",
-            "hwsd_soil_data_on_cropland",
-            "elevation",
+            "surface_area",
+            "ddm30_basins_cru_neva",
+            "landseamask_no-ant",
+            "max_lakedepth",
             "hypso_volume",
+            "hwsd_soil_data_all_land",
+            "LMEs66_masks",
+            "mpa",
+            "landseamask",
+            "hydrolakes_id_biglakes",
+            "landseamask_water-global",
             "orog",
             "gadm",
-            "hydrolakes_id_biglakes",
-            "landseamask",
-            "LMEs66_masks"
+            "mean_lakedepth"
           ]
         },
         "resolution": {
@@ -64,9 +64,9 @@
         "region": {
           "type": "string",
           "enum": [
-            "along-track",
+            "europe",
             "global",
-            "europe"
+            "along-track"
           ]
         }
       }

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/marine-fishery_regional.yaml",
-  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
+  "commit": "577d0f9641aa28acfb3a37535e649b1cf9a8f7f6",
   "type": "object",
   "required": [
     "specifiers"
@@ -45,8 +45,8 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "histsoc",
-            "nat"
+            "nat",
+            "histsoc"
           ]
         },
         "sens_scenario": {
@@ -58,73 +58,73 @@
         "variable": {
           "type": "string",
           "enum": [
-            "cp90cm",
-            "tc",
-            "cp30cm",
-            "bp90cm",
-            "bp30to90cm",
-            "cd30cm",
-            "tpc",
-            "bd90cm",
-            "bd30to90cm",
-            "bp30cm",
-            "tclog10",
-            "tcb",
-            "cp30to90cm",
-            "cd90cm",
-            "tpb",
             "bd30cm",
             "tcblog10",
+            "tpc",
             "tdc",
+            "bp90cm",
+            "cd30cm",
+            "cp30cm",
+            "tc",
+            "cd30to90cm",
+            "tpb",
+            "tcb",
+            "cd90cm",
+            "bp30cm",
+            "bd90cm",
+            "bp30to90cm",
+            "bd30to90cm",
+            "cp90cm",
+            "cp30to90cm",
             "tdb",
-            "cd30to90cm"
+            "tclog10"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "humboldt-n",
-            "seaustralia-mizer",
-            "east-bearing-sea-shelf",
-            "mediterraneansea",
-            "kerguelen",
-            "tasman-golden-bays-nz",
-            "seaustralia-atlantis",
-            "hawaiian-longline",
-            "east-bass-strait",
-            "benguela",
-            "med-glob",
-            "chatham-rise-ll-nz",
-            "northsea-ewe",
-            "taiwancentralsouthpacific",
-            "north-sea",
-            "baltic-sea",
-            "northernhumboldt",
             "eastern-scotian-shelf",
+            "northernhumboldt",
+            "north-sea",
+            "northsea-ewe",
             "cook-strait",
+            "taiwancentralsouthpacific",
+            "hawaii",
+            "tasman-golden-bays-nz",
             "northsea-ibts",
-            "gulf-alaska",
+            "himi",
+            "hawaiian-longline",
+            "benguela",
             "nw-med-sea",
-            "se-australia",
+            "east-bass-strait",
+            "humboldt-n",
+            "east-bearing-sea-shelf",
+            "seaustralia-atlantis",
             "east-bering-sea",
             "adriatic-sea",
+            "mediterraneansea",
+            "chatham-rise-ll-nz",
+            "brasil-ne",
+            "seaustralia-mizer",
+            "se-australia",
+            "med-glob",
+            "kerguelen",
             "prydz-bay",
-            "himi",
-            "hawaii",
-            "brasil-ne"
+            "gulf-alaska",
+            "baltic-sea"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
+            "2hr",
+            "daily",
+            "6hr",
+            "annual",
+            "3hr",
             "monthly",
             "hourly",
-            "annual",
-            "fixed",
-            "3hr",
-            "6hr",
-            "daily",
-            "2hr"
+            "fixed"
           ]
         },
         "start_year": {

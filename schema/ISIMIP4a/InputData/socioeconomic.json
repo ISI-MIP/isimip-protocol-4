@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/socioeconomic.yaml",
-  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
+  "commit": "577d0f9641aa28acfb3a37535e649b1cf9a8f7f6",
   "type": "object",
   "required": [
     "specifiers"
@@ -14,35 +14,35 @@
         "soc_dataset": {
           "type": "string",
           "enum": [
-            "n-fertilizer-15crops",
-            "landuse-pastures",
-            "ndep-drynhx",
-            "ndep-wetnoy",
-            "pctlake",
-            "population",
-            "land-transformation",
-            "ndep-drynoy",
-            "gdp-ppp-countrylevel",
-            "landuse-urbanareas",
-            "ndep-wetnhx",
-            "landuse-subgroups",
-            "ndep-noy",
-            "reservoirs-dams",
-            "gdp-per-capita-ppp",
-            "gdp-ppp",
-            "effort",
-            "effort-industrial-gridded",
-            "wood_harvesting",
-            "gdp-mer-countrylevel",
-            "fixed-asset-value",
-            "population-stratification",
-            "ndep-nhx",
-            "effort-artisanal-gridded",
-            "landuse-5crops",
             "landuse-totals",
+            "n-fertilizer-5crops",
+            "landuse-pastures",
+            "ndep-wetnoy",
+            "ndep-noy",
+            "ndep-drynoy",
+            "fixed-asset-value",
+            "gdp-mer-countrylevel",
+            "landuse-5crops",
+            "gdp-ppp-countrylevel",
+            "ndep-drynhx",
             "landuse-15crops",
+            "n-fertilizer-15crops",
+            "population-stratification",
+            "landuse-subgroups",
             "landuse-forests-and-natural-vegetation",
-            "n-fertilizer-5crops"
+            "landuse-urbanareas",
+            "wood_harvesting",
+            "ndep-wetnhx",
+            "effort",
+            "gdp-ppp",
+            "effort-artisanal-gridded",
+            "gdp-per-capita-ppp",
+            "population",
+            "ndep-nhx",
+            "reservoirs-dams",
+            "effort-industrial-gridded",
+            "land-transformation",
+            "pctlake"
           ]
         },
         "soc_variable": {
@@ -51,26 +51,26 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "histsoc",
-            "2021soc",
             "1901soc",
             "nat",
-            "1850soc"
+            "histsoc",
+            "1850soc",
+            "2021soc"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
+            "2hr",
+            "annual-gs",
+            "daily",
+            "6hr",
+            "annual",
+            "3hr",
             "monthly",
             "monthly-gs",
             "hourly",
-            "annual",
-            "fixed",
-            "3hr",
-            "6hr",
-            "daily",
-            "annual-gs",
-            "2hr"
+            "fixed"
           ]
         },
         "start_year": {

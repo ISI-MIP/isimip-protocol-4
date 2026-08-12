@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/biodiversity.yaml",
-  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
+  "commit": "577d0f9641aa28acfb3a37535e649b1cf9a8f7f6",
   "type": "object",
   "required": [
     "specifiers"
@@ -39,16 +39,16 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "counterclim",
-            "obsclim"
+            "obsclim",
+            "counterclim"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "histsoc",
-            "2021soc",
             "1901soc",
+            "2021soc",
+            "histsoc",
             "nat"
           ]
         },
@@ -61,51 +61,51 @@
         "variable": {
           "type": "string",
           "enum": [
-            "mammaloccbuff",
-            "mammalpbuffer",
-            "reptileprob",
-            "birdoccbuff",
-            "birdpbuffer",
-            "reptilebuff",
-            "amphibianocc",
-            "landfrac",
-            "amphibianprob",
-            "mammalocc",
             "birdprob",
-            "birdocc",
-            "cellarea",
             "reptileocc",
-            "contfrac",
-            "mammalbuff",
-            "mammalprob",
             "amphibianbuff",
-            "amphibianoccbuff",
+            "birdpbuffer",
+            "birdoccbuff",
+            "amphibianocc",
+            "mammaloccbuff",
             "reptileoccbuff",
-            "birdbuff",
+            "mammalpbuffer",
+            "reptilebuff",
+            "amphibianprob",
+            "mammalbuff",
             "amphibianpbuffer",
+            "birdocc",
+            "contfrac",
+            "cellarea",
+            "birdbuff",
+            "reptileprob",
+            "mammalprob",
+            "mammalocc",
+            "landfrac",
+            "amphibianoccbuff",
             "reptilepbuffer"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "along-track",
+            "europe",
             "global",
-            "europe"
+            "along-track"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly",
-            "hourly",
-            "annual",
-            "fixed",
-            "3hr",
-            "6hr",
-            "30year-mean",
+            "2hr",
             "daily",
-            "2hr"
+            "6hr",
+            "annual",
+            "3hr",
+            "monthly",
+            "30year-mean",
+            "hourly",
+            "fixed"
           ]
         },
         "start_year": {
