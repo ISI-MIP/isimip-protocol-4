@@ -1856,7 +1856,7 @@
   - coastal
 
 - specifier: td9635_roci
-  long_name: Radius of outermost closed isober
+  long_name: Radius of outermost closed isobar
   group: tropical-cyclones
   mandatory: true
   units: nmile
