@@ -1383,7 +1383,8 @@
   group: wood_harvesting
   frequency: annual
   resolution:
-  - 0.5° grid
+  - 30arcmin (0.5° grid)
+  - 15arcmin
   - national
   group3: true
   path:
