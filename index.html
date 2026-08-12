@@ -10572,19 +10572,25 @@
       "mandatory": true,
       "group3": true,
       "frequency": "annual",
-      "resolution": "0.5\u00b0 grid",
+      "resolution": [
+        "30arcmin (0.5\u00b0 grid)",
+        "15arcmin",
+        "6arcmin",
+        "5arcmin",
+        "1arcmin"
+      ],
       "path": {
         "ISIMIP4a": [
-          "ISIMIP4a/InputData/socioeconomic/population/histsoc/population_histsoc_30arcmin_annual_<start>_<end>.nc",
-          "ISIMIP4a/InputData/socioeconomic/population/2021soc/population_2021soc_30arcmin_annual_<start>_<end>.nc",
-          "ISIMIP4a/InputData/socioeconomic/population/1901soc/population_1901soc_30arcmin_annual_<start>_<end>.nc"
+          "ISIMIP4a/InputData/socioeconomic/population/histsoc/population_histsoc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4a/InputData/socioeconomic/population/2021soc/population_2021soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4a/InputData/socioeconomic/population/1901soc/population_1901soc_<resolution>_annual_<start>_<end>.nc"
         ],
         "ISIMIP4b": [
-          "ISIMIP4b/InputData/socioeconomic/population/histsoc/population_histsoc_30arcmin_annual_<start>_<end>.nc",
-          "ISIMIP4b/InputData/socioeconomic/population/2021soc/population_2021soc_30arcmin_annual_<start>_<end>.nc",
-          "ISIMIP4b/InputData/socioeconomic/population/1850soc/population_1850soc_30arcmin_annual_<start>_<end>.nc",
-          "ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population_vl_30arcmin_annual_2022_2100.nc",
-          "ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population_h_30arcmin_annual_2022_2100.nc"
+          "ISIMIP4b/InputData/socioeconomic/population/histsoc/population_histsoc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/population/2021soc/population_2021soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/population/1850soc/population_1850soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population_ssp1_<resolution>_annual_2022_2100.nc",
+          "ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population_ssp3_<resolution>_annual_2022_2100.nc"
         ]
       },
       "variables": [
@@ -10715,8 +10721,8 @@
           "ISIMIP4b/InputData/socioeconomic/gdp/histsoc/gdp-ppp-countrylevel_histsoc_annual_<start>_<end>.csv",
           "ISIMIP4b/InputData/socioeconomic/gdp/2021soc/gdp-ppp-countrylevel_2021soc_annual_<start>_<end>.csv",
           "ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-ppp-countrylevel_1850soc_annual_<start>_<end>.csv",
-          "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-ppp-countrylevel_vl_annual_2022_2100.csv",
-          "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-ppp-countrylevel_h_annual_2022_2100.csv"
+          "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-ppp-countrylevel_ssp1_annual_2022_2100.csv",
+          "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-ppp-countrylevel_ssp3_annual_2022_2100.csv"
         ]
       },
       "variables": [
@@ -10755,8 +10761,8 @@
           "ISIMIP4b/InputData/socioeconomic/gdp/histsoc/gdp-mer-countrylevel_histsoc_annual_<start>_<end>.csv",
           "ISIMIP4b/InputData/socioeconomic/gdp/2021soc/gdp-mer-countrylevel_2021soc_annual_<start>_<end>.csv",
           "ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-mer-countrylevel_1850soc_annual_<start>_<end>.csv",
-          "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-mer-countrylevel_vl_annual_2022_2100.csv",
-          "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-mer-countrylevel_h_annual_2022_2100.csv"
+          "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-mer-countrylevel_ssp1_annual_2022_2100.csv",
+          "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-mer-countrylevel_ssp3_annual_2022_2100.csv"
         ]
       },
       "variables": [
@@ -10776,6 +10782,114 @@
           "2022-2100"
         ]
       }
+    },
+    {
+      "specifier": "gdp-ppp",
+      "title": "Gridded GDP PPP",
+      "group": "gdp",
+      "mandatory": true,
+      "group3": true,
+      "frequency": "annual",
+      "resolution": [
+        "30arcmin (0.5\u00b0 grid)",
+        "15arcmin",
+        "6arcmin",
+        "5arcmin",
+        "1arcmin"
+      ],
+      "path": {
+        "ISIMIP4a": [
+          "ISIMIP4a/InputData/socioeconomic/gdp/histsoc/gdp-ppp_histsoc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4a/InputData/socioeconomic/gdp/2015soc/gdp-ppp_2015soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4a/InputData/socioeconomic/gdp/1901soc/gdp-ppp_1901soc_<resolution>_annual_<start>_<end>.nc"
+        ],
+        "ISIMIP4b": [
+          "ISIMIP4b/InputData/socioeconomic/gdp/histsoc/gdp-ppp_histsoc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/2015soc/gdp-ppp_2015soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-ppp_1850soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-ppp_ssp1_<resolution>_annual_2022_2100.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-ppp_ssp3_<resolution>_annual_2022_2100.nc"
+        ]
+      },
+      "variables": [
+        {
+          "specifier": "gdp-ppp",
+          "long_name": "Gross domestic product (GDP) in purchasing power parity (PPP), 2017 constant prices",
+          "units": "USD"
+        }
+      ]
+    },
+    {
+      "specifier": "gdp-per-capita-ppp",
+      "title": "Gridded GDP per capita PPP",
+      "group": "gdp",
+      "mandatory": true,
+      "group3": true,
+      "frequency": "annual",
+      "resolution": [
+        "30arcmin (0.5\u00b0 grid)",
+        "15arcmin",
+        "6arcmin",
+        "5arcmin",
+        "1arcmin"
+      ],
+      "path": {
+        "ISIMIP4a": [
+          "ISIMIP4a/InputData/socioeconomic/gdp/histsoc/gdp-per-capita-ppp_histsoc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4a/InputData/socioeconomic/gdp/2015soc/gdp-per-capita-ppp_2015soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4a/InputData/socioeconomic/gdp/1901soc/gdp-per-capita-ppp_1901soc_<resolution>_annual_<start>_<end>.nc"
+        ],
+        "ISIMIP4b": [
+          "ISIMIP4b/InputData/socioeconomic/gdp/histsoc/gdp-per-capita-ppp_histsoc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/2015soc/gdp-per-capita-ppp_2015soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-per-capita-ppp_1850soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-per-capita-ppp_ssp1_<resolution>_annual_2022_2100.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-per-capita-ppp_ssp3_<resolution>_annual_2022_2100.nc"
+        ]
+      },
+      "variables": [
+        {
+          "specifier": "gdp-per-capita-ppp",
+          "long_name": "Gross domestic product (GDP) in purchasing power parity (PPP), per capita, 2017 constant prices",
+          "units": "USD"
+        }
+      ]
+    },
+    {
+      "specifier": "fixed-asset-value",
+      "title": "Gridded fixed asset value PPP",
+      "group": "gdp",
+      "mandatory": true,
+      "group3": true,
+      "frequency": "annual",
+      "resolution": [
+        "30arcmin (0.5\u00b0 grid)",
+        "15arcmin",
+        "6arcmin",
+        "5arcmin",
+        "1arcmin"
+      ],
+      "path": {
+        "ISIMIP4a": [
+          "ISIMIP4a/InputData/socioeconomic/gdp/histsoc/fixed-asset-value_histsoc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4a/InputData/socioeconomic/gdp/2015soc/fixed-asset-value_2015soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4a/InputData/socioeconomic/gdp/1901soc/fixed-asset-value_1901soc_<resolution>_annual_<start>_<end>.nc"
+        ],
+        "ISIMIP4b": [
+          "ISIMIP4b/InputData/socioeconomic/gdp/histsoc/fixed-asset-value_histsoc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/2015soc/fixed-asset-value_2015soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/1850soc/fixed-asset-value_1850soc_<resolution>_annual_<start>_<end>.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/fixed-asset-value_ssp1_<resolution>_annual_2022_2100.nc",
+          "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/fixed-asset-value_ssp3_<resolution>_annual_2022_2100.nc"
+        ]
+      },
+      "variables": [
+        {
+          "specifier": "fixed-asset-value",
+          "long_name": "Fixed asset value in purchasing power parity (PPP), 2017 constant prices",
+          "units": "USD"
+        }
+      ]
     }
   ],
   "surge_model": [
@@ -19967,7 +20081,7 @@
       "specifier": "countrymasks-binary",
       "group": "countrymasks",
       "resolution": [
-        "0.5\u00b0 grid (30 arcmin)",
+        "30 arcmin (0.5\u00b0 grid)",
         "30 arcsec"
       ],
       "path": {
@@ -19976,12 +20090,12 @@
       },
       "variables": [
         {
-          "specifier": "m_<country-code>",
+          "specifier": "<country-code>",
           "long_name": "<country-name>",
           "units": ""
         }
       ],
-      "comment": "The files contain an additional variable `m_world` which is a land-sea-mask constructed from the countrymasks.",
+      "comment": "The files contain an additional variable `world` which is a land-sea-mask constructed from the countrymasks.",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -20006,7 +20120,9 @@
       "specifier": "countrymasks-fractional",
       "group": "countrymasks",
       "resolution": [
-        "0.5\u00b0 grid (30 arcmin)",
+        "30 arcmin (0.5\u00b0 grid)",
+        "15 arcmin",
+        "6 arcmin",
         "5 arcmin",
         "1 arcmin"
       ],
@@ -20016,12 +20132,12 @@
       },
       "variables": [
         {
-          "specifier": "m_<country-code>",
+          "specifier": "<country-code>",
           "long_name": "<country-name>",
           "units": ""
         }
       ],
-      "comment": "The files contain an additional variable `m_world` which is a land-sea-mask constructed from the countrymasks.",
+      "comment": "The files contain an additional variable `world` which is a land-sea-mask constructed from the countrymasks.",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -24459,8 +24575,8 @@
     "water_quality": "(?P<model>[a-z0-9-+.]+)_(?P<climate_forcing>[a-z0-9-]+)_(?P<bias_adjustment>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<soc_scenario>[a-z0-9-]+)_(?P<sens_scenario>[a-z0-9-]+)_(?P<variable>[a-z0-9]+)(-(?P<crop>[a-z0-9]{3})-(?P<irrigation>(firr|cirr|noirr))|-(?P<pft>[a-z0-9-]+))?_(?P<station>[a-z-]+)_(?P<time_step>[a-z0-9-]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})"
   }
 },
-                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/cfd4328cba4001e365f95e1a6a08dee4e96926a7',
-                commit_hash: 'cfd4328cba4001e365f95e1a6a08dee4e96926a7',
+                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb',
+                commit_hash: 'b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb',
                 commit_date: '11 August 2026'
             }
         </script>

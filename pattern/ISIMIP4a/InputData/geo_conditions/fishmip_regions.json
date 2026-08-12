@@ -1,5 +1,5 @@
 {
-  "commit": "cfd4328cba4001e365f95e1a6a08dee4e96926a7",
+  "commit": "b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb",
   "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<category>[a-z0-9-_]+)/(?P<subcategory>[a-z0-9-_]+)$",
   "dataset": "^(?P<geo_dataset>[A-Za-z0-9_]+)_(?P<resolution>[A-Za-z0-9]+)",
   "file": "^(?P<geo_dataset>[A-Za-z0-9_]+)_(?P<resolution>[A-Za-z0-9]+)(.nc)$",

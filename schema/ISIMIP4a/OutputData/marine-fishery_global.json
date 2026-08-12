@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/marine-fishery_global.yaml",
-  "commit": "cfd4328cba4001e365f95e1a6a08dee4e96926a7",
+  "commit": "b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb",
   "type": "object",
   "required": [
     "specifiers"
@@ -32,8 +32,8 @@
         "detrending": {
           "type": "string",
           "enum": [
-            "observed",
-            "detrended"
+            "detrended",
+            "observed"
           ]
         },
         "climate_scenario": {
@@ -45,8 +45,8 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "histsoc",
-            "nat"
+            "nat",
+            "histsoc"
           ]
         },
         "sens_scenario": {
@@ -58,26 +58,26 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tdc",
-            "bd90cm",
-            "tdb",
-            "tc",
-            "tpb",
-            "bp90cm",
-            "cd30cm",
-            "bp30cm",
-            "tcblog10",
-            "bp30to90cm",
-            "bd30to90cm",
-            "bd30cm",
             "cd90cm",
+            "cd30cm",
+            "tcb",
             "cp90cm",
-            "tclog10",
-            "tpc",
+            "bd90cm",
+            "bd30to90cm",
             "cd30to90cm",
-            "cp30to90cm",
+            "bp30to90cm",
+            "tpb",
+            "bd30cm",
+            "tclog10",
             "cp30cm",
-            "tcb"
+            "tc",
+            "tdc",
+            "tdb",
+            "tcblog10",
+            "bp90cm",
+            "bp30cm",
+            "tpc",
+            "cp30to90cm"
           ]
         },
         "region": {
@@ -91,14 +91,14 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "daily",
-            "monthly",
-            "annual",
             "hourly",
-            "fixed",
             "6hr",
+            "3hr",
+            "monthly",
             "2hr",
-            "3hr"
+            "daily",
+            "annual",
+            "fixed"
           ]
         },
         "start_year": {

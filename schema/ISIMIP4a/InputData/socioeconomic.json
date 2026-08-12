@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/socioeconomic.yaml",
-  "commit": "cfd4328cba4001e365f95e1a6a08dee4e96926a7",
+  "commit": "b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb",
   "type": "object",
   "required": [
     "specifiers"
@@ -14,31 +14,34 @@
         "soc_dataset": {
           "type": "string",
           "enum": [
-            "ndep-nhx",
-            "landuse-totals",
-            "ndep-wetnhx",
-            "reservoirs-dams",
-            "pctlake",
-            "landuse-pastures",
-            "landuse-urbanareas",
-            "effort",
-            "effort-artisanal-gridded",
-            "ndep-drynoy",
-            "effort-industrial-gridded",
-            "ndep-drynhx",
-            "landuse-15crops",
-            "population-stratification",
-            "landuse-5crops",
-            "population",
-            "ndep-noy",
-            "landuse-forests-and-natural-vegetation",
             "gdp-mer-countrylevel",
+            "landuse-urbanareas",
+            "effort-industrial-gridded",
+            "landuse-15crops",
+            "ndep-noy",
             "wood_harvesting",
-            "land-transformation",
-            "n-fertilizer-5crops",
-            "ndep-wetnoy",
+            "effort-artisanal-gridded",
+            "landuse-totals",
+            "landuse-pastures",
+            "fixed-asset-value",
+            "ndep-drynhx",
+            "reservoirs-dams",
+            "gdp-ppp",
+            "population-stratification",
+            "ndep-wetnhx",
+            "pctlake",
             "n-fertilizer-15crops",
-            "gdp-ppp-countrylevel"
+            "gdp-ppp-countrylevel",
+            "population",
+            "effort",
+            "land-transformation",
+            "gdp-per-capita-ppp",
+            "ndep-nhx",
+            "landuse-forests-and-natural-vegetation",
+            "landuse-5crops",
+            "n-fertilizer-5crops",
+            "ndep-drynoy",
+            "ndep-wetnoy"
           ]
         },
         "soc_variable": {
@@ -47,26 +50,26 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2021soc",
+            "nat",
             "histsoc",
             "1850soc",
-            "1901soc",
-            "nat"
+            "2021soc",
+            "1901soc"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly-gs",
-            "daily",
-            "monthly",
-            "annual-gs",
-            "annual",
             "hourly",
-            "fixed",
             "6hr",
+            "3hr",
+            "monthly",
             "2hr",
-            "3hr"
+            "daily",
+            "monthly-gs",
+            "annual",
+            "annual-gs",
+            "fixed"
           ]
         },
         "start_year": {
