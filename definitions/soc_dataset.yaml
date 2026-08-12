@@ -1063,7 +1063,7 @@
   frequency: annual
   resolution: 0.5° grid and original coordinates (degree)
   path:
-    ISIMIP4a: ISIMIP4a/InputData/socioeconomic/reservoir_dams/reservoirs-dams_1850_2020.xls
+    ISIMIP4a: ISIMIP4a/InputData/socioeconomic/reservoir_dams/histsoc/reservoirs-dams_1850_2022.xls
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/reservoir_dams/histsoc/reservoirs-dams_1850_2021.xls
   variables:
   - specifier: ID
