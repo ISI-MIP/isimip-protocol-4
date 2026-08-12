@@ -1,5 +1,5 @@
 {
-  "commit": "b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb",
+  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
   "category": [
     {
       "specifier": "climate",
@@ -2060,7 +2060,8 @@
       "time_periods": [
         "1850-2021",
         "2022-2100"
-      ]
+      ],
+      "comment": "Urban and rural population are not yet available.\n"
     },
     {
       "specifier": "population-countrylevel",
@@ -2116,7 +2117,8 @@
       "time_periods": [
         "1850-2014",
         "2015-2100"
-      ]
+      ],
+      "comment": "Not yet available.\n"
     },
     {
       "specifier": "gdp-ppp-countrylevel",

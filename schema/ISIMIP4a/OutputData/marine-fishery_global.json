@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/marine-fishery_global.yaml",
-  "commit": "b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb",
+  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
   "type": "object",
   "required": [
     "specifiers"
@@ -45,8 +45,8 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
-            "histsoc"
+            "histsoc",
+            "nat"
           ]
         },
         "sens_scenario": {
@@ -58,47 +58,47 @@
         "variable": {
           "type": "string",
           "enum": [
-            "cd90cm",
-            "cd30cm",
-            "tcb",
             "cp90cm",
+            "tc",
+            "cp30cm",
+            "bp90cm",
+            "bp30to90cm",
+            "cd30cm",
+            "tpc",
             "bd90cm",
             "bd30to90cm",
-            "cd30to90cm",
-            "bp30to90cm",
+            "bp30cm",
+            "tclog10",
+            "tcb",
+            "cp30to90cm",
+            "cd90cm",
             "tpb",
             "bd30cm",
-            "tclog10",
-            "cp30cm",
-            "tc",
+            "tcblog10",
             "tdc",
             "tdb",
-            "tcblog10",
-            "bp90cm",
-            "bp30cm",
-            "tpc",
-            "cp30to90cm"
+            "cd30to90cm"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
+            "along-track",
             "global",
-            "europe",
-            "along-track"
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "hourly",
-            "6hr",
-            "3hr",
             "monthly",
-            "2hr",
-            "daily",
+            "hourly",
             "annual",
-            "fixed"
+            "fixed",
+            "3hr",
+            "6hr",
+            "daily",
+            "2hr"
           ]
         },
         "start_year": {

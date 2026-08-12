@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/InputData/geo_conditions/orography.yaml",
-  "commit": "b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb",
+  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
   "type": "object",
   "required": [
     "specifiers"
@@ -24,33 +24,33 @@
         "geo_dataset": {
           "type": "string",
           "enum": [
-            "landseamask_water-global",
-            "hydrolakes_id_biglakes",
-            "gadm",
-            "countrymasks-fractional",
-            "mean_lakedepth",
-            "ddm30_slopes_cru_neva",
             "hypso_area",
-            "hydrolakes_id",
-            "hypso_volume",
-            "surface_area",
-            "orog",
-            "ddm30_flowdir_cru_neva",
-            "elevation",
-            "hwsd_soil_data_on_cropland",
-            "biglakes_mask",
-            "RME_masks",
-            "deptho",
-            "LMEs66_masks",
             "volume",
-            "mpa",
-            "landseamask_no-ant",
-            "landseamask",
             "hwsd_soil_data_all_land",
-            "max_lakedepth",
-            "countrymasks-binary",
+            "ddm30_slopes_cru_neva",
+            "RME_masks",
+            "mpa",
+            "surface_area",
+            "biglakes_mask",
+            "deptho",
+            "landseamask_water-global",
             "gswp3_hwsd",
-            "ddm30_basins_cru_neva"
+            "countrymasks-fractional",
+            "landseamask_no-ant",
+            "ddm30_flowdir_cru_neva",
+            "countrymasks-binary",
+            "max_lakedepth",
+            "mean_lakedepth",
+            "ddm30_basins_cru_neva",
+            "hydrolakes_id",
+            "hwsd_soil_data_on_cropland",
+            "elevation",
+            "hypso_volume",
+            "orog",
+            "gadm",
+            "hydrolakes_id_biglakes",
+            "landseamask",
+            "LMEs66_masks"
           ]
         },
         "resolution": {
@@ -62,9 +62,9 @@
         "region": {
           "type": "string",
           "enum": [
+            "along-track",
             "global",
-            "europe",
-            "along-track"
+            "europe"
           ]
         }
       }

@@ -1,5 +1,5 @@
 {
-  "commit": "b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb",
+  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
   "category": [
     {
       "specifier": "climate",
@@ -2012,7 +2012,10 @@
       "mandatory": true,
       "group3": true,
       "frequency": "annual",
-      "resolution": "0.5° grid",
+      "resolution": [
+        "30arcmin (0.5° grid)",
+        "15arcmin"
+      ],
       "path": [
         "ISIMIP4b/InputData/socioeconomic/landuse/histsoc/landuse-urbanareas_histsoc_annual_<start>_<end>.nc",
         "ISIMIP4b/InputData/socioeconomic/landuse/2021soc/landuse-urbanareas_2021soc_annual_<start>_<end>.nc",
@@ -2027,7 +2030,6 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2096,7 +2098,8 @@
       "time_periods": [
         "1850-2021",
         "2022-2100"
-      ]
+      ],
+      "comment": "Urban and rural population are not yet available.\n"
     },
     {
       "specifier": "population-countrylevel",
@@ -2152,7 +2155,8 @@
       "time_periods": [
         "1850-2014",
         "2015-2100"
-      ]
+      ],
+      "comment": "Not yet available.\n"
     },
     {
       "specifier": "gdp-ppp-countrylevel",

@@ -1,5 +1,5 @@
 {
-  "commit": "b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb",
+  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
   "category": [
     {
       "specifier": "climate",
@@ -2263,7 +2263,10 @@
       "mandatory": true,
       "group3": true,
       "frequency": "annual",
-      "resolution": "0.5° grid",
+      "resolution": [
+        "30arcmin (0.5° grid)",
+        "15arcmin"
+      ],
       "path": [
         "ISIMIP4b/InputData/socioeconomic/landuse/histsoc/landuse-totals_histsoc_annual_<start>_<end>.nc",
         "ISIMIP4b/InputData/socioeconomic/landuse/2021soc/landuse-totals_2021soc_annual_<start>_<end>.nc",
@@ -2330,7 +2333,10 @@
       "mandatory": true,
       "group3": true,
       "frequency": "annual",
-      "resolution": "0.5° grid",
+      "resolution": [
+        "30arcmin (0.5° grid)",
+        "15arcmin"
+      ],
       "path": [
         "ISIMIP4b/InputData/socioeconomic/landuse/histsoc/landuse-5crops_histsoc_annual_<start>_<end>.nc",
         "ISIMIP4b/InputData/socioeconomic/landuse/2021soc/landuse-5crops_2021soc_annual_<start>_<end>.nc",
@@ -2370,6 +2376,26 @@
           "units": "1"
         },
         {
+          "specifier": "c3per_irrigated_bf",
+          "long_name": "irrigated C3 perennial bioenergy tree plantation",
+          "units": "1"
+        },
+        {
+          "specifier": "c3per_irrigated_food",
+          "long_name": "irrigated C3 perennial crops for food/feed production",
+          "units": "1"
+        },
+        {
+          "specifier": "c3per_rainfed_bf",
+          "long_name": "rainfed C3 perennial bioenergy tree plantation",
+          "units": "1"
+        },
+        {
+          "specifier": "c3per_rainfed_food",
+          "long_name": "rainfed C3 perennial crops for food/feed production",
+          "units": "1"
+        },
+        {
           "specifier": "c4ann_irrigated",
           "long_name": "share of irrigated C4 annual crops",
           "units": "1"
@@ -2380,13 +2406,23 @@
           "units": "1"
         },
         {
-          "specifier": "c4per_irrigated",
-          "long_name": "share of irrigated C4 perennial crops",
+          "specifier": "c4per_irrigated_bf",
+          "long_name": "irrigated C4 perennial bioenergy grass plantation",
           "units": "1"
         },
         {
-          "specifier": "c4per_rainfed",
-          "long_name": "share of rainfed C4 perennial crops",
+          "specifier": "c4per_irrigated_food",
+          "long_name": "irrigated C4 perennial crops for food/feed production",
+          "units": "1"
+        },
+        {
+          "specifier": "c4per_rainfed_bf",
+          "long_name": "rainfed C4 perennial bioenergy grass plantation",
+          "units": "1"
+        },
+        {
+          "specifier": "c4per_rainfed_food",
+          "long_name": "rainfed C4 perennial crops for food/feed production",
           "units": "1"
         }
       ],
@@ -2422,7 +2458,10 @@
       "mandatory": true,
       "group3": true,
       "frequency": "annual",
-      "resolution": "0.5° grid",
+      "resolution": [
+        "30arcmin (0.5° grid)",
+        "15arcmin"
+      ],
       "path": [
         "ISIMIP4b/InputData/socioeconomic/landuse/histsoc/landuse-15crops_histsoc_annual_<start>_<end>.nc",
         "ISIMIP4b/InputData/socioeconomic/landuse/2021soc/landuse-15crops_2021soc_annual_<start>_<end>.nc",
@@ -2432,23 +2471,43 @@
       ],
       "variables": [
         {
-          "specifier": "c3per_irrigated",
-          "long_name": "share of irrigated others perennial",
+          "specifier": "c3per_irrigated_bf",
+          "long_name": "irrigated C3 perennial bioenergy tree plantation",
           "units": "1"
         },
         {
-          "specifier": "c3per_rainfed",
-          "long_name": "share of rainfed others perennial",
+          "specifier": "c3per_irrigated_food",
+          "long_name": "irrigated C3 perennial crops for food/feed production",
           "units": "1"
         },
         {
-          "specifier": "c4per_irrigated",
-          "long_name": "share of irrigated Sugarcane",
+          "specifier": "c3per_rainfed_bf",
+          "long_name": "rainfed C3 perennial bioenergy tree plantation",
           "units": "1"
         },
         {
-          "specifier": "c4per_rainfed",
-          "long_name": "share of rainfed Sugarcane",
+          "specifier": "c3per_rainfed_food",
+          "long_name": "rainfed C3 perennial crops for food/feed production",
+          "units": "1"
+        },
+        {
+          "specifier": "c4per_irrigated_bf",
+          "long_name": "irrigated C4 perennial bioenergy grass plantation",
+          "units": "1"
+        },
+        {
+          "specifier": "c4per_irrigated_food",
+          "long_name": "irrigated C4 perennial crops for food/feed production",
+          "units": "1"
+        },
+        {
+          "specifier": "c4per_rainfed_bf",
+          "long_name": "rainfed C4 perennial bioenergy grass plantation",
+          "units": "1"
+        },
+        {
+          "specifier": "c4per_rainfed_food",
+          "long_name": "rainfed C4 perennial crops for food/feed production",
           "units": "1"
         },
         {
@@ -2619,7 +2678,10 @@
       "mandatory": true,
       "group3": true,
       "frequency": "annual",
-      "resolution": "0.5° grid",
+      "resolution": [
+        "30arcmin (0.5° grid)",
+        "15arcmin"
+      ],
       "path": [
         "ISIMIP4b/InputData/socioeconomic/landuse/histsoc/landuse-pastures_histsoc_annual_<start>_<end>.nc",
         "ISIMIP4b/InputData/socioeconomic/landuse/2021soc/landuse-pastures_2021soc_annual_<start>_<end>.nc",
@@ -2639,7 +2701,6 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2671,7 +2732,10 @@
       "mandatory": true,
       "group3": true,
       "frequency": "annual",
-      "resolution": "0.5° grid",
+      "resolution": [
+        "30arcmin (0.5° grid)",
+        "15arcmin"
+      ],
       "path": [
         "ISIMIP4b/InputData/socioeconomic/landuse/histsoc/landuse-urbanareas_histsoc_annual_<start>_<end>.nc",
         "ISIMIP4b/InputData/socioeconomic/landuse/2021soc/landuse-urbanareas_2021soc_annual_<start>_<end>.nc",
@@ -2686,7 +2750,6 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2720,7 +2783,10 @@
       "mandatory": false,
       "group3": true,
       "frequency": "annual",
-      "resolution": "0.5° grid",
+      "resolution": [
+        "30arcmin (0.5° grid)",
+        "15arcmin"
+      ],
       "path": [
         "ISIMIP4b/InputData/socioeconomic/landuse/histsoc/landuse-forests-and-natural-vegetation_histsoc_annual_<start>_<end>.nc",
         "ISIMIP4b/InputData/socioeconomic/landuse/2021soc/landuse-forests-and-natural-vegetation_2021soc_annual_<start>_<end>.nc",
@@ -2760,7 +2826,103 @@
           "units": "years"
         }
       ],
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment). Not relevant for models with dynamic vegetation. Those models should consider the sum of these areas as boundary condition and calculate the natural vegetation dynamics of forest and other natural vegetation internally.",
+      "comment": "Not relevant for models with dynamic vegetation. Those models should consider the sum of these areas as boundary condition and calculate the natural vegetation dynamics of forest and other natural vegetation internally.",
+      "sectors": [
+        "agriculture",
+        "biodiversity",
+        "biomes",
+        "coastal",
+        "diarrhea",
+        "fire",
+        "forestry",
+        "groundwater",
+        "health",
+        "fs-n",
+        "labour",
+        "lakes_global",
+        "lakes_local",
+        "peat",
+        "permafrost",
+        "water_global",
+        "water_regional",
+        "water_quality"
+      ],
+      "time_periods": [
+        "1850-2021",
+        "2022-2100"
+      ]
+    },
+    {
+      "specifier": "landuse-subgroups",
+      "title": "Seasonal sub-splits of two landuse-15crops groups",
+      "group": "landuse",
+      "mandatory": false,
+      "group3": true,
+      "frequency": "annual",
+      "resolution": [
+        "30arcmin (0.5° grid)",
+        "15arcmin"
+      ],
+      "path": [
+        "ISIMIP4b/InputData/socioeconomic/landuse/histsoc/landuse-forests-and-natural-vegetation_histsoc_annual_<start>_<end>.nc",
+        "ISIMIP4b/InputData/socioeconomic/landuse/2021soc/landuse-forests-and-natural-vegetation_2021soc_annual_<start>_<end>.nc",
+        "ISIMIP4b/InputData/socioeconomic/landuse/1850soc/landuse-forests-and-natural-vegetation_1850soc_annual_<start>_<end>.nc",
+        "ISIMIP4b/InputData/socioeconomic/landuse/ssp1vlsoc-noadapt/landuse-forests-and-natural-vegetation_vl_annual_2022_2100.nc",
+        "ISIMIP4b/InputData/socioeconomic/landuse/ssp3hsoc-noadapt/landuse-forests-and-natural-vegetation_h_annual_2022_2100.nc"
+      ],
+      "variables": [
+        {
+          "specifier": "rice1_irrigated",
+          "long_name": "irrigated rice, first growing season",
+          "units": "1"
+        },
+        {
+          "specifier": "rice1_rainfed",
+          "long_name": "rainfed rice, first growing season",
+          "units": "1"
+        },
+        {
+          "specifier": "rice2_irrigated",
+          "long_name": "irrigated rice, second growing season",
+          "units": "1"
+        },
+        {
+          "specifier": "rice2_rainfed",
+          "long_name": "rainfed rice, second growing season",
+          "units": "1"
+        },
+        {
+          "specifier": "temperate_cereals_others_irrigated",
+          "long_name": "irrigated temperate cereals, non-wheat (barley, rye, triticale)",
+          "units": "1"
+        },
+        {
+          "specifier": "temperate_cereals_others_rainfed",
+          "long_name": "rainfed temperate cereals, non-wheat (barley, rye, triticale)",
+          "units": "1"
+        },
+        {
+          "specifier": "temperate_cereals_swh_irrigated",
+          "long_name": "irrigated temperate cereals, spring wheat",
+          "units": "1"
+        },
+        {
+          "specifier": "temperate_cereals_swh_rainfed",
+          "long_name": "rainfed temperate cereals, spring wheat",
+          "units": "1"
+        },
+        {
+          "specifier": "temperate_cereals_wwh_irrigated",
+          "long_name": "irrigated temperate cereals, winter wheat",
+          "units": "1"
+        },
+        {
+          "specifier": "temperate_cereals_wwh_rainfed",
+          "long_name": "rainfed temperate cereals, winter wheat",
+          "units": "1"
+        }
+      ],
+      "comment": "Annual grid-cell fractions of the seasonal sub-splits of two landuse-15crops groups: temperate_cereals into winter wheat, spring wheat and a non-wheat residual (GGCMI phase-3 winter/spring wheat mask), and rice into rice1/rice2 seasons (GGCMI phase-3 crop calendar). Both splits sum exactly to their landuse-15crops parent totals, which are not repeated here. Fractions are of the whole grid cell, not land area. 2021soc holds the 2021 state fixed across the full 1850-2025 period, including the 1850-1900 spin-up; 2021soc under ISIMIP4a differs from 2021soc under ISIMIP4b, a future-window baseline.",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2793,7 +2955,10 @@
       "mandatory": true,
       "group3": true,
       "frequency": "annual (growing season)",
-      "resolution": "0.5° grid",
+      "resolution": [
+        "30arcmin (0.5° grid)",
+        "15arcmin"
+      ],
       "path": [
         "ISIMIP4b/InputData/socioeconomic/n-fertilizer/histsoc/n-fertilizer-5crops_histsoc_annual_<start>_<end>.nc",
         "ISIMIP4b/InputData/socioeconomic/n-fertilizer/2021soc/n-fertilizer-5crops_2021soc_annual_<start>_<end>.nc",
@@ -2858,70 +3023,91 @@
       "mandatory": true,
       "group3": true,
       "frequency": "annual (growing season)",
-      "resolution": "0.5° grid",
+      "resolution": [
+        "30arcmin (0.5° grid)",
+        "15arcmin"
+      ],
       "path": [
+        "ISIMIP4b/InputData/socioeconomic/n-fertilizer/histsoc/n-fertilizer-15crops_histsoc_annual_<start>_<end>.nc",
+        "ISIMIP4b/InputData/socioeconomic/n-fertilizer/2021soc/n-fertilizer-15crops_2021soc_annual_<start>_<end>.nc",
+        "ISIMIP4b/InputData/socioeconomic/n-fertilizer/1850soc/n-fertilizer-15crops_1850soc_annual_<start>_<end>.nc",
         "ISIMIP4b/InputData/socioeconomic/n-fertilizer/ssp1vlsoc-noadapt/n-fertilizer-15crops_vl_annual_2022_2100.nc",
         "ISIMIP4b/InputData/socioeconomic/n-fertilizer/ssp3hsoc-noadapt/n-fertilizer-15crops_h_annual_2022_2100.nc"
       ],
       "variables": [
         {
+          "specifier": "c3per_fertl",
+          "long_name": "N input through fertilizer on cropland with C3 perennial crops",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
           "specifier": "c4per_fertl",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "others_annual_fertl",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "others_perennial_fertl",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "others_N-fixing_fertl",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "tropical_roots_fertl",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "tropical_cereals_fertl",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "temperate_roots_fertl",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "temperate_cereals_fertl",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "pulses_fertl",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "oil_crops_sunflower_fertl",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "oil_crops_soybean_fertl",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "rice_fertl",
+          "long_name": "N input through fertilizer on cropland with C4 perennial crops (sugarcane)",
           "units": "kg ha-1 yr-1 (crop season)"
         },
         {
           "specifier": "maize_fertl",
+          "long_name": "N input through fertilizer on cropland with maize",
           "units": "kg ha-1 yr-1 (crop season)"
         },
         {
           "specifier": "oil_crops_groundnut_fertl",
+          "long_name": "N input through fertilizer on cropland with groundnut oil crops",
           "units": "kg ha-1 yr-1 (crop season)"
         },
         {
           "specifier": "oil_crops_rapeseed_fertl",
+          "long_name": "N input through fertilizer on cropland with rapeseed oil crops",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "oil_crops_soybean_fertl",
+          "long_name": "N input through fertilizer on cropland with soybean oil crops",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "oil_crops_sunflower_fertl",
+          "long_name": "N input through fertilizer on cropland with sunflower oil crops",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "others_c3ann_fertl",
+          "long_name": "N input through fertilizer on cropland with other C3 annual crops",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "others_c3nfx_fertl",
+          "long_name": "N input through fertilizer on cropland with other C3 nitrogen-fixing crops",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "pulses_fertl",
+          "long_name": "N input through fertilizer on cropland with pulses",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "rice_fertl",
+          "long_name": "N input through fertilizer on cropland with rice",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "temperate_cereals_fertl",
+          "long_name": "N input through fertilizer on cropland with temperate cereals",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "temperate_roots_fertl",
+          "long_name": "N input through fertilizer on cropland with temperate roots",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "tropical_cereals_fertl",
+          "long_name": "N input through fertilizer on cropland with tropical cereals",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "tropical_roots_fertl",
+          "long_name": "N input through fertilizer on cropland with tropical roots",
           "units": "kg ha-1 yr-1 (crop season)"
         }
       ],
@@ -3381,7 +3567,10 @@
       "title": "Land transformation",
       "group": "land-transformation",
       "frequency": "annual",
-      "resolution": "0.5° grid",
+      "resolution": [
+        "30arcmin (0.5° grid)",
+        "15arcmin"
+      ],
       "group3": true,
       "path": [
         "ISIMIP4b/InputData/socioeconomic/land-transformation/histsoc/land-transformation_histsoc_annual_<start>_<end>.nc",
@@ -3462,7 +3651,8 @@
       "time_periods": [
         "1850-2021",
         "2022-2100"
-      ]
+      ],
+      "comment": "Urban and rural population are not yet available.\n"
     },
     {
       "specifier": "population-countrylevel",
@@ -3518,7 +3708,8 @@
       "time_periods": [
         "1850-2014",
         "2015-2100"
-      ]
+      ],
+      "comment": "Not yet available.\n"
     },
     {
       "specifier": "gdp-ppp-countrylevel",

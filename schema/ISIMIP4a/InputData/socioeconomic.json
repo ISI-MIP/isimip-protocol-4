@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/socioeconomic.yaml",
-  "commit": "b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb",
+  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
   "type": "object",
   "required": [
     "specifiers"
@@ -14,34 +14,35 @@
         "soc_dataset": {
           "type": "string",
           "enum": [
-            "gdp-mer-countrylevel",
-            "landuse-urbanareas",
-            "effort-industrial-gridded",
-            "landuse-15crops",
-            "ndep-noy",
-            "wood_harvesting",
-            "effort-artisanal-gridded",
-            "landuse-totals",
-            "landuse-pastures",
-            "fixed-asset-value",
-            "ndep-drynhx",
-            "reservoirs-dams",
-            "gdp-ppp",
-            "population-stratification",
-            "ndep-wetnhx",
-            "pctlake",
             "n-fertilizer-15crops",
-            "gdp-ppp-countrylevel",
+            "landuse-pastures",
+            "ndep-drynhx",
+            "ndep-wetnoy",
+            "pctlake",
             "population",
-            "effort",
             "land-transformation",
-            "gdp-per-capita-ppp",
-            "ndep-nhx",
-            "landuse-forests-and-natural-vegetation",
-            "landuse-5crops",
-            "n-fertilizer-5crops",
             "ndep-drynoy",
-            "ndep-wetnoy"
+            "gdp-ppp-countrylevel",
+            "landuse-urbanareas",
+            "ndep-wetnhx",
+            "landuse-subgroups",
+            "ndep-noy",
+            "reservoirs-dams",
+            "gdp-per-capita-ppp",
+            "gdp-ppp",
+            "effort",
+            "effort-industrial-gridded",
+            "wood_harvesting",
+            "gdp-mer-countrylevel",
+            "fixed-asset-value",
+            "population-stratification",
+            "ndep-nhx",
+            "effort-artisanal-gridded",
+            "landuse-5crops",
+            "landuse-totals",
+            "landuse-15crops",
+            "landuse-forests-and-natural-vegetation",
+            "n-fertilizer-5crops"
           ]
         },
         "soc_variable": {
@@ -50,26 +51,26 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
             "histsoc",
-            "1850soc",
             "2021soc",
-            "1901soc"
+            "1901soc",
+            "nat",
+            "1850soc"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "hourly",
-            "6hr",
-            "3hr",
             "monthly",
-            "2hr",
-            "daily",
             "monthly-gs",
+            "hourly",
             "annual",
+            "fixed",
+            "3hr",
+            "6hr",
+            "daily",
             "annual-gs",
-            "fixed"
+            "2hr"
           ]
         },
         "start_year": {

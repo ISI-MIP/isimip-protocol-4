@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/labour.yaml",
-  "commit": "b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb",
+  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
   "type": "object",
   "required": [
     "specifiers"
@@ -42,57 +42,57 @@
           "enum": [
             "esm-hist",
             "historical",
-            "picontrol",
-            "esm-scen7-vl",
-            "esm-picontrol",
             "scen7-h",
             "scen7-vl",
-            "esm-scen7-h"
+            "esm-scen7-h",
+            "esm-picontrol",
+            "esm-scen7-vl",
+            "picontrol"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "1850soc",
-            "2021soc-from-histsoc",
             "histsoc",
-            "2021soc"
+            "2021soc",
+            "1850soc",
+            "2021soc-from-histsoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
-            "2021co2"
+            "2021co2",
+            "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "labprod",
             "labeff",
-            "labsupp"
+            "labsupp",
+            "labprod"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
+            "along-track",
             "global",
-            "europe",
-            "along-track"
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "hourly",
-            "6hr",
-            "3hr",
             "monthly",
-            "2hr",
-            "daily",
+            "hourly",
             "annual",
-            "fixed"
+            "fixed",
+            "3hr",
+            "6hr",
+            "daily",
+            "2hr"
           ]
         },
         "start_year": {

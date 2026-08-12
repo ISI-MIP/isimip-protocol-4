@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/SecondaryOutputData/marine-fishery_regional.yaml",
-  "commit": "b64f6a126bf6b5502fcb0e0bff6af4acc9b090fb",
+  "commit": "ad2c9ca4c42ca232f888cf2160255abc1bb89957",
   "type": "object",
   "required": [
     "specifiers"
@@ -42,99 +42,99 @@
           "enum": [
             "esm-hist",
             "historical",
-            "picontrol",
-            "esm-scen7-vl",
-            "esm-picontrol",
             "scen7-h",
             "scen7-vl",
-            "esm-scen7-h"
+            "esm-scen7-h",
+            "esm-picontrol",
+            "esm-scen7-vl",
+            "picontrol"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
+            "histsoc",
             "nat",
-            "2021soc-from-histsoc",
-            "histsoc"
+            "2021soc-from-histsoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
-            "2021co2"
+            "2021co2",
+            "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "cd90cm",
-            "cd30cm",
-            "tcb",
             "cp90cm",
+            "tc",
+            "cp30cm",
+            "bp90cm",
+            "bp30to90cm",
+            "cd30cm",
+            "tpc",
             "bd90cm",
             "bd30to90cm",
-            "cd30to90cm",
-            "bp30to90cm",
+            "bp30cm",
+            "tclog10",
+            "tcb",
+            "cp30to90cm",
+            "cd90cm",
             "tpb",
             "bd30cm",
-            "tclog10",
-            "cp30cm",
-            "tc",
+            "tcblog10",
             "tdc",
             "tdb",
-            "tcblog10",
-            "bp90cm",
-            "bp30cm",
-            "tpc",
-            "cp30to90cm"
+            "cd30to90cm"
           ]
         },
         "ocean_region": {
           "type": "string",
           "enum": [
-            "northernhumboldt",
-            "baltic-sea",
+            "humboldt-n",
+            "seaustralia-mizer",
+            "east-bearing-sea-shelf",
             "mediterraneansea",
-            "hawaii",
-            "se-australia",
-            "northsea-ibts",
-            "seaustralia-atlantis",
-            "chatham-rise-ll-nz",
-            "gulf-alaska",
-            "east-bass-strait",
-            "nw-med-sea",
-            "brasil-ne",
-            "himi",
-            "east-bering-sea",
-            "cook-strait",
-            "adriatic-sea",
             "kerguelen",
+            "tasman-golden-bays-nz",
+            "seaustralia-atlantis",
+            "hawaiian-longline",
+            "east-bass-strait",
+            "benguela",
+            "med-glob",
+            "chatham-rise-ll-nz",
             "northsea-ewe",
             "taiwancentralsouthpacific",
-            "med-glob",
             "north-sea",
-            "benguela",
-            "humboldt-n",
+            "baltic-sea",
+            "northernhumboldt",
             "eastern-scotian-shelf",
+            "cook-strait",
+            "northsea-ibts",
+            "gulf-alaska",
+            "nw-med-sea",
+            "se-australia",
+            "east-bering-sea",
+            "adriatic-sea",
             "prydz-bay",
-            "seaustralia-mizer",
-            "hawaiian-longline",
-            "east-bearing-sea-shelf",
-            "tasman-golden-bays-nz"
+            "himi",
+            "hawaii",
+            "brasil-ne"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "hourly",
-            "6hr",
-            "3hr",
             "monthly",
-            "2hr",
-            "daily",
+            "hourly",
             "annual",
-            "fixed"
+            "fixed",
+            "3hr",
+            "6hr",
+            "daily",
+            "2hr"
           ]
         },
         "start_year": {
