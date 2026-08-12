@@ -1457,7 +1457,9 @@
   title: Land transformation
   group: land-transformation
   frequency: annual
-  resolution: 0.5° grid
+  resolution:
+  - 30arcmin (0.5° grid)
+  - 15arcmin
   group3: true
   path:
     ISIMIP4a:
