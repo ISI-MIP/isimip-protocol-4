@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/socioeconomic.yaml",
-  "commit": "577d0f9641aa28acfb3a37535e649b1cf9a8f7f6",
+  "commit": "ae50e0cbaf6174741d4aea56809753b3f330ca7d",
   "type": "object",
   "required": [
     "specifiers"
@@ -14,35 +14,36 @@
         "soc_dataset": {
           "type": "string",
           "enum": [
-            "landuse-totals",
-            "n-fertilizer-5crops",
-            "landuse-pastures",
-            "ndep-wetnoy",
-            "ndep-noy",
-            "ndep-drynoy",
-            "fixed-asset-value",
-            "gdp-mer-countrylevel",
-            "landuse-5crops",
-            "gdp-ppp-countrylevel",
-            "ndep-drynhx",
-            "landuse-15crops",
             "n-fertilizer-15crops",
-            "population-stratification",
-            "landuse-subgroups",
-            "landuse-forests-and-natural-vegetation",
-            "landuse-urbanareas",
-            "wood_harvesting",
-            "ndep-wetnhx",
-            "effort",
-            "gdp-ppp",
-            "effort-artisanal-gridded",
-            "gdp-per-capita-ppp",
-            "population",
-            "ndep-nhx",
-            "reservoirs-dams",
-            "effort-industrial-gridded",
             "land-transformation",
-            "pctlake"
+            "landuse-15crops",
+            "ndep-drynhx",
+            "effort-industrial-gridded",
+            "effort-artisanal-gridded",
+            "ndep-wetnoy",
+            "landuse-totals",
+            "population",
+            "ndep-noy",
+            "fixed-asset-value",
+            "landuse-5crops",
+            "landuse-urbanareas",
+            "gdp-per-capita-ppp",
+            "ggcmi-crop-calendar",
+            "n-fertilizer-5crops",
+            "wood_harvesting",
+            "effort",
+            "pctlake",
+            "ndep-wetnhx",
+            "gdp-ppp-countrylevel",
+            "reservoirs-dams",
+            "gdp-ppp",
+            "landuse-pastures",
+            "ndep-drynoy",
+            "landuse-forests-and-natural-vegetation",
+            "ndep-nhx",
+            "landuse-subgroups",
+            "population-stratification",
+            "gdp-mer-countrylevel"
           ]
         },
         "soc_variable": {
@@ -51,26 +52,38 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "1901soc",
-            "nat",
             "histsoc",
+            "2021soc",
             "1850soc",
-            "2021soc"
+            "1901soc",
+            "nat"
+          ]
+        },
+        "resolution": {
+          "type": "string",
+          "enum": [
+            "5arcmin",
+            "15arcmin",
+            "national",
+            "6arcmin",
+            "30arcmin",
+            "30arcsec",
+            "1arcmin"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "2hr",
-            "annual-gs",
-            "daily",
+            "hourly",
+            "monthly",
             "6hr",
             "annual",
-            "3hr",
-            "monthly",
             "monthly-gs",
-            "hourly",
-            "fixed"
+            "3hr",
+            "fixed",
+            "annual-gs",
+            "2hr",
+            "daily"
           ]
         },
         "start_year": {

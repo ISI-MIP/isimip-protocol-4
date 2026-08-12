@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/InputData/geo_conditions.yaml",
-  "commit": "577d0f9641aa28acfb3a37535e649b1cf9a8f7f6",
+  "commit": "ae50e0cbaf6174741d4aea56809753b3f330ca7d",
   "type": "object",
   "required": [
     "specifiers"
@@ -16,39 +16,45 @@
         "geo_dataset": {
           "type": "string",
           "enum": [
-            "elevation",
-            "ddm30_slopes_cru_neva",
-            "gswp3_hwsd",
+            "hypso_volume",
+            "LMEs66_masks",
+            "orog",
             "ddm30_flowdir_cru_neva",
-            "volume",
-            "hwsd_soil_data_on_cropland",
-            "countrymasks-fractional",
+            "gadm",
             "RME_masks",
+            "landseamask_no-ant",
+            "mpa",
+            "hydrolakes_id_biglakes",
             "countrymasks-binary",
-            "hypso_area",
             "biglakes_mask",
-            "deptho",
+            "hwsd_soil_data_all_land",
+            "hypso_area",
+            "max_lakedepth",
             "hydrolakes_id",
             "surface_area",
-            "ddm30_basins_cru_neva",
-            "landseamask_no-ant",
-            "max_lakedepth",
-            "hypso_volume",
-            "hwsd_soil_data_all_land",
-            "LMEs66_masks",
-            "mpa",
-            "landseamask",
-            "hydrolakes_id_biglakes",
+            "gswp3_hwsd",
+            "elevation",
             "landseamask_water-global",
-            "orog",
-            "gadm",
+            "ddm30_slopes_cru_neva",
+            "hwsd_soil_data_on_cropland",
+            "ddm30_basins_cru_neva",
+            "volume",
+            "countrymasks-fractional",
+            "landseamask",
+            "deptho",
             "mean_lakedepth"
           ]
         },
         "resolution": {
           "type": "string",
           "enum": [
-            "30arcmin"
+            "5arcmin",
+            "15arcmin",
+            "national",
+            "6arcmin",
+            "30arcmin",
+            "30arcsec",
+            "1arcmin"
           ]
         },
         "start_year": {
