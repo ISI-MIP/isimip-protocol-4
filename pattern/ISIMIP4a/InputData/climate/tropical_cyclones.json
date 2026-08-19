@@ -1,0 +1,11 @@
+{
+  "commit": "9e6210a39112b63526f60578b0c6ced63336ceda",
+  "path": "(?P<simulation_round>(ISIMIP4a))/(?P<product>(InputData))/(?P<category>(climate))/(?P<subcategory>(tropical_cyclones))/(?P<climate_scenario>[a-z]+)/(tracks)/(3hr)/(historical)$",
+  "dataset": "^(?P<climate_dataset>(ibtracs))_(?P<climate_scenario>[a-z]+)_(historical)",
+  "file": "^(?P<climate_dataset>(ibtracs))_(?P<climate_scenario>[a-z]+)_(historical)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.nc)$",
+  "suffix": [
+    ".nc"
+  ],
+  "specifiers": {},
+  "specifiers_map": {}
+}

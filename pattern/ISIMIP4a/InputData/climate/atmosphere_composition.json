@@ -1,8 +1,8 @@
 {
-  "commit": "ae50e0cbaf6174741d4aea56809753b3f330ca7d",
-  "path": "(?P<simulation_round>[A-Za-z0-9]+)/(?P<product>[A-Za-z]+)/(?P<category>[a-z0-9-_]+)/(?P<subcategory>[a-z0-9-_]+)/(?P<climate_variable>[a-z0-9-]+)/(?P<climate_scenario>[a-z]+)$",
-  "dataset": "^(?P<climate_variable>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9]+)_(?P<time_step>[a-z0-9-]+)",
-  "file": "^(?P<climate_variable>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9]+)_(?P<time_step>[a-z0-9-]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.txt)$",
+  "commit": "9e6210a39112b63526f60578b0c6ced63336ceda",
+  "path": "(?P<simulation_round>(ISIMIP4a))/(?P<product>(InputData))/(?P<category>(climate))/(?P<subcategory>(atmosphere_composition))/(?P<climate_variable>[a-z0-9-]+)/(?P<climate_scenario>[a-z]+)$",
+  "dataset": "^(?P<climate_variable>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9]+)_(?P<time_step>[a-z]+)",
+  "file": "^(?P<climate_variable>[a-z0-9-]+)_(?P<climate_scenario>[a-z0-9]+)_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.txt)$",
   "suffix": [
     ".txt"
   ],

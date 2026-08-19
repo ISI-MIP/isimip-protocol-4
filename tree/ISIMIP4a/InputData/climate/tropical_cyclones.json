@@ -1,11 +1,9 @@
 {
-  "commit": "ae50e0cbaf6174741d4aea56809753b3f330ca7d",
+  "commit": "9e6210a39112b63526f60578b0c6ced63336ceda",
   "identifiers": [
     "simulation_round",
     "product",
     "category",
-    "subcategory",
-    "wind_model|climate_dataset",
-    "climate_variable"
+    "subcategory"
   ]
 }
