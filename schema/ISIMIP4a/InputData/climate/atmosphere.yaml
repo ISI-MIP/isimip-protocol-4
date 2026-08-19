@@ -7,6 +7,9 @@ properties:
     required:
     - climate_forcing
     - climate_scenario
+    - climate_variable
+    - region
+    - resolution
     - time_step
     properties:
       climate_forcing:
@@ -17,7 +20,7 @@ properties:
         type: string
       region:
         type: string
-      lake_site:
+      resolution:
         type: string
       time_step:
         type: string

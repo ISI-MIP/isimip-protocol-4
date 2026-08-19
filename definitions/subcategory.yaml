@@ -48,6 +48,11 @@
   categories:
   - socioeconomic
 
+- specifier: fixed-assets
+  title: Fixed assets
+  categories:
+  - socioeconomic
+
 - specifier: inter_basin_water_transfer
   title: Inter basin water transfer
   categories:

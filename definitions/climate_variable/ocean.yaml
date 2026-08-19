@@ -262,12 +262,14 @@
     ISIMIP4a:
     - 0.25°
     - 1° grid
-    ISIMIP4b: []
+    ISIMIP4b:
+    - 1° grid
   path:
     ISIMIP4a: ISIMIP4a/InputData/climate/ocean/<climate-scenario>/global/monthly/historical/<climate-forcing>/<climate-forcing>_<climate-scenario>_mlotst_<resolution>_global_monthly_<start_year>_<end_year>.nc
     ISIMIP4b: ISIMIP4b/InputData/climate/ocean/uncorrected/global/monthly/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_<climate-scenario>_mlotst_60arcmin_global_monthly_<start_year>_<end_year>.nc
   simulation_rounds:
   - ISIMIP4a
+  - ISIMIP4b
   sectors:
   - marine-fishery_global
   - marine-fishery_regional

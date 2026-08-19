@@ -1,8 +1,8 @@
 path: >-
-  (?P<simulation_round>[A-Za-z0-9]+)
-  /(?P<product>[A-Za-z]+)
-  /(?P<category>[a-z0-9-_]+)
-  /(?P<subcategory>[a-z0-9-_]+)
+  (?P<simulation_round>(ISIMIP4b))
+  /(?P<product>(InputData))
+  /(?P<category>(geo_conditions))
+  /(?P<subcategory>(countrymasks))
 
 dataset: >-
   (?P<geo_dataset>[A-Za-z0-9-]+)

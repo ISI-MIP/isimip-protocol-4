@@ -1,10 +1,2 @@
-- specifier: hcc
-  title: HCC
-  sectors:
-  - coastal
-
-- specifier: tracks
-  title: Tracks
-
-- specifier: chr
-  title: CHR
+- specifier: ibtracs
+  title: IBTrACS

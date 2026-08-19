@@ -11,6 +11,8 @@ properties:
     properties:
       climate_variable:
         type: string
+      climate_forcing:
+        type: string
       climate_scenario:
         type: string
       time_step:

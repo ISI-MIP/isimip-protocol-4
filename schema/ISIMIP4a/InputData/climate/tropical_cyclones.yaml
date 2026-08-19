@@ -7,11 +7,9 @@ properties:
     required:
     - climate_scenario
     properties:
-      wind_model:
-        type: string
       climate_scenario:
         type: string
-      climate_variable:
+      climate_dataset:
         type: string
       region:
         type: string

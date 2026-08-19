@@ -651,6 +651,25 @@
   - water_quality
   format: NetCDF
 
+- specifier: areacello
+  specifier_alias: deptho
+  title: Grid-Cell Area for Ocean Variables
+  group: ocean-static
+  resolution:
+  - 1° grid
+  path:
+    ISIMIP4a:
+    ISIMIP4b: ISIMIP4b/InputData/geo_conditions/ocean/<climate-forcing>_<ensemble_member>_esm-hist_areacello_60arcmin_global_fixed.nc
+  variables:
+  - specifier: areacello
+    units: m2
+  simulation_rounds:
+  - ISIMIP4b
+  sectors:
+  - marine-fishery_global
+  - marine-fishery_regional
+  format: NetCDF
+
 - specifier: bathymetry
   specifier_alias: deptho
   title: Sea Floor Depth
@@ -660,7 +679,7 @@
   - 1° grid
   path:
     ISIMIP4a: ISIMIP4a/InputData/geo_conditions/ocean/gfdl-mom6-cobalt2_deptho_<resolution>_global_fixed.nc
-    ISIMIP4b: ISIMIP4b/InputData/geo_conditions/ocean/<climate-forcing>_<ensemble_member>_picontrol_deptho_onedeg_global_fixed.nc
+    ISIMIP4b: ISIMIP4b/InputData/geo_conditions/ocean/<climate-forcing>_<ensemble_member>_esm-hist_deptho_60arcmin_global_fixed.nc
   variables:
   - specifier: deptho
     units: m

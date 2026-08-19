@@ -7,9 +7,11 @@ properties:
     required:
     - climate_forcing
     - ensemble_member
+    - bias_adjustment
     - climate_scenario
     - climate_variable
     - region
+    - resolution
     - time_step
     properties:
       climate_forcing:
@@ -23,6 +25,8 @@ properties:
       climate_variable:
         type: string
       region:
+        type: string
+      resolution:
         type: string
       time_step:
         type: string

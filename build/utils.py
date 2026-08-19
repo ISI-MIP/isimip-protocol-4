@@ -52,9 +52,9 @@ def get_specifier_list(row):
     specifier_alias = row.get('specifier_alias')
 
     if isinstance(specifier_alias, list):
-        return specifier_alias
+        return [specifier, *specifier_alias]
     elif isinstance(specifier_alias, str):
-        return [specifier_alias]
+        return [specifier, specifier_alias]
     else:
         return [specifier]
 

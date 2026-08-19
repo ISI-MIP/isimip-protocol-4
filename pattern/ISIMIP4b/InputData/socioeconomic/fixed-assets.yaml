@@ -2,19 +2,23 @@ path: >-
   (?P<simulation_round>(ISIMIP4b))
   /(?P<product>(InputData))
   /(?P<category>(socioeconomic))
-  /(?P<subcategory>(landuse))
+  /(?P<subcategory>(fixed-assets))
   /(?P<soc_scenario>[a-z0-9-]+)
 
 dataset: >-
   (?P<soc_dataset>[a-z0-9-]+)
-  _(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vlsoc|ssp3hsoc)?
+  _(?P<soc_scenario>(histsoc|2021soc|1850soc))?(?P<soc_pathway>ssp\d)?
   _(?P<resolution>[a-z0-9]+)
   _(?P<time_step>[a-z]+)
 
 file: >-
   (?P<soc_dataset>[a-z0-9-]+)
-  _(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vlsoc|ssp3hsoc)?
+  _(?P<soc_scenario>(histsoc|2021soc|1850soc))?(?P<soc_pathway>ssp\d)?
   _(?P<resolution>[a-z0-9]+)
   _(?P<time_step>[a-z]+)
   _(?P<start_year>\d{4})
   _(?P<end_year>\d{4})
+
+suffix:
+- .csv
+- .nc

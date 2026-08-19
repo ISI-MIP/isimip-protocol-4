@@ -1,8 +1,8 @@
 path: >-
-  (?P<simulation_round>[A-Za-z0-9]+)
-  /(?P<product>[A-Za-z]+)
-  /(?P<category>[a-z0-9-_]+)
-  /(?P<subcategory>[a-z0-9-_]+)
+  (?P<simulation_round>(ISIMIP4a))
+  /(?P<product>(InputData))
+  /(?P<category>(socioeconomic))
+  /(?P<subcategory>(crop_calendar))
   /(?P<soc_scenario>[a-z0-9-]+)
 
 dataset: >-

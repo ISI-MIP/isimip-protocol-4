@@ -1,3 +1,7 @@
+- specifier: 60arcmin
+  products:
+  - InputData
+
 - specifier: 30arcmin
 
 - specifier: 15arcmin

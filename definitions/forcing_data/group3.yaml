@@ -17,8 +17,22 @@
   title: GDP data
   mandatory: true
   path:
-  - ISIMIP4b/InputData/socioeconomic/gdp/vssp1vlsoc-noadapt/
+  - ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/
   - ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/
+  simulation_rounds:
+  - ISIMIP4b
+  group3: true
+  noadapt:
+  - vl
+  - h
+
+- specifier: group3_fixed_assets
+  group: group3-forcing
+  title: Fixed assets
+  mandatory: true
+  path:
+  - ISIMIP4b/InputData/socioeconomic/fixed-assets/ssp1vlsoc-noadapt/
+  - ISIMIP4b/InputData/socioeconomic/fixed-assets/ssp3hsoc-noadapt/
   simulation_rounds:
   - ISIMIP4b
   group3: true

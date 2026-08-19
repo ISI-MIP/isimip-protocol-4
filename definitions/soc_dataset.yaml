@@ -1710,7 +1710,7 @@
 
 - specifier: fixed-asset-value
   title: Gridded fixed asset value PPP
-  group: gdp
+  group: fixed-assets
   mandatory: true
   group3: true
   frequency: annual

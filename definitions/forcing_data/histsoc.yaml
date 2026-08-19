@@ -30,6 +30,17 @@
     ISIMIP4b: >-
       Input dataset documentation → [National historical Gross Domestic Product (GDP)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
 
+- specifier: histsoc_fixed_assets
+  group: histsoc-forcing
+  title: Fixed assets
+  status: mandatory
+  doi:
+    ISIMIP4a:
+    ISIMIP4b:
+  path:
+    ISIMIP4a: ISIMIP4a/InputData/socioeconomic/fixed-assets/histsoc/
+    ISIMIP4b: ISIMIP4b/InputData/socioeconomic/fixed-assets/histsoc/
+
 - specifier: histsoc_land_use
   group: histsoc-forcing
   title: Land use and irrigation data

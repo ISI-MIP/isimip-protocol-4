@@ -431,3 +431,53 @@
     - GSWP3-ERA5
     ISIMIP4b:
     - EC-Earth3-ESM-1-1
+
+- specifier: hur
+  products:
+  - InputData
+  - OutputData
+
+- specifier: hus
+  products:
+  - InputData
+  - OutputData
+
+- specifier: prw
+  products:
+  - InputData
+  - OutputData
+
+- specifier: psl
+  products:
+  - InputData
+  - OutputData
+
+- specifier: ta
+  products:
+  - InputData
+  - OutputData
+
+- specifier: thetao
+  products:
+  - InputData
+  - OutputData
+
+- specifier: tos
+  products:
+  - InputData
+  - OutputData
+
+- specifier: ts
+  products:
+  - InputData
+  - OutputData
+
+- specifier: ua
+  products:
+  - InputData
+  - OutputData
+
+- specifier: va
+  products:
+  - InputData
+  - OutputData

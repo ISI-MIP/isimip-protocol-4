@@ -64,6 +64,10 @@
   title: GDP data
   identifier: soc_dataset
 
+- specifier: fixed-assets
+  title: Fixed assets
+  identifier: soc_dataset
+
 - specifier: landuse
   title: Landuse and irrigation
   identifier: soc_dataset
