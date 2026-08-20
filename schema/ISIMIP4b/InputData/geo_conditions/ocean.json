@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/InputData/geo_conditions/ocean.yaml",
-  "commit": "362995597a7bbddc21b4312a797d2e911cce4e49",
+  "commit": "f81131656362342e160554b2bb47277882aa134e",
   "type": "object",
   "required": [
     "specifiers"
@@ -26,51 +26,51 @@
         "geo_dataset": {
           "type": "string",
           "enum": [
+            "mpa",
+            "orog",
             "hwsd_soil_data_on_cropland",
+            "landseamask_water-global",
+            "hwsd_soil_data_all_land",
+            "ddm30_flowdir_cru_neva",
+            "ddm30_basins_cru_neva",
+            "lme",
             "hydrolakes_id_biglakes",
             "landseamask_no-ant",
-            "rme",
-            "areacello",
-            "gswp3_hwsd",
-            "lake_elevation",
-            "landseamask",
-            "volume",
-            "ddm30_slopes_cru_neva",
-            "countrymasks-binary",
-            "mean_lakedepth",
-            "bathymetry",
-            "deptho",
-            "gadm",
-            "RME_masks",
-            "surface_area",
-            "countrymasks-fractional",
-            "max_lakedepth",
-            "ddm30_basins_cru_neva",
-            "elevation",
-            "ddm30_flowdir_cru_neva",
             "LMEs66_masks",
-            "lme",
-            "hwsd_soil_data_all_land",
-            "mpa",
-            "landseamask_water-global",
-            "orog",
-            "hypso_area",
+            "lake_elevation",
+            "elevation",
+            "areacello",
+            "deptho",
+            "volume",
+            "biglakes_mask",
+            "landseamask",
+            "max_lakedepth",
+            "RME_masks",
+            "gadm",
+            "countrymasks-fractional",
+            "bathymetry",
+            "gswp3_hwsd",
+            "mean_lakedepth",
+            "surface_area",
+            "rme",
+            "countrymasks-binary",
             "hydrolakes_id",
             "hypso_volume",
-            "biglakes_mask"
+            "ddm30_slopes_cru_neva",
+            "hypso_area"
           ]
         },
         "resolution": {
           "type": "string",
           "enum": [
-            "30arcsec",
-            "5arcmin",
-            "60arcmin",
             "15arcmin",
-            "1arcmin",
+            "30arcsec",
+            "60arcmin",
             "national",
+            "6arcmin",
             "30arcmin",
-            "6arcmin"
+            "1arcmin",
+            "5arcmin"
           ]
         },
         "region": {
@@ -84,16 +84,16 @@
         "time_step": {
           "type": "string",
           "enum": [
+            "daily",
+            "3hr",
             "monthly-gs",
             "hourly",
             "annual",
-            "2hr",
-            "daily",
+            "6hr",
+            "monthly",
             "annual-gs",
             "fixed",
-            "monthly",
-            "6hr",
-            "3hr"
+            "2hr"
           ]
         }
       }

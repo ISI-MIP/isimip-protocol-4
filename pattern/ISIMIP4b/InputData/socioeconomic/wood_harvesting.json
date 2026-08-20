@@ -1,5 +1,5 @@
 {
-  "commit": "362995597a7bbddc21b4312a797d2e911cce4e49",
+  "commit": "f81131656362342e160554b2bb47277882aa134e",
   "path": "(?P<simulation_round>(ISIMIP4b))/(?P<product>(InputData))/(?P<category>(socioeconomic))/(?P<subcategory>(wood_harvesting))/(?P<soc_scenario>[a-z0-9-]+)$",
   "dataset": "^(?P<soc_variable>[a-z0-9-]+)_(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vlsoc|ssp3hsoc)?_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)",
   "file": "^(?P<soc_variable>[a-z0-9-]+)_(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vlsoc|ssp3hsoc)?_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.nc)$",
