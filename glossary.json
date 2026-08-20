@@ -1,5 +1,5 @@
 {
-  "commit": "9e6210a39112b63526f60578b0c6ced63336ceda",
+  "commit": "362995597a7bbddc21b4312a797d2e911cce4e49",
   "terms": {
     "climate_forcing": {
       "ec-earth3-esm-1-1": {
@@ -17994,6 +17994,14 @@
         "lon": -81.35,
         "type": "lake"
       },
+      "arendsee": {
+        "specifier": "arendsee",
+        "title": "Lake Arendsee",
+        "country": "Germany",
+        "lat": 52.89,
+        "lon": 11.47,
+        "type": "lake"
+      },
       "argyle": {
         "specifier": "argyle",
         "title": "Lake Argyle",
@@ -18026,6 +18034,22 @@
         "lon": -89.32,
         "type": "lake"
       },
+      "bosumtwi": {
+        "specifier": "bosumtwi",
+        "title": "Lake Bosumtwi",
+        "country": "Ghana",
+        "lat": 6.3,
+        "lon": 1.25,
+        "type": "lake"
+      },
+      "bryrup": {
+        "specifier": "bryrup",
+        "title": "Lake Bryrup",
+        "country": "Denmark",
+        "lat": 56.02,
+        "lon": 9.52,
+        "type": "lake"
+      },
       "burley-griffin": {
         "specifier": "burley-griffin",
         "title": "Lake Burley Griffin",
@@ -18034,12 +18058,12 @@
         "lon": 149.07,
         "type": "reservoir"
       },
-      "crystal-lake": {
-        "specifier": "crystal-lake",
-        "title": "Crystal Lake",
-        "country": "USA",
-        "lat": 46.0,
-        "lon": -89.61,
+      "chao": {
+        "specifier": "chao",
+        "title": "Lake Chao",
+        "country": "China",
+        "lat": 31.53,
+        "lon": 117.53,
         "type": "lake"
       },
       "crystal-bog": {
@@ -18047,6 +18071,14 @@
         "title": "Crystal Bog",
         "country": "USA",
         "lat": 46.01,
+        "lon": -89.61,
+        "type": "lake"
+      },
+      "crystal-lake": {
+        "specifier": "crystal-lake",
+        "title": "Crystal Lake",
+        "country": "USA",
+        "lat": 46.0,
         "lon": -89.61,
         "type": "lake"
       },
@@ -18074,9 +18106,17 @@
         "lon": -76.7,
         "type": "lake"
       },
+      "edward": {
+        "specifier": "edward",
+        "title": "Lake Edward",
+        "country": "Uganda/DR Congo",
+        "lat": -0.33,
+        "lon": 29.6,
+        "type": "lake"
+      },
       "ekoln": {
         "specifier": "ekoln",
-        "title": "Ekoln basin of Malaren",
+        "title": "Ekoln basin of Mälaren",
         "country": "Sweden",
         "lat": 59.75,
         "lon": 17.62,
@@ -18108,7 +18148,7 @@
       },
       "feeagh": {
         "specifier": "feeagh",
-        "title": "Lake Feeagh",
+        "title": "Lough Feeagh",
         "country": "Ireland",
         "lat": 53.9,
         "lon": -9.5,
@@ -18138,6 +18178,14 @@
         "lon": -89.0,
         "type": "lake"
       },
+      "grossglienickersee": {
+        "specifier": "grossglienickersee",
+        "title": "Groß Glienicker See",
+        "country": "Germany",
+        "lat": 52.47,
+        "lon": 13.11,
+        "type": "lake"
+      },
       "harp": {
         "specifier": "harp",
         "title": "Harp Lake",
@@ -18146,9 +18194,33 @@
         "lon": -79.13,
         "type": "lake"
       },
+      "hassel": {
+        "specifier": "hassel",
+        "title": "Hassel Predam",
+        "country": "Germany",
+        "lat": 51.71,
+        "lon": 10.83,
+        "type": "reservoir"
+      },
+      "hulun": {
+        "specifier": "hulun",
+        "title": "Lake Hulun",
+        "country": "China",
+        "lat": 49.0,
+        "lon": 117.39,
+        "type": "lake"
+      },
+      "inre-harrsjon": {
+        "specifier": "inre-harrsjon",
+        "title": "Inre Harrsjön",
+        "country": "Sweden",
+        "lat": 68.36,
+        "lon": 19.05,
+        "type": "lake"
+      },
       "kilpisjarvi": {
         "specifier": "kilpisjarvi",
-        "title": "Kilpisjarvi",
+        "title": "Kilpisjärvi",
         "country": "Finland",
         "lat": 69.03,
         "lon": 20.77,
@@ -18210,6 +18282,14 @@
         "lon": 8.58,
         "type": "lake"
       },
+      "mellersta-harrsjon": {
+        "specifier": "mellersta-harrsjon",
+        "title": "Mellersta Harrsjön",
+        "country": "Sweden",
+        "lat": 68.36,
+        "lon": 19.04,
+        "type": "lake"
+      },
       "mendota": {
         "specifier": "mendota",
         "title": "Lake Mendota",
@@ -18244,15 +18324,23 @@
       },
       "mueggelsee": {
         "specifier": "mueggelsee",
-        "title": "Lake Muggelsee",
+        "title": "Lake Müggelsee",
         "country": "Germany",
         "lat": 52.43,
         "lon": 13.65,
         "type": "lake"
       },
+      "murten": {
+        "specifier": "murten",
+        "title": "Lake Murten",
+        "country": "Switzerland",
+        "lat": 46.93,
+        "lon": 7.08,
+        "type": "lake"
+      },
       "neuchatel": {
         "specifier": "neuchatel",
-        "title": "Lake Neuchatel",
+        "title": "Lake Neuchâtel",
         "country": "Switzerland",
         "lat": 46.54,
         "lon": 6.52,
@@ -18268,7 +18356,7 @@
       },
       "nohipalo-mustjaerv": {
         "specifier": "nohipalo-mustjaerv",
-        "title": "Lake Nohipalo Mustjaerv",
+        "title": "Lake Nohipalo Mustjärv",
         "country": "Estonia",
         "lat": 57.93,
         "lon": 27.34,
@@ -18276,7 +18364,7 @@
       },
       "nohipalo-valgejaerv": {
         "specifier": "nohipalo-valgejaerv",
-        "title": "Lake Nohipalo Valgejaerv",
+        "title": "Lake Nohipalo Valgejärv",
         "country": "Estonia",
         "lat": 57.94,
         "lon": 27.35,
@@ -18292,7 +18380,7 @@
       },
       "paaijarvi": {
         "specifier": "paaijarvi",
-        "title": "Lake Paaijarvi",
+        "title": "Lake Pääjärvi",
         "country": "Finland",
         "lat": 61.07,
         "lon": 25.13,
@@ -18304,6 +18392,14 @@
         "country": "Germany",
         "lat": 51.74,
         "lon": 10.89,
+        "type": "reservoir"
+      },
+      "rappbodep": {
+        "specifier": "rappbodep",
+        "title": "Rappbode Predam",
+        "country": "Germany",
+        "lat": 51.71,
+        "lon": 10.8,
         "type": "reservoir"
       },
       "rimov": {
@@ -18338,6 +18434,14 @@
         "lon": 2.4,
         "type": "reservoir"
       },
+      "scharmutzelsee": {
+        "specifier": "scharmutzelsee",
+        "title": "Lake Scharmützelsee",
+        "country": "Germany",
+        "lat": 52.25,
+        "lon": 14.05,
+        "type": "lake"
+      },
       "sparkling": {
         "specifier": "sparkling",
         "title": "Sparkling Lake",
@@ -18370,12 +18474,28 @@
         "lon": -120.03,
         "type": "reservoir"
       },
+      "taihu": {
+        "specifier": "taihu",
+        "title": "Lake Taihu",
+        "country": "China",
+        "lat": 31.24,
+        "lon": 120.17,
+        "type": "lake"
+      },
       "tarawera": {
         "specifier": "tarawera",
         "title": "Lake Tarawera",
         "country": "New Zealand",
         "lat": -38.21,
         "lon": 176.43,
+        "type": "lake"
+      },
+      "thun": {
+        "specifier": "thun",
+        "title": "Lake Thun",
+        "country": "Switzerland",
+        "lat": 46.7,
+        "lon": 7.7,
         "type": "lake"
       },
       "toolik": {
@@ -18386,20 +18506,20 @@
         "lon": -149.6,
         "type": "lake"
       },
-      "trout-lake": {
-        "specifier": "trout-lake",
-        "title": "Trout Lake",
-        "country": "USA",
-        "lat": 46.03,
-        "lon": -89.67,
-        "type": "lake"
-      },
       "trout-bog": {
         "specifier": "trout-bog",
         "title": "Trout Bog",
         "country": "USA",
         "lat": 46.04,
         "lon": -89.69,
+        "type": "lake"
+      },
+      "trout-lake": {
+        "specifier": "trout-lake",
+        "title": "Trout Lake",
+        "country": "USA",
+        "lat": 46.03,
+        "lon": -89.67,
         "type": "lake"
       },
       "two-sisters": {
@@ -18410,9 +18530,25 @@
         "lon": -89.53,
         "type": "lake"
       },
+      "vendyurskoe": {
+        "specifier": "vendyurskoe",
+        "title": "Lake Vendyurskoe",
+        "country": "Russia",
+        "lat": 62.1,
+        "lon": 33.1,
+        "type": "lake"
+      },
+      "villasjon": {
+        "specifier": "villasjon",
+        "title": "Villasjön",
+        "country": "Sweden",
+        "lat": 68.35,
+        "lon": 19.05,
+        "type": "lake"
+      },
       "vortsjaerv": {
         "specifier": "vortsjaerv",
-        "title": "Lake Vortsjarv",
+        "title": "Lake Võrtsjärv",
         "country": "Estonia",
         "lat": 58.31,
         "lon": 26.01,
@@ -18449,110 +18585,6 @@
         "lat": 50.09,
         "lon": 13.11,
         "type": "reservoir"
-      },
-      "taihu": {
-        "specifier": "taihu",
-        "title": "Lake Taihu",
-        "country": "China",
-        "lat": 31.24,
-        "lon": 120.17,
-        "type": "lake"
-      },
-      "chao": {
-        "specifier": "chao",
-        "title": "Lake Chao",
-        "country": "China",
-        "lat": 31.53,
-        "lon": 117.53,
-        "type": "lake"
-      },
-      "hulun": {
-        "specifier": "hulun",
-        "title": "Lake Hulun",
-        "country": "China",
-        "lat": 49.0,
-        "lon": 117.39,
-        "type": "lake"
-      },
-      "rappbodep": {
-        "specifier": "rappbodep",
-        "title": "Rappbode Predam",
-        "country": "Germany",
-        "lat": 51.71,
-        "lon": 10.8,
-        "type": "reservoir"
-      },
-      "hassel": {
-        "specifier": "hassel",
-        "title": "Hassel Predam",
-        "country": "Germany",
-        "lat": 51.71,
-        "lon": 10.83,
-        "type": "reservoir"
-      },
-      "arendsee": {
-        "specifier": "arendsee",
-        "title": "Lake Arendsee",
-        "country": "Germany",
-        "lat": 52.89,
-        "lon": 11.47,
-        "type": "lake"
-      },
-      "scharmutzelsee": {
-        "specifier": "scharmutzelsee",
-        "title": "Lake Scharmutzelsee",
-        "country": "Germany",
-        "lat": 52.25,
-        "lon": 14.05,
-        "type": "lake"
-      },
-      "zurich": {
-        "specifier": "zurich",
-        "title": "Lake Zurich",
-        "country": "Switzerland",
-        "lat": 47.28,
-        "lon": 8.6,
-        "type": "lake"
-      },
-      "thun": {
-        "specifier": "thun",
-        "title": "Lake Thun",
-        "country": "Switzerland",
-        "lat": 46.7,
-        "lon": 7.7,
-        "type": "lake"
-      },
-      "murten": {
-        "specifier": "murten",
-        "title": "Lake Murten",
-        "country": "Switzerland",
-        "lat": 46.93,
-        "lon": 7.08,
-        "type": "lake"
-      },
-      "bryrup": {
-        "specifier": "bryrup",
-        "title": "Lake Bryrup",
-        "country": "Denmark",
-        "lat": 56.02,
-        "lon": 9.52,
-        "type": "lake"
-      },
-      "bosumtwi": {
-        "specifier": "bosumtwi",
-        "title": "Lake Bosumtwi",
-        "country": "Ghana",
-        "lat": 6.3,
-        "lon": 1.25,
-        "type": "lake"
-      },
-      "vendyurskoe": {
-        "specifier": "vendyurskoe",
-        "title": "Lake Vendyurskoe",
-        "country": "Russia",
-        "lat": 62.1,
-        "lon": 33.1,
-        "type": "lake"
       }
     },
     "region": {
