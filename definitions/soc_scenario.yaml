@@ -152,71 +152,37 @@
 
 - specifier: ssp1vlsoc-noadapt
   description: >-
-    Varying direct human influences in the future period according to the **very low emission scenario**,
+    Varying direct human influences in the future period according to
+    **SSP1** and the **very low emission scenario**,
     not accounting for the impact of climate change under the corresponding climate.
   simulation_rounds:
   - ISIMIP4b
-  sectors:
-  - agriculture
-  - biodiversity
-  - biomes
-  - fire
-  - peat
-  - permafrost
-  - water_global
-  group3: true
 
 - specifier: ssp1vlsoc-adapt
   description: >-
-    Varying direct human influences in the future period according to the **very low emission scenario**,
+    Varying direct human influences in the future period according to
+    **SSP1** and the **very low emission scenario**,
     accounting for the impact of climate change under the corresponding climate.
-  description_note: >-
-    **This experiment is not part of the ISIMIP4b Fast Track.**
   simulation_rounds:
   - ISIMIP4b
-  sectors:
-  - agriculture
-  - biodiversity
-  - biomes
-  - fire
-  - peat
-  - permafrost
-  - water_global
-  group3: true
+  hidden: true
 
 - specifier: ssp3hsoc-noadapt
   description: >-
-    Varying direct human influences in the future period according to the **high emission scenario**,
+    Varying direct human influences in the future period according to
+    **SSP3** and the **high emission scenario**,
     not accounting for the impact of climate change under the corresponding climate.
   simulation_rounds:
   - ISIMIP4b
-  sectors:
-  - agriculture
-  - biodiversity
-  - biomes
-  - fire
-  - peat
-  - permafrost
-  - water_global
-  group3: true
 
 - specifier: ssp3hsoc-adapt
   description: >-
-    Varying direct human influences in the future period according to the **high emission scenario**,
+    Varying direct human influences in the future period according to
+    **SSP3** and the **high emission scenario**,
     accounting for the impact of climate change under the corresponding climate.
-  description_note: >-
-    **This experiment is not part of the ISIMIP4b Fast Track.**
   simulation_rounds:
   - ISIMIP4b
-  sectors:
-  - agriculture
-  - biodiversity
-  - biomes
-  - fire
-  - peat
-  - permafrost
-  - water_global
-  group3: true
+  hidden: true
 
 - specifier: nat
   description: >-
@@ -235,3 +201,63 @@
   - peat
   - marine-fishery_global
   - marine-fishery_regional
+
+- specifier: ssp2lnsoc-noadapt
+  description: >-
+    Varying direct human influences in the future period according to
+    **SSP2** and the **low-to-negative emission scenario**,
+    not accounting for the impact of climate change under the corresponding climate.
+  simulation_rounds:
+  - ISIMIP4b
+  products:
+  - SecondaryInputData
+
+- specifier: ssp2lsoc-noadapt
+  description: >-
+    Varying direct human influences in the future period according to
+    **SSP2** and the **low emission scenario**,
+    not accounting for the impact of climate change under the corresponding climate.
+  simulation_rounds:
+  - ISIMIP4b
+  products:
+  - SecondaryInputData
+
+- specifier: ssp2mlsoc-noadapt
+  description: >-
+    Varying direct human influences in the future period according to
+    **SSP2** and the **medium-to-low emission scenario**,
+    not accounting for the impact of climate change under the corresponding climate.
+  simulation_rounds:
+  - ISIMIP4b
+  products:
+  - SecondaryInputData
+
+- specifier: ssp2msoc-noadapt
+  description: >-
+    Varying direct human influences in the future period according to
+    **SSP2** and the **medium emission scenario**,
+    not accounting for the impact of climate change under the corresponding climate.
+  simulation_rounds:
+  - ISIMIP4b
+  products:
+  - SecondaryInputData
+
+- specifier: ssp4xsoc-noadapt
+  description: >-
+    Varying direct human influences in the future period according to
+    **SSP4** (no emission scenario corresponds to this SSP),
+    not accounting for the impact of climate change under the corresponding climate.
+  simulation_rounds:
+  - ISIMIP4b
+  products:
+  - SecondaryInputData
+
+- specifier: ssp5hlsoc-noadapt
+  description: >-
+    Varying direct human influences in the future period according to
+    **SSP5** and the **high-to-low emission scenario**,
+    not accounting for the impact of climate change under the corresponding climate.
+  simulation_rounds:
+  - ISIMIP4b
+  products:
+  - SecondaryInputData
