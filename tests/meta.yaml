@@ -9,6 +9,8 @@ items:
       oneOf:
       - type: array
       - type: string
+    additional_sectors:
+      type: array
     area_upstream:
       type: number
     availability_daily:
@@ -173,6 +175,8 @@ items:
     river:
       type: string
     river_specifier:
+      type: string
+    primary_sector:
       type: string
     sectors:
       type: array
