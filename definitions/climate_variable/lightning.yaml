@@ -12,3 +12,5 @@
   sectors:
   - fire
   - water_quality
+  comment: |
+    Input dataset documentation → [Lightning](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/135/)

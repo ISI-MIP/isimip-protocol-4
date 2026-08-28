@@ -52,8 +52,10 @@
   doi:
   - https://doi.org/10.5067/LIS/LIS-OTD/DATA303
   path: ISIMIP4b/InputData/climate/lightning/lightning_fixed.nc
-  comment: >-
-    Flash Rate Monthly Climatology, not changing with climate change.
+  comment: |
+    Flash Rate Monthly Climatology, not changing with climate change
+
+    Input dataset documentation → [Lightning](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/135/)
   simulation_rounds:
   - ISIMIP4b
   sectors:
