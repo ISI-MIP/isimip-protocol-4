@@ -4,7 +4,7 @@ path: >-
   /(?P<category>(climate))
   /(?P<subcategory>(atmosphere_composition))
   /(?P<climate_variable>[a-z0-9-]+)
-  /(?P<climate_scenario>[a-z]+)
+  /(?P<climate_scenario>[a-z0-9]+)
 
 dataset: >-
   (?P<climate_variable>[a-z0-9-]+)
