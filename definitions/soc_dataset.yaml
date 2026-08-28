@@ -741,8 +741,8 @@
   - specifier: nhx
     long_name: Dry and Wet NHx deposition
     units: g N m-2 mon-1
-  comment: >-
-    Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
+  comment: |
+    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
@@ -789,8 +789,8 @@
   - specifier: drynhx
     long_name: Dry NHx deposition
     units: g N m-2 mon-1
-  comment: >-
-    Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
+  comment: |
+    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
@@ -837,8 +837,8 @@
   - specifier: wetnhx
     long_name: Wet NHx deposition
     units: g N m-2 mon-1
-  comment: >-
-    Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
+  comment: |
+    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
@@ -885,8 +885,8 @@
   - specifier: noy
     long_name: Dry and Wet NOy deposition
     units: g N m-2 mon-1
-  comment: >-
-    Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
+  comment: |
+    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
@@ -933,8 +933,8 @@
   - specifier: drynoy
     long_name: Dry NOy deposition
     units: g N m-2 mon-1
-  comment: >-
-    Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
+  comment: |
+    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
@@ -981,8 +981,8 @@
   - specifier: wetnoy
     long_name: Wet NOy deposition
     units: g N m-2 mon-1
-  comment: >-
-    Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
+  comment: |
+    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity

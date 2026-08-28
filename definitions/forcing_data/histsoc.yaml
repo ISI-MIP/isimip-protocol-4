@@ -168,8 +168,8 @@
   path:
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/n-deposition/histsoc/
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/n-deposition/histsoc/
-  comment: >-
-    Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
+  comment: |
+    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
