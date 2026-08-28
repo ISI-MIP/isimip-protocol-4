@@ -602,9 +602,8 @@
   - specifier: c4per_fertl
     long_name: C4 perennial crops
     units: kg ha-1 yr-1 (crop season)
-  comment:
-    ISIMIP4a: Input dataset documentation → [Nitrogen Fertilizer](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
-    ISIMIP4b: Input dataset documentation → [Nitrogen Fertilizer](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
+  comment: >-
+    Input dataset documentation → [N-Fertilizer 5crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/).
   sectors:
   - agriculture
   - biodiversity
