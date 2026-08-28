@@ -108,7 +108,7 @@
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/land-transformation/histsoc/
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/land-transformation/histsoc/
   comment: >-
-    Input dataset documentation → [Gridded historical land transformation](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
+    Input dataset documentation → [Land Transformation (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).
   sectors:
   - agriculture
   - biodiversity
