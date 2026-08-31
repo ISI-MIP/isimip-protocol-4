@@ -7,13 +7,13 @@ path: >-
 
 dataset: >-
   (?P<soc_variable>[a-z0-9-]+)
-  _(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vlsoc|ssp3hsoc)?
+  _(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vl|ssp3h)?
   _(?P<resolution>[a-z0-9]+)
   _(?P<time_step>[a-z]+)
 
 file: >-
   (?P<soc_variable>[a-z0-9-]+)
-  _(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vlsoc|ssp3hsoc)?
+  _(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vl|ssp3h)?
   _(?P<resolution>[a-z0-9]+)
   _(?P<time_step>[a-z]+)
   _(?P<start_year>\d{4})

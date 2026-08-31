@@ -1389,9 +1389,10 @@
   - specifier: secnf-bioh
     long_name: wood harvest biomass carbon from secondary non forest land
     units: kg
-  comment:
-    ISIMIP4a: Input dataset documentation → [Wood harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
-    ISIMIP4b: Input dataset documentation → [Wood harvesting (group I+II)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment), [Wood harvesting (group III)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
+  comment: >-
+    Input dataset documentation →
+    [Wood Harvesting — Gridded (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/),
+    [Wood Harvesting — National (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/)
   sectors:
   - agriculture
   - biomes

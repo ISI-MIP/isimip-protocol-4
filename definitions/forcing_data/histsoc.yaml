@@ -82,11 +82,10 @@
   path:
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/wood_harvesting/histsoc/
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/wood_harvesting/histsoc/
-  comment:
-    ISIMIP4a: >-
-      Input dataset documentation → [Wood harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
-    ISIMIP4b: >-
-      Input dataset documentation → [Wood harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
+  comment: >-
+    Input dataset documentation →
+    [Wood Harvesting — Gridded (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/),
+    [Wood Harvesting — National (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/).
   sectors:
   - agriculture
   - biomes

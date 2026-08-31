@@ -96,7 +96,9 @@
   - ISIMIP4b/InputData/socioeconomic/wood_harvesting/ssp1vlsoc-noadapt/
   - ISIMIP4b/InputData/socioeconomic/wood_harvesting/ssp3hsoc-noadapt/
   comment: >-
-    Input dataset documentation → [Future Wood harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
+    Input dataset documentation →
+    [Wood Harvesting — Gridded (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/),
+    [Wood Harvesting — National (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/).
   sectors:
   - agriculture
   - biomes
