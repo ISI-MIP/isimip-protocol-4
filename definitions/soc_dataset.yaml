@@ -695,9 +695,8 @@
   - specifier: tropical_roots_fertl
     long_name: N input through fertilizer on cropland with tropical roots
     units: kg ha-1 yr-1 (crop season)
-  comment:
-    ISIMIP4a: Input dataset documentation → [Nitrogen Fertilizer](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
-    ISIMIP4b: Input dataset documentation → [Nitrogen Fertilizer](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).
+  comment: >-
+    Input dataset documentation → [N-Fertilizer 15crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).
   sectors:
   - agriculture
   - biodiversity

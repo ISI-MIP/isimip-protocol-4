@@ -137,7 +137,8 @@
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/n-fertilizer/histsoc/
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/n-fertilizer/histsoc/
   comment: >-
-    Input dataset documentation → [N-Fertilizer 5crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/).
+    Input dataset documentation → [N-Fertilizer 5crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/),
+    [N-Fertilizer 15crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).
   sectors:
   - agriculture
   - biodiversity
