@@ -52,7 +52,7 @@
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/landuse/histsoc/
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/landuse/histsoc/
   comment: >-
-    Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
+    Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
   sectors:
   - agriculture
   - biodiversity

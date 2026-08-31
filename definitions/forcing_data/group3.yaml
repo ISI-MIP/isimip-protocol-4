@@ -61,6 +61,8 @@
   path:
   - ISIMIP4b/InputData/socioeconomic/landuse/ssp1vlsoc-noadapt/
   - ISIMIP4b/InputData/socioeconomic/landuse/ssp3hsoc-noadapt/
+  comment: >-
+    Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
   sectors:
   - agriculture
   - biodiversity
