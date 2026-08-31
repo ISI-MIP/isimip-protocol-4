@@ -1,5 +1,5 @@
 {
-  "commit": "f81131656362342e160554b2bb47277882aa134e",
+  "commit": "81b9e2a537d5d7d781b7c328d2e17456699ecb61",
   "climate_forcing": [
     {
       "specifier": "gswp3-era5",
@@ -874,7 +874,7 @@
         "ISIMIP4b": null
       },
       "path": "ISIMIP4a/InputData/socioeconomic/landuse/histsoc/",
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -905,7 +905,7 @@
         "ISIMIP4b": null
       },
       "path": "ISIMIP4a/InputData/socioeconomic/wood_harvesting/histsoc/",
-      "comment": "Input dataset documentation → [Wood harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [Wood Harvesting — Gridded (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/), [Wood Harvesting — National (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/).",
       "sectors": [
         "agriculture",
         "biomes",
@@ -927,7 +927,7 @@
         "ISIMIP4b": null
       },
       "path": "ISIMIP4a/InputData/socioeconomic/land-transformation/histsoc/",
-      "comment": "Input dataset documentation → [Gridded historical land transformation](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [Land Transformation (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -956,7 +956,7 @@
         "ISIMIP4b": null
       },
       "path": "ISIMIP4a/InputData/socioeconomic/n-deposition/histsoc/",
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -3568,7 +3568,7 @@
       "frequency": "annual",
       "resolution": "global",
       "path": "ISIMIP4a/InputData/climate/atmosphere_composition/co2/<climate-scenario>/co2_<climate-scenario>_annual_<start_year>_<end_year>.txt",
-      "comment": "Input dataset documentation → [Globally averaged CO₂ and CH₄ annual data](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Atmospheric composition (ISIMIP4a)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/199/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -3599,7 +3599,7 @@
       "frequency": "annual",
       "resolution": "global",
       "path": "ISIMIP4a/InputData/climate/atmosphere_composition/ch4/<climate-scenario>/ch4_<climate-scenario>_annual_<start_year>_<end_year>.txt",
-      "comment": "Input dataset documentation → [Globally averaged CO₂ and CH₄ annual data](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Atmospheric composition (ISIMIP4a)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/199/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -6994,7 +6994,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7117,7 +7117,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7335,7 +7335,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7388,6 +7388,7 @@
           "units": "1"
         }
       ],
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7435,6 +7436,7 @@
           "units": "1"
         }
       ],
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7509,7 +7511,7 @@
           "units": "years"
         }
       ],
-      "comment": "Not relevant for models with dynamic vegetation. Those models should consider the sum of these areas as boundary condition and calculate the natural vegetation dynamics of forest and other natural vegetation internally.",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).\n\nNot relevant for models with dynamic vegetation. Those models should consider the sum of these areas as boundary condition and calculate the natural vegetation dynamics of forest and other natural vegetation internally.\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7603,7 +7605,7 @@
           "units": "1"
         }
       ],
-      "comment": "Annual grid-cell fractions of the seasonal sub-splits of two landuse-15crops groups: temperate_cereals into winter wheat, spring wheat and a non-wheat residual (GGCMI phase-3 winter/spring wheat mask), and rice into rice1/rice2 seasons (GGCMI phase-3 crop calendar). Both splits sum exactly to their landuse-15crops parent totals, which are not repeated here. Fractions are of the whole grid cell, not land area. 2021soc holds the 2021 state fixed across the full 1850-2025 period, including the 1850-1900 spin-up; 2021soc under ISIMIP4a differs from 2021soc under ISIMIP4b, a future-window baseline.",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).\n\nAnnual grid-cell fractions of the seasonal sub-splits of two landuse-15crops groups: temperate_cereals into winter wheat, spring wheat and a non-wheat residual (GGCMI phase-3 winter/spring wheat mask), and rice into rice1/rice2 seasons (GGCMI phase-3 crop calendar). Both splits sum exactly to their landuse-15crops parent totals, which are not repeated here. Fractions are of the whole grid cell, not land area. 2021soc holds the 2021 state fixed across the full 1850-2025 period, including the 1850-1900 spin-up; 2021soc under ISIMIP4a differs from 2021soc under ISIMIP4b, a future-window baseline.\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7672,7 +7674,7 @@
           "units": "kg ha-1 yr-1 (crop season)"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen Fertilizer](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Fertilizer 5crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7788,7 +7790,7 @@
           "units": "kg ha-1 yr-1 (crop season)"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen Fertilizer](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Fertilizer 15crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7832,7 +7834,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7875,7 +7877,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7918,7 +7920,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7961,7 +7963,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -8004,7 +8006,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -8047,7 +8049,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -8138,7 +8140,7 @@
           "units": "kg"
         }
       ],
-      "comment": "Input dataset documentation → [Wood harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Wood Harvesting — Gridded (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/), [Wood Harvesting — National (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/)",
       "sectors": [
         "agriculture",
         "biomes",
@@ -8176,7 +8178,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Gridded historical land transformation](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Land Transformation (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).",
       "sectors": [
         "agriculture",
         "biodiversity",

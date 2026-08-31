@@ -1,8 +1,8 @@
 {
-  "commit": "f81131656362342e160554b2bb47277882aa134e",
+  "commit": "81b9e2a537d5d7d781b7c328d2e17456699ecb61",
   "path": "(?P<simulation_round>(ISIMIP4b))/(?P<product>(InputData))/(?P<category>(socioeconomic))/(?P<subcategory>(n-fertilizer))/(?P<soc_scenario>[a-z0-9-]+)$",
-  "dataset": "^(?P<soc_dataset>[a-z0-9-]+?)_(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vlsoc|ssp3hsoc)?_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)",
-  "file": "^(?P<soc_dataset>[a-z0-9-]+?)_(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vlsoc|ssp3hsoc)?_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.nc)$",
+  "dataset": "^(?P<soc_dataset>[a-z0-9-]+?)_(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vl|ssp3h)?_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)",
+  "file": "^(?P<soc_dataset>[a-z0-9-]+?)_(?P<soc_scenario>(histsoc|2021soc|1850soc))?(ssp1vl|ssp3h)?_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.nc)$",
   "suffix": [
     ".nc"
   ],

@@ -1,5 +1,5 @@
 {
-  "commit": "f81131656362342e160554b2bb47277882aa134e",
+  "commit": "81b9e2a537d5d7d781b7c328d2e17456699ecb61",
   "climate_forcing": [
     {
       "specifier": "ec-earth3-esm-1-1",
@@ -1019,6 +1019,36 @@
         "water_regional",
         "water_quality"
       ]
+    },
+    {
+      "specifier": "ssp1vlsoc-noadapt",
+      "description": "Varying direct human influences in the future period according to **SSP1** and the **very low emission scenario**, not accounting for the impact of climate change under the corresponding climate.",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ]
+    },
+    {
+      "specifier": "ssp1vlsoc-adapt",
+      "description": "Varying direct human influences in the future period according to **SSP1** and the **very low emission scenario**, accounting for the impact of climate change under the corresponding climate.",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "hidden": true
+    },
+    {
+      "specifier": "ssp3hsoc-noadapt",
+      "description": "Varying direct human influences in the future period according to **SSP3** and the **high emission scenario**, not accounting for the impact of climate change under the corresponding climate.",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ]
+    },
+    {
+      "specifier": "ssp3hsoc-adapt",
+      "description": "Varying direct human influences in the future period according to **SSP3** and the **high emission scenario**, accounting for the impact of climate change under the corresponding climate.",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "hidden": true
     },
     {
       "specifier": "nat",

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/SecondaryInputData/socioeconomic.yaml",
-  "commit": "f81131656362342e160554b2bb47277882aa134e",
+  "commit": "81b9e2a537d5d7d781b7c328d2e17456699ecb61",
   "type": "object",
   "required": [
     "specifiers"
@@ -9,46 +9,141 @@
   "properties": {
     "specifiers": {
       "type": "object",
-      "required": [
-        "geo_dataset"
-      ],
+      "required": [],
       "properties": {
-        "geo_dataset": {
+        "climate_scenario": {
           "type": "string",
           "enum": [
-            "mpa",
-            "orog",
-            "hwsd_soil_data_on_cropland",
-            "landseamask_water-global",
-            "hwsd_soil_data_all_land",
-            "ddm30_flowdir_cru_neva",
-            "ddm30_basins_cru_neva",
-            "lme",
-            "hydrolakes_id_biglakes",
-            "landseamask_no-ant",
-            "LMEs66_masks",
-            "lake_elevation",
-            "elevation",
-            "areacello",
-            "deptho",
-            "volume",
-            "biglakes_mask",
-            "landseamask",
-            "max_lakedepth",
-            "RME_masks",
-            "gadm",
-            "countrymasks-fractional",
-            "bathymetry",
-            "gswp3_hwsd",
-            "mean_lakedepth",
-            "surface_area",
-            "rme",
-            "countrymasks-binary",
-            "hydrolakes_id",
-            "hypso_volume",
-            "ddm30_slopes_cru_neva",
-            "hypso_area"
+            "vl",
+            "esm-scen7-vl",
+            "esm-scen7-h",
+            "picontrol",
+            "esm-hist",
+            "scen7-h",
+            "historical",
+            "h",
+            "scen7-vl",
+            "esm-picontrol"
           ]
+        },
+        "soc_dataset": {
+          "type": "string",
+          "enum": [
+            "landuse-urbanareas",
+            "population-gridded",
+            "ndep-noy",
+            "landuse-pastures",
+            "gdp-mer-countrylevel",
+            "fixed-asset-value",
+            "landuse-15crops",
+            "reservoirs-dams",
+            "gdp-ppp-countrylevel",
+            "population-countrylevel",
+            "landuse-totals",
+            "ndep-drynoy",
+            "wood_harvesting",
+            "landuse-5crops",
+            "population-stratification",
+            "gdp-ppp",
+            "landuse-forests-and-natural-vegetation",
+            "ggcmi-crop-calendar",
+            "pctlake",
+            "n-fertilizer-5crops",
+            "ggcmi-crop-calendar-2021soc",
+            "dams-reservoirs",
+            "land-transformation",
+            "ndep-wetnhx",
+            "n-fertilizer-15crops",
+            "ndep-drynhx",
+            "ndep-wetnoy",
+            "population",
+            "landuse-subgroups",
+            "gdp-per-capita-ppp",
+            "ndep-nhx"
+          ]
+        },
+        "soc_variable": {
+          "type": "string"
+        },
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "ssp3hsoc-adapt",
+            "2021soc",
+            "histsoc",
+            "ssp2mlsoc-noadapt",
+            "2021soc-from-histsoc",
+            "ssp2msoc-noadapt",
+            "nat",
+            "ssp2lnsoc-noadapt",
+            "1850soc",
+            "ssp5hlsoc-noadapt",
+            "ssp4xsoc-noadapt",
+            "ssp3hsoc-noadapt",
+            "ssp1vlsoc-adapt",
+            "ssp1vlsoc-noadapt",
+            "ssp2lsoc-noadapt"
+          ]
+        },
+        "crop": {
+          "type": "string",
+          "enum": [
+            "sgc",
+            "ri2",
+            "cot",
+            "pop",
+            "wwh",
+            "mil",
+            "cas",
+            "pea",
+            "soy",
+            "mai",
+            "euc",
+            "bea",
+            "mgr",
+            "nut",
+            "sun",
+            "whe",
+            "swh",
+            "ri1",
+            "ric",
+            "rap",
+            "rye",
+            "sor",
+            "bar",
+            "sgb",
+            "mis",
+            "pot"
+          ]
+        },
+        "irrigation": {
+          "type": "string",
+          "enum": [
+            "cirr",
+            "firr",
+            "noirr"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "hourly",
+            "fixed",
+            "annual-gs",
+            "monthly-gs",
+            "daily",
+            "monthly",
+            "2hr",
+            "annual",
+            "6hr",
+            "3hr"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
         }
       }
     }

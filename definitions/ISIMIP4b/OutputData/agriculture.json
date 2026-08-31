@@ -1,5 +1,5 @@
 {
-  "commit": "f81131656362342e160554b2bb47277882aa134e",
+  "commit": "81b9e2a537d5d7d781b7c328d2e17456699ecb61",
   "climate_forcing": [
     {
       "specifier": "ec-earth3-esm-1-1",
@@ -896,7 +896,7 @@
         "ISIMIP4b": null
       },
       "path": "ISIMIP4b/InputData/socioeconomic/landuse/histsoc/",
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -927,7 +927,7 @@
         "ISIMIP4b": null
       },
       "path": "ISIMIP4b/InputData/socioeconomic/wood_harvesting/histsoc/",
-      "comment": "Input dataset documentation → [Wood harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [Wood Harvesting — Gridded (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/), [Wood Harvesting — National (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/).",
       "sectors": [
         "agriculture",
         "biomes",
@@ -949,7 +949,7 @@
         "ISIMIP4b": null
       },
       "path": "ISIMIP4b/InputData/socioeconomic/land-transformation/histsoc/",
-      "comment": "Input dataset documentation → [Gridded historical land transformation](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [Land Transformation (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -978,7 +978,7 @@
         "ISIMIP4b": null
       },
       "path": "ISIMIP4b/InputData/socioeconomic/n-fertilizer/histsoc/",
-      "comment": "Input dataset documentation → [Nitrogen Fertilizer](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [N-Fertilizer 5crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/), [N-Fertilizer 15crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1007,7 +1007,7 @@
         "ISIMIP4b": null
       },
       "path": "ISIMIP4b/InputData/socioeconomic/n-deposition/histsoc/",
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1152,6 +1152,7 @@
         "ISIMIP4b/InputData/socioeconomic/landuse/ssp1vlsoc-noadapt/",
         "ISIMIP4b/InputData/socioeconomic/landuse/ssp3hsoc-noadapt/"
       ],
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1189,7 +1190,7 @@
         "ISIMIP4b/InputData/socioeconomic/wood_harvesting/ssp1vlsoc-noadapt/",
         "ISIMIP4b/InputData/socioeconomic/wood_harvesting/ssp3hsoc-noadapt/"
       ],
-      "comment": "Input dataset documentation → [Future Wood harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [Wood Harvesting — Gridded (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/), [Wood Harvesting — National (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/).",
       "sectors": [
         "agriculture",
         "biomes",
@@ -1217,7 +1218,7 @@
         "ISIMIP4b/InputData/socioeconomic/land-transformation/ssp1vlsoc-noadapt/",
         "ISIMIP4b/InputData/socioeconomic/land-transformation/ssp3hsoc-noadapt/"
       ],
-      "comment": "Input dataset documentation → [Future Land Transformation](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [Land Transformation (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1253,6 +1254,7 @@
         "ISIMIP4b/InputData/socioeconomic/n-fertilizer/ssp1vlsoc-noadapt/",
         "ISIMIP4b/InputData/socioeconomic/n-fertilizer/ssp3hsoc-noadapt/"
       ],
+      "comment": "Input dataset documentation → [N-Fertilizer 5crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/), [N-Fertilizer 15crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1404,7 +1406,7 @@
         "ISIMIP4b/InputData/socioeconomic/n-deposition/ssp1vlsoc-noadapt/",
         "ISIMIP4b/InputData/socioeconomic/n-deposition/ssp3hsoc-noadapt/"
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1882,73 +1884,33 @@
     },
     {
       "specifier": "ssp1vlsoc-noadapt",
-      "description": "Varying direct human influences in the future period according to the **very low emission scenario**, not accounting for the impact of climate change under the corresponding climate.",
+      "description": "Varying direct human influences in the future period according to **SSP1** and the **very low emission scenario**, not accounting for the impact of climate change under the corresponding climate.",
       "simulation_rounds": [
         "ISIMIP4b"
-      ],
-      "sectors": [
-        "agriculture",
-        "biodiversity",
-        "biomes",
-        "fire",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
-      "group3": true
+      ]
     },
     {
       "specifier": "ssp1vlsoc-adapt",
-      "description": "Varying direct human influences in the future period according to the **very low emission scenario**, accounting for the impact of climate change under the corresponding climate.",
-      "description_note": "**This experiment is not part of the ISIMIP4b Fast Track.**",
+      "description": "Varying direct human influences in the future period according to **SSP1** and the **very low emission scenario**, accounting for the impact of climate change under the corresponding climate.",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
-      "sectors": [
-        "agriculture",
-        "biodiversity",
-        "biomes",
-        "fire",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
-      "group3": true
+      "hidden": true
     },
     {
       "specifier": "ssp3hsoc-noadapt",
-      "description": "Varying direct human influences in the future period according to the **high emission scenario**, not accounting for the impact of climate change under the corresponding climate.",
+      "description": "Varying direct human influences in the future period according to **SSP3** and the **high emission scenario**, not accounting for the impact of climate change under the corresponding climate.",
       "simulation_rounds": [
         "ISIMIP4b"
-      ],
-      "sectors": [
-        "agriculture",
-        "biodiversity",
-        "biomes",
-        "fire",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
-      "group3": true
+      ]
     },
     {
       "specifier": "ssp3hsoc-adapt",
-      "description": "Varying direct human influences in the future period according to the **high emission scenario**, accounting for the impact of climate change under the corresponding climate.",
-      "description_note": "**This experiment is not part of the ISIMIP4b Fast Track.**",
+      "description": "Varying direct human influences in the future period according to **SSP3** and the **high emission scenario**, accounting for the impact of climate change under the corresponding climate.",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
-      "sectors": [
-        "agriculture",
-        "biodiversity",
-        "biomes",
-        "fire",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
-      "group3": true
+      "hidden": true
     }
   ],
   "experiments": [
@@ -3586,7 +3548,7 @@
         "ISIMIP4b/InputData/climate/atmosphere_composition/co2/<emission-scenario>/co2_<emission-scenario>_annual_<start_year>_<end_year>.txt",
         "ISIMIP4b/InputData/climate/atmosphere_composition/co2/<climate-scenario>/co2_<climate_forcing>_<climate-scenario>_annual_1850_2021.txt"
       ],
-      "comment": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.\n",
+      "comment": "Input dataset documentation → [Atmospheric composition (ISIMIP4b)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/199/).\n\nWe provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -3620,7 +3582,7 @@
         "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/<emission-scenario>/ch4_<emission-scenario>_annual_<start_year>_<end_year>.txt",
         "ISIMIP4b/InputData/climate/atmosphere_composition/ch4/<climate-scenario>/ch4_<climate-forcing>_<climate-scenario>_annual_<start_year>_<end_year>.txt"
       ],
-      "comment": "We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.\n",
+      "comment": "Input dataset documentation → [Atmospheric composition (ISIMIP4b)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/199/).\n\nWe provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7091,7 +7053,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7216,7 +7178,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7436,7 +7398,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Historical, gridded land use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7491,6 +7453,7 @@
           "units": "1"
         }
       ],
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7540,6 +7503,7 @@
           "units": "1"
         }
       ],
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7616,7 +7580,7 @@
           "units": "years"
         }
       ],
-      "comment": "Not relevant for models with dynamic vegetation. Those models should consider the sum of these areas as boundary condition and calculate the natural vegetation dynamics of forest and other natural vegetation internally.",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).\n\nNot relevant for models with dynamic vegetation. Those models should consider the sum of these areas as boundary condition and calculate the natural vegetation dynamics of forest and other natural vegetation internally.\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7712,7 +7676,7 @@
           "units": "1"
         }
       ],
-      "comment": "Annual grid-cell fractions of the seasonal sub-splits of two landuse-15crops groups: temperate_cereals into winter wheat, spring wheat and a non-wheat residual (GGCMI phase-3 winter/spring wheat mask), and rice into rice1/rice2 seasons (GGCMI phase-3 crop calendar). Both splits sum exactly to their landuse-15crops parent totals, which are not repeated here. Fractions are of the whole grid cell, not land area. 2021soc holds the 2021 state fixed across the full 1850-2025 period, including the 1850-1900 spin-up; 2021soc under ISIMIP4a differs from 2021soc under ISIMIP4b, a future-window baseline.",
+      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).\n\nAnnual grid-cell fractions of the seasonal sub-splits of two landuse-15crops groups: temperate_cereals into winter wheat, spring wheat and a non-wheat residual (GGCMI phase-3 winter/spring wheat mask), and rice into rice1/rice2 seasons (GGCMI phase-3 crop calendar). Both splits sum exactly to their landuse-15crops parent totals, which are not repeated here. Fractions are of the whole grid cell, not land area. 2021soc holds the 2021 state fixed across the full 1850-2025 period, including the 1850-1900 spin-up; 2021soc under ISIMIP4a differs from 2021soc under ISIMIP4b, a future-window baseline.\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7783,7 +7747,7 @@
           "units": "kg ha-1 yr-1 (crop season)"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen Fertilizer](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Fertilizer 5crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7901,7 +7865,7 @@
           "units": "kg ha-1 yr-1 (crop season)"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen Fertilizer](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Fertilizer 15crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7944,7 +7908,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -7988,7 +7952,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -8032,7 +7996,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -8076,7 +8040,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -8120,7 +8084,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -8164,7 +8128,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [Nitrogen deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -8592,7 +8556,7 @@
           "units": "kg"
         }
       ],
-      "comment": "Input dataset documentation → [Wood harvesting (group I+II)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment), [Wood harvesting (group III)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Wood Harvesting — Gridded (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/), [Wood Harvesting — National (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/)",
       "sectors": [
         "agriculture",
         "biomes",
@@ -8632,7 +8596,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Gridded historical land transformation (group I+II)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment), [Gridded historical land transformation (group III)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment).",
+      "comment": "Input dataset documentation → [Land Transformation (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).",
       "sectors": [
         "agriculture",
         "biodiversity",
