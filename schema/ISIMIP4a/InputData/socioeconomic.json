@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/socioeconomic.yaml",
-  "commit": "81b9e2a537d5d7d781b7c328d2e17456699ecb61",
+  "commit": "6a9b1118486ae74c9c380c8a761d435a22702269",
   "type": "object",
   "required": [
     "specifiers"
@@ -14,42 +14,42 @@
         "soc_dataset": {
           "type": "string",
           "enum": [
+            "landuse-totals",
+            "effort-industrial-gridded",
+            "pctlake",
+            "ndep-wetnoy",
+            "gdp-mer-countrylevel",
+            "land-transformation",
+            "fixed-asset-value",
+            "ndep-drynoy",
+            "population-countrylevel",
+            "wood_harvesting",
+            "n-fertilizer-15crops",
+            "gdp-per-capita-ppp",
+            "ggcmi-crop-calendar",
+            "population",
             "landuse-urbanareas",
             "population-gridded",
-            "ndep-noy",
-            "gridded_artisanal_fishing_effort",
-            "effort-industrial-gridded",
-            "landuse-pastures",
-            "fishing_effort",
-            "gdp-mer-countrylevel",
-            "fixed-asset-value",
-            "landuse-15crops",
-            "reservoirs-dams",
-            "effort-artisanal-gridded",
-            "gdp-ppp-countrylevel",
-            "population-countrylevel",
-            "effort",
-            "landuse-totals",
-            "ndep-drynoy",
-            "wood_harvesting",
-            "gridded_industrial_fishing_effort",
-            "landuse-5crops",
-            "population-stratification",
-            "gdp-ppp",
-            "landuse-forests-and-natural-vegetation",
-            "ggcmi-crop-calendar",
-            "pctlake",
-            "n-fertilizer-5crops",
-            "ggcmi-crop-calendar-2021soc",
-            "land-transformation",
             "ndep-wetnhx",
-            "n-fertilizer-15crops",
+            "ndep-nhx",
+            "population-stratification",
             "ndep-drynhx",
-            "ndep-wetnoy",
-            "population",
+            "effort",
+            "landuse-15crops",
+            "effort-artisanal-gridded",
+            "landuse-pastures",
+            "ggcmi-crop-calendar-2021soc",
+            "fishing_effort",
             "landuse-subgroups",
-            "gdp-per-capita-ppp",
-            "ndep-nhx"
+            "n-fertilizer-5crops",
+            "landuse-forests-and-natural-vegetation",
+            "landuse-5crops",
+            "reservoirs-dams",
+            "gridded_artisanal_fishing_effort",
+            "gridded_industrial_fishing_effort",
+            "gdp-ppp",
+            "ndep-noy",
+            "gdp-ppp-countrylevel"
           ]
         },
         "soc_variable": {
@@ -58,25 +58,25 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2021soc",
-            "histsoc",
-            "nat",
             "1850soc",
+            "2021soc",
             "1850soc-input-only",
-            "1901soc"
+            "1901soc",
+            "nat",
+            "histsoc"
           ]
         },
         "resolution": {
           "type": "string",
           "enum": [
-            "1arcmin",
-            "30arcmin",
-            "30arcsec",
-            "5arcmin",
             "15arcmin",
+            "30arcsec",
+            "30arcmin",
+            "6arcmin",
             "national",
             "60arcmin",
-            "6arcmin"
+            "5arcmin",
+            "1arcmin"
           ]
         },
         "time_step": {
@@ -84,14 +84,14 @@
           "enum": [
             "hourly",
             "fixed",
-            "annual-gs",
             "monthly-gs",
-            "daily",
+            "3hr",
             "monthly",
+            "daily",
             "2hr",
             "annual",
-            "6hr",
-            "3hr"
+            "annual-gs",
+            "6hr"
           ]
         },
         "start_year": {
