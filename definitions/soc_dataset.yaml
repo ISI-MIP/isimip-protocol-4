@@ -1019,7 +1019,6 @@
   group: crop-calendar
   frequency: fixed
   resolution: 0.5° grid
-  mandatory: true
   path:
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/crop_calendar/2021soc/ggcmi-crop-calendar_2021soc_<crop>_<irrigation>.nc
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/crop_calendar/2021soc/ggcmi-crop-calendar_2021soc_<crop>_<irrigation>.nc
