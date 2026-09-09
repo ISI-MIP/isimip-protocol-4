@@ -1,5 +1,5 @@
 {
-  "commit": "1f5531d67491646a698677db7117a6ec41ac0eb1",
+  "commit": "dc6521502fc726ff1262a3b9825eaeced03b93e0",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -633,7 +633,7 @@
       "units": "%",
       "frequency": "daily",
       "resolution": "0.5° grid",
-      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_hurs_global_daily_<start_year>_<end_year>.nc",
+      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_hurs_global_30arcmin_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
@@ -668,7 +668,7 @@
       "units": "kg kg-1",
       "frequency": "daily",
       "resolution": "0.5° grid",
-      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_huss_global_daily_<start_year>_<end_year>.nc",
+      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_huss_global_30arcmin_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
@@ -705,7 +705,7 @@
       "resolution": [
         "0.5° grid"
       ],
-      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_pr_global_daily_<start_year>_<end_year>.nc",
+      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_pr_global_30arcmin_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
@@ -740,7 +740,7 @@
       "units": "kg m-2 s-1",
       "frequency": "daily",
       "resolution": "0.5° grid",
-      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_prsn_global_daily_<start_year>_<end_year>.nc",
+      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_prsn_global_30arcmin_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
@@ -775,7 +775,7 @@
       "units": "Pa",
       "frequency": "daily",
       "resolution": "0.5° grid",
-      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_ps_global_daily_<start_year>_<end_year>.nc",
+      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_ps_global_30arcmin_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
@@ -810,7 +810,7 @@
       "units": "W m-2",
       "frequency": "daily",
       "resolution": "0.5° grid",
-      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_rlds_global_daily_<start_year>_<end_year>.nc",
+      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_rlds_global_30arcmin_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
@@ -847,7 +847,7 @@
       "resolution": [
         "0.5° grid"
       ],
-      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_rsds_global_daily_<start_year>_<end_year>.nc",
+      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_rsds_global_30arcmin_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
@@ -882,7 +882,7 @@
       "units": "m s-1",
       "frequency": "daily",
       "resolution": "0.5° grid",
-      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_sfcwind_global_daily_<start_year>_<end_year>.nc",
+      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_sfcwind_global_30arcmin_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
@@ -919,7 +919,7 @@
       "resolution": [
         "0.5° grid"
       ],
-      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tas_global_daily_<start_year>_<end_year>.nc",
+      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tas_global_30arcmin_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
@@ -956,7 +956,7 @@
       "resolution": [
         "0.5° grid"
       ],
-      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmax_global_daily_<start_year>_<end_year>.nc",
+      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmax_global_30arcmin_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
@@ -993,7 +993,7 @@
       "resolution": [
         "0.5° grid"
       ],
-      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmin_global_daily_<start_year>_<end_year>.nc",
+      "path": "ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>/<climate-forcing>_r1i1p1f1_w5e5_<climate-scenario>_tasmin_global_30arcmin_daily_<start_year>_<end_year>.nc",
       "comment": "Input dataset documentation → [EC-Earth3-ESM-1-1](https://www.isimip.org/gettingstarted/input-data-bias-adjustment)",
       "sectors": [
         "agriculture",
