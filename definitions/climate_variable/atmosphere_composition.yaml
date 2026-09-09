@@ -8,7 +8,7 @@
   path:
     ISIMIP4a: ISIMIP4a/InputData/climate/atmosphere_composition/co2/<climate-scenario>/co2_<climate-scenario>_annual_<start_year>_<end_year>.txt
     ISIMIP4b:
-    - ISIMIP4b/InputData/climate/atmosphere_composition/co2/<emission-scenario>/co2_<emission-scenario>_annual_<start_year>_<end_year>.txt
+    - ISIMIP4b/InputData/climate/atmosphere_composition/co2/<climate-scenario>/co2_<emission-scenario>_annual_<start_year>_<end_year>.txt
     - ISIMIP4b/InputData/climate/atmosphere_composition/co2/<climate-scenario>/co2_<climate_forcing>_<climate-scenario>_annual_1850_2021.txt
   comment:
     ISIMIP4a: |
@@ -16,7 +16,7 @@
     ISIMIP4b: |
       Input dataset documentation → [Atmospheric composition (ISIMIP4b)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/199/).
 
-      We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.
+      We provide concentrations specific to each GCM for emission driven runs (e.g. in the `esm-scen7-h`), as well as the common concentrations to be used when climate-related forcing comes from a concentration driven GCM run (e.g. in the `scen7-h`).
 
   sectors:
   - agriculture
@@ -56,7 +56,7 @@
     ISIMIP4b: |
       Input dataset documentation → [Atmospheric composition (ISIMIP4b)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/199/).
 
-      We provide concentrations specific to each GCM for emission driven runs, as well as the concentrations for each emission scenario to be used when climate-related forcing comes from a concentration driven GCM run.
+      We provide concentrations specific to each GCM for emission driven runs (e.g. in the `esm-scen7-h`), as well as the common concentrations to be used when climate-related forcing comes from a concentration driven GCM run (e.g. in the `scen7-h`).
   sectors:
   - agriculture
   - biodiversity
