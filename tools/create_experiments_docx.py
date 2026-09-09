@@ -71,6 +71,21 @@ def set_table_cell_margin(table, top=0, bottom=0, left=0, right=0):
         el.set(qn('w:type'), 'dxa')
 
 
+def get_specifier_list(row):
+    specifier = row.get('specifier')
+    specifier_alias = row.get('specifier_alias')
+
+    if specifier_alias is None:
+        return [specifier]
+
+    return specifier_alias if isinstance(specifier_alias, list) else [specifier_alias]
+
+scenarios = {
+    'climate': {item['specifier']: item for item in definitions['climate_scenario']},
+    'soc': {item['specifier']: item for item in definitions['soc_scenario']},
+    'sens': {item['specifier']: item for item in definitions['sens_scenario']}
+}
+
 for simulation_round in SIMULATION_ROUNDS:
     rows = list(filter_rows(definitions[IDENTIFIER], simulation_round, PRODUCT))
     columns = COLUMNS[simulation_round]
@@ -96,12 +111,6 @@ for simulation_round in SIMULATION_ROUNDS:
 
         cell = table.rows[index].cells[0]
         add_paragraph(cell, row['title'], font_size=12, bold=True)
-
-        cell = table.rows[index].cells[0]
-        for subtitle in row['subtitles']:
-            add_paragraph(cell, subtitle, bold=True)
-
-        cell = table.rows[index].cells[0]
         add_paragraph(cell, row['priority'])
 
         if simulation_round == 'ISIMIP4a':
@@ -118,10 +127,15 @@ for simulation_round in SIMULATION_ROUNDS:
             else:
                 for offset, key in enumerate(['climate', 'soc']):
                     cell = table.rows[index + offset].cells[1]
-                    add_paragraph(cell, row['pre-industrial'][key], bold=True)
+
+                    scenario_specifiers = get_specifier_list(scenarios[key][row['pre-industrial'][key]])
+                    add_paragraph(cell, ', '.join(scenario_specifiers), bold=True)
+
                     if row['pre-industrial'].get(f'{key}_sens'):
-                        value = 'Sensitivity experiment: ' + row['pre-industrial'][f'{key}_sens']
+                        sens_specifiers = get_specifier_list(scenarios['sens'][row['pre-industrial'][f'{key}_sens']])
+                        value = 'Sensitivity experiment: ' + ', '.join(sens_specifiers)
                         add_paragraph(cell, value, bold=True)
+
                     set_background(cell, COLOR_HISTORICAL)
 
             if isinstance(row['historical'], str):
@@ -131,10 +145,15 @@ for simulation_round in SIMULATION_ROUNDS:
             else:
                 for offset, key in enumerate(['climate', 'soc']):
                     cell = table.rows[index + offset].cells[2]
-                    add_paragraph(cell, row['historical'][key], bold=True)
+
+                    scenario_specifiers = get_specifier_list(scenarios[key][row['historical'][key]])
+                    add_paragraph(cell, ', '.join(scenario_specifiers), bold=True)
+
                     if row['historical'].get(f'{key}_sens'):
-                        value = 'Sensitivity experiment: ' + row['historical'][f'{key}_sens']
+                        sens_specifiers = get_specifier_list(scenarios['sens'][row['historical'][f'{key}_sens']])
+                        value = 'Sensitivity experiment: ' + ', '.join(sens_specifiers)
                         add_paragraph(cell, value, bold=True)
+
                     set_background(cell, COLOR_HISTORICAL)
 
             if isinstance(row['future'], str):
@@ -144,10 +163,15 @@ for simulation_round in SIMULATION_ROUNDS:
             else:
                 for offset, key in enumerate(['climate', 'soc']):
                     cell = table.rows[index + offset].cells[3]
-                    add_paragraph(cell, row['future'][key], bold=True)
+
+                    scenario_specifiers = get_specifier_list(scenarios[key][row['future'][key]])
+                    add_paragraph(cell, ', '.join(scenario_specifiers), bold=True)
+
                     if row['future'].get(f'{key}_sens'):
-                        value = 'Sensitivity experiment: ' + row['future'][f'{key}_sens']
+                        sens_specifiers = get_specifier_list(scenarios['sens'][row['future'][f'{key}_sens']])
+                        value = 'Sensitivity experiment: ' + ', '.join(sens_specifiers)
                         add_paragraph(cell, value, bold=True)
+
                     set_background(cell, COLOR_GROUP3 if row['future']['soc'].endswith('adapt') else COLOR_FUTURE)
 
     output_path = Path('docx') / f'{simulation_round}-{IDENTIFIER}.docx'
