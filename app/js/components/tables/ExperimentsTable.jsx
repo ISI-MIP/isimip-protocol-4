@@ -23,17 +23,6 @@ const ExperimentRow = function({ config, row, climateScenarios, socScenarios, se
       <tr>
         <td className={row.parent ? 'table-light' : ''} rowSpan="2">
           <h4>{row.title}</h4>
-          {
-            row.subtitles && <div className="mb-2">
-              {
-                row.subtitles.map((subtitle, subtitleIndex)  => (
-                  <p key={subtitleIndex} className="mb-0">
-                    <strong>{subtitle}</strong>
-                  </p>
-                ))
-              }
-            </div>
-          }
           {row.priority && <p>{row.priority}</p>}
           <p>
             <SimulationRounds config={config} simulationRounds={row.simulation_rounds} />
