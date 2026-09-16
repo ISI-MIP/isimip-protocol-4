@@ -1,5 +1,5 @@
 {
-  "commit": "9c795e07ddf902f38fca5287cf887551f9b9ac2f",
+  "commit": "7a896865ce5e622fb43adac06d31e2f9c11b7a62",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -45,6 +45,30 @@
         "water_global",
         "water_regional",
         "water_quality"
+      ]
+    },
+    {
+      "specifier": "vlndep",
+      "description": "Nitrogen deposition according to the **Very Low emission scenario**.",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "sectors": [
+        "biomes",
+        "fire",
+        "permafrost"
+      ]
+    },
+    {
+      "specifier": "hndep",
+      "description": "Nitrogen deposition according to **High emission scenario**.",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "sectors": [
+        "biomes",
+        "fire",
+        "permafrost"
       ]
     }
   ],
@@ -575,6 +599,32 @@
       ]
     },
     {
+      "specifier": "vl_2021soc-from-histsoc_vlndep",
+      "parent": "vl_2021soc-from-histsoc_default",
+      "title": "Nitrogen deposition sensitivity",
+      "priority": "2nd priority",
+      "pre-industrial": "Identical to the similar **picontrol/1850soc** run above.",
+      "historical": "Identical to the similar **historical/histsoc** run above.",
+      "future": {
+        "climate": "vl",
+        "soc": "2021soc-from-histsoc",
+        "soc_sens": "vlndep"
+      },
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "sectors": [
+        "biomes",
+        "fire",
+        "permafrost"
+      ],
+      "subtitles": [
+        "vl_2021soc-from-histsoc_vlndep",
+        "scen7-vl_2021soc-from-histsoc_vlndep",
+        "esm-scen7-vl_2021soc-from-histsoc_vlndep"
+      ]
+    },
+    {
       "specifier": "h_2021soc-from-histsoc_default",
       "title": "High emission scenario",
       "priority": "1st priority",
@@ -779,6 +829,32 @@
         "h_2021soc_2021co2",
         "scen7-h_2021soc_2021co2",
         "esm-scen7-h_2021soc_2021co2"
+      ]
+    },
+    {
+      "specifier": "h_2021soc-from-histsoc_hndep",
+      "parent": "h_2021soc-from-histsoc_default",
+      "title": "Nitrogen deposition sensitivity",
+      "priority": "2nd priority",
+      "pre-industrial": "Identical to the similar **picontrol/1850soc** run above.",
+      "historical": "Identical to the similar **historical/histsoc** run above.",
+      "future": {
+        "climate": "h",
+        "soc": "2021soc-from-histsoc",
+        "soc_sens": "hndep"
+      },
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "sectors": [
+        "biomes",
+        "fire",
+        "permafrost"
+      ],
+      "subtitles": [
+        "h_2021soc-from-histsoc_hndep",
+        "scen7-h_2021soc-from-histsoc_hndep",
+        "esm-scen7-h_2021soc-from-histsoc_hndep"
       ]
     },
     {

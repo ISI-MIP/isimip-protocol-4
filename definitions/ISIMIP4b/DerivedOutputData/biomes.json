@@ -1,5 +1,5 @@
 {
-  "commit": "9c795e07ddf902f38fca5287cf887551f9b9ac2f",
+  "commit": "7a896865ce5e622fb43adac06d31e2f9c11b7a62",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -54,7 +54,9 @@
         "ISIMIP4b"
       ],
       "sectors": [
-        "biomes"
+        "biomes",
+        "fire",
+        "permafrost"
       ]
     },
     {
@@ -64,7 +66,9 @@
         "ISIMIP4b"
       ],
       "sectors": [
-        "biomes"
+        "biomes",
+        "fire",
+        "permafrost"
       ]
     },
     {
@@ -718,7 +722,9 @@
         "ISIMIP4b"
       ],
       "sectors": [
-        "biomes"
+        "biomes",
+        "fire",
+        "permafrost"
       ],
       "subtitles": [
         "vl_2021soc-from-histsoc_vlndep",
@@ -1030,7 +1036,9 @@
         "ISIMIP4b"
       ],
       "sectors": [
-        "biomes"
+        "biomes",
+        "fire",
+        "permafrost"
       ],
       "subtitles": [
         "h_2021soc-from-histsoc_hndep",
