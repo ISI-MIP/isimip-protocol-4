@@ -117,6 +117,8 @@
   - ISIMIP4b
   sectors:
   - biomes
+  - fire
+  - permafrost
 
 - specifier: hndep
   description: >-
@@ -125,6 +127,8 @@
   - ISIMIP4b
   sectors:
   - biomes
+  - fire
+  - permafrost
 
 - specifier: nondep
   description: >-

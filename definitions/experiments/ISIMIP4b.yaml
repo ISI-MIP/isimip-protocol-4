@@ -325,6 +325,8 @@
   - ISIMIP4b
   sectors:
   - biomes
+  - fire
+  - permafrost
 
 - specifier: h_2021soc-from-histsoc_default
   title: High emission scenario
@@ -567,6 +569,8 @@
   - ISIMIP4b
   sectors:
   - biomes
+  - fire
+  - permafrost
 
 - specifier: h_2021soc-from-histsoc_nondep
   parent: h_2021soc-from-histsoc_default
