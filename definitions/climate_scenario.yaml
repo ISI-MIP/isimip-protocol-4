@@ -75,7 +75,7 @@
     concentrations.
   description_note: >-
     We follow the CMIP7 vocabulary and label the concentration driven runs
-    `histocical` and the emission driven runs `esm-hist`.
+    `historical` and the emission driven runs `esm-hist`.
   simulation_rounds:
   - ISIMIP4b
 

@@ -115,8 +115,6 @@
     Nitrogen deposition according to the **Very Low emission scenario**.
   simulation_rounds:
   - ISIMIP4b
-  products:
-  - SecondaryOutputData
   sectors:
   - biomes
 
