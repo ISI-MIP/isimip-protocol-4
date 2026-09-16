@@ -1,5 +1,5 @@
 {
-  "commit": "735aea14bd3922190e5c9cdb7759d94f0ff66703",
+  "commit": "a70bacf3f7240cf4c347ac7954ab19ac6a32ae41",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -2773,6 +2773,7 @@
       "path": [
         "ISIMIP4b/InputData/socioeconomic/reservoirs_dams/<soc_scenario>/dams-reservoirs_<model>_<climate-forcing>_<climate_scenario>_2022_2100.csv"
       ],
+      "comment": "Documentation → [Reservoirs and dams (ISIMIP4b)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/202/).",
       "variables": [
         {
           "specifier": "ID",
@@ -2981,6 +2982,7 @@
         "ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population_ssp1_<resolution>_annual_2022_2100.nc",
         "ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population_ssp3_<resolution>_annual_2022_2100.nc"
       ],
+      "comment": "Documentation → [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/).\n\nUrban and rural population are not yet available.\n",
       "variables": [
         {
           "specifier": "total-population",
@@ -3001,8 +3003,7 @@
       "time_periods": [
         "1850-2021",
         "2022-2100"
-      ],
-      "comment": "Urban and rural population are not yet available.\n"
+      ]
     },
     {
       "specifier": "population-countrylevel",
@@ -3020,6 +3021,7 @@
         "ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population_ssp1_national_annual_2022_2100.csv",
         "ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population_ssp3_national_annual_2022_2100.csv"
       ],
+      "comment": "Documentation → [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/).",
       "variables": [
         {
           "specifier": "population",
@@ -3048,6 +3050,7 @@
         "ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population-stratification_ssp1_national_annual_<age-stratification>_2015_2100.csv",
         "ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population-stratification_ssp3_national_annual_<age-stratification>_2015_2100.csv"
       ],
+      "comment": "Not yet available.",
       "variables": [
         {
           "specifier": "population",
@@ -3058,8 +3061,7 @@
       "time_periods": [
         "1850-2014",
         "2015-2100"
-      ],
-      "comment": "Not yet available.\n"
+      ]
     },
     {
       "specifier": "gdp-ppp-countrylevel",
@@ -3076,11 +3078,40 @@
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-ppp-countrylevel_ssp1_annual_2022_2100.csv",
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-ppp-countrylevel_ssp3_annual_2022_2100.csv"
       ],
+      "comment": "Documentation → [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/).",
       "variables": [
         {
-          "specifier": "gdp",
-          "long_name": "Gross domestic product",
-          "units": "PPP 2005 Int $"
+          "specifier": "gdp-ppp-countrylevel",
+          "long_name": "National GDP in PPP 2017 Int $",
+          "units": "PPP 2017 Int $"
+        }
+      ],
+      "time_periods": [
+        "1850-2021",
+        "2022-2100"
+      ]
+    },
+    {
+      "specifier": "gdp-per-capita-ppp-countrylevel",
+      "title": "GDP per capita PPP",
+      "group": "gdp",
+      "mandatory": true,
+      "group3": true,
+      "frequency": "annual",
+      "resolution": "country-level",
+      "path": [
+        "ISIMIP4b/InputData/socioeconomic/gdp/histsoc/gdp-per-capita-ppp-countrylevel_histsoc_annual_<start>_<end>.csv",
+        "ISIMIP4b/InputData/socioeconomic/gdp/2021soc/gdp-per-capita-ppp-countrylevel_2021soc_annual_<start>_<end>.csv",
+        "ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-per-capita-ppp-countrylevel_1850soc_annual_<start>_<end>.csv",
+        "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-per-capita-ppp-countrylevel_ssp1_annual_2022_2100.csv",
+        "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-per-capita-ppp-countrylevel_ssp3_annual_2022_2100.csv"
+      ],
+      "comment": "Documentation → [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/).",
+      "variables": [
+        {
+          "specifier": "gdp-ppp-countrylevel",
+          "long_name": "National GDP per capita in PPP 2017 Int $",
+          "units": "PPP 2017 Int $"
         }
       ],
       "time_periods": [
@@ -3103,11 +3134,40 @@
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-mer-countrylevel_ssp1_annual_2022_2100.csv",
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-mer-countrylevel_ssp3_annual_2022_2100.csv"
       ],
+      "comment": "Documentation → [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/).",
       "variables": [
         {
-          "specifier": "gdp",
-          "long_name": "Gross domestic product",
-          "units": "MER 2005 US $"
+          "specifier": "gdp-mer-countrylevel",
+          "long_name": "National GDP in 2017 $ (market exchange rate)",
+          "units": "MER 2017 US $"
+        }
+      ],
+      "time_periods": [
+        "1850-2021",
+        "2022-2100"
+      ]
+    },
+    {
+      "specifier": "gdp-per-capita-mer-countrylevel",
+      "title": "GDP MER",
+      "group": "gdp",
+      "mandatory": true,
+      "group3": true,
+      "frequency": "annual",
+      "resolution": "country-level",
+      "path": [
+        "ISIMIP4b/InputData/socioeconomic/gdp/histsoc/gdp-per-capita-mer-countrylevel_histsoc_annual_<start>_<end>.csv",
+        "ISIMIP4b/InputData/socioeconomic/gdp/2021soc/gdp-per-capita-mer-countrylevel_2021soc_annual_<start>_<end>.csv",
+        "ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-per-capita-mer-countrylevel_1850soc_annual_<start>_<end>.csv",
+        "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-per-capita-mer-countrylevel_ssp1_annual_2022_2100.csv",
+        "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-per-capita-mer-countrylevel_ssp3_annual_2022_2100.csv"
+      ],
+      "comment": "Documentation → [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/).",
+      "variables": [
+        {
+          "specifier": "gdp-per-capita-mer-countrylevel",
+          "long_name": "National GDP per capita in 2017 $ (market exchange rate)",
+          "units": "MER 2017 US $"
         }
       ],
       "time_periods": [
@@ -3136,6 +3196,7 @@
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-ppp_ssp1_<resolution>_annual_2022_2100.nc",
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-ppp_ssp3_<resolution>_annual_2022_2100.nc"
       ],
+      "comment": "Documentation → [Gridded GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/212/).",
       "variables": [
         {
           "specifier": "gdp-ppp",
@@ -3165,6 +3226,7 @@
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-per-capita-ppp_ssp1_<resolution>_annual_2022_2100.nc",
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-per-capita-ppp_ssp3_<resolution>_annual_2022_2100.nc"
       ],
+      "comment": "Documentation → [Gridded GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/214/).",
       "variables": [
         {
           "specifier": "gdp-per-capita-ppp",
@@ -3194,6 +3256,7 @@
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/fixed-asset-value_ssp1_<resolution>_annual_2022_2100.nc",
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/fixed-asset-value_ssp3_<resolution>_annual_2022_2100.nc"
       ],
+      "comment": "Documentation → [Fixed Assets](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/211/)",
       "variables": [
         {
           "specifier": "fixed-asset-value",
@@ -5158,7 +5221,7 @@
         "ISIMIP4b": null
       },
       "path": "ISIMIP4b/InputData/socioeconomic/population/histsoc/",
-      "comment": "Input dataset documentation → [National, gridded historical population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/)."
+      "comment": "Input dataset documentation → [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/), [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/)."
     },
     {
       "specifier": "histsoc_gdp",
@@ -5169,8 +5232,12 @@
         "ISIMIP4a": null,
         "ISIMIP4b": null
       },
-      "path": "ISIMIP4b/InputData/socioeconomic/gdp/histsoc/",
-      "comment": "Input dataset documentation → [National historical Gross Domestic Product (GDP)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/)."
+      "path": [
+        "ISIMIP4b/InputData/socioeconomic/gdp/histsoc/",
+        "ISIMIP4b/InputData/socioeconomic/gdp/1850soc/",
+        "ISIMIP4b/InputData/socioeconomic/gdp/2021soc/"
+      ],
+      "comment": "Input dataset documentation → [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/), [Gridded GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/212/), [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/), [Gridded GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/214/)."
     },
     {
       "specifier": "histsoc_fixed_assets",
@@ -5181,7 +5248,8 @@
         "ISIMIP4a": null,
         "ISIMIP4b": null
       },
-      "path": "ISIMIP4b/InputData/socioeconomic/fixed-assets/histsoc/"
+      "path": "ISIMIP4b/InputData/socioeconomic/fixed-assets/histsoc/",
+      "comment": "Input dataset documentation → [Fixed Assets](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/211/)"
     },
     {
       "specifier": "histsoc_land_use",
@@ -5506,6 +5574,7 @@
         "ISIMIP4b/InputData/socioeconomic/pop/ssp1vlsoc-noadapt/",
         "ISIMIP4b/InputData/socioeconomic/pop/ssp3hsoc-noadapt/"
       ],
+      "comment": "Input dataset documentation → [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/), [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/).",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
@@ -5524,6 +5593,7 @@
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/",
         "ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/"
       ],
+      "comment": "Input dataset documentation → [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/), [Gridded GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/212/), [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/), [Gridded GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/214/).",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
@@ -5542,6 +5612,7 @@
         "ISIMIP4b/InputData/socioeconomic/fixed-assets/ssp1vlsoc-noadapt/",
         "ISIMIP4b/InputData/socioeconomic/fixed-assets/ssp3hsoc-noadapt/"
       ],
+      "comment": "Input dataset documentation → [Fixed Assets](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/211/)",
       "simulation_rounds": [
         "ISIMIP4b"
       ],
