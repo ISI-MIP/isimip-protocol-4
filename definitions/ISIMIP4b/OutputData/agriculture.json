@@ -1,5 +1,5 @@
 {
-  "commit": "dc6521502fc726ff1262a3b9825eaeced03b93e0",
+  "commit": "735aea14bd3922190e5c9cdb7759d94f0ff66703",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -802,7 +802,7 @@
         "esm-hist"
       ],
       "description": "GCM-based **historical climate related forcing**, historical changes in CO₂ and CH₄ concentrations.",
-      "description_note": "We follow the CMIP7 vocabulary and label the concentration driven runs `histocical` and the emission driven runs `esm-hist`.",
+      "description_note": "We follow the CMIP7 vocabulary and label the concentration driven runs `historical` and the emission driven runs `esm-hist`.",
       "simulation_rounds": [
         "ISIMIP4b"
       ]
@@ -5398,7 +5398,7 @@
       "specifier": "historical",
       "title": "Historical",
       "description": "Historical simulation period.",
-      "end_year": 2011,
+      "end_year": 2021,
       "start_year": 1850
     },
     {

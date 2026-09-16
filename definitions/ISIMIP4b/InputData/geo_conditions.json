@@ -1,5 +1,5 @@
 {
-  "commit": "dc6521502fc726ff1262a3b9825eaeced03b93e0",
+  "commit": "735aea14bd3922190e5c9cdb7759d94f0ff66703",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -57,6 +57,16 @@
         "water_global"
       ],
       "group3": true
+    },
+    {
+      "specifier": "vlndep",
+      "description": "Nitrogen deposition according to the **Very Low emission scenario**.",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "sectors": [
+        "biomes"
+      ]
     },
     {
       "specifier": "hndep",
@@ -679,7 +689,7 @@
       "specifier": "vl_ssp1vlsoc-noadapt_extrasoc",
       "parent": "vl_ssp1vlsoc-noadapt_default",
       "title": "Extrasoc sensitivity",
-      "priority": "2st priority",
+      "priority": "2nd priority",
       "pre-industrial": "Identical to the similar **picontrol/1850soc** run  above.",
       "historical": "Identical to the similar **historical/histsoc** run above.",
       "future": {
@@ -922,7 +932,7 @@
       "specifier": "h_ssp3hsoc-noadapt_extrasoc",
       "parent": "h_ssp3hsoc-noadapt_default",
       "title": "Extrasoc sensitivity",
-      "priority": "2st priority",
+      "priority": "2nd priority",
       "pre-industrial": "Identical to the similar **picontrol/1850soc** run above.",
       "historical": "Identical to the similar **historical/histsoc** run above.",
       "future": {
@@ -1308,7 +1318,7 @@
         "esm-hist"
       ],
       "description": "GCM-based **historical climate related forcing**, historical changes in CO₂ and CH₄ concentrations.",
-      "description_note": "We follow the CMIP7 vocabulary and label the concentration driven runs `histocical` and the emission driven runs `esm-hist`.",
+      "description_note": "We follow the CMIP7 vocabulary and label the concentration driven runs `historical` and the emission driven runs `esm-hist`.",
       "simulation_rounds": [
         "ISIMIP4b"
       ]
@@ -8618,7 +8628,7 @@
       "specifier": "historical",
       "title": "Historical",
       "description": "Historical simulation period.",
-      "end_year": 2011,
+      "end_year": 2021,
       "start_year": 1850
     },
     {
@@ -12603,7 +12613,6 @@
     },
     {
       "specifier": "areacello",
-      "specifier_alias": "deptho",
       "title": "Grid-Cell Area for Ocean Variables",
       "group": "ocean-static",
       "resolution": [
@@ -12653,6 +12662,7 @@
       "title": "Large Marine Ecosystems",
       "group": "ocean-static",
       "resolution": [
+        "0.1° grid",
         "0.25° grid",
         "0.5° grid",
         "1° grid"
@@ -12679,7 +12689,7 @@
         "0.25° grid",
         "1° grid"
       ],
-      "path": "ISIMIP4b/InputData/geo_conditions/fishmip_regions/RME_mask_<resolution>.nc",
+      "path": "ISIMIP4b/InputData/geo_conditions/fishmip_regions/RME_masks_<resolution>.nc",
       "variables": [
         {
           "specifier": "RegionMask"

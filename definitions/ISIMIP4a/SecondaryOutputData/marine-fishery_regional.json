@@ -1,5 +1,5 @@
 {
-  "commit": "dc6521502fc726ff1262a3b9825eaeced03b93e0",
+  "commit": "735aea14bd3922190e5c9cdb7759d94f0ff66703",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -5094,6 +5094,7 @@
       "title": "Large Marine Ecosystems",
       "group": "ocean-static",
       "resolution": [
+        "0.1° grid",
         "0.25° grid",
         "0.5° grid",
         "1° grid"
@@ -5120,7 +5121,7 @@
         "0.25° grid",
         "1° grid"
       ],
-      "path": "ISIMIP4a/InputData/geo_conditions/fishmip_regions/RME_mask_<resolution>.nc",
+      "path": "ISIMIP4a/InputData/geo_conditions/fishmip_regions/RME_masks_<resolution>.nc",
       "variables": [
         {
           "specifier": "RegionMask"
