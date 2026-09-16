@@ -757,12 +757,8 @@
   group: orography
   resolution:
   - 30arcsec
-  path:
-    ISIMIP4a: ISIMIP4a/InputData/geo_conditions/orography/orog_chelsa-w5e5_30arcsec_global.nc
-    ISIMIP4b: ISIMIP4b/InputData/geo_conditions/orography/orog_chelsa-w5e5_30arcsec_global.nc
+  path: not yet available
   variables:
   - specifier: orog
     units: m
-  comment: >-
-    Orography from [CHELSA-W5E5 v1.0](https://data.isimip.org/10.48364/ISIMIP.836809.3).
   format: NetCDF

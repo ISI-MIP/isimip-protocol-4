@@ -93,15 +93,21 @@
   group: static-forcing
   title: Sea floor depth
   status: optional
-  doi:
-    ISIMIP4a:
-    ISIMIP4b:
   path:
-    ISIMIP4a: ISIMIP4a/InputData/geo_conditions/orography/
-    ISIMIP4b: ISIMIP4b/InputData/geo_conditions/orography/
+    ISIMIP3a: ISIMIP4a/InputData/geo_conditions/ocean/
+    ISIMIP3b: ISIMIP4b/InputData/geo_conditions/ocean/
   sectors:
   - marine-fishery_global
   - marine-fishery_regional
+
+- specifier: orography
+  group: static-forcing
+  title: Orography
+  status: under construction
+  doi:
+  path:
+    ISIMIP4a: ISIMIP4a/InputData/geo_conditions/orography/
+    ISIMIP4b: ISIMIP4b/InputData/geo_conditions/orography/
 
 - specifier: countrymasks
   group: static-forcing
