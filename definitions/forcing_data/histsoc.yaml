@@ -47,6 +47,9 @@
   path:
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/fixed-assets/histsoc/
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/fixed-assets/histsoc/
+  comment: >-
+    Input dataset documentation →
+    [Fixed Assets](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/211/)
 
 - specifier: histsoc_land_use
   group: histsoc-forcing

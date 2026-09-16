@@ -39,6 +39,9 @@
   path:
   - ISIMIP4b/InputData/socioeconomic/fixed-assets/ssp1vlsoc-noadapt/
   - ISIMIP4b/InputData/socioeconomic/fixed-assets/ssp3hsoc-noadapt/
+  comment: >-
+    Input dataset documentation →
+    [Fixed Assets](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/211/)
   simulation_rounds:
   - ISIMIP4b
   group3: true

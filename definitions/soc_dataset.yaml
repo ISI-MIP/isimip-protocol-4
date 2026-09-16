@@ -1814,6 +1814,9 @@
     - ISIMIP4b/InputData/socioeconomic/gdp/1850soc/fixed-asset-value_1850soc_<resolution>_annual_<start>_<end>.nc
     - ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/fixed-asset-value_ssp1_<resolution>_annual_2022_2100.nc
     - ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/fixed-asset-value_ssp3_<resolution>_annual_2022_2100.nc
+  comment: >-
+    Documentation →
+    [Fixed Assets](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/211/)
   variables:
   - specifier: fixed-asset-value
     long_name: Fixed asset value in purchasing power parity (PPP), 2017 constant prices
