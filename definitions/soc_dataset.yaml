@@ -1513,6 +1513,10 @@
     - ISIMIP4b/InputData/socioeconomic/population/1850soc/population_1850soc_<resolution>_annual_<start>_<end>.nc
     - ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population_ssp1_<resolution>_annual_2022_2100.nc
     - ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population_ssp3_<resolution>_annual_2022_2100.nc
+  comment: |
+    Documentation → [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/).
+
+    Urban and rural population are not yet available.
   variables:
   - specifier: total-population
     long_name: total population
@@ -1530,8 +1534,6 @@
     ISIMIP4b:
     - 1850-2021
     - 2022-2100
-  comment: >
-    Urban and rural population are not yet available.
 
 - specifier: population-countrylevel
   specifier_alias: population
@@ -1552,6 +1554,8 @@
     - ISIMIP4b/InputData/socioeconomic/population/1850soc/population_1850soc_national_annual_<start>_<end>.csv
     - ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population_ssp1_national_annual_2022_2100.csv
     - ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population_ssp3_national_annual_2022_2100.csv
+  comment: >-
+    Documentation → [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/).
   variables:
   - specifier: population
     long_name: total number of people per country
@@ -1583,6 +1587,8 @@
     - ISIMIP4b/InputData/socioeconomic/population/1850soc/population-stratification_1850soc_national_annual_<age-stratification>_<start>_<end>.csv
     - ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population-stratification_ssp1_national_annual_<age-stratification>_2015_2100.csv
     - ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population-stratification_ssp3_national_annual_<age-stratification>_2015_2100.csv
+  comment: >-
+    Not yet available.
   variables:
   - specifier: population
     long_name: share of national population
@@ -1594,8 +1600,6 @@
     ISIMIP4b:
     - 1850-2014
     - 2015-2100
-  comment: >
-    Not yet available.
 
 - specifier: gdp-ppp-countrylevel
   title: GDP PPP

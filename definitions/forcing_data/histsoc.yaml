@@ -8,11 +8,10 @@
   path:
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/population/histsoc/
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/population/histsoc/
-  comment:
-    ISIMIP4a: >-
-      Input dataset documentation → [National, gridded historical population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
-    ISIMIP4b: >-
-      Input dataset documentation → [National, gridded historical population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
+  comment: >-
+    Input dataset documentation →
+    [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/),
+    [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/).
 
 - specifier: histsoc_gdp
   group: histsoc-forcing

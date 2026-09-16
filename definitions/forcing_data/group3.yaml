@@ -5,6 +5,10 @@
   path:
   - ISIMIP4b/InputData/socioeconomic/pop/ssp1vlsoc-noadapt/
   - ISIMIP4b/InputData/socioeconomic/pop/ssp3hsoc-noadapt/
+  comment: >-
+    Input dataset documentation →
+    [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/),
+    [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/).
   simulation_rounds:
   - ISIMIP4b
   group3: true
