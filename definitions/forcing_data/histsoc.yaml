@@ -22,13 +22,20 @@
     ISIMIP4a:
     ISIMIP4b:
   path:
-    ISIMIP4a: ISIMIP4a/InputData/socioeconomic/gdp/histsoc/
-    ISIMIP4b: ISIMIP4b/InputData/socioeconomic/gdp/histsoc/
-  comment:
-    ISIMIP4a: >-
-      Input dataset documentation → [National historical Gross Domestic Product (GDP)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
-    ISIMIP4b: >-
-      Input dataset documentation → [National historical Gross Domestic Product (GDP)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
+    ISIMIP4a:
+    - ISIMIP4a/InputData/socioeconomic/gdp/histsoc/
+    - ISIMIP4a/InputData/socioeconomic/gdp/1901soc/
+    - ISIMIP4a/InputData/socioeconomic/gdp/2021soc/
+    ISIMIP4b:
+    - ISIMIP4b/InputData/socioeconomic/gdp/histsoc/
+    - ISIMIP4b/InputData/socioeconomic/gdp/1850soc/
+    - ISIMIP4b/InputData/socioeconomic/gdp/2021soc/
+  comment: >-
+    Input dataset documentation →
+    [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/),
+    [Gridded GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/212/),
+    [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/),
+    [Gridded GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/214/).
 
 - specifier: histsoc_fixed_assets
   group: histsoc-forcing

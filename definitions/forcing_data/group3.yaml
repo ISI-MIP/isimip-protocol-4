@@ -19,6 +19,12 @@
   path:
   - ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/
   - ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/
+  comment: >-
+    Input dataset documentation →
+    [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/),
+    [Gridded GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/212/),
+    [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/),
+    [Gridded GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/214/).
   simulation_rounds:
   - ISIMIP4b
   group3: true

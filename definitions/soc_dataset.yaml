@@ -1615,10 +1615,46 @@
     - ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-ppp-countrylevel_1850soc_annual_<start>_<end>.csv
     - ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-ppp-countrylevel_ssp1_annual_2022_2100.csv
     - ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-ppp-countrylevel_ssp3_annual_2022_2100.csv
+  comment: >-
+    Documentation →
+    [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/).
   variables:
-  - specifier: gdp
-    long_name: Gross domestic product
-    units: PPP 2005 Int $
+  - specifier: gdp-ppp-countrylevel
+    long_name: National GDP in PPP 2017 Int $
+    units: PPP 2017 Int $
+  time_periods:
+    ISIMIP4a:
+    - 1850-1900
+    - 1901-2024
+    ISIMIP4b:
+    - 1850-2021
+    - 2022-2100
+
+- specifier: gdp-per-capita-ppp-countrylevel
+  title: GDP per capita PPP
+  group: gdp
+  mandatory: true
+  group3: true
+  frequency: annual
+  resolution: country-level
+  path:
+    ISIMIP4a:
+    - ISIMIP4a/InputData/socioeconomic/gdp/histsoc/gdp-per-capita-ppp-countrylevel_histsoc_annual_<start>_<end>.csv
+    - ISIMIP4a/InputData/socioeconomic/gdp/2021soc/gdp-per-capita-ppp-countrylevel_2021soc_annual_<start>_<end>.csv
+    - ISIMIP4a/InputData/socioeconomic/gdp/1901soc/gdp-per-capita-ppp-countrylevel_1901soc_annual_<start>_<end>.csv
+    ISIMIP4b:
+    - ISIMIP4b/InputData/socioeconomic/gdp/histsoc/gdp-per-capita-ppp-countrylevel_histsoc_annual_<start>_<end>.csv
+    - ISIMIP4b/InputData/socioeconomic/gdp/2021soc/gdp-per-capita-ppp-countrylevel_2021soc_annual_<start>_<end>.csv
+    - ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-per-capita-ppp-countrylevel_1850soc_annual_<start>_<end>.csv
+    - ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-per-capita-ppp-countrylevel_ssp1_annual_2022_2100.csv
+    - ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-per-capita-ppp-countrylevel_ssp3_annual_2022_2100.csv
+  comment: >-
+    Documentation →
+    [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/).
+  variables:
+  - specifier: gdp-ppp-countrylevel
+    long_name: National GDP per capita in PPP 2017 Int $
+    units: PPP 2017 Int $
   time_periods:
     ISIMIP4a:
     - 1850-1900
@@ -1645,10 +1681,46 @@
     - ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-mer-countrylevel_1850soc_annual_<start>_<end>.csv
     - ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-mer-countrylevel_ssp1_annual_2022_2100.csv
     - ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-mer-countrylevel_ssp3_annual_2022_2100.csv
+  comment: >-
+    Documentation →
+    [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/).
   variables:
-  - specifier: gdp
-    long_name: Gross domestic product
-    units: MER 2005 US $
+  - specifier: gdp-mer-countrylevel
+    long_name: National GDP in 2017 $ (market exchange rate)
+    units: MER 2017 US $
+  time_periods:
+    ISIMIP4a:
+    - 1850-1900
+    - 1901-2024
+    ISIMIP4b:
+    - 1850-2021
+    - 2022-2100
+
+- specifier: gdp-per-capita-mer-countrylevel
+  title: GDP MER
+  group: gdp
+  mandatory: true
+  group3: true
+  frequency: annual
+  resolution: country-level
+  path:
+    ISIMIP4a:
+    - ISIMIP4a/InputData/socioeconomic/gdp/histsoc/gdp-per-capita-mer-countrylevel_histsoc_annual_<start>_<end>.csv
+    - ISIMIP4a/InputData/socioeconomic/gdp/2021soc/gdp-per-capita-mer-countrylevel_2021soc_annual_<start>_<end>.csv
+    - ISIMIP4a/InputData/socioeconomic/gdp/1901soc/gdp-per-capita-mer-countrylevel_1901soc_annual_<start>_<end>.csv
+    ISIMIP4b:
+    - ISIMIP4b/InputData/socioeconomic/gdp/histsoc/gdp-per-capita-mer-countrylevel_histsoc_annual_<start>_<end>.csv
+    - ISIMIP4b/InputData/socioeconomic/gdp/2021soc/gdp-per-capita-mer-countrylevel_2021soc_annual_<start>_<end>.csv
+    - ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-per-capita-mer-countrylevel_1850soc_annual_<start>_<end>.csv
+    - ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-per-capita-mer-countrylevel_ssp1_annual_2022_2100.csv
+    - ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-per-capita-mer-countrylevel_ssp3_annual_2022_2100.csv
+  comment: >-
+    Documentation →
+    [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/).
+  variables:
+  - specifier: gdp-per-capita-mer-countrylevel
+    long_name: National GDP per capita in 2017 $ (market exchange rate)
+    units: MER 2017 US $
   time_periods:
     ISIMIP4a:
     - 1850-1900
@@ -1680,6 +1752,9 @@
     - ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-ppp_1850soc_<resolution>_annual_<start>_<end>.nc
     - ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-ppp_ssp1_<resolution>_annual_2022_2100.nc
     - ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-ppp_ssp3_<resolution>_annual_2022_2100.nc
+  comment: >-
+    Documentation →
+    [Gridded GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/212/).
   variables:
   - specifier: gdp-ppp
     long_name: Gross domestic product (GDP) in purchasing power parity (PPP), 2017 constant prices
@@ -1708,6 +1783,9 @@
     - ISIMIP4b/InputData/socioeconomic/gdp/1850soc/gdp-per-capita-ppp_1850soc_<resolution>_annual_<start>_<end>.nc
     - ISIMIP4b/InputData/socioeconomic/gdp/ssp1vlsoc-noadapt/gdp-per-capita-ppp_ssp1_<resolution>_annual_2022_2100.nc
     - ISIMIP4b/InputData/socioeconomic/gdp/ssp3hsoc-noadapt/gdp-per-capita-ppp_ssp3_<resolution>_annual_2022_2100.nc
+  comment: >-
+    Documentation →
+    [Gridded GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/214/).
   variables:
   - specifier: gdp-per-capita-ppp
     long_name: Gross domestic product (GDP) in purchasing power parity (PPP), per capita, 2017 constant prices
