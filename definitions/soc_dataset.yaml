@@ -1055,6 +1055,9 @@
   path:
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/reservoir_dams/histsoc/reservoirs-dams_1850_2022.xls
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/reservoir_dams/histsoc/reservoirs-dams_1850_2021.xls
+  comment: >-
+    Documentation →
+    [Reservoirs and dams (ISIMIP4a)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/201/).
   variables:
   - specifier: ID
     long_name: Unique ID representing a dam and its associated reservoir corresponding
@@ -1120,10 +1123,6 @@
   - specifier: COMMENTS
     long_name: Other notes
     units: ''
-  comment: >-
-    Because the data from KSU is yet unpublished, modeling teams using it are asked
-    to offer co-authorship to the team at KSU on any resulting publications. Please
-    contact <info@isimip.org> in case of questions.
   sectors:
   - agriculture
   - biomes
@@ -1146,6 +1145,9 @@
   path:
     ISIMIP4b:
     - ISIMIP4b/InputData/socioeconomic/reservoirs_dams/<soc_scenario>/dams-reservoirs_<model>_<climate-forcing>_<climate_scenario>_2022_2100.csv
+  comment: >-
+    Documentation →
+    [Reservoirs and dams (ISIMIP4b)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/202/).
   variables:
   - specifier: ID
     long_name: ""

@@ -483,7 +483,8 @@
   - ISIMIP4b/InputData/socioeconomic/reservoirs_dams/ssp1vlsoc-noadapt/
   - ISIMIP4b/InputData/socioeconomic/reservoirs_dams/ssp3hsoc-noadapt/
   comment: >-
-    Input dataset documentation → [Reservoirs and dams (Group III)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).
+    Input dataset documentation →
+    [Reservoirs and dams (ISIMIP4b)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/202/).
   simulation_rounds:
   - ISIMIP4b
   sectors:

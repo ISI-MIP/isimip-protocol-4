@@ -242,11 +242,9 @@
   path:
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/reservoirs_dams/histsoc/
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/reservoirs_dams/histsoc/
-  comment:
-    ISIMIP4a: >-
-      Input dataset documentation → [Reservoirs and dams](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/).
-    ISIMIP4b: >-
-      Input dataset documentation → [Reservoirs and dams ](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/).
+  comment: >-
+    Input dataset documentation →
+    [Reservoirs and dams (ISIMIP4a)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/201/).
   sectors:
   - agriculture
   - biomes
