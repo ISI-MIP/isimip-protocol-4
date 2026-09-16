@@ -1,5 +1,5 @@
 {
-  "commit": "a70bacf3f7240cf4c347ac7954ab19ac6a32ae41",
+  "commit": "9c795e07ddf902f38fca5287cf887551f9b9ac2f",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -6318,6 +6318,14 @@
       ]
     },
     {
+      "specifier": "orography",
+      "group": "static-forcing",
+      "title": "Orography",
+      "status": "under construction",
+      "doi": null,
+      "path": "ISIMIP4b/InputData/geo_conditions/orography/"
+    },
+    {
       "specifier": "countrymasks",
       "group": "static-forcing",
       "title": "Country masks",
@@ -8805,14 +8813,13 @@
       "resolution": [
         "30arcsec"
       ],
-      "path": "ISIMIP4b/InputData/geo_conditions/orography/orog_chelsa-w5e5_30arcsec_global.nc",
+      "path": "not yet available",
       "variables": [
         {
           "specifier": "orog",
           "units": "m"
         }
       ],
-      "comment": "Orography from [CHELSA-W5E5 v1.0](https://data.isimip.org/10.48364/ISIMIP.836809.3).",
       "format": "NetCDF"
     }
   ],

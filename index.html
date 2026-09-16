@@ -12358,18 +12358,25 @@
       "group": "static-forcing",
       "title": "Sea floor depth",
       "status": "optional",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
       "path": {
-        "ISIMIP4a": "ISIMIP4a/InputData/geo_conditions/orography/",
-        "ISIMIP4b": "ISIMIP4b/InputData/geo_conditions/orography/"
+        "ISIMIP3a": "ISIMIP4a/InputData/geo_conditions/ocean/",
+        "ISIMIP3b": "ISIMIP4b/InputData/geo_conditions/ocean/"
       },
       "sectors": [
         "marine-fishery_global",
         "marine-fishery_regional"
       ]
+    },
+    {
+      "specifier": "orography",
+      "group": "static-forcing",
+      "title": "Orography",
+      "status": "under construction",
+      "doi": null,
+      "path": {
+        "ISIMIP4a": "ISIMIP4a/InputData/geo_conditions/orography/",
+        "ISIMIP4b": "ISIMIP4b/InputData/geo_conditions/orography/"
+      }
     },
     {
       "specifier": "countrymasks",
@@ -15937,17 +15944,13 @@
       "resolution": [
         "30arcsec"
       ],
-      "path": {
-        "ISIMIP4a": "ISIMIP4a/InputData/geo_conditions/orography/orog_chelsa-w5e5_30arcsec_global.nc",
-        "ISIMIP4b": "ISIMIP4b/InputData/geo_conditions/orography/orog_chelsa-w5e5_30arcsec_global.nc"
-      },
+      "path": "not yet available",
       "variables": [
         {
           "specifier": "orog",
           "units": "m"
         }
       ],
-      "comment": "Orography from [CHELSA-W5E5 v1.0](https://data.isimip.org/10.48364/ISIMIP.836809.3).",
       "format": "NetCDF"
     }
   ],
@@ -24486,8 +24489,8 @@
     "water_quality": "No pattern has been defined for this simulation round and sector, yet."
   }
 },
-                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/a70bacf3f7240cf4c347ac7954ab19ac6a32ae41',
-                commit_hash: 'a70bacf3f7240cf4c347ac7954ab19ac6a32ae41',
+                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/9c795e07ddf902f38fca5287cf887551f9b9ac2f',
+                commit_hash: '9c795e07ddf902f38fca5287cf887551f9b9ac2f',
                 commit_date: '16 September 2026'
             }
         </script>
