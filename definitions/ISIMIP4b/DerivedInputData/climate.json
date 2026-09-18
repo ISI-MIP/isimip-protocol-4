@@ -1,5 +1,5 @@
 {
-  "commit": "7a0a6e8305e2a1dcf2296850785238d07cd0288c",
+  "commit": "4a51211054a5a90444ca87664d1f29b2abb5bc38",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -4734,7 +4734,7 @@
         "DerivedOutputData"
       ],
       "ensemble_member": "r1i1p1f1",
-      "original_resolution": "?"
+      "original_resolution": "192x144"
     }
   ],
   "wind_model": [
