@@ -1,5 +1,5 @@
 {
-  "commit": "e670a904c46a814053e9ef35398a654da8b05a18",
+  "commit": "7a0a6e8305e2a1dcf2296850785238d07cd0288c",
   "path": "(?P<simulation_round>(ISIMIP4a))/(?P<product>(InputData))/(?P<category>(geo_conditions))/(?P<subcategory>(countrymasks))$",
   "dataset": "^(?P<geo_dataset>[A-Za-z0-9-]+)_(?P<resolution>[A-Za-z0-9]+)",
   "file": "^(?P<geo_dataset>[A-Za-z0-9-]+)_(?P<resolution>[A-Za-z0-9]+)(.nc)$",
