@@ -1,0 +1,9 @@
+- specifier: colm-iap-dgvm
+  title: CoLM-IAP-DGVM
+  primary_sector: biomes
+  additional_sectors:
+    - fire
+    - permafrost
+  simulation_rounds:
+  - ISIMIP4a
+  - ISIMIP4b
