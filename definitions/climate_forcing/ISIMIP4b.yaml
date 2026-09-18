@@ -16,3 +16,23 @@
     marine-fishery_global: 362x292
     marine-fishery_regional: 362x292
     other: 512x256
+
+- specifier: ukesm1-3-ll
+  title: UKESM1-3-LL
+  priority: 1
+  url: https://www.isimip.org/gettingstarted/input-data-bias-adjustment
+  simulation_rounds:
+  - ISIMIP4b
+  products:
+  - InputData
+  - OutputData
+  - SecondaryInputData
+  - SecondaryOutputData
+  - DerivedInputData
+  - DerivedOutputData
+  ensemble_member: r1i1p1f1
+  original_resolution:
+    marine-fishery_global: '?'
+    marine-fishery_regional: '?'
+    other: '?'
+
