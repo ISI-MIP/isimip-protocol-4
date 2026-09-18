@@ -9,8 +9,8 @@ dataset: >-
   _(?P<ensemble_member>[a-z0-9]+)
   _(?P<climate_scenario>[a-z0-9-]+)
   _(?P<geo_dataset>[a-z]+)
-  _(?P<resolution>[a-z0-9]+)
   _(?P<region>(global))
+  _(?P<resolution>[a-z0-9]+)
   _(?P<time_step>[a-z]+)
 
 file: >-
@@ -18,6 +18,6 @@ file: >-
   _(?P<ensemble_member>[a-z0-9]+)
   _(?P<climate_scenario>[a-z0-9-]+)
   _(?P<geo_dataset>[a-z]+)
-  _(?P<resolution>[a-z0-9]+)
   _(?P<region>(global))
+  _(?P<resolution>[a-z0-9]+)
   _(?P<time_step>[a-z]+)
