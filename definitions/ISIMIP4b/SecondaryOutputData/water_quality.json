@@ -1,5 +1,5 @@
 {
-  "commit": "d0742755b1564bfc18383338550c8d0e462ea6e8",
+  "commit": "3691ea041723fc0fd09609abd6183da677c1e6e9",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -4774,7 +4774,7 @@
     },
     {
       "specifier": "ocean-static",
-      "title": "Ocean static properties",
+      "title": "Ocean properties",
       "mandatory": false,
       "identifier": "geo_dataset"
     },
@@ -5429,9 +5429,7 @@
       "specifier": "orography",
       "group": "static-forcing",
       "title": "Orography",
-      "status": "under construction",
-      "doi": null,
-      "path": "ISIMIP4b/InputData/geo_conditions/orography/"
+      "status": "under construction"
     },
     {
       "specifier": "soc_pop",

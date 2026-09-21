@@ -1,5 +1,5 @@
 {
-  "commit": "d0742755b1564bfc18383338550c8d0e462ea6e8",
+  "commit": "3691ea041723fc0fd09609abd6183da677c1e6e9",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -3330,7 +3330,7 @@
     },
     {
       "specifier": "ocean-static",
-      "title": "Ocean static properties",
+      "title": "Ocean properties",
       "mandatory": false,
       "identifier": "geo_dataset"
     },
@@ -3777,26 +3777,22 @@
       ]
     },
     {
-      "specifier": "orography",
+      "specifier": "static-ocean",
       "group": "static-forcing",
-      "title": "Sea floor depth",
+      "title": "Static ocean properties",
       "status": "optional",
-      "path": {
-        "ISIMIP3a": "ISIMIP4a/InputData/geo_conditions/ocean/",
-        "ISIMIP3b": "ISIMIP4b/InputData/geo_conditions/ocean/"
-      },
+      "path": "ISIMIP4a/InputData/geo_conditions/ocean/",
       "sectors": [
         "marine-fishery_global",
         "marine-fishery_regional"
-      ]
+      ],
+      "comment": "Contains *Sea floor depth* and *Grid-Cell Area for Ocean Variables*."
     },
     {
       "specifier": "orography",
       "group": "static-forcing",
       "title": "Orography",
-      "status": "under construction",
-      "doi": null,
-      "path": "ISIMIP4a/InputData/geo_conditions/orography/"
+      "status": "under construction"
     },
     {
       "specifier": "lme-masks",
