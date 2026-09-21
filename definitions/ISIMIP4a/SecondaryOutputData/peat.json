@@ -1,5 +1,5 @@
 {
-  "commit": "4a51211054a5a90444ca87664d1f29b2abb5bc38",
+  "commit": "d0742755b1564bfc18383338550c8d0e462ea6e8",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -1685,7 +1685,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
+      "comment": "Input dataset documentation → [Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -1808,7 +1808,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
+      "comment": "Input dataset documentation → [Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2026,7 +2026,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
+      "comment": "Input dataset documentation → [Land Use 15crops](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/208/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2079,7 +2079,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
+      "comment": "Input dataset documentation → [Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2127,7 +2127,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
+      "comment": "Input dataset documentation → [Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2202,7 +2202,7 @@
           "units": "years"
         }
       ],
-      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).\n\nNot relevant for models with dynamic vegetation. Those models should consider the sum of these areas as boundary condition and calculate the natural vegetation dynamics of forest and other natural vegetation internally.\n",
+      "comment": "Input dataset documentation → [Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).\nNot relevant for models with dynamic vegetation. Those models should consider the sum of these areas as boundary condition and calculate the natural vegetation dynamics of forest and other natural vegetation internally.",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2296,7 +2296,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).\n\nAnnual grid-cell fractions of the seasonal sub-splits of two landuse-15crops groups: temperate_cereals into winter wheat, spring wheat and a non-wheat residual (GGCMI phase-3 winter/spring wheat mask), and rice into rice1/rice2 seasons (GGCMI phase-3 crop calendar). Both splits sum exactly to their landuse-15crops parent totals, which are not repeated here. Fractions are of the whole grid cell, not land area. 2021soc holds the 2021 state fixed across the full 1850-2025 period, including the 1850-1900 spin-up; 2021soc under ISIMIP4a differs from 2021soc under ISIMIP4b, a future-window baseline.\n",
+      "comment": "Input dataset documentation →\n[Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).\n\nAnnual grid-cell fractions of the seasonal sub-splits of two landuse-15crops groups: temperate_cereals into winter wheat, spring wheat and a non-wheat residual (GGCMI phase-3 winter/spring wheat mask), and rice into rice1/rice2 seasons (GGCMI phase-3 crop calendar). Both splits sum exactly to their landuse-15crops parent totals, which are not repeated here. Fractions are of the whole grid cell, not land area. 2021soc holds the 2021 state fixed across the full 1850-2025 period, including the 1850-1900 spin-up; 2021soc under ISIMIP4a differs from 2021soc under ISIMIP4b, a future-window baseline.\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2365,7 +2365,7 @@
           "units": "kg ha-1 yr-1 (crop season)"
         }
       ],
-      "comment": "Input dataset documentation → [N-Fertilizer 5crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/).",
+      "comment": "Input dataset documentation → [N-Fertilizer 5crops](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2481,7 +2481,7 @@
           "units": "kg ha-1 yr-1 (crop season)"
         }
       ],
-      "comment": "Input dataset documentation → [N-Fertilizer 15crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).",
+      "comment": "Input dataset documentation → [N-Fertilizer 15crops](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2525,7 +2525,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
+      "comment": "Input dataset documentation →\n[N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2568,7 +2568,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
+      "comment": "Input dataset documentation →\n[N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2611,7 +2611,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
+      "comment": "Input dataset documentation →\n[N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2654,7 +2654,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
+      "comment": "Input dataset documentation →\n[N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2697,7 +2697,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
+      "comment": "Input dataset documentation →\n[N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2740,7 +2740,7 @@
           "units": "g N m-2 mon-1"
         }
       ],
-      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
+      "comment": "Input dataset documentation →\n[N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -2771,7 +2771,6 @@
       "frequency": "fixed",
       "resolution": "0.5° grid",
       "path": "ISIMIP4a/InputData/socioeconomic/crop_calendar/2021soc/ggcmi-crop-calendar_2021soc_<crop>_<irrigation>.nc",
-      "comment": "Input dataset documentation → [Crop calendar](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/115/).",
       "variables": [
         {
           "specifier": "planting_day",
@@ -2812,7 +2811,7 @@
       "frequency": "annual",
       "resolution": "0.5° grid and original coordinates (degree)",
       "path": "ISIMIP4a/InputData/socioeconomic/reservoir_dams/histsoc/reservoirs-dams_1850_2022.xls",
-      "comment": "Documentation → [Reservoirs and dams (ISIMIP4a)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/201/).",
+      "comment": "Documentation → [Historical Reservoirs and Dams](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/201/).",
       "variables": [
         {
           "specifier": "ID",
@@ -2924,7 +2923,7 @@
         "water_global"
       ],
       "time_periods": [
-        "1850-2020"
+        "1850-2022"
       ]
     },
     {
@@ -2995,7 +2994,7 @@
           "units": "kg"
         }
       ],
-      "comment": "Input dataset documentation → [Wood Harvesting — Gridded (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/), [Wood Harvesting — National (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/)",
+      "comment": "Input dataset documentation → [Gridded Wood Harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/), [National Wood Harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/)",
       "sectors": [
         "agriculture",
         "biomes",
@@ -3033,7 +3032,7 @@
           "units": "1"
         }
       ],
-      "comment": "Input dataset documentation → [Land Transformation (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).",
+      "comment": "Input dataset documentation → [Land Transformation](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).",
       "sectors": [
         "agriculture",
         "biodiversity",
@@ -3108,7 +3107,7 @@
         "ISIMIP4a/InputData/socioeconomic/population/2021soc/population_2021soc_<resolution>_annual_<start>_<end>.nc",
         "ISIMIP4a/InputData/socioeconomic/population/1901soc/population_1901soc_<resolution>_annual_<start>_<end>.nc"
       ],
-      "comment": "Documentation → [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/).\n\nUrban and rural population are not yet available.\n",
+      "comment": "Documentation →\n[Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/).\n\nUrban and rural population are not yet available.\n",
       "variables": [
         {
           "specifier": "total-population",
@@ -4717,13 +4716,8 @@
       "identifier": "forcing_data"
     },
     {
-      "specifier": "histsoc-forcing",
+      "specifier": "soc-forcing",
       "title": "Direct human forcing (histsoc, 1901soc)",
-      "identifier": "forcing_data"
-    },
-    {
-      "specifier": "group3-forcing",
-      "title": "Direct human forcing (ssp1vlsoc-noadapt, ssp3hsoc-noadapt)",
       "identifier": "forcing_data"
     },
     {
@@ -5322,249 +5316,6 @@
   ],
   "forcing_data": [
     {
-      "specifier": "histsoc_pop",
-      "group": "histsoc-forcing",
-      "title": "Population data",
-      "status": "mandatory",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/population/histsoc/",
-      "comment": "Input dataset documentation → [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/), [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/)."
-    },
-    {
-      "specifier": "histsoc_gdp",
-      "group": "histsoc-forcing",
-      "title": "GDP data",
-      "status": "mandatory",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": [
-        "ISIMIP4a/InputData/socioeconomic/gdp/histsoc/",
-        "ISIMIP4a/InputData/socioeconomic/gdp/1901soc/",
-        "ISIMIP4a/InputData/socioeconomic/gdp/2021soc/"
-      ],
-      "comment": "Input dataset documentation → [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/), [Gridded GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/212/), [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/), [Gridded GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/214/)."
-    },
-    {
-      "specifier": "histsoc_fixed_assets",
-      "group": "histsoc-forcing",
-      "title": "Fixed assets",
-      "status": "mandatory",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/fixed-assets/histsoc/",
-      "comment": "Input dataset documentation → [Fixed Assets](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/211/)"
-    },
-    {
-      "specifier": "histsoc_land_use",
-      "group": "histsoc-forcing",
-      "title": "Land use and irrigation data",
-      "status": "mandatory",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/landuse/histsoc/",
-      "comment": "Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).",
-      "sectors": [
-        "agriculture",
-        "biodiversity",
-        "biomes",
-        "diarrhea",
-        "energy_demand",
-        "fire",
-        "forestry",
-        "groundwater",
-        "health",
-        "labour",
-        "lakes_global",
-        "lakes_local",
-        "peat",
-        "permafrost",
-        "water_global",
-        "water_regional",
-        "water_quality"
-      ]
-    },
-    {
-      "specifier": "histsoc_wood_harvest",
-      "group": "histsoc-forcing",
-      "title": "Wood harvest",
-      "status": "optional",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/wood_harvesting/histsoc/",
-      "comment": "Input dataset documentation → [Wood Harvesting — Gridded (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/), [Wood Harvesting — National (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/).",
-      "sectors": [
-        "agriculture",
-        "biomes",
-        "fire",
-        "forestry",
-        "groundwater",
-        "peat",
-        "permafrost",
-        "water_global"
-      ]
-    },
-    {
-      "specifier": "histsoc_land_transformation",
-      "group": "histsoc-forcing",
-      "title": "Land transformation",
-      "status": "optional",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/land-transformation/histsoc/",
-      "comment": "Input dataset documentation → [Land Transformation (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).",
-      "sectors": [
-        "agriculture",
-        "biodiversity",
-        "biomes",
-        "diarrhea",
-        "fire",
-        "forestry",
-        "groundwater",
-        "health",
-        "labour",
-        "lakes_global",
-        "lakes_local",
-        "peat",
-        "permafrost",
-        "water_global",
-        "water_regional"
-      ]
-    },
-    {
-      "specifier": "histsoc_n_fertilizer",
-      "group": "histsoc-forcing",
-      "title": "Synthetic fertilizers N",
-      "status": "mandatory",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/n-fertilizer/histsoc/",
-      "comment": "Input dataset documentation → [N-Fertilizer 5crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/), [N-Fertilizer 15crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).",
-      "sectors": [
-        "agriculture",
-        "biodiversity",
-        "biomes",
-        "diarrhea",
-        "fire",
-        "groundwater",
-        "health",
-        "labour",
-        "lakes_global",
-        "lakes_local",
-        "peat",
-        "permafrost",
-        "water_global",
-        "water_regional",
-        "water_quality"
-      ]
-    },
-    {
-      "specifier": "histsoc_ndep",
-      "group": "histsoc-forcing",
-      "title": "N-deposition",
-      "status": "optional",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/n-deposition/histsoc/",
-      "comment": "Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
-      "sectors": [
-        "agriculture",
-        "biodiversity",
-        "biomes",
-        "diarrhea",
-        "fire",
-        "forestry",
-        "groundwater",
-        "health",
-        "labour",
-        "lakes_global",
-        "lakes_local",
-        "peat",
-        "permafrost",
-        "water_global",
-        "water_regional",
-        "water_quality"
-      ]
-    },
-    {
-      "specifier": "histsoc_crop_calendar",
-      "group": "histsoc-forcing",
-      "title": "Crop calendar",
-      "status": "mandatory",
-      "doi": null,
-      "path": "ISIMIP4a/InputData/socioeconomic/crop_calendar/histsoc/",
-      "comment": "Input dataset documentation → [Crop calendar](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
-      "sectors": [
-        "agriculture",
-        "biomes",
-        "fire",
-        "groundwater",
-        "peat",
-        "permafrost",
-        "water_global"
-      ]
-    },
-    {
-      "specifier": "histsoc_reservoirs_dams",
-      "group": "histsoc-forcing",
-      "title": "Reservoirs and dams",
-      "status": "optional",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/reservoirs_dams/histsoc/",
-      "comment": "Input dataset documentation → [Reservoirs and dams (ISIMIP4a)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/201/).",
-      "sectors": [
-        "agriculture",
-        "biomes",
-        "fire",
-        "peat",
-        "permafrost",
-        "water_global"
-      ]
-    },
-    {
-      "specifier": "histsoc_pctlake",
-      "group": "histsoc-forcing",
-      "title": "Lake and reservoir surface area",
-      "status": "optional",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/lakes/histsoc/",
-      "comment": "Input dataset documentation → [Lake area fraction](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
-      "sectors": [
-        "agriculture",
-        "biomes",
-        "fire",
-        "groundwater",
-        "lakes_global",
-        "lakes_local",
-        "peat",
-        "permafrost",
-        "water_global",
-        "water_quality"
-      ]
-    },
-    {
       "specifier": "obsclim_climate_atmosphere",
       "group": "obsclim-forcing",
       "title": "Standard observation-based atmospheric climate forcing",
@@ -5766,6 +5517,280 @@
         "permafrost",
         "water_global",
         "water_regional"
+      ]
+    },
+    {
+      "specifier": "soc_pop",
+      "group": "soc-forcing",
+      "title": "Population data",
+      "status": "mandatory",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/population/histsoc/",
+        "ISIMIP4a/InputData/socioeconomic/population/1901soc/",
+        "ISIMIP4a/InputData/socioeconomic/population/2021soc/"
+      ],
+      "comment": "Input dataset documentation → [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/), [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/)."
+    },
+    {
+      "specifier": "soc_gdp",
+      "group": "soc-forcing",
+      "title": "GDP data",
+      "status": "mandatory",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/gdp/histsoc/",
+        "ISIMIP4a/InputData/socioeconomic/gdp/1901soc/",
+        "ISIMIP4a/InputData/socioeconomic/gdp/2021soc/"
+      ],
+      "comment": "Input dataset documentation → [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/), [Gridded GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/212/), [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/), [Gridded GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/214/)."
+    },
+    {
+      "specifier": "soc_fixed_assets",
+      "group": "soc-forcing",
+      "title": "Fixed assets",
+      "status": "mandatory",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/fixed-assets/histsoc/",
+        "ISIMIP4a/InputData/socioeconomic/fixed-assets/1901soc/",
+        "ISIMIP4a/InputData/socioeconomic/fixed-assets/2021soc/"
+      ],
+      "comment": "Input dataset documentation → [Fixed Assets](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/211/)"
+    },
+    {
+      "specifier": "soc_land_use",
+      "group": "soc-forcing",
+      "title": "Land use and irrigation data",
+      "status": "mandatory",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/landuse/histsoc/",
+        "ISIMIP4a/InputData/socioeconomic/landuse/1901soc/",
+        "ISIMIP4a/InputData/socioeconomic/landuse/2021soc/"
+      ],
+      "comment": "Input dataset documentation →\n  [Land Use 5crops](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/),\n  [Land Use 15crops](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/208/).",
+      "sectors": [
+        "agriculture",
+        "biodiversity",
+        "biomes",
+        "diarrhea",
+        "energy_demand",
+        "fire",
+        "forestry",
+        "groundwater",
+        "health",
+        "labour",
+        "lakes_global",
+        "lakes_local",
+        "peat",
+        "permafrost",
+        "water_global",
+        "water_regional",
+        "water_quality"
+      ]
+    },
+    {
+      "specifier": "soc_wood_harvest",
+      "group": "soc-forcing",
+      "title": "Wood harvest",
+      "status": "optional",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/wood_harvesting/histsoc/",
+        "ISIMIP4a/InputData/socioeconomic/wood_harvesting/1901soc/",
+        "ISIMIP4a/InputData/socioeconomic/wood_harvesting/2021soc/"
+      ],
+      "comment": "Input dataset documentation → [Gridded Wood Harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/), [National Wood Harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/).",
+      "sectors": [
+        "agriculture",
+        "biomes",
+        "fire",
+        "forestry",
+        "groundwater",
+        "peat",
+        "permafrost",
+        "water_global"
+      ]
+    },
+    {
+      "specifier": "soc_land_transformation",
+      "group": "soc-forcing",
+      "title": "Land transformation",
+      "status": "optional",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/land-transformation/histsoc/",
+        "ISIMIP4a/InputData/socioeconomic/land-transformation/1901soc/",
+        "ISIMIP4a/InputData/socioeconomic/land-transformation/2021soc/"
+      ],
+      "comment": "Input dataset documentation → [Land Transformation](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).",
+      "sectors": [
+        "agriculture",
+        "biodiversity",
+        "biomes",
+        "diarrhea",
+        "fire",
+        "forestry",
+        "groundwater",
+        "health",
+        "labour",
+        "lakes_global",
+        "lakes_local",
+        "peat",
+        "permafrost",
+        "water_global",
+        "water_regional"
+      ]
+    },
+    {
+      "specifier": "soc_n_fertilizer",
+      "group": "soc-forcing",
+      "title": "Synthetic fertilizers N",
+      "status": "mandatory",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/n-fertilizer/histsoc/",
+        "ISIMIP4a/InputData/socioeconomic/n-fertilizer/1901soc/",
+        "ISIMIP4a/InputData/socioeconomic/n-fertilizer/2021soc/"
+      ],
+      "comment": "Input dataset documentation → [N-Fertilizer 5crops](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/), [N-Fertilizer 15crops](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).",
+      "sectors": [
+        "agriculture",
+        "biodiversity",
+        "biomes",
+        "diarrhea",
+        "fire",
+        "groundwater",
+        "health",
+        "labour",
+        "lakes_global",
+        "lakes_local",
+        "peat",
+        "permafrost",
+        "water_global",
+        "water_regional",
+        "water_quality"
+      ]
+    },
+    {
+      "specifier": "soc_ndep",
+      "group": "soc-forcing",
+      "title": "N-deposition",
+      "status": "optional",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/n-deposition/histsoc/",
+        "ISIMIP4a/InputData/socioeconomic/n-deposition/1901soc/",
+        "ISIMIP4a/InputData/socioeconomic/n-deposition/2021soc/"
+      ],
+      "comment": "Input dataset documentation →\n[N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).\n",
+      "sectors": [
+        "agriculture",
+        "biodiversity",
+        "biomes",
+        "diarrhea",
+        "fire",
+        "forestry",
+        "groundwater",
+        "health",
+        "labour",
+        "lakes_global",
+        "lakes_local",
+        "peat",
+        "permafrost",
+        "water_global",
+        "water_regional",
+        "water_quality"
+      ]
+    },
+    {
+      "specifier": "soc_crop_calendar",
+      "group": "soc-forcing",
+      "title": "Crop calendar",
+      "status": "mandatory",
+      "doi": null,
+      "path": "ISIMIP4a/InputData/socioeconomic/crop_calendar/2021soc/",
+      "sectors": [
+        "agriculture",
+        "biomes",
+        "fire",
+        "groundwater",
+        "peat",
+        "permafrost",
+        "water_global"
+      ]
+    },
+    {
+      "specifier": "soc_reservoirs_dams",
+      "group": "soc-forcing",
+      "title": "Reservoirs and dams",
+      "status": "optional",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/reservoirs_dams/histsoc/"
+      ],
+      "comment": "Input dataset documentation → [Historical Reservoirs and Dams](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/201/).",
+      "sectors": [
+        "agriculture",
+        "biomes",
+        "fire",
+        "peat",
+        "permafrost",
+        "water_global"
+      ]
+    },
+    {
+      "specifier": "soc_pctlake",
+      "group": "soc-forcing",
+      "title": "Lake and reservoir surface area",
+      "status": "optional",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/lakes/histsoc/"
+      ],
+      "comment": "Input dataset documentation → [Lake area fraction](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
+      "sectors": [
+        "agriculture",
+        "biomes",
+        "fire",
+        "groundwater",
+        "lakes_global",
+        "lakes_local",
+        "peat",
+        "permafrost",
+        "water_global",
+        "water_quality"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "commit": "4a51211054a5a90444ca87664d1f29b2abb5bc38",
+  "commit": "d0742755b1564bfc18383338550c8d0e462ea6e8",
   "sens_scenario": [
     {
       "specifier": "default",
@@ -1553,7 +1553,7 @@
         "ISIMIP4a/InputData/socioeconomic/population/2021soc/population_2021soc_<resolution>_annual_<start>_<end>.nc",
         "ISIMIP4a/InputData/socioeconomic/population/1901soc/population_1901soc_<resolution>_annual_<start>_<end>.nc"
       ],
-      "comment": "Documentation → [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/).\n\nUrban and rural population are not yet available.\n",
+      "comment": "Documentation →\n[Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/).\n\nUrban and rural population are not yet available.\n",
       "variables": [
         {
           "specifier": "total-population",
@@ -3162,13 +3162,8 @@
       "identifier": "forcing_data"
     },
     {
-      "specifier": "histsoc-forcing",
+      "specifier": "soc-forcing",
       "title": "Direct human forcing (histsoc, 1901soc)",
-      "identifier": "forcing_data"
-    },
-    {
-      "specifier": "group3-forcing",
-      "title": "Direct human forcing (ssp1vlsoc-noadapt, ssp3hsoc-noadapt)",
       "identifier": "forcing_data"
     },
     {
@@ -3767,62 +3762,6 @@
   ],
   "forcing_data": [
     {
-      "specifier": "histsoc_pop",
-      "group": "histsoc-forcing",
-      "title": "Population data",
-      "status": "mandatory",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/population/histsoc/",
-      "comment": "Input dataset documentation → [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/), [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/)."
-    },
-    {
-      "specifier": "histsoc_gdp",
-      "group": "histsoc-forcing",
-      "title": "GDP data",
-      "status": "mandatory",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": [
-        "ISIMIP4a/InputData/socioeconomic/gdp/histsoc/",
-        "ISIMIP4a/InputData/socioeconomic/gdp/1901soc/",
-        "ISIMIP4a/InputData/socioeconomic/gdp/2021soc/"
-      ],
-      "comment": "Input dataset documentation → [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/), [Gridded GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/212/), [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/), [Gridded GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/214/)."
-    },
-    {
-      "specifier": "histsoc_fixed_assets",
-      "group": "histsoc-forcing",
-      "title": "Fixed assets",
-      "status": "mandatory",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/fixed-assets/histsoc/",
-      "comment": "Input dataset documentation → [Fixed Assets](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/211/)"
-    },
-    {
-      "specifier": "histsoc_fishing",
-      "group": "histsoc-forcing",
-      "title": "Marine fishing effort",
-      "status": "mandatory",
-      "doi": {
-        "ISIMIP4a": null,
-        "ISIMIP4b": null
-      },
-      "path": "ISIMIP4a/InputData/socioeconomic/fishing/histsoc/",
-      "comment": "Input dataset documentation → [Fishing effort](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/).",
-      "sectors": [
-        "marine-fishery_global",
-        "marine-fishery_regional"
-      ]
-    },
-    {
       "specifier": "obsclim_ocean",
       "group": "obsclim-forcing",
       "title": "Standard observation-based oceanic forcing data",
@@ -3908,6 +3847,70 @@
         "ISIMIP4b/InputData/geo_conditions/fishmip_regions/mpa-all_<resolution>_1958_2025.[nc|tif|zip]",
         "ISIMIP4b/InputData/geo_conditions/fishmip_regions/mpa-strict_<resolution>_1958_2025.[nc|tif|zip]"
       ],
+      "sectors": [
+        "marine-fishery_global",
+        "marine-fishery_regional"
+      ]
+    },
+    {
+      "specifier": "soc_pop",
+      "group": "soc-forcing",
+      "title": "Population data",
+      "status": "mandatory",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/population/histsoc/",
+        "ISIMIP4a/InputData/socioeconomic/population/1901soc/",
+        "ISIMIP4a/InputData/socioeconomic/population/2021soc/"
+      ],
+      "comment": "Input dataset documentation → [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/), [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/)."
+    },
+    {
+      "specifier": "soc_gdp",
+      "group": "soc-forcing",
+      "title": "GDP data",
+      "status": "mandatory",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/gdp/histsoc/",
+        "ISIMIP4a/InputData/socioeconomic/gdp/1901soc/",
+        "ISIMIP4a/InputData/socioeconomic/gdp/2021soc/"
+      ],
+      "comment": "Input dataset documentation → [National GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/213/), [Gridded GDP](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/212/), [National GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/215/), [Gridded GDP Per Capita](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/214/)."
+    },
+    {
+      "specifier": "soc_fixed_assets",
+      "group": "soc-forcing",
+      "title": "Fixed assets",
+      "status": "mandatory",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": [
+        "ISIMIP4a/InputData/socioeconomic/fixed-assets/histsoc/",
+        "ISIMIP4a/InputData/socioeconomic/fixed-assets/1901soc/",
+        "ISIMIP4a/InputData/socioeconomic/fixed-assets/2021soc/"
+      ],
+      "comment": "Input dataset documentation → [Fixed Assets](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/211/)"
+    },
+    {
+      "specifier": "soc_fishing",
+      "group": "soc-forcing",
+      "title": "Marine fishing effort",
+      "mandatory": true,
+      "status": "under development",
+      "doi": {
+        "ISIMIP4a": null,
+        "ISIMIP4b": null
+      },
+      "path": "ISIMIP4a/InputData/socioeconomic/fishing/histsoc/",
       "sectors": [
         "marine-fishery_global",
         "marine-fishery_regional"
