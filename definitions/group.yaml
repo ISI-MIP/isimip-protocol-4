@@ -10,14 +10,10 @@
   title: Climate related forcing (picontrol, historical, vl, h)
   identifier: forcing_data
 
-- specifier: histsoc-forcing
+- specifier: soc-forcing
   title:
     ISIMIP4a: Direct human forcing (histsoc, 1901soc)
-    ISIMIP4b: Direct human forcing (histsoc, 1850soc, 2021soc)
-  identifier: forcing_data
-
-- specifier: group3-forcing
-  title: Direct human forcing (ssp1vlsoc-noadapt, ssp3hsoc-noadapt)
+    ISIMIP4b: Direct human forcing (histsoc, 1850soc, 2021soc, ssp1vlsoc-noadapt, ssp3hsoc-noadapt)
   identifier: forcing_data
 
 - specifier: static-forcing
