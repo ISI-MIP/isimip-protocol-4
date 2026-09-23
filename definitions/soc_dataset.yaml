@@ -35,7 +35,8 @@
     long_name: share of the total cropland
     units: '1'
   comment: >-
-    Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
+    Input dataset documentation →
+    [Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
   sectors:
   - agriculture
   - biodiversity
@@ -132,7 +133,8 @@
     long_name: rainfed C4 perennial crops for food/feed production
     units: '1'
   comment: >-
-    Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
+    Input dataset documentation →
+    [Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
   sectors:
   - agriculture
   - biodiversity
@@ -286,7 +288,8 @@
     long_name: share of rainfed Tropical roots
     units: '1'
   comment: >-
-    Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
+    Input dataset documentation →
+    [Land Use 15crops](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/208/).
   sectors:
   - agriculture
   - biodiversity
@@ -341,7 +344,8 @@
     long_name: share of rangeland
     units: '1'
   comment: >-
-    Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
+    Input dataset documentation →
+    [Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
   sectors:
   - agriculture
   - biodiversity
@@ -393,7 +397,8 @@
     long_name: share of urban areas
     units: '1'
   comment: >-
-    Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
+    Input dataset documentation →
+    [Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
   sectors:
   - agriculture
   - biodiversity
@@ -461,8 +466,9 @@
   - specifier: secondary_mean_age
     long_name: secondary mean age
     units: 'years'
-  comment: |
-    Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
+  comment: >-
+    Input dataset documentation →
+    [Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
 
     Not relevant for models with dynamic vegetation. Those models should consider the sum of these areas as boundary condition and calculate the natural vegetation dynamics of forest and other natural vegetation internally.
   sectors:
@@ -544,7 +550,8 @@
     long_name: rainfed temperate cereals, winter wheat
     units: '1'
   comment: |
-    Input dataset documentation → [Land Use (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
+    Input dataset documentation →
+    [Land Use](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/205/).
 
     Annual grid-cell fractions of the seasonal sub-splits of two landuse-15crops groups: temperate_cereals into winter wheat, spring wheat and a non-wheat residual (GGCMI phase-3 winter/spring wheat mask), and rice into rice1/rice2 seasons (GGCMI phase-3 crop calendar). Both splits sum exactly to their landuse-15crops parent totals, which are not repeated here. Fractions are of the whole grid cell, not land area. 2021soc holds the 2021 state fixed across the full 1850-2025 period, including the 1850-1900 spin-up; 2021soc under ISIMIP4a differs from 2021soc under ISIMIP4b, a future-window baseline.
   sectors:
@@ -611,7 +618,8 @@
     long_name: C4 perennial crops
     units: kg ha-1 yr-1 (crop season)
   comment: >-
-    Input dataset documentation → [N-Fertilizer 5crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/).
+    Input dataset documentation →
+    [N-Fertilizer 5crops](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/203/).
   sectors:
   - agriculture
   - biodiversity
@@ -704,7 +712,8 @@
     long_name: N input through fertilizer on cropland with tropical roots
     units: kg ha-1 yr-1 (crop season)
   comment: >-
-    Input dataset documentation → [N-Fertilizer 15crops (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).
+    Input dataset documentation →
+    [N-Fertilizer 15crops](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/204/).
   sectors:
   - agriculture
   - biodiversity
@@ -748,7 +757,8 @@
     long_name: Dry and Wet NHx deposition
     units: g N m-2 mon-1
   comment: |
-    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
+    Input dataset documentation →
+    [N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
@@ -796,7 +806,8 @@
     long_name: Dry NHx deposition
     units: g N m-2 mon-1
   comment: |
-    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
+    Input dataset documentation →
+    [N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
@@ -844,7 +855,8 @@
     long_name: Wet NHx deposition
     units: g N m-2 mon-1
   comment: |
-    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
+    Input dataset documentation →
+    [N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
@@ -892,7 +904,8 @@
     long_name: Dry and Wet NOy deposition
     units: g N m-2 mon-1
   comment: |
-    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
+    Input dataset documentation →
+    [N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
@@ -940,7 +953,8 @@
     long_name: Dry NOy deposition
     units: g N m-2 mon-1
   comment: |
-    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
+    Input dataset documentation →
+    [N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
@@ -988,7 +1002,8 @@
     long_name: Wet NOy deposition
     units: g N m-2 mon-1
   comment: |
-    Input dataset documentation → [N-Deposition (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
+    Input dataset documentation →
+    [N-Deposition](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/195/).
   sectors:
   - agriculture
   - biodiversity
@@ -1022,8 +1037,6 @@
   path:
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/crop_calendar/2021soc/ggcmi-crop-calendar_2021soc_<crop>_<irrigation>.nc
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/crop_calendar/2021soc/ggcmi-crop-calendar_2021soc_<crop>_<irrigation>.nc
-  comment: >-
-    Input dataset documentation → [Crop calendar](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/115/).
   variables:
   - specifier: planting_day
     long_name: Planting day, separated for rainfed and irrigated crops where applicable
@@ -1057,7 +1070,7 @@
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/reservoir_dams/histsoc/reservoirs-dams_1850_2021.xls
   comment: >-
     Documentation →
-    [Reservoirs and dams (ISIMIP4a)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/201/).
+    [Historical Reservoirs and Dams](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/201/).
   variables:
   - specifier: ID
     long_name: Unique ID representing a dam and its associated reservoir corresponding
@@ -1132,7 +1145,7 @@
   - water_global
   time_periods:
     ISIMIP4a:
-    - 1850-2020
+    - 1850-2022
     ISIMIP4b:
     - 1850-2021
 
@@ -1147,7 +1160,7 @@
     - ISIMIP4b/InputData/socioeconomic/reservoirs_dams/<soc_scenario>/dams-reservoirs_<model>_<climate-forcing>_<climate_scenario>_2022_2100.csv
   comment: >-
     Documentation →
-    [Reservoirs and dams (ISIMIP4b)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/202/).
+    [Future Reservoirs and Dams](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/202/).
   variables:
   - specifier: ID
     long_name: ""
@@ -1392,8 +1405,8 @@
     units: kg
   comment: >-
     Input dataset documentation →
-    [Wood Harvesting — Gridded (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/),
-    [Wood Harvesting — National (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/)
+    [Gridded Wood Harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/206/),
+    [National Wood Harvesting](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/207/)
   sectors:
   - agriculture
   - biomes
@@ -1435,7 +1448,8 @@
     long_name: One variable for each transition from one type of land use to another.
     units: '1'
   comment: >-
-    Input dataset documentation → [Land Transformation (ISIMIP4)](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).
+    Input dataset documentation →
+    [Land Transformation](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/196/).
   sectors:
   - agriculture
   - biodiversity
@@ -1516,7 +1530,8 @@
     - ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population_ssp1_<resolution>_annual_2022_2100.nc
     - ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population_ssp3_<resolution>_annual_2022_2100.nc
   comment: |
-    Documentation → [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/).
+    Documentation →
+    [Gridded Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/209/).
 
     Urban and rural population are not yet available.
   variables:
@@ -1557,7 +1572,8 @@
     - ISIMIP4b/InputData/socioeconomic/population/ssp1vlsoc-noadapt/population_ssp1_national_annual_2022_2100.csv
     - ISIMIP4b/InputData/socioeconomic/population/ssp3hsoc-noadapt/population_ssp3_national_annual_2022_2100.csv
   comment: >-
-    Documentation → [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/).
+    Documentation →
+    [National Population](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/210/).
   variables:
   - specifier: population
     long_name: total number of people per country
