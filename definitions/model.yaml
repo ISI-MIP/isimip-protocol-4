@@ -8,3 +8,12 @@
   simulation_rounds:
   - ISIMIP4a
   - ISIMIP4b
+
+- specifier: colm2024
+  title: CoLM2024
+  primary_sector: water_global
+  sectors:
+    - water_global
+  simulation_rounds:
+  - ISIMIP4a
+  - ISIMIP4b
