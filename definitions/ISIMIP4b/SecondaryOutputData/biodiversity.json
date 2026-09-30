@@ -1,5 +1,5 @@
 {
-  "commit": "f9be7b0cdf83409315d9fa7da8581cc6fd6ff3e1",
+  "commit": "613a6941f0f8f2003ecc8d0a27ff27aca12c1b85",
   "group3_ranking": [],
   "dimensions": [
     {
@@ -166,6 +166,7 @@
       "description": "For all experiments other than the sensitivity experiments."
     }
   ],
+  "emission_scenario": [],
   "river": [
     {
       "specifier": "bhima",
@@ -1478,6 +1479,10 @@
     {
       "specifier": "ensemble_member",
       "title": "Ensemble member"
+    },
+    {
+      "specifier": "emission_scenario",
+      "title": "Emission scenario"
     },
     {
       "specifier": "fishing_type",
@@ -5364,6 +5369,7 @@
       "specifier": "upper"
     }
   ],
+  "soc_pathway": [],
   "climate_dataset": [
     {
       "specifier": "ibtracs",

@@ -1,5 +1,5 @@
 {
-  "commit": "f9be7b0cdf83409315d9fa7da8581cc6fd6ff3e1",
+  "commit": "613a6941f0f8f2003ecc8d0a27ff27aca12c1b85",
   "group3_ranking": [],
   "dimensions": [
     {
@@ -260,6 +260,28 @@
       ],
       "sectors": [
         "biomes"
+      ]
+    }
+  ],
+  "emission_scenario": [
+    {
+      "specifier": "vl",
+      "title": "Very low emission scenario",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "products": [
+        "InputData"
+      ]
+    },
+    {
+      "specifier": "h",
+      "title": "High emission scenario",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "products": [
+        "InputData"
       ]
     }
   ],
@@ -1923,6 +1945,10 @@
     {
       "specifier": "ensemble_member",
       "title": "Ensemble member"
+    },
+    {
+      "specifier": "emission_scenario",
+      "title": "Emission scenario"
     },
     {
       "specifier": "fishing_type",
@@ -9148,6 +9174,38 @@
     },
     {
       "specifier": "upper"
+    }
+  ],
+  "soc_pathway": [
+    {
+      "specifier": "ssp1",
+      "title": "SSP1",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "products": [
+        "InputData"
+      ]
+    },
+    {
+      "specifier": "ssp3",
+      "title": "SSP3",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "products": [
+        "InputData"
+      ]
+    },
+    {
+      "specifier": "ssp5",
+      "title": "SSP5",
+      "simulation_rounds": [
+        "ISIMIP4b"
+      ],
+      "products": [
+        "InputData"
+      ]
     }
   ],
   "climate_dataset": [
