@@ -43,6 +43,9 @@
 - specifier: ensemble_member
   title: Ensemble member
 
+- specifier: emission_scenario
+  title: Emission scenario
+
 - specifier: fishing_type
   title: Fishing type
 

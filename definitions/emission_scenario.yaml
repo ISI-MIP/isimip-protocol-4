@@ -1,0 +1,13 @@
+- specifier: vl
+  title: Very low emission scenario
+  simulation_rounds:
+  - ISIMIP4b
+  products:
+  - InputData
+
+- specifier: h
+  title: High emission scenario
+  simulation_rounds:
+  - ISIMIP4b
+  products:
+  - InputData
