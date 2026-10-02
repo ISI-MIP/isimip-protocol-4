@@ -1,9 +1,8 @@
 from pathlib import Path
 
-from utils import get_commit_hash, get_specifier_list, read_definitions, setup_logs, write_json
+from utils import clean_dict, get_commit_hash, get_specifier_list, read_definitions, setup_logs, write_json
 
 setup_logs()
-
 
 def main():
     glossary = {
@@ -17,7 +16,13 @@ def main():
 
         for row in rows:
             for specifier_value in get_specifier_list(row):
-                glossary['terms'][identifier][specifier_value] = row
+                glossary['terms'][identifier][specifier_value] = clean_dict({
+                    'title': row.get('title_glossary') or row.get('title'),
+                    'long_name': row.get('long_name'),
+                    'description': row.get('description'),
+                    'warning': row.get('warning'),
+                    'urls': row.get('urls'),
+                })
 
     glossary_path = Path('output') / 'glossary.json'
     write_json(glossary_path, glossary)
