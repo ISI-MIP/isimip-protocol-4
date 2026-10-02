@@ -17,3 +17,12 @@
   simulation_rounds:
   - ISIMIP4a
   - ISIMIP4b
+
+- specifier: flake-bu
+  title: FLake-BU
+  primary_sector: lakes_global
+  sectors:
+    - lakes_global
+  simulation_rounds:
+  - ISIMIP4a
+  - ISIMIP4b
