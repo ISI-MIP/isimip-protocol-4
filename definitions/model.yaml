@@ -71,3 +71,12 @@
   simulation_rounds:
   - ISIMIP4a
   - ISIMIP4b
+
+- specifier: simstrat-ler
+  title: Simstrat-LER
+  primary_sector: lakes_global
+  sectors:
+    - lakes_global
+  simulation_rounds:
+  - ISIMIP4a
+  - ISIMIP4b
