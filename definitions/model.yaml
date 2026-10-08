@@ -62,3 +62,12 @@
   simulation_rounds:
   - ISIMIP4a
   - ISIMIP4b
+
+- specifier: simstart-ler
+  title: Simstart-LER
+  primary_sector: lakes_global
+  sectors:
+    - lakes_global
+  simulation_rounds:
+  - ISIMIP4a
+  - ISIMIP4b
