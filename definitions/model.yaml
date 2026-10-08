@@ -44,3 +44,12 @@
   simulation_rounds:
   - ISIMIP4a
   - ISIMIP4b
+
+- specifier: glm-ler
+  title: GLM-LER
+  primary_sector: lakes_global
+  sectors:
+    - lakes_global
+  simulation_rounds:
+  - ISIMIP4a
+  - ISIMIP4b
