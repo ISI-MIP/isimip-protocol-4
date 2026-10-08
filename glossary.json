@@ -1,5 +1,5 @@
 {
-  "commit": "e7a61d7b229793b7ad03afcfe65ad1857af11437",
+  "commit": "16f96e0510215c37029769c680f807b856b7822a",
   "terms": {
     "group3_ranking": {},
     "dimensions": {
@@ -771,7 +771,32 @@
         "description": "Data not directly simulated by the impact models themselves, but rather, calculated (post-processed) from the model's outputs, typically for a specific publication."
       }
     },
-    "model": {},
+    "model": {
+      "albm": {
+        "title": "ALBM"
+      },
+      "colm-iap-dgvm": {
+        "title": "CoLM-IAP-DGVM"
+      },
+      "colm2024": {
+        "title": "CoLM2024"
+      },
+      "flake-bu": {
+        "title": "FLake-BU"
+      },
+      "flake-ler": {
+        "title": "FLake-LER"
+      },
+      "glm-ler": {
+        "title": "GLM-LER"
+      },
+      "gotm-ler": {
+        "title": "GOTM-LER"
+      },
+      "simstrat-ler": {
+        "title": "Simstrat-LER"
+      }
+    },
     "time_step": {
       "hourly": {},
       "2hr": {},

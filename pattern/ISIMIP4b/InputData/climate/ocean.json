@@ -1,5 +1,5 @@
 {
-  "commit": "e7a61d7b229793b7ad03afcfe65ad1857af11437",
+  "commit": "16f96e0510215c37029769c680f807b856b7822a",
   "path": "(?P<simulation_round>(ISIMIP4b))/(?P<product>(InputData))/(?P<category>(climate))/(?P<subcategory>(ocean))/(uncorrected)_(?P<time_step>[a-z]+)/(?P<region>(global))/(?P<climate_scenario>[a-z0-9-]+)/(?P<climate_forcing>[A-Za-z0-9-]+)$",
   "dataset": "^(?P<climate_forcing>[a-z0-9-]+)_(?P<ensemble_member>[a-z0-9]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<climate_variable>[a-z0-9]+)(-(?P<vert>[a-z]+))?_(?P<region>(global))_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)",
   "file": "^(?P<climate_forcing>[a-z0-9-]+)_(?P<ensemble_member>[a-z0-9]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<climate_variable>[a-z0-9]+)(-(?P<vert>[a-z]+))?_(?P<region>(global))_(?P<resolution>[a-za-z0-9]+)_(?P<time_step>[a-z]+)(_(?P<start_year>\\d{4})_(?P<end_year>\\d{4}))?(.nc)$",
