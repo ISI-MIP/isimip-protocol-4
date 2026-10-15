@@ -23861,8 +23861,8 @@
     "water_quality": "No pattern has been defined for this simulation round and sector, yet."
   }
 },
-                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/92340090d2ca6fa575603eff1f25405b517c7f45',
-                commit_hash: '92340090d2ca6fa575603eff1f25405b517c7f45',
+                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/9195c32db12438b047011b64f419423f8a1a8ffb',
+                commit_hash: '9195c32db12438b047011b64f419423f8a1a8ffb',
                 commit_date: '15 October 2026'
             }
         </script>
@@ -24012,7 +24012,7 @@
 <div data-caption="Table 2.1: Experiment set-up. Each experiment is specified by the climate related forcing (top row) and the direct human forcing (bottom row). Sensitivity labels indicate deviations from the default settings.  Experiments are colored by group: group I (grey), group II (red) and group III (blue). The subtitles in the first row indicate how the experiment is defined in filenames." data-component="table" data-identifier="experiments"></div>
 <h4 id="note-regarding-models-requiring-spin-up">Note regarding models requiring spin-up</h4>
 <div data-component="show" data-sector="agriculture,biodiversity,biomes,coastal,diarrhea,energy,fire,forestry,health,labour,lakes_global,lakes_local,peat,permafrost,water_global,water_regional" data-simulation-round="ISIMIP4a">
-<p>For models requiring spin-up, we provide 100 years of spinclim data, which is constructed from the ISIMIP3a counterclim data by recycling its early period (1901–1927) in a way that keeps a consistent proleptic-Gregorian calendar throughout the dataset (see <a href="https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/217/">dataset documentation</a>). The files are located under <code>ISIMIP4a/InputData/climate/atmosphere/spinclim</code> at DKRZ and in the ISIMIP Repository. If more than 100 years of spin-up are needed, these data can be repeated as often as needed. </p>
+<p>For models requiring spin-up, we provide 100 years of spinclim data, which is constructed from the ISIMIP3a counterclim data by recycling its early period (1901–1927) in a way that keeps a consistent proleptic-Gregorian calendar throughout the dataset (see <a href="https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/217/">dataset documentation</a>). The files are located under <code>ISIMIP4a/InputData/climate/atmosphere/spinclim</code> at DKRZ and in the ISIMIP Repository. A separate spinclim dataset is available for each obsclim dataset, and combining only the matching spinclim and obsclim pairs is important in order to avoid a jump in mean conditions or variability at the 1900-1901 transition. If more than 100 years of spin-up are needed, these data can be repeated as often as needed. </p>
 <p>For historical runs, historical CO₂ concentration and varying DHF should be applied during the final 50 years of spin-up (1850-1900) before the start of the experiment period. When using a longer spin-up period that (nominally) extends back further than 1850, please keep CO₂ concentration and DHF constant at 1850 level until reaching the year corresponding to 1850.</p>
 <p>For experiments with fixed direct human influences (<code>1901soc</code>, <code>2021soc</code>), the spin-up should be based on the 1901 DHF or 2021 DHF, respectively. For sector-specific experiments without direct human influence (<code>nat</code>), the spin-up should not use any DHF. Likewise, the nofire experiment should include a spin-up without fire. CO₂ concentration should always vary according to historical records from 1850 onwards, i.e., during the final 50 years of spin-up.</p>
 </div>
