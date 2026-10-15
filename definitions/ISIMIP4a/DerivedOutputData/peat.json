@@ -1,5 +1,5 @@
 {
-  "commit": "b44951f1a890b3c687716abc07e3b71105b5677c",
+  "commit": "22c74a2829a64e06ef45efe6585e24b2e152b30a",
   "group3_ranking": [],
   "dimensions": [
     {
@@ -108,7 +108,7 @@
       "specifier": "gswp3-era5",
       "title": "GSWP3-ERA5",
       "time_period": "1901-2025",
-      "reanalysis": "ERA5",
+      "reanalysis": "20CRv3 (1901-1978), ERA5 (1979-2025)",
       "bias_adjustment_target": "none",
       "priority": 1,
       "url": "https://www.isimip.org/gettingstarted/input-data-bias-adjustment",
