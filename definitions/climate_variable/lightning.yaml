@@ -6,11 +6,10 @@
   units: km-2 d-1
   frequency: monthly
   resolution: 0.5° grid
-  path:
-    ISIMIP4a: ISIMIP4a/InputData/climate/lightning/lightning_fixed.nc
-    ISIMIP4b: ISIMIP4b/InputData/climate/lightning/lightning_fixed.nc
+  path: ISIMIP4a/InputData/climate/lightning/lightning_fixed.nc
+  simulation_rounds:
+  - ISIMIP4a
   sectors:
   - fire
-  - water_quality
   comment: |
     Input dataset documentation → [Lightning](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/135/)
