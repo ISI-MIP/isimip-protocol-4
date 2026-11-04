@@ -1,60 +1,93 @@
 {
-  "commit": "9195c32db12438b047011b64f419423f8a1a8ffb",
+  "commit": "b79b94fc9470399bfb63bf7d3f2daae444cd7616",
   "terms": {
-    "group3_ranking": {},
-    "dimensions": {
-      "lon": {},
-      "lat": {},
-      "time": {},
-      "depth": {
-        "long_name": "Depth of Vertical Layer Center Below Surface"
+    "subcategory": {
+      "atmosphere": {
+        "title": "Atmospheric forcings"
       },
-      "depthsed": {
-        "long_name": "Vertical Sediment Layer Index"
+      "atmosphere_composition": {
+        "title": "Atmospheric composition"
       },
-      "levlak": {
-        "long_name": "Vertical Water Layer Index"
+      "lightning": {
+        "title": "Lightning data"
       },
-      "bins": {
-        "long_name": "log10 Weight Bins"
+      "ocean": {
+        "title": "Oceanic forcings"
       },
-      "fuelclass": {
-        "long_name": "Fuel Class"
+      "tropical_cyclones": {
+        "title": "Tropical cyclones"
       },
-      "bnds": {},
-      "plot": {}
-    },
-    "ensemble_member": {
-      "r1i1p1f1": {},
-      "r1i1p1f2": {},
-      "r4i1p1f1": {}
-    },
-    "climate_forcing": {
-      "gswp3-era5": {
-        "title": "GSWP3-ERA5"
+      "tropical_cyclones_flooding": {
+        "title": "Tropical cyclones flooding"
       },
-      "gfdl-mom6-cobalt2": {
-        "title": "GFDL-MOM6-COBALT2"
+      "sealevel": {
+        "title": "Sea level"
       },
-      "ec-earth3-esm-1-1": {
-        "title": "EC-Earth3-ESM-1-1"
+      "area_using_seawater_desalination": {
+        "title": "Area Using Seawater Desalination"
       },
-      "ukesm1-3-ll": {
-        "title": "UKESM1-3-LL"
-      }
-    },
-    "category": {
-      "climate": {
-        "title": "Climate related forcing",
-        "description": "Forcing data describing physical or chemical systems, in particular the climate, the oceans, and the cryosphere."
+      "fishing": {
+        "title": "Marine fishing effort"
       },
-      "geo_conditions": {
-        "title": "Static geographic information",
-        "description": "Geographic or other time-independent information, such as land-sea masks, or river routing networks."
+      "gdp": {
+        "title": "GDP data"
       },
-      "socioeconomic": {
-        "title": "Direct human forcing",
-        "description": "Independent additional forcing data, which influence climate impacts, such as land-use, population or economic changes."
+      "fixed-assets": {
+        "title": "Fixed assets"
+      },
+      "inter_basin_water_transfer": {
+        "title": "Inter basin water transfer"
+      },
+      "irrigation-techniques": {
+        "title": "Irrigation techniques shares"
+      },
+      "lakes": {
+        "title": "Lake data"
+      },
+      "land-transformation": {
+        "title": "Land transformation"
+      },
+      "landuse": {
+        "title": "Land use and irrigation"
+      },
+      "n-deposition": {
+        "title": "N-deposition"
+      },
+      "n-fertilizer": {
+        "title": "N-fertilizer inputs"
+      },
+      "crop_calendar": {
+        "title": "Crop calendar"
+      },
+      "population": {
+        "title": "Population data"
+      },
+      "reservoirs_dams": {
+        "title": "Reservoirs and dams"
+      },
+      "wood_harvesting": {
+        "title": "Wood harvest"
+      },
+      "landseamask": {
+        "title": "Land/Sea masks"
+      },
+      "countrymasks": {
+        "title": "Country masks"
+      },
+      "orography": {
+        "title": "Orography"
+      },
+      "river_routing": {
+        "title": "River routing"
+      },
+      "soil": {
+        "title": "Soil data"
+      },
+      "bathymetry": {
+        "title": "Ocean bathymetry"
+      },
+      "fishmip_regions": {
+        "title": "Fish-MIP regions"
       }
     },
     "sens_scenario": {
@@ -95,20 +128,1799 @@
         "description": "No nitrogen cycling and CO₂ concentration fixed at 2021 levels."
       }
     },
-    "emission_scenario": {
-      "vl": {
-        "title": "Very low emission scenario"
+    "sector": {
+      "agriculture": {
+        "title": "Agriculture",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/agriculture",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/agriculture"
+        }
       },
-      "h": {
+      "biodiversity": {
+        "title": "Terrestrial biodiversity",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/biodiversity",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/biodiversity"
+        }
+      },
+      "biomes": {
+        "title": "Biomes",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/biomes",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/biomes"
+        }
+      },
+      "coastal": {
+        "title": "Coastal systems",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/coastal",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/coastal"
+        }
+      },
+      "energy_demand": {
+        "title": "Energy (demand)",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/energy_demand",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/energy_demand"
+        }
+      },
+      "fire": {
+        "title": "Fire",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/fire",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/fire"
+        }
+      },
+      "forestry": {
+        "title": "Regional forests",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/forestry",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/forestry"
+        }
+      },
+      "fs-n": {
+        "title": "Food Security and Nutrition",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/fs-n",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/fs-n"
+        }
+      },
+      "groundwater": {
+        "title": "Groundwater",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/groundwater",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/groundwater"
+        }
+      },
+      "health": {
+        "title": "Temperature-related mortality",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/health",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/health"
+        }
+      },
+      "labour": {
+        "title": "Labour",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/labour",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/labour"
+        }
+      },
+      "lakes_global": {
+        "title": "Lakes (global)",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/lakes_global",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/lakes_global"
+        }
+      },
+      "lakes_local": {
+        "title": "Lakes (local)",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/lakes_local",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/lakes_local"
+        }
+      },
+      "marine-fishery_global": {
+        "title": "Fisheries and Marine Ecosystems (global)",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/marine-fishery_global",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/marine-fishery_global"
+        }
+      },
+      "marine-fishery_regional": {
+        "title": "Fisheries and Marine Ecosystems (regional)",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/marine-fishery_regional",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/marine-fishery_regional"
+        }
+      },
+      "peat": {
+        "title": "Peatland",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/peat",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/peat"
+        }
+      },
+      "permafrost": {
+        "title": "Permafrost",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/permafrost",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/permafrost"
+        }
+      },
+      "water_global": {
+        "title": "Water (global)",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/water_global",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/water_global"
+        }
+      },
+      "water_regional": {
+        "title": "Water (regional)",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/water_regional",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/water_regional"
+        }
+      },
+      "water_quality": {
+        "title": "Water quality",
+        "urls": {
+          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/water_quality",
+          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/water_quality"
+        }
+      }
+    },
+    "identifier": {
+      "acidification_type": {
+        "title": "Acidification type"
+      },
+      "age_stratification": {
+        "title": "Age stratification"
+      },
+      "bias_adjustment": {
+        "title": "Bias adjustment"
+      },
+      "category": {
+        "title": "Input category"
+      },
+      "climate_dataset": {
+        "title": "Climate dataset"
+      },
+      "climate_forcing": {
+        "title": "Climate forcing"
+      },
+      "climate_scenario": {
+        "title": "Climate experiment"
+      },
+      "climate_variable": {
+        "title": "Climate variable"
+      },
+      "coastal_water_level_offset": {
+        "title": "Coastal water level offset"
+      },
+      "crop": {
+        "title": "Crop type"
+      },
+      "crop_calendar": {
+        "title": "Crop calendar"
+      },
+      "detrending": {
+        "title": "Detrending"
+      },
+      "diazotroph_scenario": {
+        "title": "Diazotroph scenario"
+      },
+      "end_year": {
+        "title": "End year"
+      },
+      "ensemble_member": {
+        "title": "Ensemble member"
+      },
+      "emission_scenario": {
+        "title": "Emission scenario"
+      },
+      "fishing_type": {
+        "title": "Fishing type"
+      },
+      "forcing": {
+        "title": "Forcing data"
+      },
+      "forest_stand": {
+        "title": "Forest stand"
+      },
+      "frequency": {
+        "title": "Temporal resolution"
+      },
+      "geo_dataset": {
+        "title": "Geo dataset"
+      },
+      "harmonization": {
+        "title": "Harmonization"
+      },
+      "irrigation": {
+        "title": "Irrigation"
+      },
+      "lake_site": {
+        "title": "Lake site"
+      },
+      "lu_model": {
+        "title": "Land use model"
+      },
+      "model": {
+        "title": "Impact model"
+      },
+      "ocean_region": {
+        "title": "Ocean region"
+      },
+      "pft": {
+        "title": "Plant Functional Type"
+      },
+      "product": {
+        "title": "Data product"
+      },
+      "region": {
+        "title": "Region"
+      },
+      "resolution": {
+        "title": "Spatial resolution"
+      },
+      "routing_scheme": {
+        "title": "Routing scheme"
+      },
+      "station": {
+        "title": "Station"
+      },
+      "river": {
+        "title": "River"
+      },
+      "r": {
+        "title": "ERF estimate"
+      },
+      "sector": {
+        "title": "Sector"
+      },
+      "sens_scenario": {
+        "title": "Sensitivity experiment"
+      },
+      "simulation_round": {
+        "title": "Simulation round"
+      },
+      "soc_forcing": {
+        "title": "Direct human forcing"
+      },
+      "soc_dataset": {
+        "title": "Direct human forcing dataset"
+      },
+      "soc_scenario": {
+        "title": "Direct human forcing experiment"
+      },
+      "soc_variable": {
+        "title": "Direct human forcing variable"
+      },
+      "soc_pathway": {
+        "title": "Shared Socioeconomic Pathway"
+      },
+      "species": {
+        "title": "Species"
+      },
+      "sigmat": {
+        "title": "Sigma T"
+      },
+      "start_year": {
+        "title": "Start year"
+      },
+      "storm_id": {
+        "title": "Storm ID"
+      },
+      "subcategory": {
+        "title": "Input subcategory"
+      },
+      "tc_model": {
+        "title": "Tropical cyclones model"
+      },
+      "chaz_parameter": {
+        "title": "CHAZ parameter"
+      },
+      "chaz_realisation": {
+        "title": "CHAZ realisation"
+      },
+      "surge_model": {
+        "title": "Surge model"
+      },
+      "time_span": {
+        "title": "Time span"
+      },
+      "time_step": {
+        "title": "Time step"
+      },
+      "variable": {
+        "title": "Variable"
+      },
+      "vert": {
+        "title": "Vertical resolution"
+      },
+      "ocean_static": {
+        "title": "Ocean Properties"
+      },
+      "exp": {
+        "title": "Exposure working conditions"
+      },
+      "wind_model": {
+        "title": "Wind model"
+      }
+    },
+    "variable": {
+      "fapar": {
+        "long_name": "Fraction of Absorbed Photosynthetically Active Radiation"
+      },
+      "lai": {
+        "long_name": "Leaf Area Index"
+      },
+      "pft": {
+        "long_name": "Plant Functional Type Grid Fraction"
+      },
+      "intercep": {
+        "long_name": "Evaporation from Canopy (interception)"
+      },
+      "cropfailure": {},
+      "wildfire": {},
+      "heatwave": {},
+      "floodedarea": {},
+      "driedarea": {},
+      "resac": {
+        "long_name": "Residential air conditioning (AC) penetration"
+      },
+      "acely": {
+        "long_name": "Electricity consumption for cooling"
+      },
+      "ratefenely": {
+        "long_name": "Change in final energy consumption for adaptation (electricity)"
+      },
+      "ratefenfof": {
+        "long_name": "Change in final energy consumption for adaptation (fossil fuels)"
+      },
+      "levlfenely": {
+        "long_name": "Final energy consumption for adaptation (electricity)"
+      },
+      "levlfenfof": {
+        "long_name": "Final energy consumption for adaptation (fossil fuels)"
+      },
+      "shue": {
+        "long_name": "Useful energy demand for space heating"
+      },
+      "scue": {
+        "long_name": "Useful energy demand for space cooling"
+      },
+      "shfe": {
+        "long_name": "Final energy demand for space heating"
+      },
+      "scfe": {
+        "long_name": "Final energy demand for space cooling"
+      },
+      "gpp": {
+        "long_name": "Carbon Mass Flux out of Atmosphere due to Gross Primary Production on Land"
+      },
+      "ra": {
+        "long_name": "Carbon Mass Flux into Atmosphere due to Autotrophic (plant) Respiration on Land"
+      },
+      "npp": {
+        "long_name": "Carbon Mass Flux out of Atmosphere due to Net Primary Production on Land"
+      },
+      "rh": {
+        "long_name": "Carbon Mass Flux into Atmosphere due to Heterotrophic Respiration on Land"
+      },
+      "ffire": {
+        "long_name": "Carbon Mass Flux into Atmosphere due to C Emission from Fire"
+      },
+      "nbp": {
+        "long_name": "Carbon Mass Flux out of Atmosphere due to Net Biospheric Production on Land"
+      },
+      "rr": {
+        "long_name": "Root autotrophic respiration"
+      },
+      "fluc": {
+        "long_name": "Carbon Mass Flux into Atmosphere from Land Use Change"
+      },
+      "fgrazing": {
+        "long_name": "Carbon Mass Flux into Atmosphere from Grazing"
+      },
+      "fcropharvest": {
+        "long_name": "Carbon Mass Flux into Atmosphere from Crop Harvesting"
+      },
+      "flitter": {
+        "long_name": "Total Carbon Flux from Vegetation to Litter"
+      },
+      "flittersoil": {
+        "long_name": "Total Carbon Flux from Litter to Soil"
+      },
+      "flittersoillayer": {
+        "long_name": "Total Carbon Flux from Litter to Soil in each layer"
+      },
+      "fvegsoil": {
+        "long_name": "Total Carbon Flux from Vegetation Directly to Soil"
+      },
+      "fvegsoillayer": {
+        "long_name": "Total Carbon Mass Flux from Vegetation Directly to Soil in each layer"
+      },
+      "nee": {
+        "long_name": "Net Ecosystem Exchange"
+      },
+      "wetlandch4": {
+        "long_name": "Grid averaged methane emissions from wetland"
+      },
+      "ch4": {
+        "long_name": "Total Surface Carbon Mass Flux into CH4 emissions"
+      },
+      "rsoillayer": {
+        "long_name": "Carbon Mass Flux into Atmosphere due to Soil Respiration on Land of pools with different turnover time in each layer"
+      },
+      "rsoil": {
+        "long_name": "Carbon Mass Flux into Atmosphere due to Soil Respiration on Land"
+      },
+      "verticalcflux": {
+        "long_name": "Vertical Carbon Mass Flux between layers"
+      },
+      "rlitter": {
+        "long_name": "Carbon Mass Flux into Atmosphere due to Litter Respiration on Land in each layer"
+      },
+      "rhlayer": {
+        "long_name": "Carbon Mass Flux into Atmosphere due to Heterotrophic Respiration on Land in each layer"
+      },
+      "fbioenergyharvest": {
+        "long_name": "Carbon Mass Flux into Atmosphere from Bioenergy Harvesting"
+      },
+      "cveg": {
+        "long_name": "Carbon Mass in Vegetation"
+      },
+      "cvegag": {
+        "long_name": "Carbon Mass in Above Ground Vegetation Biomass"
+      },
+      "cvegbg": {
+        "long_name": "Carbon Mass in Below Ground Vegetation Biomass"
+      },
+      "clitterag": {
+        "long_name": "Carbon Mass in Above Ground Litter Pool"
+      },
+      "clitterbg": {
+        "long_name": "Carbon Mass in Below Ground Litter Pool"
+      },
+      "clitter": {
+        "long_name": "Total Carbon Mass in both Above and Below Ground Litter Pool"
+      },
+      "csoil": {
+        "long_name": "Carbon Mass in Soil Pool"
+      },
+      "csoillayer": {
+        "long_name": "Carbon Mass in Soil Pool in each layer"
+      },
+      "cproduct": {
+        "long_name": "Carbon in Products of Land Use Change"
+      },
+      "cleaf": {
+        "long_name": "Carbon Mass in Leaves"
+      },
+      "cwood": {
+        "long_name": "Carbon Mass in Wood"
+      },
+      "croot": {
+        "long_name": "Carbon Mass in Roots"
+      },
+      "ccwd": {
+        "long_name": "Carbon Mass in Coarse Woody Debris"
+      },
+      "lakealbedo": {
+        "long_name": "Surface Albedo of Lake"
+      },
+      "landalbedo": {
+        "long_name": "Surface Albedo of Land"
+      },
+      "qtot": {
+        "long_name": "Total Runoff"
+      },
+      "qs": {
+        "long_name": "Surface Runoff"
+      },
+      "qsb": {
+        "long_name": "Subsurface Runoff"
+      },
+      "qr": {
+        "long_name": "Total Groundwater Recharge"
+      },
+      "qrf": {
+        "long_name": "Focussed/Localised Groundwater Recharge"
+      },
+      "qrd": {
+        "long_name": "Diffuse Groundwater Recharge"
+      },
+      "qg": {
+        "long_name": "Groundwater Runoff"
+      },
+      "dis": {
+        "long_name": "Discharge"
+      },
+      "evap": {
+        "long_name": "Evapotranspiration"
+      },
+      "potevap": {
+        "long_name": "Potential Evapotranspiration"
+      },
+      "soilmoist": {
+        "long_name": "Total Soil Moisture Content"
+      },
+      "rootmoist": {
+        "long_name": "Soil Moisture Content at Root Zone"
+      },
+      "soilmoistfroz": {
+        "long_name": "Frozen Soil Moisture Content"
+      },
+      "tsl": {
+        "long_name": "Temperature of Soil"
+      },
+      "snd": {
+        "long_name": "Snow Depth"
+      },
+      "snm": {
+        "long_name": "Snow Melt"
+      },
+      "swe": {
+        "long_name": "Snow Water Equivalent"
+      },
+      "tws": {
+        "long_name": "Total Water Storage"
+      },
+      "canopystor": {
+        "long_name": "Canopy Water Storage"
+      },
+      "glacierstor": {
+        "long_name": "Glacier Water Storage"
+      },
+      "groundwstor": {
+        "long_name": "Groundwater Storage"
+      },
+      "lakestor": {
+        "long_name": "Lake Water Storage"
+      },
+      "wetlandstor": {
+        "long_name": "Wetland Water Storage"
+      },
+      "riverstor": {
+        "long_name": "River Water Storage"
+      },
+      "reservoirstor": {
+        "long_name": "Reservoir Water Storage"
+      },
+      "thawdepth": {
+        "long_name": "Maximum Thaw Depth"
+      },
+      "triver": {
+        "long_name": "River Water Temperature"
+      },
+      "esoil": {
+        "long_name": "Water Evaporation from Soil"
+      },
+      "trans": {
+        "long_name": "Transpiration"
+      },
+      "dbh": {
+        "long_name": "Mean DBH"
+      },
+      "dbhdomhei": {
+        "long_name": "Mean DBH of 100 Highest Trees"
+      },
+      "hei": {
+        "long_name": "Stand Height"
+      },
+      "domhei": {
+        "long_name": "Dominant Height"
+      },
+      "density": {
+        "long_name": "Stand Density"
+      },
+      "ba": {
+        "long_name": "Basal Area"
+      },
+      "mort": {
+        "long_name": "Volume of Dead Trees"
+      },
+      "harv": {
+        "long_name": "Harvest by DBH-Class"
+      },
+      "stemno": {
+        "long_name": "Remaining Stem Number after Disturbance and Management by DBH-Class"
+      },
+      "vol": {
+        "long_name": "Stand Volume"
+      },
+      "age": {
+        "long_name": "Tree Age by DBH-Class"
+      },
+      "mai": {
+        "long_name": "Mean Annual Increment"
+      },
+      "species": {
+        "long_name": "Species Composition"
+      },
+      "mortstemno": {
+        "long_name": "Removed Stem Numbers by DBH-Class by Natural Mortality"
+      },
+      "harvstemno": {
+        "long_name": "Removed Stem Numbers by DBH-Class by Management"
+      },
+      "dist": {
+        "long_name": "Volume of Disturbance Damage"
+      },
+      "fngasfire": {
+        "long_name": "Total Nitrogen lost to the atmosphere (including NHₓ, N₂O, N₂) from fire"
+      },
+      "fngas": {
+        "long_name": "Total nitrogen lost to the atmosphere (sum of NHₓ, NOₓ, N₂O, N₂)"
+      },
+      "fnleach": {
+        "long_name": "Total nitrogen loss due to leaching or runoff (sum of ammonium, nitrite and nitrate)"
+      },
+      "fnfert": {
+        "long_name": "Total nitrogen added for cropland fertilisation (artificial and manure)"
+      },
+      "nloss": {
+        "long_name": "Total nitrogen lost (including NHₓ, NOₓ, N₂O, N₂ and leaching)"
+      },
+      "fnproduct": {
+        "long_name": "Nitrogen in deforested or harvested biomass as a result of anthropogenic land-use or change"
+      },
+      "fnanthdisturb": {
+        "long_name": "Nitrogen mass flux out of land due to any human activity"
+      },
+      "fnveglitter": {
+        "long_name": "Total nitrogen mass flux from vegetation to litter"
+      },
+      "fnvegsoil": {
+        "long_name": "Total nitrogen mass flux from vegetation directly to soil"
+      },
+      "fnlittersoil": {
+        "long_name": "Total nitrogen mass flux from litter to soil"
+      },
+      "fbnf": {
+        "long_name": "Biological nitrogen fixation"
+      },
+      "fnh3": {
+        "long_name": "Total land NH₃ flux"
+      },
+      "fn2o": {
+        "long_name": "Total land N2O flux"
+      },
+      "fndep": {
+        "long_name": "Dry and wet deposition of reactive nitrogen onto land"
+      },
+      "fnnetmin": {
+        "long_name": "Net nitrogen release from soil and litter as the outcome of nitrogen immobilisation and gross mineralisation"
+      },
+      "amphibianprob": {
+        "long_name": "Amphibian Species Likelihood of Occurrence"
+      },
+      "amphibianocc": {
+        "long_name": "Amphibian Species Probability with Threshold of Occurrence"
+      },
+      "amphibianbuff": {
+        "long_name": "Amphibian Buffer"
+      },
+      "amphibianpbuffer": {
+        "long_name": "Amphibian Probability Buffer"
+      },
+      "amphibianoccbuff": {
+        "long_name": "Amphibian Occurrence Buffer"
+      },
+      "birdprob": {
+        "long_name": "Bird Species Likelihood of Occurrence"
+      },
+      "birdocc": {
+        "long_name": "Bird Species Probability with Threshold of Occurrence"
+      },
+      "birdbuff": {
+        "long_name": "Bird Buffer"
+      },
+      "birdpbuffer": {
+        "long_name": "Bird Probability Buffer"
+      },
+      "birdoccbuff": {
+        "long_name": "Bird Occurrence Buffer"
+      },
+      "mammalprob": {
+        "long_name": "Mammal Species Likelihood of Occurrence"
+      },
+      "mammalocc": {
+        "long_name": "Mammal Species Probability with Threshold of Occurrence"
+      },
+      "mammalbuff": {
+        "long_name": "Mammal Buffer"
+      },
+      "mammalpbuffer": {
+        "long_name": "Mammal Probability Buffer"
+      },
+      "mammaloccbuff": {
+        "long_name": "Mammal Occurrence Buffer"
+      },
+      "reptileprob": {
+        "long_name": "Reptile Species Likelihood of Occurrence"
+      },
+      "reptileocc": {
+        "long_name": "Reptile Species Probability with Threshold of Occurrence"
+      },
+      "reptilebuff": {
+        "long_name": "Reptile Buffer"
+      },
+      "reptilepbuffer": {
+        "long_name": "Reptile Probability Buffer"
+      },
+      "reptileoccbuff": {
+        "long_name": "Reptile Occurrence Buffer"
+      },
+      "head": {
+        "long_name": "Hydraulic head"
+      },
+      "wtd": {
+        "long_name": "Water table depth"
+      },
+      "capillary": {
+        "long_name": "Capillary rise"
+      },
+      "gwdrn": {
+        "long_name": "Groundwater drainage/surface water capture"
+      },
+      "gwdrnriv": {
+        "long_name": "Groundwater drainage/surface water capture from rivers"
+      },
+      "gwdrnlak": {
+        "long_name": "Groundwater drainage/surface water capture from lakes"
+      },
+      "gwdrnwet": {
+        "long_name": "Groundwater drainage/surface water capture from wetlands"
+      },
+      "gwdrnspr": {
+        "long_name": "Groundwater drainage/surface water capture from from springs"
+      },
+      "sgd": {
+        "long_name": "Submarine groundwater discharge"
+      },
+      "abs": {
+        "long_name": "Groundwater abstractions"
+      },
+      "absd": {
+        "long_name": "Groundwater demands"
+      },
+      "absirr": {
+        "long_name": "Groundwater abstractions (irrigation)"
+      },
+      "absdom": {
+        "long_name": "Groundwater abstractions (domestic)"
+      },
+      "absind": {
+        "long_name": "Groundwater abstractions (industries)"
+      },
+      "absliv": {
+        "long_name": "Groundwater abstractions (livestock)"
+      },
+      "ret": {
+        "long_name": "Groundwater return flow"
+      },
+      "depl": {
+        "long_name": "Groundwater depletion"
+      },
+      "lfn": {
+        "long_name": "Lateral groundwater flux (net)"
+      },
+      "lfrf": {
+        "long_name": "Lateral groundwater flux (right face)"
+      },
+      "lfff": {
+        "long_name": "Lateral groundwater flux (front face)"
+      },
+      "lflf": {
+        "long_name": "Lateral groundwater flux (lower face)"
+      },
+      "yield": {
+        "long_name": "Crop Yields"
+      },
+      "evapcum": {
+        "long_name": "Cumulative Evapotranspiration"
+      },
+      "initrcum": {
+        "long_name": "Cumulative Nitrogen Application"
+      },
+      "plantday": {
+        "long_name": "Planting Date"
+      },
+      "plantyear": {
+        "long_name": "Planting Year"
+      },
+      "anthday": {
+        "long_name": "Anthesis Date"
+      },
+      "matyday": {
+        "long_name": "Maturity Date"
+      },
+      "harvyear": {
+        "long_name": "Harvest Year"
+      },
+      "biom": {
+        "long_name": "Total Above Ground Biomass Dry Matter Yields"
+      },
+      "nupcum": {
+        "long_name": "Cumulative Nitrogen Uptake"
+      },
+      "nincum": {
+        "long_name": "Cumulative Nitrogen Inputs"
+      },
+      "nlosscum": {
+        "long_name": "Cumulative Nitrogen Losses"
+      },
+      "nleachcum": {
+        "long_name": "Cumulative Nitrogen Leached"
+      },
+      "yieldchange": {
+        "long_name": "Crop Yield Changes"
+      },
+      "regions": {
+        "long_name": "Regions"
+      },
+      "soil": {
+        "long_name": "Soil Types"
+      },
+      "cellarea": {
+        "long_name": "Grid Cell Area"
+      },
+      "contfrac": {
+        "long_name": "Continental Fraction of Grid Cell"
+      },
+      "landfrac": {
+        "long_name": "Land Fraction of Grid Cell"
+      },
+      "wetlandfrac": {
+        "long_name": "Wetland Fraction"
+      },
+      "peattypefrac": {
+        "long_name": "Peat type fraction"
+      },
+      "peatdepth": {
+        "long_name": "Peat depth"
+      },
+      "hydcon": {
+        "long_name": "Saturated hydraulic conductivity"
+      },
+      "smsat": {
+        "long_name": "Porosity"
+      },
+      "wt": {
+        "long_name": "Water table"
+      },
+      "sm5": {
+        "long_name": "Volumetric soil moisture contents at -5 hPa"
+      },
+      "sm15": {
+        "long_name": "Volumetric soil moisture contents at -15 hPa"
+      },
+      "sm50": {
+        "long_name": "Volumetric soil moisture contents at -50 hPa"
+      },
+      "sm330": {
+        "long_name": "Volumetric soil moisture contents at -330 hPa"
+      },
+      "sm15000": {
+        "long_name": "Volumetric soil moisture contents at -15000 hPa"
+      },
+      "wf": {
+        "long_name": "Water fraction (area flooded)"
+      },
+      "drainagedepth": {
+        "long_name": "Drainage depth"
+      },
+      "drainagedensity": {
+        "long_name": "Drainage density"
+      },
+      "socage": {
+        "long_name": "Soil carbon age"
+      },
+      "fldfrcmax": {},
+      "nveg": {
+        "long_name": "Nitrogen Mass in Vegetation"
+      },
+      "nvegag": {
+        "long_name": "Nitrogen Mass in Above Ground Vegetation Biomass"
+      },
+      "nvegbg": {
+        "long_name": "Nitrogen Mass in Below Ground Vegetation Biomass"
+      },
+      "nmineral": {
+        "long_name": "Mineral nitrogen in the soil"
+      },
+      "nmineralnh4": {
+        "long_name": "Mineral ammonium (NH₄) in the soil"
+      },
+      "nmineralno3": {
+        "long_name": "Mineral nitrate (NO₃) in the soil"
+      },
+      "nproduct": {
+        "long_name": "Nitrogen in Products of Land Use Change"
+      },
+      "nlitterag": {
+        "long_name": "Nitrogen Mass in Above Ground Litter Pool"
+      },
+      "nlitterbg": {
+        "long_name": "Nitrogen Mass in Below Ground Litter Pool"
+      },
+      "nsoil": {
+        "long_name": "Nitrogen Mass in Soil"
+      },
+      "nleaf": {
+        "long_name": "Nitrogen Mass in Leaves"
+      },
+      "nroot": {
+        "long_name": "Nitrogen Mass in Roots"
+      },
+      "nwood": {
+        "long_name": "Nitrogen Mass in Wood"
+      },
+      "ncwd": {
+        "long_name": "Nitrogen mass in Coarse Woody Debris"
+      },
+      "modesevfipc": {
+        "long_name": "Fraction of population affected by moderate to severe food insecurity "
+      },
+      "sevfipc": {
+        "long_name": "Fraction of population affected by severe food insecurity "
+      },
+      "modesevfipop": {
+        "long_name": "Number of people affected by moderate to severe food insecurity"
+      },
+      "sevfipop": {
+        "long_name": "Number of people affected by severe food insecurity"
+      },
+      "chl": {
+        "long_name": "Chlorophyll Concentration"
+      },
+      "phytobio": {
+        "long_name": "Phytoplankton Functional Group Biomass"
+      },
+      "zoobio": {
+        "long_name": "Phytoplankton Functional Group Biomass"
+      },
+      "tp": {
+        "long_name": "Total Phosphorus"
+      },
+      "pp": {
+        "long_name": "Particulate Phosphorus"
+      },
+      "tpd": {
+        "long_name": "Total Dissolved Phosphorus"
+      },
+      "tn": {
+        "long_name": "Total Nitrogen"
+      },
+      "pn": {
+        "long_name": "Particulate Nitrogen"
+      },
+      "tdn": {
+        "long_name": "Total Dissolved Nitrogen"
+      },
+      "do": {
+        "long_name": "Dissolved Oxygen"
+      },
+      "doc": {
+        "long_name": "Dissolved Organic Carbon"
+      },
+      "si": {
+        "long_name": "Dissolved Silica"
+      },
+      "tdp": {
+        "long_name": "Total dissolved phosphorus"
+      },
+      "don": {
+        "long_name": "Dissolved organic nitrogen"
+      },
+      "din": {
+        "long_name": "Dissolved inorganic nitrogen"
+      },
+      "dop": {
+        "long_name": "Dissolved organic phosphorus"
+      },
+      "dip": {
+        "long_name": "Dissolved inorganic phosphorus"
+      },
+      "bod": {
+        "long_name": "Biochemical oxygen demand"
+      },
+      "tds": {
+        "long_name": "Total dissolved solids"
+      },
+      "as": {
+        "long_name": "Arsenic"
+      },
+      "dcl": {
+        "long_name": "Diclofenac"
+      },
+      "gly": {
+        "long_name": "Glyphosate"
+      },
+      "tcs": {
+        "long_name": "Triclosan"
+      },
+      "mip": {
+        "long_name": "Microplastics"
+      },
+      "map": {
+        "long_name": "Macroplastics"
+      },
+      "nap": {
+        "long_name": "Nanoplastics"
+      },
+      "fcol": {
+        "long_name": "Fecal coliform"
+      },
+      "crypto": {
+        "long_name": "Microorganisms: Cryptosporidium"
+      },
+      "strat": {
+        "long_name": "Thermal Stratification"
+      },
+      "thermodepth": {
+        "long_name": "Depth of Thermocline"
+      },
+      "watertemp": {
+        "long_name": "Temperature of Lake Water"
+      },
+      "surftemp": {
+        "long_name": "Temperature of Lake Surface Water"
+      },
+      "bottemp": {
+        "long_name": "Temperature of Lake Bottom Water"
+      },
+      "sedtemp": {
+        "long_name": "Temperature of Sediments"
+      },
+      "sedlittemp": {
+        "long_name": "Temperature of Littoral Zone Sediments"
+      },
+      "sedpeltemp": {
+        "long_name": "Temperature of Pelagic Zone Sediments"
+      },
+      "ice": {
+        "long_name": "Lake Ice Cover"
+      },
+      "lakeicefrac": {
+        "long_name": "Lake Layer Ice Mass Fraction"
+      },
+      "icethick": {
+        "long_name": "Ice Thickness"
+      },
+      "icetemp": {
+        "long_name": "Ice Temperature at Upper Surface"
+      },
+      "snowtemp": {
+        "long_name": "Snow Temperature at Upper Surface"
+      },
+      "sensheatf": {
+        "long_name": "Sensible Heat Flux at Lake-Atmosphere Interface"
+      },
+      "latentheatf": {
+        "long_name": "Latent Heat Flux at Lake-Atmosphere Interface"
+      },
+      "momf": {
+        "long_name": "Momentum Flux at Lake-Atmosphere Interface"
+      },
+      "swup": {
+        "long_name": "Upward Short-Wave Radiation Flux at Lake-Atmosphere Interface"
+      },
+      "lwup": {
+        "long_name": "Upward Long-Wave Radiation Flux at Lake-Atmosphere Interface"
+      },
+      "lakeheatf": {
+        "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
+      },
+      "turbdiffheat": {
+        "long_name": "Turbulent Diffusivity of Heat"
+      },
+      "extcoeff": {
+        "long_name": "Light Extinction Coefficient"
+      },
+      "sedheatf": {
+        "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface"
+      },
+      "pirrww": {
+        "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply)"
+      },
+      "airrww": {
+        "long_name": "Actual Irrigation Water Withdrawal"
+      },
+      "pirruse": {
+        "long_name": "Potential Irrigation Water Consumption"
+      },
+      "pirnreqcum": {
+        "long_name": "Cumulative Potential Net Irrigation Water Requirement"
+      },
+      "airruse": {
+        "long_name": "Actual Irrigation Water Consumption"
+      },
+      "airrusegreen": {
+        "long_name": "Actual Irrigation Green Water Consumption on Irrigated Cropland"
+      },
+      "pirrusegreen": {
+        "long_name": "Potential Irrigation Green Water Consumption on Irrigated Cropland"
+      },
+      "arainfusegreen": {
+        "long_name": "Actual Green Water Consumption on Rainfed Cropland"
+      },
+      "adomww": {
+        "long_name": "Actual Domestic Water Withdrawal"
+      },
+      "adomuse": {
+        "long_name": "Actual Domestic Water Consumption"
+      },
+      "amanww": {
+        "long_name": "Actual Manufacturing Water Withdrawal"
+      },
+      "amanuse": {
+        "long_name": "Actual Manufacturing Water Consumption"
+      },
+      "aelecww": {
+        "long_name": "Actual Electricity Water Withdrawal"
+      },
+      "aelecuse": {
+        "long_name": "Actual Electricity Water Consumption"
+      },
+      "aliveww": {
+        "long_name": "Actual Livestock Water Withdrawal"
+      },
+      "aliveuse": {
+        "long_name": "Actual livestock Water Consumption"
+      },
+      "pdomww": {
+        "long_name": "Potential Domestic Water Withdrawal"
+      },
+      "pdomuse": {
+        "long_name": "Potential Domestic Water Consumption"
+      },
+      "pmanww": {
+        "long_name": "Potential Manufacturing Water Withdrawal"
+      },
+      "pmanuse": {
+        "long_name": "Potential manufacturing Water Consumption"
+      },
+      "pelecww": {
+        "long_name": "Potential electricity Water Withdrawal"
+      },
+      "pelecuse": {
+        "long_name": "Potential electricity Water Consumption"
+      },
+      "pliveww": {
+        "long_name": "Potential livestock Water Withdrawal"
+      },
+      "pliveuse": {
+        "long_name": "Potential livestock Water Consumption"
+      },
+      "atotww": {
+        "long_name": "Total Actual Water Withdrawal (all sectors)"
+      },
+      "atotuse": {
+        "long_name": "Total Actual Water Consumption (all sectors)"
+      },
+      "ptotww": {
+        "long_name": "Total Potential Water Withdrawal (all sectors)"
+      },
+      "ptotuse": {
+        "long_name": "Total Potential Water Consumption (all sectors)"
+      },
+      "ainduse": {
+        "long_name": "Actual Industrial Water Consumption"
+      },
+      "aindww": {
+        "long_name": "Actual Industrial Water Withdrawal"
+      },
+      "pinduse": {
+        "long_name": "Potential Industrial Water Consumption"
+      },
+      "pindww": {
+        "long_name": "Potential Industrial Water Withdrawal"
+      },
+      "pirrwwgw": {
+        "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply) from groundwater resources"
+      },
+      "airrwwgw": {
+        "long_name": "actual irrigation water withdrawal from groundwater resources"
+      },
+      "pirrusegw": {
+        "long_name": "Potential Irrigation Water Consumption from groundwater resources"
+      },
+      "airrusegw": {
+        "long_name": "Actual Irrigation Water Consumption from groundwater resources"
+      },
+      "pdomwwgw": {
+        "long_name": "Potential Domestic Water Withdrawal from groundwater resources"
+      },
+      "adomwwgw": {
+        "long_name": "Actual Domestic Water Withdrawal from groundwater resources"
+      },
+      "pdomusegw": {
+        "long_name": "Potential Domestic Water Consumption from groundwater resources"
+      },
+      "adomusegw": {
+        "long_name": "Actual Domestic Water Consumption from groundwater resources"
+      },
+      "pmanwwgw": {
+        "long_name": "Potential Manufacturing Water Withdrawal from groundwater resources"
+      },
+      "amanwwgw": {
+        "long_name": "Actual Manufacturing Water Withdrawal from groundwater resources"
+      },
+      "pmanusegw": {
+        "long_name": "Potential manufacturing Water Consumption from groundwater resources"
+      },
+      "amanusegw": {
+        "long_name": "Actual Manufacturing Water Consumption from groundwater resources"
+      },
+      "pelecwwgw": {
+        "long_name": "Potential electricity Water Withdrawal from groundwater resources"
+      },
+      "aelecwwgw": {
+        "long_name": "Actual Electricity Water Withdrawal from groundwater resources"
+      },
+      "pelecusegw": {
+        "long_name": "Potential electricity Water Consumption from groundwater resources"
+      },
+      "aelecusegw": {
+        "long_name": "Actual Electricity Water Consumption from groundwater resources"
+      },
+      "pindwwgw": {
+        "long_name": "Potential Industrial Water Withdrawal from groundwater resources"
+      },
+      "aindwwgw": {
+        "long_name": "Actual Industrial Water Withdrawal from groundwater resources"
+      },
+      "pindusegw": {
+        "long_name": "Potential Industrial Water Consumption from groundwater resources"
+      },
+      "aindusegw": {
+        "long_name": "Actual Industrial Water Consumption from groundwater resources"
+      },
+      "plivwwgw": {
+        "long_name": "Potential livestock Water Withdrawal from groundwater resources"
+      },
+      "alivwwgw": {
+        "long_name": "Actual Livestock Water Withdrawal from groundwater resources"
+      },
+      "plivusegw": {
+        "long_name": "Potential livestock Water Consumption from groundwater resources"
+      },
+      "alivusegw": {
+        "long_name": "Actual livestock Water Consumption from groundwater resources"
+      },
+      "ptotwwgw": {
+        "long_name": "Total Potential Water Withdrawal (all sectors) from groundwater resources"
+      },
+      "atotwwgw": {
+        "long_name": "Total Actual Water Withdrawal (all sectors) from groundwater resources"
+      },
+      "ptotusegw": {
+        "long_name": "Total Potential Water Consumption (all sectors) from groundwater resources"
+      },
+      "atotusegw": {
+        "long_name": "Total Actual Water Consumption (all sectors) from groundwater resources"
+      },
+      "labsupp": {
+        "long_name": "Labour supply"
+      },
+      "labprod": {
+        "long_name": "Labour productivity"
+      },
+      "labeff": {
+        "long_name": "Effective labour"
+      },
+      "tcb": {
+        "long_name": "Total Consumer Biomass Density"
+      },
+      "tcblog10": {
+        "long_name": "Total Consumer Biomass Density in log10 Weight Bins"
+      },
+      "tpb": {
+        "long_name": "Total Pelagic Biomass Density"
+      },
+      "bp30cm": {
+        "long_name": "Biomass Density of Small Pelagics <30cm"
+      },
+      "bp30to90cm": {
+        "long_name": "Biomass Density of Medium Pelagics >=30cm and <90cm"
+      },
+      "bp90cm": {
+        "long_name": "Biomass Density of Large Pelagics >=90cm"
+      },
+      "tdb": {
+        "long_name": "Total Demersal Biomass Density"
+      },
+      "bd30cm": {
+        "long_name": "Biomass Density of Small Demersals <30cm"
+      },
+      "bd30to90cm": {
+        "long_name": "Biomass Density of Medium Demersals >=30cm and <90cm"
+      },
+      "bd90cm": {
+        "long_name": "Biomass Density of Large Demersals >=90cm"
+      },
+      "tc": {
+        "long_name": "Total Catch (all commercial functional groups / size classes)"
+      },
+      "tclog10": {
+        "long_name": "Total Catch in log10 Weight Bins"
+      },
+      "tpc": {
+        "long_name": "Total Pelagic Catch"
+      },
+      "cp30cm": {
+        "long_name": "Catch Density of Small Pelagics <30cm"
+      },
+      "cp30to90cm": {
+        "long_name": "Catch Density of Medium Pelagics >=30cm and <90cm"
+      },
+      "cp90cm": {
+        "long_name": "Catch Density of Large Pelagics >=90cm"
+      },
+      "tdc": {
+        "long_name": "Total Demersal Catch"
+      },
+      "cd30cm": {
+        "long_name": "Catch Density of Small Demersals <30cm"
+      },
+      "cd30to90cm": {
+        "long_name": "Catch Density of Medium Demersals >=30cm and <90cm"
+      },
+      "cd90cm": {
+        "long_name": "Catch Density of Large Demersals >=90cm"
+      },
+      "ancold": {
+        "long_name": "Number of Deaths Attributable to Cold"
+      },
+      "anheat": {
+        "long_name": "Number of Deaths Attributable to Heat"
+      },
+      "btm": {
+        "long_name": "Baseline Total Mortality"
+      },
+      "pop": {
+        "long_name": "Population"
+      },
+      "burntarea": {
+        "long_name": "Burnt Area Fraction"
+      },
+      "burntarealuc": {
+        "long_name": "Burnt Area Fraction from Fire Mediated Land-Cover Change"
+      },
+      "burntareapeat": {
+        "long_name": "Burnt Area Fraction from Peat Fire"
+      },
+      "ffirepeat": {
+        "long_name": "Carbon emitted from peat fires"
+      },
+      "ffireluc": {
+        "long_name": "Carbon Mass Flux into Atmosphere from Fire Mediated Land-Cover Change"
+      },
+      "fireints": {
+        "long_name": "Weighted Mean Fireline Intensity"
+      },
+      "cfuel": {
+        "long_name": "Carbon in Different Fuel Classes"
+      },
+      "ccfuel": {
+        "long_name": "Combustion Completeness of Different Fuel Classes"
+      },
+      "mfuel": {
+        "long_name": "Fuel Moisture for Different Fuel Classes"
+      },
+      "firenr": {
+        "long_name": "Mean Number of Fires"
+      },
+      "firenrperc95": {
+        "long_name": "95th Percentile of Number of Fires"
+      },
+      "firemortality": {
+        "long_name": "Tree Mortality Caused by Fire"
+      },
+      "firesize": {
+        "long_name": "Weighted Mean Fire Size"
+      },
+      "firesizeperc95": {
+        "long_name": "95th Percentile of Fire Size"
+      },
+      "fireduration": {
+        "long_name": "Weighted Mean Fire Duration"
+      },
+      "fireros": {
+        "long_name": "Weighted Mean Fire Rate of Spread"
+      },
+      "ignhuman": {
+        "long_name": "Ignitions Caused by Human"
+      },
+      "ignlight": {
+        "long_name": "Ignitions Caused by Lightning"
+      },
+      "canopyheight": {
+        "long_name": "Mean Canopy Height"
+      },
+      "lowcover": {
+        "long_name": "Low Vegetation Cover"
+      },
+      "highcover": {
+        "long_name": "High Vegetation Cover"
+      }
+    },
+    "experiments": {
+      "obsclim_histsoc_default": {
+        "title": "Model evaluation"
+      },
+      "obsclim_2021soc_default": {
+        "title": "Model evaluation"
+      },
+      "obsclim_1901soc_default": {
+        "title": "Model evaluation"
+      },
+      "obsclim_nat_default": {
+        "title": "Model evaluation"
+      },
+      "counterclim_histsoc_default": {
+        "title": "Counterfactual climate"
+      },
+      "counterclim_2021soc_default": {
+        "title": "Counterfactual climate"
+      },
+      "counterclim_1901soc_default": {
+        "title": "Counterfactual climate"
+      },
+      "counterclim_nat_default": {
+        "title": "Counterfactual climate"
+      },
+      "obsclim_histsoc_1901co2": {
+        "title": "CO₂ sensitivity"
+      },
+      "obsclim_2021soc_1901co2": {
+        "title": "CO₂ sensitivity"
+      },
+      "obsclim_1901soc_1901co2": {
+        "title": "CO₂ sensitivity"
+      },
+      "obsclim_histsoc_nowatermgt": {
+        "title": "Water management sensitivity"
+      },
+      "obsclim_2021soc_nowatermgt": {
+        "title": "Water management sensitivity"
+      },
+      "obsclim_histsoc_1901irr": {
+        "title": "Irrigation sensitivity"
+      },
+      "obsclim_histsoc_nofire": {
+        "title": "No-fire sensitivity"
+      },
+      "counterclim_histsoc_obsco2": {
+        "title": "Counterfactual climate and CO₂ sensitivity"
+      },
+      "obsclim_nat_default_fishmip": {
+        "title": "Model evaluation"
+      },
+      "picontrol_2021soc-from-histsoc_default": {
+        "title": "Pre-industrial control"
+      },
+      "picontrol_2021soc_default": {
+        "title": "Pre-industrial control"
+      },
+      "picontrol_1850soc_default": {
+        "title": "Pre-industrial control"
+      },
+      "picontrol_nat_default": {
+        "title": "Pre-industrial control"
+      },
+      "picontrol_ssp1vlsoc-noadapt_default": {
+        "title": "Pre-industrial control"
+      },
+      "picontrol_ssp3hsoc-noadapt_default": {
+        "title": "Pre-industrial control"
+      },
+      "vl_2021soc-from-histsoc_default": {
+        "title": "Very Low emission scenario"
+      },
+      "vl_2021soc_default": {
+        "title": "Very Low emission scenario"
+      },
+      "vl_1850soc_default": {
+        "title": "Very Low emission scenario"
+      },
+      "vl_nat_default": {
+        "title": "Very Low emission scenario"
+      },
+      "vl_ssp1vlsoc-noadapt_default": {
+        "title": "Very Low emission scenario"
+      },
+      "vl_ssp1vlsoc-noadapt_extrasoc": {
+        "title": "Extrasoc sensitivity"
+      },
+      "vl_2021soc-from-histsoc_2021co2": {
+        "title": "CO₂ sensitivity"
+      },
+      "vl_2021soc-from-histsoc_vlndep": {
+        "title": "Nitrogen deposition sensitivity"
+      },
+      "h_2021soc-from-histsoc_default": {
         "title": "High emission scenario"
+      },
+      "h_2021soc_default": {
+        "title": "High emission scenario"
+      },
+      "h_1850soc_default": {
+        "title": "High emission scenario"
+      },
+      "h_nat_default": {
+        "title": "High emission scenario"
+      },
+      "h_ssp3hsoc-noadapt_default": {
+        "title": "High emission scenario"
+      },
+      "h_ssp3hsoc-noadapt_extrasoc": {
+        "title": "Extrasoc sensitivity"
+      },
+      "h_2021soc-from-histsoc_2021co2": {
+        "title": "CO₂ sensitivity"
+      },
+      "h_2021soc_2021co2": {
+        "title": "CO₂ sensitivity"
+      },
+      "h_1850soc_2021co2": {
+        "title": "CO₂ sensitivity"
+      },
+      "h_nat_2021co2": {
+        "title": "CO₂ sensitivity"
+      },
+      "h_2021soc-from-histsoc_hndep": {
+        "title": "Nitrogen deposition sensitivity"
+      },
+      "h_2021soc-from-histsoc_nondep": {
+        "title": "No nitrogen cycling sensitivity"
+      },
+      "h_2021soc-from-histsoc_nondep2021co2": {
+        "title": "No nitrogen cycling and CO₂ sensitivity"
+      },
+      "vl_ssp1vlsoc-noadapt_nofire": {
+        "title": "No-fire sensitivity"
+      },
+      "h_ssp3hsoc-noadapt_nofire": {
+        "title": "No-fire sensitivity"
+      }
+    },
+    "lu_model": {
+      "globiom": {
+        "title": "GLOBIOM"
+      },
+      "image": {
+        "title": "IMAGE"
+      },
+      "magpie": {
+        "title": "MAgPIE"
+      }
+    },
+    "group3_requirements": {
+      "economic-development": {
+        "title": "Economic development"
+      },
+      "population": {
+        "title": "Population"
+      },
+      "diets": {
+        "title": "Diets"
+      },
+      "landuse": {
+        "title": "Land use"
+      },
+      "n-deposition": {
+        "title": "Nitrogen Deposition"
+      },
+      "n-fertilizer": {
+        "title": "Synthetic N-fertilizer inputs"
+      },
+      "animal-menure": {
+        "title": "Animal manure N"
+      },
+      "irrigation": {
+        "title": "Irrigation"
+      },
+      "forest-harvests": {
+        "title": "Wood harvests"
+      },
+      "forest-management": {
+        "title": "Forest management"
+      },
+      "nutrient-uptake": {
+        "title": "Nutrient uptake by vegetation"
+      },
+      "growing-seasons": {
+        "title": "Growing seasons"
+      },
+      "fishing-efforts": {
+        "title": "Marine fishing efforts"
+      },
+      "reservoirs-dams": {
+        "title": "Water management: Hydropower reservoirs and dams"
+      },
+      "water-use": {
+        "title": "Water management: non-irrigation water use"
+      },
+      "irrigation-techniques": {
+        "title": "Water management: irrigation techniques"
+      },
+      "sea-water-desalination": {
+        "title": "Water management: sea water desalination"
+      },
+      "inter-basin-water-transfer": {
+        "title": "Water management: inter-basin water transfer"
+      },
+      "biological-fixation": {
+        "title": "Biological fixation"
+      }
+    },
+    "diazotroph_scenario": {
+      "w-diaz": {},
+      "wo-diaz": {}
+    },
+    "irrigation": {
+      "firr": {
+        "title": "Full irrigation"
+      },
+      "cirr": {
+        "title": "Constrained irrigation"
+      },
+      "noirr": {
+        "title": "No irrigation (rainfed land)"
+      }
+    },
+    "r": {
+      "lower": {},
+      "central": {},
+      "upper": {}
+    },
+    "category": {
+      "climate": {
+        "title": "Climate related forcing",
+        "description": "Forcing data describing physical or chemical systems, in particular the climate, the oceans, and the cryosphere."
+      },
+      "geo_conditions": {
+        "title": "Static geographic information",
+        "description": "Geographic or other time-independent information, such as land-sea masks, or river routing networks."
+      },
+      "socioeconomic": {
+        "title": "Direct human forcing",
+        "description": "Independent additional forcing data, which influence climate impacts, such as land-use, population or economic changes."
+      }
+    },
+    "soc_pathway": {
+      "ssp1": {
+        "title": "SSP1"
+      },
+      "ssp2": {
+        "title": "SSP2"
+      },
+      "ssp3": {
+        "title": "SSP3"
+      },
+      "ssp4": {
+        "title": "SSP4"
+      },
+      "ssp5": {
+        "title": "SSP5"
+      }
+    },
+    "bias_adjustment": {
+      "era5": {
+        "description": "Refers to ERA5 data used for the bias-correction globally on a 0.5° grid."
+      },
+      "w5e5": {
+        "description": "Refers to W5E5 data used for the bias-correction globally on a 0.5° grid."
+      },
+      "nobasd": {
+        "description": "Indicates that no bias correction was performed on the climate data (e.g. ocean data)."
+      }
+    },
+    "vert": {
+      "vint": {}
+    },
+    "tc_model": {
+      "chaz": {
+        "title": "CHAZ"
+      },
+      "mit": {
+        "title": "MIT"
+      },
+      "MIT": {
+        "title": "MIT"
+      }
+    },
+    "period": {
+      "pre-industrial": {
+        "title": "Pre-industrial",
+        "description": "Pre-industrial simulation period."
+      },
+      "historical": {
+        "title": "Historical",
+        "description": "Historical simulation period."
+      },
+      "future": {
+        "title": "Future",
+        "description": "Future simulation period."
+      }
+    },
+    "routing_scheme": {
+      "CaMa-Flood": {},
+      "GHM": {
+        "title": "Global Hydrological Models"
       }
     },
     "river": {
       "bhima": {
         "title": "Bhima"
       },
+      "zeravshan": {
+        "title": "Zeravshan"
+      },
+      "taz": {
+        "title": "Taz"
+      },
+      "northerndvina": {
+        "title": "Northern Dvina"
+      },
+      "indigirka": {
+        "title": "Indigirka"
+      },
       "lkw": {
         "title": "Lake Kinneret Watershed"
+      },
+      "amazon": {
+        "title": "Amazon"
+      },
+      "blue-nile": {
+        "title": "Blue Nile"
+      },
+      "danube": {
+        "title": "Danube"
+      },
+      "darling": {
+        "title": "Darling River"
+      },
+      "ganges": {
+        "title": "Ganges"
+      },
+      "godavari": {
+        "title": "Godavari"
+      },
+      "indus": {
+        "title": "Indus"
+      },
+      "lena": {
+        "title": "Lena"
+      },
+      "mackenzie": {
+        "title": "Mackenzie River"
+      },
+      "mississippi": {
+        "title": "Mississippi"
+      },
+      "niger": {
+        "title": "Niger"
+      },
+      "pajeu": {
+        "title": "Pajeú River"
+      },
+      "rhine": {
+        "title": "Rhine"
+      },
+      "tagus": {
+        "title": "Tagus"
+      },
+      "yangtze": {
+        "title": "Yangtze"
+      },
+      "yellow": {
+        "title": "Yellow River / Huang He"
       },
       "aargaardsvassdraget": {
         "title": "Aargaardsvassdraget"
@@ -409,99 +2221,725 @@
       },
       "visa": {
         "title": "Visa"
-      },
-      "zeravshan": {
-        "title": "Zeravshan"
-      },
-      "amazon": {
-        "title": "Amazon"
-      },
-      "blue-nile": {
-        "title": "Blue Nile"
-      },
-      "danube": {
-        "title": "Danube"
-      },
-      "darling": {
-        "title": "Darling River"
-      },
-      "ganges": {
-        "title": "Ganges"
-      },
-      "godavari": {
-        "title": "Godavari"
-      },
-      "indus": {
-        "title": "Indus"
-      },
-      "lena": {
-        "title": "Lena"
-      },
-      "mackenzie": {
-        "title": "Mackenzie River"
-      },
-      "mississippi": {
-        "title": "Mississippi"
-      },
-      "niger": {
-        "title": "Niger"
-      },
-      "pajeu": {
-        "title": "Pajeú River"
-      },
-      "rhine": {
-        "title": "Rhine"
-      },
-      "tagus": {
-        "title": "Tagus"
-      },
-      "yangtze": {
-        "title": "Yangtze"
-      },
-      "yellow": {
-        "title": "Yellow River / Huang He"
-      },
-      "taz": {
-        "title": "Taz"
-      },
-      "northerndvina": {
-        "title": "Northern Dvina"
-      },
-      "indigirka": {
-        "title": "Indigirka"
       }
     },
-    "tc_model": {
-      "chaz": {
-        "title": "CHAZ"
+    "product": {
+      "InputData": {
+        "title": "Input Data",
+        "description": "The data used to drive the impact models, exactly as described in the ISIMIP simulation protocol."
       },
-      "mit": {
-        "title": "MIT"
+      "SecondaryInputData": {
+        "title": "Secondary Input Data",
+        "description": "Data similar to or related to the input data, but not described in the simulation protocol (e.g. with a different spatial or temporal resolution)."
       },
-      "MIT": {
-        "title": "MIT"
+      "DerivedInputData": {
+        "title": "Derived Input Data",
+        "description": "Data derived from input data, typically for a specific publication."
+      },
+      "OutputData": {
+        "title": "Output Data",
+        "description": "The climate-impacts simulation data provided by participating modelling groups, corresponding to the output variables described in the ISIMIP simulation protocol."
+      },
+      "SecondaryOutputData": {
+        "title": "Secondary Output Data",
+        "description": "Data that have been calculated by participating modelling groups, but does not correspond to output variables described in the simulation protocol."
+      },
+      "DerivedOutputData": {
+        "title": "Derived Output Data",
+        "description": "Data not directly simulated by the impact models themselves, but rather, calculated (post-processed) from the model's outputs, typically for a specific publication."
       }
     },
-    "region": {
-      "global": {
-        "title": "Global"
+    "acidification_type": {
+      "oa": {},
+      "no-oa": {}
+    },
+    "climate_scenario": {
+      "obsclim": {
+        "description": "Observation-based climate related forcing."
       },
-      "europe": {
-        "title": "Europe"
+      "counterclim": {
+        "description": "De-trended climate related forcing, assuming the historical 1901 value of 296.13ppm for the CO₂ concentration and 928.80 ppb for the CH₄ concentration for the full period."
       },
-      "along-track": {
-        "title": "Along storm track"
+      "ctrlclim": {},
+      "spinclim": {},
+      "transclim": {},
+      "picontrol": {
+        "description": "GCM-based **pre-industrial climate related forcing**, CO₂ and CH₄ concentrations fixed at 1850 levels."
+      },
+      "esm-picontrol": {
+        "description": "GCM-based **pre-industrial climate related forcing**, CO₂ and CH₄ concentrations fixed at 1850 levels."
+      },
+      "historical": {
+        "description": "GCM-based **historical climate related forcing**, historical changes in CO₂ and CH₄ concentrations."
+      },
+      "esm-hist": {
+        "description": "GCM-based **historical climate related forcing**, historical changes in CO₂ and CH₄ concentrations."
+      },
+      "vl": {
+        "description": "GCM-based climate related forcing according to the **very low emission scenario**."
+      },
+      "scen7-vl": {
+        "description": "GCM-based climate related forcing according to the **very low emission scenario**."
+      },
+      "esm-scen7-vl": {
+        "description": "GCM-based climate related forcing according to the **very low emission scenario**."
+      },
+      "h": {
+        "description": "GCM-based climate related forcing according to the **high emission scenario**."
+      },
+      "scen7-h": {
+        "description": "GCM-based climate related forcing according to the **high emission scenario**."
+      },
+      "esm-scen7-h": {
+        "description": "GCM-based climate related forcing according to the **high emission scenario**."
       }
     },
-    "coastal_water_level_offset": {
-      "tidesmin": {
-        "title": "Minimal coastal water level offset"
+    "ocean_region": {
+      "north-sea": {
+        "title": "North Sea"
       },
-      "tidesmean": {
-        "title": "Mean coastal water level offset"
+      "baltic-sea": {
+        "title": "Baltic Sea"
       },
-      "tidesmax": {
-        "title": "Maximum coastal water level offset"
+      "nw-med-sea": {
+        "title": "North-west Meditteranean"
+      },
+      "adriatic-sea": {
+        "title": "Adriatic Sea"
+      },
+      "med-glob": {
+        "title": "Mediterranean Sea"
+      },
+      "se-australia": {
+        "title": "South-East Australia"
+      },
+      "east-bass-strait": {
+        "title": "Eastern Bass Strait"
+      },
+      "cook-strait": {
+        "title": "Cook Strait"
+      },
+      "humboldt-n": {
+        "title": "North Humboldt Sea"
+      },
+      "hawaii": {
+        "title": "Hawaii"
+      },
+      "benguela": {
+        "title": "Benguela Current"
+      },
+      "east-bering-sea": {
+        "title": "Eastern Bering Sea"
+      },
+      "brasil-ne": {
+        "title": "Brasil NE"
+      },
+      "chatham-rise-ll-nz": {
+        "title": "Chatham Rise LL NZ"
+      },
+      "east-bearing-sea-shelf": {
+        "title": "East Bearing Sea shelf"
+      },
+      "eastern-scotian-shelf": {
+        "title": "Eastern Scotian shelf"
+      },
+      "gulf-alaska": {
+        "title": "Gulf Alaska"
+      },
+      "hawaiian-longline": {
+        "title": "Hawaiian Longline"
+      },
+      "himi": {
+        "title": "HIMI"
+      },
+      "kerguelen": {
+        "title": "Kerguelen"
+      },
+      "mediterraneansea": {
+        "title": "Mediterranean Sea"
+      },
+      "northernhumboldt": {
+        "title": "Northern Humboldt"
+      },
+      "northsea-ewe": {
+        "title": "NorthSea EwE"
+      },
+      "northsea-ibts": {
+        "title": "North Sea IBTS"
+      },
+      "prydz-bay": {
+        "title": "Prydz Bay"
+      },
+      "seaustralia-atlantis": {
+        "title": "SE Australia Atlantis"
+      },
+      "seaustralia-mizer": {
+        "title": "SE Australia mizer"
+      },
+      "taiwancentralsouthpacific": {
+        "title": "Taiwan Central South Pacific"
+      },
+      "tasman-golden-bays-nz": {
+        "title": "Tasman Golden Bays NZ"
+      }
+    },
+    "climate_dataset": {
+      "ibtracs": {
+        "title": "IBTrACS"
+      }
+    },
+    "soc_scenario": {
+      "histsoc": {
+        "description": "**Varying direct human influences** in the historical period."
+      },
+      "1850soc": {},
+      "1850soc-input-only": {},
+      "1901soc": {
+        "description": "**Fixed year-1901 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort)."
+      },
+      "2021soc": {
+        "description": "**Fixed year-2021 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort)."
+      },
+      "2021soc-from-histsoc": {
+        "description": "**Fixed year-2021 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort) for the future period, if the historical period was using varying direct human influences in the historical period."
+      },
+      "ssp1vlsoc-noadapt": {
+        "description": "Varying direct human influences in the future period according to **SSP1** and the **very low emission scenario**, not accounting for the impact of climate change under the corresponding climate."
+      },
+      "ssp1vlsoc-adapt": {
+        "description": "Varying direct human influences in the future period according to **SSP1** and the **very low emission scenario**, accounting for the impact of climate change under the corresponding climate."
+      },
+      "ssp3hsoc-noadapt": {
+        "description": "Varying direct human influences in the future period according to **SSP3** and the **high emission scenario**, not accounting for the impact of climate change under the corresponding climate."
+      },
+      "ssp3hsoc-adapt": {
+        "description": "Varying direct human influences in the future period according to **SSP3** and the **high emission scenario**, accounting for the impact of climate change under the corresponding climate."
+      },
+      "nat": {
+        "description": "**No direct human influences** (naturalized run)."
+      },
+      "ssp2lnsoc-noadapt": {
+        "description": "Varying direct human influences in the future period according to **SSP2** and the **low-to-negative emission scenario**, not accounting for the impact of climate change under the corresponding climate."
+      },
+      "ssp2lsoc-noadapt": {
+        "description": "Varying direct human influences in the future period according to **SSP2** and the **low emission scenario**, not accounting for the impact of climate change under the corresponding climate."
+      },
+      "ssp2mlsoc-noadapt": {
+        "description": "Varying direct human influences in the future period according to **SSP2** and the **medium-to-low emission scenario**, not accounting for the impact of climate change under the corresponding climate."
+      },
+      "ssp2msoc-noadapt": {
+        "description": "Varying direct human influences in the future period according to **SSP2** and the **medium emission scenario**, not accounting for the impact of climate change under the corresponding climate."
+      },
+      "ssp4xsoc-noadapt": {
+        "description": "Varying direct human influences in the future period according to **SSP4** (no emission scenario corresponds to this SSP), not accounting for the impact of climate change under the corresponding climate."
+      },
+      "ssp5hlsoc-noadapt": {
+        "description": "Varying direct human influences in the future period according to **SSP5** and the **high-to-low emission scenario**, not accounting for the impact of climate change under the corresponding climate."
+      }
+    },
+    "dimensions": {
+      "lon": {},
+      "lat": {},
+      "time": {},
+      "depth": {
+        "long_name": "Depth of Vertical Layer Center Below Surface"
+      },
+      "depthsed": {
+        "long_name": "Vertical Sediment Layer Index"
+      },
+      "levlak": {
+        "long_name": "Vertical Water Layer Index"
+      },
+      "bins": {
+        "long_name": "log10 Weight Bins"
+      },
+      "fuelclass": {
+        "long_name": "Fuel Class"
+      },
+      "bnds": {},
+      "plot": {}
+    },
+    "species": {
+      "fasy": {
+        "title": "Fagus sylvatica"
+      },
+      "quro": {
+        "title": "Quercus robur"
+      },
+      "qupe": {
+        "title": "Quercus petraea"
+      },
+      "pisy": {
+        "title": "Pinus sylvestris"
+      },
+      "piab": {
+        "title": "Picea abies"
+      },
+      "pipi": {
+        "title": "Pinus pinaster"
+      },
+      "lade": {
+        "title": "Larix decidua"
+      },
+      "acpl": {
+        "title": "Acer platanoides"
+      },
+      "eugl": {
+        "title": "Eucalyptus globulus"
+      },
+      "bepe": {
+        "title": "Betula pendula"
+      },
+      "bepu": {
+        "title": "Betula pubescens"
+      },
+      "rops": {
+        "title": "Robinia pseudoacacia"
+      },
+      "frex": {
+        "title": "Fraxinus excelsior"
+      },
+      "poni": {
+        "title": "Populus nigra"
+      },
+      "soau": {
+        "title": "Sorbus aucuparia"
+      },
+      "c3gr": {
+        "title": "C3 grass"
+      },
+      "hawo": {
+        "title": "hard woods"
+      },
+      "fi": {
+        "title": "fire"
+      },
+      "wi": {
+        "title": "wind"
+      },
+      "ins": {
+        "title": "Insects"
+      }
+    },
+    "station": {
+      "dupuly": {
+        "title": "Dupuly"
+      },
+      "dishon": {
+        "title": "Dishon Stream"
+      },
+      "hermon": {
+        "title": "Hermon Stream"
+      },
+      "jordan": {
+        "title": "Jordan River / Pkak Bridge"
+      },
+      "meshushim": {
+        "title": "Meshushim Stream"
+      },
+      "sao-paulo-de-olivenca": {
+        "title": "São Paulo de Olivenca"
+      },
+      "el-diem": {
+        "title": "El-Deim, Sudan Border"
+      },
+      "khartoum": {
+        "title": "Khartoum"
+      },
+      "wien-nussdorf": {
+        "title": "Wien-Nußdorf"
+      },
+      "farakka": {
+        "title": "Farakka"
+      },
+      "tekra": {
+        "title": "Tekra"
+      },
+      "tarbela": {
+        "title": "Tarbela Reservoir"
+      },
+      "krestovski": {
+        "title": "Krestovski"
+      },
+      "stolb": {
+        "title": "Stolb"
+      },
+      "arctic-red-river": {
+        "title": "Arctic Red River"
+      },
+      "alton": {
+        "title": "Alton"
+      },
+      "louth": {
+        "title": "Louth"
+      },
+      "dire": {
+        "title": "Dire"
+      },
+      "koulikoro": {
+        "title": "Koulikoro"
+      },
+      "lokoja": {
+        "title": "Lokoja"
+      },
+      "tossaye": {
+        "title": "Tossaye"
+      },
+      "floresta": {
+        "title": "Floresta"
+      },
+      "lobith": {
+        "title": "Lobith"
+      },
+      "almourol": {
+        "title": "Almourol"
+      },
+      "trillo": {
+        "title": "Trillo"
+      },
+      "cuntan": {
+        "title": "Cuntan"
+      },
+      "tangnaihai": {
+        "title": "Tangnaihai"
+      },
+      "aardal": {
+        "title": "Aardal"
+      },
+      "atnasjoe": {
+        "title": "Atnasjoe"
+      },
+      "austenaa": {
+        "title": "Austenaa"
+      },
+      "bjoernegaardssvingen": {
+        "title": "Bjoernegaardssvingen"
+      },
+      "borgaai": {
+        "title": "Borgaai"
+      },
+      "brekkebru": {
+        "title": "Brekkebru"
+      },
+      "bulken": {
+        "title": "Bulken"
+      },
+      "buvatn": {
+        "title": "Buvatn"
+      },
+      "coarveij": {
+        "title": "Coarveij"
+      },
+      "dalavatn": {
+        "title": "Dalavatn"
+      },
+      "dalsboevatn": {
+        "title": "Dalsboevatn"
+      },
+      "dillfoss": {
+        "title": "Dillfoss"
+      },
+      "djupevad": {
+        "title": "Djupevad"
+      },
+      "drivavrisefoss": {
+        "title": "Driva v/Risefoss"
+      },
+      "dyrdalsvatn": {
+        "title": "Dyrdalsvatn"
+      },
+      "eggafoss": {
+        "title": "Eggafoss"
+      },
+      "eggedal": {
+        "title": "Eggedal"
+      },
+      "engeren": {
+        "title": "Engeren"
+      },
+      "engsetvatn": {
+        "title": "Engsetvatn"
+      },
+      "etna": {
+        "title": "Etna"
+      },
+      "farstadelvavfarstad": {
+        "title": "Farstadelva v/Farstad"
+      },
+      "femundsenden": {
+        "title": "Femundsenden"
+      },
+      "fetvatn": {
+        "title": "Fetvatn"
+      },
+      "fiskum": {
+        "title": "Fiskum"
+      },
+      "fura": {
+        "title": "Fura"
+      },
+      "fustvatn": {
+        "title": "Fustvatn"
+      },
+      "gaaslandsvatn": {
+        "title": "Gaaslandsvatn"
+      },
+      "gjerstad": {
+        "title": "Gjerstad"
+      },
+      "gjuvaa": {
+        "title": "Gjuvaa"
+      },
+      "gjuvvatn": {
+        "title": "Gjuvvatn"
+      },
+      "grovaai": {
+        "title": "Grovaai"
+      },
+      "grunnfoss": {
+        "title": "Grunnfoss"
+      },
+      "gryta": {
+        "title": "Gryta"
+      },
+      "halledalsvatn": {
+        "title": "Halledalsvatn"
+      },
+      "halsnes": {
+        "title": "Halsnes"
+      },
+      "haugland": {
+        "title": "Haugland"
+      },
+      "helleland": {
+        "title": "Helleland"
+      },
+      "hersvikvatn": {
+        "title": "Hersvikvatn"
+      },
+      "hoegfoss": {
+        "title": "Hoegfoss"
+      },
+      "hoeggaasbru": {
+        "title": "Hoeggaasbru"
+      },
+      "hoelen": {
+        "title": "Hoelen"
+      },
+      "hoelervatn": {
+        "title": "Hoelervatn"
+      },
+      "hoerte": {
+        "title": "Hoerte"
+      },
+      "hovefoss": {
+        "title": "Hovefoss"
+      },
+      "jaegervatn": {
+        "title": "Jaegervatn"
+      },
+      "jogla": {
+        "title": "Jogla"
+      },
+      "jondalselv": {
+        "title": "Jondalselv"
+      },
+      "jordbrufjell": {
+        "title": "Jordbrufjell"
+      },
+      "junkerdalselv": {
+        "title": "Junkerdalselv"
+      },
+      "karpelva": {
+        "title": "Karpelva"
+      },
+      "kjeldstadigarbergelva": {
+        "title": "Kjeldstad i Garbergelva"
+      },
+      "knappom": {
+        "title": "Knappom"
+      },
+      "kraakfoss": {
+        "title": "Kraakfoss"
+      },
+      "krinsvatn": {
+        "title": "Krinsvatn"
+      },
+      "krokenelv": {
+        "title": "Krokenelv"
+      },
+      "laksaabru": {
+        "title": "Laksaabru"
+      },
+      "landbru": {
+        "title": "Landbru"
+      },
+      "langvatn": {
+        "title": "Langvatn"
+      },
+      "lenglingen": {
+        "title": "Lenglingen"
+      },
+      "lillerostavatn": {
+        "title": "Lillerostavatn"
+      },
+      "lislefjoedd": {
+        "title": "Lislefjoedd"
+      },
+      "lombola": {
+        "title": "Lombola"
+      },
+      "manndalenbru": {
+        "title": "Manndalen bru"
+      },
+      "masi": {
+        "title": "Masi"
+      },
+      "mevatnet": {
+        "title": "Mevatnet"
+      },
+      "moeskaskolandsvatnet": {
+        "title": "Moeska (Skolandsvatnet)"
+      },
+      "murusjoe": {
+        "title": "Murusjoe"
+      },
+      "myglevatn": {
+        "title": "Myglevatn"
+      },
+      "myrkdalsvatn": {
+        "title": "Myrkdalsvatn"
+      },
+      "narsjoe": {
+        "title": "Narsjoe"
+      },
+      "nautsundvatn": {
+        "title": "Nautsundvatn"
+      },
+      "nervoll": {
+        "title": "Nervoll"
+      },
+      "oevrevatn": {
+        "title": "Oevrevatn"
+      },
+      "oevstevatnlitlevatnet": {
+        "title": "Oevstevatn (Litlevatnet)"
+      },
+      "oeyendf": {
+        "title": "Oeyendf"
+      },
+      "oeyungen": {
+        "title": "Oeyungen"
+      },
+      "oksfjordvatn": {
+        "title": "Oksfjordvatn"
+      },
+      "osenelv": {
+        "title": "Osenelv"
+      },
+      "ossjoeen": {
+        "title": "Ossjoeen"
+      },
+      "polmak": {
+        "title": "Polmak"
+      },
+      "refsvatn": {
+        "title": "Refsvatn"
+      },
+      "reinsnosvatn": {
+        "title": "Reinsnosvatn"
+      },
+      "roeykenes": {
+        "title": "Roeykenes"
+      },
+      "rosten": {
+        "title": "Rosten"
+      },
+      "saeternbekken": {
+        "title": "Saeternbekken"
+      },
+      "salsvatn": {
+        "title": "Salsvatn"
+      },
+      "skarsvatn": {
+        "title": "Skarsvatn"
+      },
+      "skogsfjordvatn": {
+        "title": "Skogsfjordvatn"
+      },
+      "sneisvatn": {
+        "title": "Sneisvatn"
+      },
+      "soegne": {
+        "title": "Soegne"
+      },
+      "sogndalsvatn": {
+        "title": "Sogndalsvatn"
+      },
+      "stordalsvatn": {
+        "title": "Stordalsvatn"
+      },
+      "stortorp": {
+        "title": "Stortorp"
+      },
+      "storvatn": {
+        "title": "Storvatn"
+      },
+      "sundbyfoss": {
+        "title": "Sundbyfoss"
+      },
+      "tannsvatn": {
+        "title": "Tannsvatn"
+      },
+      "tingvatn": {
+        "title": "Tingvatn"
+      },
+      "tollaaga": {
+        "title": "Tollaaga"
+      },
+      "tora": {
+        "title": "Tora"
+      },
+      "trangen": {
+        "title": "Trangen"
+      },
+      "ulleboeelv": {
+        "title": "Ulleboeelv"
+      },
+      "unsetaaa": {
+        "title": "Unsetaaa"
+      },
+      "vassvatn": {
+        "title": "Vassvatn"
+      },
+      "veahkkavaiesjokka": {
+        "title": "Veahkkava, Iesjokka"
+      },
+      "veravatn": {
+        "title": "Veravatn"
+      },
+      "viksvatnhestadfjorden": {
+        "title": "Viksvatn (Hestadfjorden)"
+      },
+      "vistdal": {
+        "title": "Vistdal"
+      },
+      "ytrefiskeloesvatn": {
+        "title": "Ytrefiskeloesvatn"
+      }
+    },
+    "climate_forcing": {
+      "gswp3-era5": {
+        "title": "GSWP3-ERA5"
+      },
+      "gfdl-mom6-cobalt2": {
+        "title": "GFDL-MOM6-COBALT2"
+      },
+      "ec-earth3-esm-1-1": {
+        "title": "EC-Earth3-ESM-1-1"
+      },
+      "ukesm1-3-ll": {
+        "title": "UKESM1-3-LL"
       }
     },
     "lake_site": {
@@ -737,626 +3175,6 @@
         "title": "Zlutice Reservoir"
       }
     },
-    "wind_model": {
-      "er11-wind": {
-        "title": "ER11-wind"
-      },
-      "h08-wind": {
-        "title": "H08-wind"
-      }
-    },
-    "product": {
-      "InputData": {
-        "title": "Input Data",
-        "description": "The data used to drive the impact models, exactly as described in the ISIMIP simulation protocol."
-      },
-      "SecondaryInputData": {
-        "title": "Secondary Input Data",
-        "description": "Data similar to or related to the input data, but not described in the simulation protocol (e.g. with a different spatial or temporal resolution)."
-      },
-      "DerivedInputData": {
-        "title": "Derived Input Data",
-        "description": "Data derived from input data, typically for a specific publication."
-      },
-      "OutputData": {
-        "title": "Output Data",
-        "description": "The climate-impacts simulation data provided by participating modelling groups, corresponding to the output variables described in the ISIMIP simulation protocol."
-      },
-      "SecondaryOutputData": {
-        "title": "Secondary Output Data",
-        "description": "Data that have been calculated by participating modelling groups, but does not correspond to output variables described in the simulation protocol."
-      },
-      "DerivedOutputData": {
-        "title": "Derived Output Data",
-        "description": "Data not directly simulated by the impact models themselves, but rather, calculated (post-processed) from the model's outputs, typically for a specific publication."
-      }
-    },
-    "model": {
-      "albm": {
-        "title": "ALBM"
-      },
-      "colm-iap-dgvm": {
-        "title": "CoLM-IAP-DGVM"
-      },
-      "colm2024": {
-        "title": "CoLM2024"
-      },
-      "flake-bu": {
-        "title": "FLake-BU"
-      },
-      "flake-ler": {
-        "title": "FLake-LER"
-      },
-      "glm-ler": {
-        "title": "GLM-LER"
-      },
-      "gotm-ler": {
-        "title": "GOTM-LER"
-      },
-      "simstrat-ler": {
-        "title": "Simstrat-LER"
-      }
-    },
-    "time_step": {
-      "hourly": {},
-      "2hr": {},
-      "3hr": {},
-      "6hr": {},
-      "daily": {},
-      "monthly": {},
-      "annual": {},
-      "monthly-gs": {},
-      "annual-gs": {
-        "description": "per growing season"
-      },
-      "30year-mean": {
-        "description": "30-year period centered around 1995, 1980 – 2009"
-      },
-      "fixed": {}
-    },
-    "vert": {
-      "vint": {}
-    },
-    "diazotroph_scenario": {
-      "w-diaz": {},
-      "wo-diaz": {}
-    },
-    "group3_requirements": {
-      "economic-development": {
-        "title": "Economic development"
-      },
-      "population": {
-        "title": "Population"
-      },
-      "diets": {
-        "title": "Diets"
-      },
-      "landuse": {
-        "title": "Land use"
-      },
-      "n-deposition": {
-        "title": "Nitrogen Deposition"
-      },
-      "n-fertilizer": {
-        "title": "Synthetic N-fertilizer inputs"
-      },
-      "animal-menure": {
-        "title": "Animal manure N"
-      },
-      "irrigation": {
-        "title": "Irrigation"
-      },
-      "forest-harvests": {
-        "title": "Wood harvests"
-      },
-      "forest-management": {
-        "title": "Forest management"
-      },
-      "nutrient-uptake": {
-        "title": "Nutrient uptake by vegetation"
-      },
-      "growing-seasons": {
-        "title": "Growing seasons"
-      },
-      "fishing-efforts": {
-        "title": "Marine fishing efforts"
-      },
-      "reservoirs-dams": {
-        "title": "Water management: Hydropower reservoirs and dams"
-      },
-      "water-use": {
-        "title": "Water management: non-irrigation water use"
-      },
-      "irrigation-techniques": {
-        "title": "Water management: irrigation techniques"
-      },
-      "sea-water-desalination": {
-        "title": "Water management: sea water desalination"
-      },
-      "inter-basin-water-transfer": {
-        "title": "Water management: inter-basin water transfer"
-      },
-      "biological-fixation": {
-        "title": "Biological fixation"
-      }
-    },
-    "identifier": {
-      "acidification_type": {
-        "title": "Acidification type"
-      },
-      "age_stratification": {
-        "title": "Age stratification"
-      },
-      "bias_adjustment": {
-        "title": "Bias adjustment"
-      },
-      "category": {
-        "title": "Input category"
-      },
-      "climate_dataset": {
-        "title": "Climate dataset"
-      },
-      "climate_forcing": {
-        "title": "Climate forcing"
-      },
-      "climate_scenario": {
-        "title": "Climate experiment"
-      },
-      "climate_variable": {
-        "title": "Climate variable"
-      },
-      "coastal_water_level_offset": {
-        "title": "Coastal water level offset"
-      },
-      "crop": {
-        "title": "Crop type"
-      },
-      "crop_calendar": {
-        "title": "Crop calendar"
-      },
-      "detrending": {
-        "title": "Detrending"
-      },
-      "diazotroph_scenario": {
-        "title": "Diazotroph scenario"
-      },
-      "end_year": {
-        "title": "End year"
-      },
-      "ensemble_member": {
-        "title": "Ensemble member"
-      },
-      "emission_scenario": {
-        "title": "Emission scenario"
-      },
-      "fishing_type": {
-        "title": "Fishing type"
-      },
-      "forcing": {
-        "title": "Forcing data"
-      },
-      "forest_stand": {
-        "title": "Forest stand"
-      },
-      "frequency": {
-        "title": "Temporal resolution"
-      },
-      "geo_dataset": {
-        "title": "Geo dataset"
-      },
-      "harmonization": {
-        "title": "Harmonization"
-      },
-      "irrigation": {
-        "title": "Irrigation"
-      },
-      "lake_site": {
-        "title": "Lake site"
-      },
-      "lu_model": {
-        "title": "Land use model"
-      },
-      "model": {
-        "title": "Impact model"
-      },
-      "ocean_region": {
-        "title": "Ocean region"
-      },
-      "pft": {
-        "title": "Plant Functional Type"
-      },
-      "product": {
-        "title": "Data product"
-      },
-      "region": {
-        "title": "Region"
-      },
-      "resolution": {
-        "title": "Spatial resolution"
-      },
-      "routing_scheme": {
-        "title": "Routing scheme"
-      },
-      "station": {
-        "title": "Station"
-      },
-      "river": {
-        "title": "River"
-      },
-      "r": {
-        "title": "ERF estimate"
-      },
-      "sector": {
-        "title": "Sector"
-      },
-      "sens_scenario": {
-        "title": "Sensitivity experiment"
-      },
-      "simulation_round": {
-        "title": "Simulation round"
-      },
-      "soc_forcing": {
-        "title": "Direct human forcing"
-      },
-      "soc_dataset": {
-        "title": "Direct human forcing dataset"
-      },
-      "soc_scenario": {
-        "title": "Direct human forcing experiment"
-      },
-      "soc_variable": {
-        "title": "Direct human forcing variable"
-      },
-      "soc_pathway": {
-        "title": "Shared Socioeconomic Pathway"
-      },
-      "species": {
-        "title": "Species"
-      },
-      "sigmat": {
-        "title": "Sigma T"
-      },
-      "start_year": {
-        "title": "Start year"
-      },
-      "storm_id": {
-        "title": "Storm ID"
-      },
-      "subcategory": {
-        "title": "Input subcategory"
-      },
-      "tc_model": {
-        "title": "Tropical cyclones model"
-      },
-      "chaz_parameter": {
-        "title": "CHAZ parameter"
-      },
-      "chaz_realisation": {
-        "title": "CHAZ realisation"
-      },
-      "surge_model": {
-        "title": "Surge model"
-      },
-      "time_span": {
-        "title": "Time span"
-      },
-      "time_step": {
-        "title": "Time step"
-      },
-      "variable": {
-        "title": "Variable"
-      },
-      "vert": {
-        "title": "Vertical resolution"
-      },
-      "ocean_static": {
-        "title": "Ocean Properties"
-      },
-      "exp": {
-        "title": "Exposure working conditions"
-      },
-      "wind_model": {
-        "title": "Wind model"
-      }
-    },
-    "forest_stand": {
-      "hyytiala": {
-        "title": "Hyytiälä"
-      },
-      "peitz": {
-        "title": "Peitz"
-      },
-      "solling-beech": {
-        "title": "Solling (beech)"
-      },
-      "solling-spruce": {
-        "title": "Solling (spruce)"
-      },
-      "soro": {
-        "title": "Sorø"
-      },
-      "kroof": {
-        "title": "Kranzberg Roof Project"
-      },
-      "le-bray": {
-        "title": "Le Bray"
-      },
-      "collelongo": {
-        "title": "Collelongo"
-      },
-      "bily-kriz": {
-        "title": "Bílý Kříž"
-      }
-    },
-    "forcing_data": {
-      "gcm_climate_atmosphere": {
-        "title": "GCM-based atmospheric forcing"
-      },
-      "gcm_tropical_cyclones_global": {
-        "title": "Tropical cyclone wind and rain fields"
-      },
-      "gcm_lightning": {
-        "title": "Lightning"
-      },
-      "gcm_climate_ocean": {
-        "title": "GCM-based oceanic climate forcing"
-      },
-      "gcm_climate_coastal_water_levels": {
-        "title": "Coastal water levels"
-      },
-      "gcm_climate_co2": {
-        "title": "Atmospheric CO₂ concentration"
-      },
-      "gcm_climate_ch4": {
-        "title": "Atmospheric CH₄ concentration"
-      },
-      "counterclim_climate_atmosphere": {
-        "title": "Counterfactual \"no-climate change\" atmospheric climate forcing"
-      },
-      "counterclim_tropical_cyclones": {
-        "title": "Tropical cyclone tracks and windfields"
-      },
-      "counterclim_lightning": {
-        "title": "Lightning"
-      },
-      "counterclim_ocean": {
-        "title": "Oceanic forcing data"
-      },
-      "counterclim_coastal_water_levels": {
-        "title": "Coastal water levels"
-      },
-      "counterclim_co2": {
-        "title": "Atmospheric CO₂ concentration"
-      },
-      "counterclim_ch4": {
-        "title": "Atmospheric CH₄ concentration"
-      },
-      "static-lakes": {
-        "title": "Geographical lakes input data"
-      },
-      "river_routing": {
-        "title": "Drainage direction map for river routing"
-      },
-      "soil": {
-        "title": "Soil data"
-      },
-      "landseamask": {
-        "title": "Land-sea mask"
-      },
-      "static-ocean": {
-        "title": "Static ocean properties"
-      },
-      "orography": {
-        "title": "Orography"
-      },
-      "countrymasks": {
-        "title": "Country masks"
-      },
-      "lme-masks": {
-        "title": "Large Marine Ecosystem masks"
-      },
-      "rme-masks": {
-        "title": "Regional Marine Ecosystem masks"
-      },
-      "mpa-masks": {
-        "title": "Marine Protected Areas (MPA) masks"
-      },
-      "soc_pop": {
-        "title": "Population data"
-      },
-      "soc_gdp": {
-        "title": "GDP data"
-      },
-      "soc_fixed_assets": {
-        "title": "Fixed assets"
-      },
-      "soc_land_use": {
-        "title": "Land use and irrigation data"
-      },
-      "soc_wood_harvest": {
-        "title": "Wood harvest"
-      },
-      "soc_land_transformation": {
-        "title": "Land transformation"
-      },
-      "soc_n_fertilizer": {
-        "title": "Synthetic fertilizers N"
-      },
-      "soc_ndep": {
-        "title": "N-deposition"
-      },
-      "soc_crop_calendar": {
-        "title": "Crop calendar"
-      },
-      "soc_fishing": {
-        "title": "Marine fishing effort"
-      },
-      "soc_reservoirs_dams": {
-        "title": "Reservoirs and dams"
-      },
-      "soc_pctlake": {
-        "title": "Lake and reservoir surface area"
-      },
-      "obsclim_climate_atmosphere": {
-        "title": "Standard observation-based atmospheric climate forcing"
-      },
-      "obsclim_climate_atmosphere_local": {
-        "title": "Local atmospheric climate forcing for lake locations"
-      },
-      "obsclim_tropical_cyclones": {
-        "title": "Tropical cyclone tracks and windfields"
-      },
-      "obsclim_lightning": {
-        "title": "Lightning"
-      },
-      "obsclim_ocean": {
-        "title": "Standard observation-based oceanic forcing data"
-      },
-      "obsclim_ocean_regional": {
-        "title": "Regional oceanic climate forcing for regional marine ecosystems and fisheries sector"
-      },
-      "obsclim_coastal_water_levels": {
-        "title": "Coastal water levels"
-      },
-      "obsclim_co2": {
-        "title": "Atmospheric CO₂ concentration"
-      },
-      "obsclim_ch4": {
-        "title": "Atmospheric CH₄ concentration"
-      }
-    },
-    "species": {
-      "fasy": {
-        "title": "Fagus sylvatica"
-      },
-      "quro": {
-        "title": "Quercus robur"
-      },
-      "qupe": {
-        "title": "Quercus petraea"
-      },
-      "pisy": {
-        "title": "Pinus sylvestris"
-      },
-      "piab": {
-        "title": "Picea abies"
-      },
-      "pipi": {
-        "title": "Pinus pinaster"
-      },
-      "lade": {
-        "title": "Larix decidua"
-      },
-      "acpl": {
-        "title": "Acer platanoides"
-      },
-      "eugl": {
-        "title": "Eucalyptus globulus"
-      },
-      "bepe": {
-        "title": "Betula pendula"
-      },
-      "bepu": {
-        "title": "Betula pubescens"
-      },
-      "rops": {
-        "title": "Robinia pseudoacacia"
-      },
-      "frex": {
-        "title": "Fraxinus excelsior"
-      },
-      "poni": {
-        "title": "Populus nigra"
-      },
-      "soau": {
-        "title": "Sorbus aucuparia"
-      },
-      "c3gr": {
-        "title": "C3 grass"
-      },
-      "hawo": {
-        "title": "hard woods"
-      },
-      "fi": {
-        "title": "fire"
-      },
-      "wi": {
-        "title": "wind"
-      },
-      "ins": {
-        "title": "Insects"
-      }
-    },
-    "climate_scenario": {
-      "obsclim": {
-        "description": "Observation-based climate related forcing."
-      },
-      "counterclim": {
-        "description": "De-trended climate related forcing, assuming the historical 1901 value of 296.13ppm for the CO₂ concentration and 928.80 ppb for the CH₄ concentration for the full period."
-      },
-      "ctrlclim": {},
-      "spinclim": {},
-      "transclim": {},
-      "picontrol": {
-        "description": "GCM-based **pre-industrial climate related forcing**, CO₂ and CH₄ concentrations fixed at 1850 levels."
-      },
-      "esm-picontrol": {
-        "description": "GCM-based **pre-industrial climate related forcing**, CO₂ and CH₄ concentrations fixed at 1850 levels."
-      },
-      "historical": {
-        "description": "GCM-based **historical climate related forcing**, historical changes in CO₂ and CH₄ concentrations."
-      },
-      "esm-hist": {
-        "description": "GCM-based **historical climate related forcing**, historical changes in CO₂ and CH₄ concentrations."
-      },
-      "vl": {
-        "description": "GCM-based climate related forcing according to the **very low emission scenario**."
-      },
-      "scen7-vl": {
-        "description": "GCM-based climate related forcing according to the **very low emission scenario**."
-      },
-      "esm-scen7-vl": {
-        "description": "GCM-based climate related forcing according to the **very low emission scenario**."
-      },
-      "h": {
-        "description": "GCM-based climate related forcing according to the **high emission scenario**."
-      },
-      "scen7-h": {
-        "description": "GCM-based climate related forcing according to the **high emission scenario**."
-      },
-      "esm-scen7-h": {
-        "description": "GCM-based climate related forcing according to the **high emission scenario**."
-      }
-    },
-    "irrigation": {
-      "firr": {
-        "title": "Full irrigation"
-      },
-      "cirr": {
-        "title": "Constrained irrigation"
-      },
-      "noirr": {
-        "title": "No irrigation (rainfed land)"
-      }
-    },
-    "detrending": {
-      "observed": {},
-      "detrended": {}
-    },
-    "period": {
-      "pre-industrial": {
-        "title": "Pre-industrial",
-        "description": "Pre-industrial simulation period."
-      },
-      "historical": {
-        "title": "Historical",
-        "description": "Historical simulation period."
-      },
-      "future": {
-        "title": "Future",
-        "description": "Future simulation period."
-      }
-    },
     "simulation_round": {
       "ISIMIP4a": {
         "title": "ISIMIP4a",
@@ -1366,6 +3184,26 @@
         "title": "ISIMIP4b",
         "description": "GCM-based simulations at different levels of climate change and direct human forcing."
       }
+    },
+    "time_span": {
+      "minimum": {},
+      "maximum": {},
+      "start_pre-ind": {},
+      "end_pre-ind": {},
+      "start_hist": {},
+      "end_hist": {},
+      "start_fut": {},
+      "end_fut": {}
+    },
+    "resolution": {
+      "60arcmin": {},
+      "30arcmin": {},
+      "15arcmin": {},
+      "6arcmin": {},
+      "5arcmin": {},
+      "1arcmin": {},
+      "30arcsec": {},
+      "national": {}
     },
     "crop": {
       "whe": {
@@ -1447,468 +3285,11 @@
         "title": "Sunflower"
       }
     },
-    "fishing_type": {
-      "fishing": {},
-      "no-fishing": {}
-    },
-    "acidification_type": {
-      "oa": {},
-      "no-oa": {}
-    },
-    "routing_scheme": {
-      "CaMa-Flood": {},
-      "GHM": {
-        "title": "Global Hydrological Models"
-      }
-    },
-    "surge_model": {
-      "geoclaw": {
-        "title": "GeoClaw"
-      }
-    },
-    "soc_scenario": {
-      "histsoc": {
-        "description": "**Varying direct human influences** in the historical period."
-      },
-      "1850soc": {},
-      "1850soc-input-only": {},
-      "1901soc": {
-        "description": "**Fixed year-1901 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort)."
-      },
-      "2021soc": {
-        "description": "**Fixed year-2021 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort)."
-      },
-      "2021soc-from-histsoc": {
-        "description": "**Fixed year-2021 direct human influences** (e.g. land use, nitrogen deposition and fertilizer input, fishing effort) for the future period, if the historical period was using varying direct human influences in the historical period."
-      },
-      "ssp1vlsoc-noadapt": {
-        "description": "Varying direct human influences in the future period according to **SSP1** and the **very low emission scenario**, not accounting for the impact of climate change under the corresponding climate."
-      },
-      "ssp1vlsoc-adapt": {
-        "description": "Varying direct human influences in the future period according to **SSP1** and the **very low emission scenario**, accounting for the impact of climate change under the corresponding climate."
-      },
-      "ssp3hsoc-noadapt": {
-        "description": "Varying direct human influences in the future period according to **SSP3** and the **high emission scenario**, not accounting for the impact of climate change under the corresponding climate."
-      },
-      "ssp3hsoc-adapt": {
-        "description": "Varying direct human influences in the future period according to **SSP3** and the **high emission scenario**, accounting for the impact of climate change under the corresponding climate."
-      },
-      "nat": {
-        "description": "**No direct human influences** (naturalized run)."
-      },
-      "ssp2lnsoc-noadapt": {
-        "description": "Varying direct human influences in the future period according to **SSP2** and the **low-to-negative emission scenario**, not accounting for the impact of climate change under the corresponding climate."
-      },
-      "ssp2lsoc-noadapt": {
-        "description": "Varying direct human influences in the future period according to **SSP2** and the **low emission scenario**, not accounting for the impact of climate change under the corresponding climate."
-      },
-      "ssp2mlsoc-noadapt": {
-        "description": "Varying direct human influences in the future period according to **SSP2** and the **medium-to-low emission scenario**, not accounting for the impact of climate change under the corresponding climate."
-      },
-      "ssp2msoc-noadapt": {
-        "description": "Varying direct human influences in the future period according to **SSP2** and the **medium emission scenario**, not accounting for the impact of climate change under the corresponding climate."
-      },
-      "ssp4xsoc-noadapt": {
-        "description": "Varying direct human influences in the future period according to **SSP4** (no emission scenario corresponds to this SSP), not accounting for the impact of climate change under the corresponding climate."
-      },
-      "ssp5hlsoc-noadapt": {
-        "description": "Varying direct human influences in the future period according to **SSP5** and the **high-to-low emission scenario**, not accounting for the impact of climate change under the corresponding climate."
-      }
-    },
-    "resolution": {
-      "60arcmin": {},
-      "30arcmin": {},
-      "15arcmin": {},
-      "6arcmin": {},
-      "5arcmin": {},
-      "1arcmin": {},
-      "30arcsec": {},
-      "national": {}
-    },
-    "time_span": {
-      "minimum": {},
-      "maximum": {},
-      "start_pre-ind": {},
-      "end_pre-ind": {},
-      "start_hist": {},
-      "end_hist": {},
-      "start_fut": {},
-      "end_fut": {}
-    },
-    "publication": {},
-    "bias_adjustment": {
-      "era5": {
-        "description": "Refers to ERA5 data used for the bias-correction globally on a 0.5° grid."
-      },
-      "w5e5": {
-        "description": "Refers to W5E5 data used for the bias-correction globally on a 0.5° grid."
-      },
-      "nobasd": {
-        "description": "Indicates that no bias correction was performed on the climate data (e.g. ocean data)."
-      }
-    },
-    "subcategory": {
-      "atmosphere": {
-        "title": "Atmospheric forcings"
-      },
-      "atmosphere_composition": {
-        "title": "Atmospheric composition"
-      },
-      "lightning": {
-        "title": "Lightning data"
-      },
-      "ocean": {
-        "title": "Oceanic forcings"
-      },
-      "tropical_cyclones": {
-        "title": "Tropical cyclones"
-      },
-      "tropical_cyclones_flooding": {
-        "title": "Tropical cyclones flooding"
-      },
-      "sealevel": {
-        "title": "Sea level"
-      },
-      "area_using_seawater_desalination": {
-        "title": "Area Using Seawater Desalination"
-      },
-      "fishing": {
-        "title": "Marine fishing effort"
-      },
-      "gdp": {
-        "title": "GDP data"
-      },
-      "fixed-assets": {
-        "title": "Fixed assets"
-      },
-      "inter_basin_water_transfer": {
-        "title": "Inter basin water transfer"
-      },
-      "irrigation-techniques": {
-        "title": "Irrigation techniques shares"
-      },
-      "lakes": {
-        "title": "Lake data"
-      },
-      "land-transformation": {
-        "title": "Land transformation"
-      },
-      "landuse": {
-        "title": "Land use and irrigation"
-      },
-      "n-deposition": {
-        "title": "N-deposition"
-      },
-      "n-fertilizer": {
-        "title": "N-fertilizer inputs"
-      },
-      "crop_calendar": {
-        "title": "Crop calendar"
-      },
-      "population": {
-        "title": "Population data"
-      },
-      "reservoirs_dams": {
-        "title": "Reservoirs and dams"
-      },
-      "wood_harvesting": {
-        "title": "Wood harvest"
-      },
-      "landseamask": {
-        "title": "Land/Sea masks"
-      },
-      "countrymasks": {
-        "title": "Country masks"
-      },
-      "orography": {
-        "title": "Orography"
-      },
-      "river_routing": {
-        "title": "River routing"
-      },
-      "soil": {
-        "title": "Soil data"
-      },
-      "bathymetry": {
-        "title": "Ocean bathymetry"
-      },
-      "fishmip_regions": {
-        "title": "Fish-MIP regions"
-      }
-    },
-    "soc_dataset": {
-      "landuse-totals": {
-        "title": "Landuse totals"
-      },
-      "landuse-5crops": {
-        "title": "Downscaling to 5 crops"
-      },
-      "landuse-15crops": {
-        "title": "Downscaling to 15 crops"
-      },
-      "landuse-pastures": {
-        "title": "Managed pastures and rangeland"
-      },
-      "landuse-urbanareas": {
-        "title": "Urban areas"
-      },
-      "landuse-forests-and-natural-vegetation": {
-        "title": "Forests and natural vegetation"
-      },
-      "landuse-subgroups": {
-        "title": "Seasonal sub-splits of two landuse-15crops groups"
-      },
-      "n-fertilizer-5crops": {
-        "title": "Nitrogen fertilizer input (5-crop groups)"
-      },
-      "n-fertilizer-15crops": {
-        "title": "Nitrogen fertilizer input (15-crop groups)"
-      },
-      "ndep-nhx": {
-        "title": "Reduced nitrogen deposition"
-      },
-      "ndep-drynhx": {
-        "title": "Dry reduced nitrogen deposition"
-      },
-      "ndep-wetnhx": {
-        "title": "Wet reduced nitrogen deposition"
-      },
-      "ndep-noy": {
-        "title": "Oxidized nitrogen deposition"
-      },
-      "ndep-drynoy": {
-        "title": "Dry oxidized nitrogen deposition"
-      },
-      "ndep-wetnoy": {
-        "title": "Wet oxidized nitrogen deposition"
-      },
-      "ggcmi-crop-calendar-2021soc": {
-        "title": "GGCMI crop calendar (fixed observation based)"
-      },
-      "ggcmi-crop-calendar": {
-        "title": "GGCMI crop calendar (fixed observation based)"
-      },
-      "reservoirs-dams": {
-        "title": "Reservoirs and dams"
-      },
-      "dams-reservoirs": {
-        "title": "Reservoirs and dams (Group III)"
-      },
-      "fishing_effort": {
-        "title": "Fishing effort"
-      },
-      "effort": {
-        "title": "Fishing effort"
-      },
-      "gridded_artisanal_fishing_effort": {
-        "title": "Gridded artisanal fishing effort"
-      },
-      "effort-artisanal-gridded": {
-        "title": "Gridded artisanal fishing effort"
-      },
-      "gridded_industrial_fishing_effort": {
-        "title": "Gridded industrial fishing effort"
-      },
-      "effort-industrial-gridded": {
-        "title": "Gridded industrial fishing effort"
-      },
-      "wood_harvesting": {
-        "title": "Wood harvesting"
-      },
-      "land-transformation": {
-        "title": "Land transformation"
-      },
-      "pctlake": {
-        "title": "Lake area fraction"
-      },
-      "population-gridded": {
-        "title": "Population"
-      },
-      "population": {
-        "title": "Population"
-      },
-      "population-countrylevel": {
-        "title": "Population"
-      },
-      "population-stratification": {
-        "title": "Population stratification (country-level)"
-      },
-      "gdp-ppp-countrylevel": {
-        "title": "GDP PPP"
-      },
-      "gdp-per-capita-ppp-countrylevel": {
-        "title": "GDP per capita PPP"
-      },
-      "gdp-mer-countrylevel": {
-        "title": "GDP MER"
-      },
-      "gdp-per-capita-mer-countrylevel": {
-        "title": "GDP MER"
-      },
-      "gdp-ppp": {
-        "title": "Gridded GDP PPP"
-      },
-      "gdp-per-capita-ppp": {
-        "title": "Gridded GDP per capita PPP"
-      },
-      "fixed-asset-value": {
-        "title": "Gridded fixed asset value PPP"
-      }
-    },
-    "pool": {
-      "fast": {},
-      "slow": {},
-      "passive": {}
+    "detrending": {
+      "observed": {},
+      "detrended": {}
     },
     "climate_variable": {
-      "geocentricwaterlevel": {
-        "long_name": "Geocentric Water Level"
-      },
-      "waterlevel": {
-        "long_name": "Relative Water Level"
-      },
-      "chl": {
-        "long_name": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll"
-      },
-      "expc": {
-        "long_name": "Downward Flux of Particulate Organic Carbon"
-      },
-      "intpoc": {
-        "long_name": "Particulate Organic Carbon Content"
-      },
-      "intpp": {
-        "long_name": "Primary Organic Carbon Production by All Types of Phytoplankton"
-      },
-      "intppdiat": {
-        "long_name": "Net Primary Organic Carbon Production by Diatoms"
-      },
-      "intppdiaz": {
-        "long_name": "Net Primary Mole Productivity of Carbon by Diazotrophs"
-      },
-      "intpppico": {
-        "long_name": "Net Primary Mole Productivity of Carbon by Picophytoplankton"
-      },
-      "intppmisc": {
-        "long_name": "Net Primary Organic Carbon Production by Other Phytoplankton"
-      },
-      "mlotstmax": {
-        "long_name": "Maximum Ocean Mixed Layer Thickness Defined by Sigma T"
-      },
-      "mlotst": {
-        "long_name": "Maximum Ocean Mixed Layer Thickness Defined by Sigma T"
-      },
-      "o2": {
-        "long_name": "Dissolved Oxygen Concentration"
-      },
-      "ph": {
-        "long_name": "pH"
-      },
-      "phyc": {
-        "long_name": "Phytoplankton Carbon Concentration"
-      },
-      "phydiat": {
-        "long_name": "Mole Concentration of Diatoms expressed as Carbon in sea water"
-      },
-      "phydiaz": {
-        "long_name": "Mole Concentration of Diazotrophs Expressed as Carbon in Sea Water"
-      },
-      "phypico": {
-        "long_name": "Mole Concentration of Picophytoplankton Expressed as Carbon in Sea Water"
-      },
-      "phymisc": {
-        "long_name": "Mole Concentration of Miscellaneous Phytoplankton expressed as Carbon in sea water"
-      },
-      "rsntds": {
-        "long_name": "Net Downward Shortwave Radiation at Sea Water Surface"
-      },
-      "siconc": {
-        "long_name": "Sea Ice Area Fraction"
-      },
-      "so": {
-        "long_name": "Sea Water Salinity"
-      },
-      "sos": {
-        "long_name": "Sea Water Salinity at Surface"
-      },
-      "thetao": {},
-      "thkcello": {
-        "long_name": "Ocean Model Cell Thickness"
-      },
-      "tob": {
-        "long_name": "Sea Water Potential Temperature at Sea Floor"
-      },
-      "tos": {},
-      "uo": {
-        "long_name": "Sea Water X Velocity"
-      },
-      "vo": {
-        "long_name": "Sea Water Y Velocity"
-      },
-      "wo": {
-        "long_name": "Sea Water Z Velocity"
-      },
-      "zmeso": {
-        "long_name": "Mole Concentration of Mesozooplankton expressed as Carbon in sea water"
-      },
-      "zmicro": {
-        "long_name": "Mole Concentration of Microzooplankton expressed as Carbon in sea water"
-      },
-      "zooc": {
-        "long_name": "Zooplankton Carbon Concentration"
-      },
-      "co2": {
-        "long_name": "Atmospheric CO₂ concentration"
-      },
-      "ch4": {
-        "long_name": "Atmospheric Methane concentration"
-      },
-      "flddph": {
-        "long_name": "Flood depth during storm"
-      },
-      "fldarea": {
-        "long_name": "Flooded land grid cells"
-      },
-      "hurs": {
-        "long_name": "Near-Surface Relative Humidity"
-      },
-      "huss": {
-        "long_name": "Near-Surface Specific Humidity"
-      },
-      "pr": {
-        "long_name": "Precipitation"
-      },
-      "prsn": {
-        "long_name": "Snowfall Flux"
-      },
-      "ps": {
-        "long_name": "Surface Air Pressure"
-      },
-      "rlds": {
-        "long_name": "Surface Downwelling Longwave Radiation"
-      },
-      "rsds": {
-        "long_name": "Surface Downwelling Shortwave Radiation"
-      },
-      "sfcwind": {
-        "long_name": "Near-Surface Wind Speed"
-      },
-      "tas": {
-        "long_name": "Near-Surface Air Temperature"
-      },
-      "tasmax": {
-        "long_name": "Daily Maximum Near-Surface Air Temperature"
-      },
-      "tasmin": {
-        "long_name": "Daily Minimum Near-Surface Air Temperature"
-      },
-      "hur": {},
-      "hus": {},
-      "prw": {},
-      "psl": {},
-      "ta": {},
-      "ts": {},
-      "ua": {},
-      "va": {},
       "numobs": {
         "long_name": "Number of observations per system"
       },
@@ -2395,127 +3776,600 @@
       "storm_dir": {
         "long_name": "Storm translation direction"
       },
+      "chl": {
+        "long_name": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll"
+      },
+      "expc": {
+        "long_name": "Downward Flux of Particulate Organic Carbon"
+      },
+      "intpoc": {
+        "long_name": "Particulate Organic Carbon Content"
+      },
+      "intpp": {
+        "long_name": "Primary Organic Carbon Production by All Types of Phytoplankton"
+      },
+      "intppdiat": {
+        "long_name": "Net Primary Organic Carbon Production by Diatoms"
+      },
+      "intppdiaz": {
+        "long_name": "Net Primary Mole Productivity of Carbon by Diazotrophs"
+      },
+      "intpppico": {
+        "long_name": "Net Primary Mole Productivity of Carbon by Picophytoplankton"
+      },
+      "intppmisc": {
+        "long_name": "Net Primary Organic Carbon Production by Other Phytoplankton"
+      },
+      "mlotstmax": {
+        "long_name": "Maximum Ocean Mixed Layer Thickness Defined by Sigma T"
+      },
+      "mlotst": {
+        "long_name": "Maximum Ocean Mixed Layer Thickness Defined by Sigma T"
+      },
+      "o2": {
+        "long_name": "Dissolved Oxygen Concentration"
+      },
+      "ph": {
+        "long_name": "pH"
+      },
+      "phyc": {
+        "long_name": "Phytoplankton Carbon Concentration"
+      },
+      "phydiat": {
+        "long_name": "Mole Concentration of Diatoms expressed as Carbon in sea water"
+      },
+      "phydiaz": {
+        "long_name": "Mole Concentration of Diazotrophs Expressed as Carbon in Sea Water"
+      },
+      "phypico": {
+        "long_name": "Mole Concentration of Picophytoplankton Expressed as Carbon in Sea Water"
+      },
+      "phymisc": {
+        "long_name": "Mole Concentration of Miscellaneous Phytoplankton expressed as Carbon in sea water"
+      },
+      "rsntds": {
+        "long_name": "Net Downward Shortwave Radiation at Sea Water Surface"
+      },
+      "siconc": {
+        "long_name": "Sea Ice Area Fraction"
+      },
+      "so": {
+        "long_name": "Sea Water Salinity"
+      },
+      "sos": {
+        "long_name": "Sea Water Salinity at Surface"
+      },
+      "thetao": {},
+      "thkcello": {
+        "long_name": "Ocean Model Cell Thickness"
+      },
+      "tob": {
+        "long_name": "Sea Water Potential Temperature at Sea Floor"
+      },
+      "tos": {},
+      "uo": {
+        "long_name": "Sea Water X Velocity"
+      },
+      "vo": {
+        "long_name": "Sea Water Y Velocity"
+      },
+      "wo": {
+        "long_name": "Sea Water Z Velocity"
+      },
+      "zmeso": {
+        "long_name": "Mole Concentration of Mesozooplankton expressed as Carbon in sea water"
+      },
+      "zmicro": {
+        "long_name": "Mole Concentration of Microzooplankton expressed as Carbon in sea water"
+      },
+      "zooc": {
+        "long_name": "Zooplankton Carbon Concentration"
+      },
+      "flddph": {
+        "long_name": "Flood depth during storm"
+      },
+      "fldarea": {
+        "long_name": "Flooded land grid cells"
+      },
       "lightning_fixed": {
         "long_name": "Flash Rate Monthly Climatology"
       },
       "lightning": {
         "long_name": "Flash Rate Monthly Climatology"
+      },
+      "flashrate": {
+        "long_name": "Future flash rate"
+      },
+      "hurs": {
+        "long_name": "Near-Surface Relative Humidity"
+      },
+      "huss": {
+        "long_name": "Near-Surface Specific Humidity"
+      },
+      "pr": {
+        "long_name": "Precipitation"
+      },
+      "prsn": {
+        "long_name": "Snowfall Flux"
+      },
+      "ps": {
+        "long_name": "Surface Air Pressure"
+      },
+      "rlds": {
+        "long_name": "Surface Downwelling Longwave Radiation"
+      },
+      "rsds": {
+        "long_name": "Surface Downwelling Shortwave Radiation"
+      },
+      "sfcwind": {
+        "long_name": "Near-Surface Wind Speed"
+      },
+      "tas": {
+        "long_name": "Near-Surface Air Temperature"
+      },
+      "tasmax": {
+        "long_name": "Daily Maximum Near-Surface Air Temperature"
+      },
+      "tasmin": {
+        "long_name": "Daily Minimum Near-Surface Air Temperature"
+      },
+      "hur": {},
+      "hus": {},
+      "prw": {},
+      "psl": {},
+      "ta": {},
+      "ts": {},
+      "ua": {},
+      "va": {},
+      "co2": {
+        "long_name": "Atmospheric CO₂ concentration"
+      },
+      "ch4": {
+        "long_name": "Atmospheric Methane concentration"
+      },
+      "geocentricwaterlevel": {
+        "long_name": "Geocentric Water Level"
+      },
+      "waterlevel": {
+        "long_name": "Relative Water Level"
       }
     },
-    "ocean_region": {
-      "north-sea": {
-        "title": "North Sea"
+    "soc_dataset": {
+      "landuse-totals": {
+        "title": "Landuse totals"
       },
-      "baltic-sea": {
-        "title": "Baltic Sea"
+      "landuse-5crops": {
+        "title": "Downscaling to 5 crops"
       },
-      "nw-med-sea": {
-        "title": "North-west Meditteranean"
+      "landuse-15crops": {
+        "title": "Downscaling to 15 crops"
       },
-      "adriatic-sea": {
-        "title": "Adriatic Sea"
+      "landuse-pastures": {
+        "title": "Managed pastures and rangeland"
       },
-      "med-glob": {
-        "title": "Mediterranean Sea"
+      "landuse-urbanareas": {
+        "title": "Urban areas"
       },
-      "se-australia": {
-        "title": "South-East Australia"
+      "landuse-forests-and-natural-vegetation": {
+        "title": "Forests and natural vegetation"
       },
-      "east-bass-strait": {
-        "title": "Eastern Bass Strait"
+      "landuse-subgroups": {
+        "title": "Seasonal sub-splits of two landuse-15crops groups"
       },
-      "cook-strait": {
-        "title": "Cook Strait"
+      "n-fertilizer-5crops": {
+        "title": "Nitrogen fertilizer input (5-crop groups)"
       },
-      "humboldt-n": {
-        "title": "North Humboldt Sea"
+      "n-fertilizer-15crops": {
+        "title": "Nitrogen fertilizer input (15-crop groups)"
       },
-      "hawaii": {
-        "title": "Hawaii"
+      "ndep-nhx": {
+        "title": "Reduced nitrogen deposition"
       },
-      "benguela": {
-        "title": "Benguela Current"
+      "ndep-drynhx": {
+        "title": "Dry reduced nitrogen deposition"
       },
-      "east-bering-sea": {
-        "title": "Eastern Bering Sea"
+      "ndep-wetnhx": {
+        "title": "Wet reduced nitrogen deposition"
       },
-      "brasil-ne": {
-        "title": "Brasil NE"
+      "ndep-noy": {
+        "title": "Oxidized nitrogen deposition"
       },
-      "chatham-rise-ll-nz": {
-        "title": "Chatham Rise LL NZ"
+      "ndep-drynoy": {
+        "title": "Dry oxidized nitrogen deposition"
       },
-      "east-bearing-sea-shelf": {
-        "title": "East Bearing Sea shelf"
+      "ndep-wetnoy": {
+        "title": "Wet oxidized nitrogen deposition"
       },
-      "eastern-scotian-shelf": {
-        "title": "Eastern Scotian shelf"
+      "ggcmi-crop-calendar-2021soc": {
+        "title": "GGCMI crop calendar (fixed observation based)"
       },
-      "gulf-alaska": {
-        "title": "Gulf Alaska"
+      "ggcmi-crop-calendar": {
+        "title": "GGCMI crop calendar (fixed observation based)"
       },
-      "hawaiian-longline": {
-        "title": "Hawaiian Longline"
+      "reservoirs-dams": {
+        "title": "Reservoirs and dams"
       },
-      "himi": {
-        "title": "HIMI"
+      "dams-reservoirs": {
+        "title": "Reservoirs and dams (Group III)"
       },
-      "kerguelen": {
-        "title": "Kerguelen"
+      "fishing_effort": {
+        "title": "Fishing effort"
       },
-      "mediterraneansea": {
-        "title": "Mediterranean Sea"
+      "effort": {
+        "title": "Fishing effort"
       },
-      "northernhumboldt": {
-        "title": "Northern Humboldt"
+      "gridded_artisanal_fishing_effort": {
+        "title": "Gridded artisanal fishing effort"
       },
-      "northsea-ewe": {
-        "title": "NorthSea EwE"
+      "effort-artisanal-gridded": {
+        "title": "Gridded artisanal fishing effort"
       },
-      "northsea-ibts": {
-        "title": "North Sea IBTS"
+      "gridded_industrial_fishing_effort": {
+        "title": "Gridded industrial fishing effort"
       },
-      "prydz-bay": {
-        "title": "Prydz Bay"
+      "effort-industrial-gridded": {
+        "title": "Gridded industrial fishing effort"
       },
-      "seaustralia-atlantis": {
-        "title": "SE Australia Atlantis"
+      "wood_harvesting": {
+        "title": "Wood harvesting"
       },
-      "seaustralia-mizer": {
-        "title": "SE Australia mizer"
+      "land-transformation": {
+        "title": "Land transformation"
       },
-      "taiwancentralsouthpacific": {
-        "title": "Taiwan Central South Pacific"
+      "pctlake": {
+        "title": "Lake area fraction"
       },
-      "tasman-golden-bays-nz": {
-        "title": "Tasman Golden Bays NZ"
+      "population-gridded": {
+        "title": "Population"
+      },
+      "population": {
+        "title": "Population"
+      },
+      "population-countrylevel": {
+        "title": "Population"
+      },
+      "population-stratification": {
+        "title": "Population stratification (country-level)"
+      },
+      "gdp-ppp-countrylevel": {
+        "title": "GDP PPP"
+      },
+      "gdp-per-capita-ppp-countrylevel": {
+        "title": "GDP per capita PPP"
+      },
+      "gdp-mer-countrylevel": {
+        "title": "GDP MER"
+      },
+      "gdp-per-capita-mer-countrylevel": {
+        "title": "GDP MER"
+      },
+      "gdp-ppp": {
+        "title": "Gridded GDP PPP"
+      },
+      "gdp-per-capita-ppp": {
+        "title": "Gridded GDP per capita PPP"
+      },
+      "fixed-asset-value": {
+        "title": "Gridded fixed asset value PPP"
       }
     },
-    "r": {
-      "lower": {},
-      "central": {},
-      "upper": {}
+    "publication": {},
+    "fishing_type": {
+      "fishing": {},
+      "no-fishing": {}
     },
-    "soc_pathway": {
-      "ssp1": {
-        "title": "SSP1"
+    "forest_stand": {
+      "hyytiala": {
+        "title": "Hyytiälä"
       },
-      "ssp2": {
-        "title": "SSP2"
+      "peitz": {
+        "title": "Peitz"
       },
-      "ssp3": {
-        "title": "SSP3"
+      "solling-beech": {
+        "title": "Solling (beech)"
       },
-      "ssp4": {
-        "title": "SSP4"
+      "solling-spruce": {
+        "title": "Solling (spruce)"
       },
-      "ssp5": {
-        "title": "SSP5"
+      "soro": {
+        "title": "Sorø"
+      },
+      "kroof": {
+        "title": "Kranzberg Roof Project"
+      },
+      "le-bray": {
+        "title": "Le Bray"
+      },
+      "collelongo": {
+        "title": "Collelongo"
+      },
+      "bily-kriz": {
+        "title": "Bílý Kříž"
       }
     },
-    "climate_dataset": {
-      "ibtracs": {
-        "title": "IBTrACS"
+    "harmonization": {
+      "default": {
+        "title": "Default",
+        "description": "Model should use their individual “best representation” of the historical period with regard to sowing dates, harvesting dates, fertilizer application rates and crop varieties."
+      },
+      "fullharm": {
+        "title": "Fully harmonized",
+        "description": "Simulations based on prescribed “present day” fertilization rates (available for download) and fixed planting and harvesting dates (also available for download). Modelers should have planting as closely as possible to these dates, but it may be admissible to use these dates as indicators for planting windows (depending on model specifics)."
+      },
+      "harmnon": {
+        "title": "Harmonized seasons with no N constraints",
+        "description": "For models with an explicit description of the nitrogen cycle: harmnon simulations should be run with nitrogen stress turned off completely or (if that’s not possible) with very high N application rates to make model results comparable between those GGCMs that have explicit N dynamics and those that do not. For models without the nitrogen cycle: harmnon and fullharm simulations are the same and do not need to be duplicated. Please contact the sector coordination to push on with this side branch."
+      }
+    },
+    "time_step": {
+      "hourly": {},
+      "2hr": {},
+      "3hr": {},
+      "6hr": {},
+      "daily": {},
+      "monthly": {},
+      "annual": {},
+      "monthly-gs": {},
+      "annual-gs": {
+        "description": "per growing season"
+      },
+      "30year-mean": {
+        "description": "30-year period centered around 1995, 1980 – 2009"
+      },
+      "fixed": {}
+    },
+    "pool": {
+      "fast": {},
+      "slow": {},
+      "passive": {}
+    },
+    "geo_dataset": {
+      "landseamask": {},
+      "landseamask_no-ant": {},
+      "landseamask_water-global": {},
+      "countrymasks-binary": {},
+      "countrymasks-fractional": {},
+      "gadm": {},
+      "gswp3_hwsd": {
+        "title": "Soil data (gswp3_hwsd)"
+      },
+      "hwsd_soil_data_all_land": {
+        "title": "Soil data (hwsd_soil_data_all_land)"
+      },
+      "hwsd_soil_data_on_cropland": {
+        "title": "Soil data (hwsd_soil_data_on_cropland)"
+      },
+      "ddm30_basins_cru_neva": {
+        "title": "basins"
+      },
+      "ddm30_flowdir_cru_neva": {
+        "title": "flowdir"
+      },
+      "ddm30_slopes_cru_neva": {
+        "title": "slopes"
+      },
+      "hypso_volume": {
+        "title": "Hypsographic: Volume"
+      },
+      "hypso_area": {
+        "title": "Hypsographic: Area"
+      },
+      "lake_elevation": {
+        "title": "Lake Elevation"
+      },
+      "elevation": {
+        "title": "Lake Elevation"
+      },
+      "max_lakedepth": {
+        "title": "Maximum lake depth"
+      },
+      "mean_lakedepth": {
+        "title": "Mean lake depth"
+      },
+      "surface_area": {
+        "title": "Lake Surface Area"
+      },
+      "volume": {
+        "title": "Lake Volume"
+      },
+      "hydrolakes_id_biglakes": {
+        "title": "HydroLAKES ID for big lakes"
+      },
+      "biglakes_mask": {
+        "title": "Biglakes mask"
+      },
+      "hydrolakes_id": {
+        "title": "HydroLAKES ID"
+      },
+      "areacello": {
+        "title": "Grid-Cell Area for Ocean Variables"
+      },
+      "bathymetry": {
+        "title": "Sea Floor Depth"
+      },
+      "deptho": {
+        "title": "Sea Floor Depth"
+      },
+      "lme": {
+        "title": "Large Marine Ecosystems"
+      },
+      "LMEs66_masks": {
+        "title": "Large Marine Ecosystems"
+      },
+      "rme": {
+        "title": "Regional Marine Ecosystem masks"
+      },
+      "RME_masks": {
+        "title": "Regional Marine Ecosystem masks"
+      },
+      "mpa": {
+        "title": "Marine Protected Areas (MPA) masks"
+      },
+      "orog": {
+        "title": "Orography"
+      }
+    },
+    "forcing_data": {
+      "obsclim_climate_atmosphere": {
+        "title": "Standard observation-based atmospheric climate forcing"
+      },
+      "obsclim_climate_atmosphere_local": {
+        "title": "Local atmospheric climate forcing for lake locations"
+      },
+      "obsclim_tropical_cyclones": {
+        "title": "Tropical cyclone tracks and windfields"
+      },
+      "gcm_lightning": {
+        "title": "Varying lightning according to climate change"
+      },
+      "obsclim_lightning": {
+        "title": "Lightning"
+      },
+      "obsclim_ocean": {
+        "title": "Standard observation-based oceanic forcing data"
+      },
+      "obsclim_ocean_regional": {
+        "title": "Regional oceanic climate forcing for regional marine ecosystems and fisheries sector"
+      },
+      "obsclim_coastal_water_levels": {
+        "title": "Coastal water levels"
+      },
+      "obsclim_co2": {
+        "title": "Atmospheric CO₂ concentration"
+      },
+      "obsclim_ch4": {
+        "title": "Atmospheric CH₄ concentration"
+      },
+      "gcm_climate_atmosphere": {
+        "title": "GCM-based atmospheric forcing"
+      },
+      "gcm_tropical_cyclones_global": {
+        "title": "Tropical cyclone wind and rain fields"
+      },
+      "gcm_climate_ocean": {
+        "title": "GCM-based oceanic climate forcing"
+      },
+      "gcm_climate_coastal_water_levels": {
+        "title": "Coastal water levels"
+      },
+      "gcm_climate_co2": {
+        "title": "Atmospheric CO₂ concentration"
+      },
+      "gcm_climate_ch4": {
+        "title": "Atmospheric CH₄ concentration"
+      },
+      "counterclim_climate_atmosphere": {
+        "title": "Counterfactual \"no-climate change\" atmospheric climate forcing"
+      },
+      "counterclim_tropical_cyclones": {
+        "title": "Tropical cyclone tracks and windfields"
+      },
+      "counterclim_lightning": {
+        "title": "Lightning"
+      },
+      "counterclim_ocean": {
+        "title": "Oceanic forcing data"
+      },
+      "counterclim_coastal_water_levels": {
+        "title": "Coastal water levels"
+      },
+      "counterclim_co2": {
+        "title": "Atmospheric CO₂ concentration"
+      },
+      "counterclim_ch4": {
+        "title": "Atmospheric CH₄ concentration"
+      },
+      "static-lakes": {
+        "title": "Geographical lakes input data"
+      },
+      "river_routing": {
+        "title": "Drainage direction map for river routing"
+      },
+      "soil": {
+        "title": "Soil data"
+      },
+      "landseamask": {
+        "title": "Land-sea mask"
+      },
+      "static-ocean": {
+        "title": "Static ocean properties"
+      },
+      "orography": {
+        "title": "Orography"
+      },
+      "countrymasks": {
+        "title": "Country masks"
+      },
+      "lme-masks": {
+        "title": "Large Marine Ecosystem masks"
+      },
+      "rme-masks": {
+        "title": "Regional Marine Ecosystem masks"
+      },
+      "mpa-masks": {
+        "title": "Marine Protected Areas (MPA) masks"
+      },
+      "soc_pop": {
+        "title": "Population data"
+      },
+      "soc_gdp": {
+        "title": "GDP data"
+      },
+      "soc_fixed_assets": {
+        "title": "Fixed assets"
+      },
+      "soc_land_use": {
+        "title": "Land use and irrigation data"
+      },
+      "soc_wood_harvest": {
+        "title": "Wood harvest"
+      },
+      "soc_land_transformation": {
+        "title": "Land transformation"
+      },
+      "soc_n_fertilizer": {
+        "title": "Synthetic fertilizers N"
+      },
+      "soc_ndep": {
+        "title": "N-deposition"
+      },
+      "soc_crop_calendar": {
+        "title": "Crop calendar"
+      },
+      "soc_fishing": {
+        "title": "Marine fishing effort"
+      },
+      "soc_reservoirs_dams": {
+        "title": "Reservoirs and dams"
+      },
+      "soc_pctlake": {
+        "title": "Lake and reservoir surface area"
+      }
+    },
+    "model": {
+      "albm": {
+        "title": "ALBM"
+      },
+      "colm-iap-dgvm": {
+        "title": "CoLM-IAP-DGVM"
+      },
+      "colm2024": {
+        "title": "CoLM2024"
+      },
+      "flake-bu": {
+        "title": "FLake-BU"
+      },
+      "flake-ler": {
+        "title": "FLake-LER"
+      },
+      "glm-ler": {
+        "title": "GLM-LER"
+      },
+      "gotm-ler": {
+        "title": "GOTM-LER"
+      },
+      "simstrat-ler": {
+        "title": "Simstrat-LER"
       }
     },
     "group": {
@@ -2730,1905 +4584,54 @@
         "title": "Energy demand variables"
       }
     },
-    "station": {
-      "dishon": {
-        "title": "Dishon Stream"
-      },
-      "hermon": {
-        "title": "Hermon Stream"
-      },
-      "jordan": {
-        "title": "Jordan River / Pkak Bridge"
-      },
-      "meshushim": {
-        "title": "Meshushim Stream"
-      },
-      "aardal": {
-        "title": "Aardal"
-      },
-      "atnasjoe": {
-        "title": "Atnasjoe"
-      },
-      "austenaa": {
-        "title": "Austenaa"
-      },
-      "bjoernegaardssvingen": {
-        "title": "Bjoernegaardssvingen"
-      },
-      "borgaai": {
-        "title": "Borgaai"
-      },
-      "brekkebru": {
-        "title": "Brekkebru"
-      },
-      "bulken": {
-        "title": "Bulken"
-      },
-      "buvatn": {
-        "title": "Buvatn"
-      },
-      "coarveij": {
-        "title": "Coarveij"
-      },
-      "dalavatn": {
-        "title": "Dalavatn"
-      },
-      "dalsboevatn": {
-        "title": "Dalsboevatn"
-      },
-      "dillfoss": {
-        "title": "Dillfoss"
-      },
-      "djupevad": {
-        "title": "Djupevad"
-      },
-      "drivavrisefoss": {
-        "title": "Driva v/Risefoss"
-      },
-      "dyrdalsvatn": {
-        "title": "Dyrdalsvatn"
-      },
-      "eggafoss": {
-        "title": "Eggafoss"
-      },
-      "eggedal": {
-        "title": "Eggedal"
-      },
-      "engeren": {
-        "title": "Engeren"
-      },
-      "engsetvatn": {
-        "title": "Engsetvatn"
-      },
-      "etna": {
-        "title": "Etna"
-      },
-      "farstadelvavfarstad": {
-        "title": "Farstadelva v/Farstad"
-      },
-      "femundsenden": {
-        "title": "Femundsenden"
-      },
-      "fetvatn": {
-        "title": "Fetvatn"
-      },
-      "fiskum": {
-        "title": "Fiskum"
-      },
-      "fura": {
-        "title": "Fura"
-      },
-      "fustvatn": {
-        "title": "Fustvatn"
-      },
-      "gaaslandsvatn": {
-        "title": "Gaaslandsvatn"
-      },
-      "gjerstad": {
-        "title": "Gjerstad"
-      },
-      "gjuvaa": {
-        "title": "Gjuvaa"
-      },
-      "gjuvvatn": {
-        "title": "Gjuvvatn"
-      },
-      "grovaai": {
-        "title": "Grovaai"
-      },
-      "grunnfoss": {
-        "title": "Grunnfoss"
-      },
-      "gryta": {
-        "title": "Gryta"
-      },
-      "halledalsvatn": {
-        "title": "Halledalsvatn"
-      },
-      "halsnes": {
-        "title": "Halsnes"
-      },
-      "haugland": {
-        "title": "Haugland"
-      },
-      "helleland": {
-        "title": "Helleland"
-      },
-      "hersvikvatn": {
-        "title": "Hersvikvatn"
-      },
-      "hoegfoss": {
-        "title": "Hoegfoss"
-      },
-      "hoeggaasbru": {
-        "title": "Hoeggaasbru"
-      },
-      "hoelen": {
-        "title": "Hoelen"
-      },
-      "hoelervatn": {
-        "title": "Hoelervatn"
-      },
-      "hoerte": {
-        "title": "Hoerte"
-      },
-      "hovefoss": {
-        "title": "Hovefoss"
-      },
-      "jaegervatn": {
-        "title": "Jaegervatn"
-      },
-      "jogla": {
-        "title": "Jogla"
-      },
-      "jondalselv": {
-        "title": "Jondalselv"
-      },
-      "jordbrufjell": {
-        "title": "Jordbrufjell"
-      },
-      "junkerdalselv": {
-        "title": "Junkerdalselv"
-      },
-      "karpelva": {
-        "title": "Karpelva"
-      },
-      "kjeldstadigarbergelva": {
-        "title": "Kjeldstad i Garbergelva"
-      },
-      "knappom": {
-        "title": "Knappom"
-      },
-      "kraakfoss": {
-        "title": "Kraakfoss"
-      },
-      "krinsvatn": {
-        "title": "Krinsvatn"
-      },
-      "krokenelv": {
-        "title": "Krokenelv"
-      },
-      "laksaabru": {
-        "title": "Laksaabru"
-      },
-      "landbru": {
-        "title": "Landbru"
-      },
-      "langvatn": {
-        "title": "Langvatn"
-      },
-      "lenglingen": {
-        "title": "Lenglingen"
-      },
-      "lillerostavatn": {
-        "title": "Lillerostavatn"
-      },
-      "lislefjoedd": {
-        "title": "Lislefjoedd"
-      },
-      "lombola": {
-        "title": "Lombola"
-      },
-      "manndalenbru": {
-        "title": "Manndalen bru"
-      },
-      "masi": {
-        "title": "Masi"
-      },
-      "mevatnet": {
-        "title": "Mevatnet"
-      },
-      "moeskaskolandsvatnet": {
-        "title": "Moeska (Skolandsvatnet)"
-      },
-      "murusjoe": {
-        "title": "Murusjoe"
-      },
-      "myglevatn": {
-        "title": "Myglevatn"
-      },
-      "myrkdalsvatn": {
-        "title": "Myrkdalsvatn"
-      },
-      "narsjoe": {
-        "title": "Narsjoe"
-      },
-      "nautsundvatn": {
-        "title": "Nautsundvatn"
-      },
-      "nervoll": {
-        "title": "Nervoll"
-      },
-      "oevrevatn": {
-        "title": "Oevrevatn"
-      },
-      "oevstevatnlitlevatnet": {
-        "title": "Oevstevatn (Litlevatnet)"
-      },
-      "oeyendf": {
-        "title": "Oeyendf"
-      },
-      "oeyungen": {
-        "title": "Oeyungen"
-      },
-      "oksfjordvatn": {
-        "title": "Oksfjordvatn"
-      },
-      "osenelv": {
-        "title": "Osenelv"
-      },
-      "ossjoeen": {
-        "title": "Ossjoeen"
-      },
-      "polmak": {
-        "title": "Polmak"
-      },
-      "refsvatn": {
-        "title": "Refsvatn"
-      },
-      "reinsnosvatn": {
-        "title": "Reinsnosvatn"
-      },
-      "roeykenes": {
-        "title": "Roeykenes"
-      },
-      "rosten": {
-        "title": "Rosten"
-      },
-      "saeternbekken": {
-        "title": "Saeternbekken"
-      },
-      "salsvatn": {
-        "title": "Salsvatn"
-      },
-      "skarsvatn": {
-        "title": "Skarsvatn"
-      },
-      "skogsfjordvatn": {
-        "title": "Skogsfjordvatn"
-      },
-      "sneisvatn": {
-        "title": "Sneisvatn"
-      },
-      "soegne": {
-        "title": "Soegne"
-      },
-      "sogndalsvatn": {
-        "title": "Sogndalsvatn"
-      },
-      "stordalsvatn": {
-        "title": "Stordalsvatn"
-      },
-      "stortorp": {
-        "title": "Stortorp"
-      },
-      "storvatn": {
-        "title": "Storvatn"
-      },
-      "sundbyfoss": {
-        "title": "Sundbyfoss"
-      },
-      "tannsvatn": {
-        "title": "Tannsvatn"
-      },
-      "tingvatn": {
-        "title": "Tingvatn"
-      },
-      "tollaaga": {
-        "title": "Tollaaga"
-      },
-      "tora": {
-        "title": "Tora"
-      },
-      "trangen": {
-        "title": "Trangen"
-      },
-      "ulleboeelv": {
-        "title": "Ulleboeelv"
-      },
-      "unsetaaa": {
-        "title": "Unsetaaa"
-      },
-      "vassvatn": {
-        "title": "Vassvatn"
-      },
-      "veahkkavaiesjokka": {
-        "title": "Veahkkava, Iesjokka"
-      },
-      "veravatn": {
-        "title": "Veravatn"
-      },
-      "viksvatnhestadfjorden": {
-        "title": "Viksvatn (Hestadfjorden)"
-      },
-      "vistdal": {
-        "title": "Vistdal"
-      },
-      "ytrefiskeloesvatn": {
-        "title": "Ytrefiskeloesvatn"
-      },
-      "dupuly": {
-        "title": "Dupuly"
-      },
-      "sao-paulo-de-olivenca": {
-        "title": "São Paulo de Olivenca"
-      },
-      "el-diem": {
-        "title": "El-Deim, Sudan Border"
-      },
-      "khartoum": {
-        "title": "Khartoum"
-      },
-      "wien-nussdorf": {
-        "title": "Wien-Nußdorf"
-      },
-      "farakka": {
-        "title": "Farakka"
-      },
-      "tekra": {
-        "title": "Tekra"
-      },
-      "tarbela": {
-        "title": "Tarbela Reservoir"
-      },
-      "krestovski": {
-        "title": "Krestovski"
-      },
-      "stolb": {
-        "title": "Stolb"
-      },
-      "arctic-red-river": {
-        "title": "Arctic Red River"
-      },
-      "alton": {
-        "title": "Alton"
-      },
-      "louth": {
-        "title": "Louth"
-      },
-      "dire": {
-        "title": "Dire"
-      },
-      "koulikoro": {
-        "title": "Koulikoro"
-      },
-      "lokoja": {
-        "title": "Lokoja"
-      },
-      "tossaye": {
-        "title": "Tossaye"
-      },
-      "floresta": {
-        "title": "Floresta"
-      },
-      "lobith": {
-        "title": "Lobith"
-      },
-      "almourol": {
-        "title": "Almourol"
-      },
-      "trillo": {
-        "title": "Trillo"
-      },
-      "cuntan": {
-        "title": "Cuntan"
-      },
-      "tangnaihai": {
-        "title": "Tangnaihai"
+    "group3_ranking": {},
+    "surge_model": {
+      "geoclaw": {
+        "title": "GeoClaw"
       }
     },
-    "experiments": {
-      "obsclim_histsoc_default": {
-        "title": "Model evaluation"
+    "wind_model": {
+      "er11-wind": {
+        "title": "ER11-wind"
       },
-      "obsclim_2021soc_default": {
-        "title": "Model evaluation"
+      "h08-wind": {
+        "title": "H08-wind"
+      }
+    },
+    "coastal_water_level_offset": {
+      "tidesmin": {
+        "title": "Minimal coastal water level offset"
       },
-      "obsclim_1901soc_default": {
-        "title": "Model evaluation"
+      "tidesmean": {
+        "title": "Mean coastal water level offset"
       },
-      "obsclim_nat_default": {
-        "title": "Model evaluation"
+      "tidesmax": {
+        "title": "Maximum coastal water level offset"
+      }
+    },
+    "emission_scenario": {
+      "vl": {
+        "title": "Very low emission scenario"
       },
-      "counterclim_histsoc_default": {
-        "title": "Counterfactual climate"
-      },
-      "counterclim_2021soc_default": {
-        "title": "Counterfactual climate"
-      },
-      "counterclim_1901soc_default": {
-        "title": "Counterfactual climate"
-      },
-      "counterclim_nat_default": {
-        "title": "Counterfactual climate"
-      },
-      "obsclim_histsoc_1901co2": {
-        "title": "CO₂ sensitivity"
-      },
-      "obsclim_2021soc_1901co2": {
-        "title": "CO₂ sensitivity"
-      },
-      "obsclim_1901soc_1901co2": {
-        "title": "CO₂ sensitivity"
-      },
-      "obsclim_histsoc_nowatermgt": {
-        "title": "Water management sensitivity"
-      },
-      "obsclim_2021soc_nowatermgt": {
-        "title": "Water management sensitivity"
-      },
-      "obsclim_histsoc_1901irr": {
-        "title": "Irrigation sensitivity"
-      },
-      "obsclim_histsoc_nofire": {
-        "title": "No-fire sensitivity"
-      },
-      "counterclim_histsoc_obsco2": {
-        "title": "Counterfactual climate and CO₂ sensitivity"
-      },
-      "obsclim_nat_default_fishmip": {
-        "title": "Model evaluation"
-      },
-      "picontrol_2021soc-from-histsoc_default": {
-        "title": "Pre-industrial control"
-      },
-      "picontrol_2021soc_default": {
-        "title": "Pre-industrial control"
-      },
-      "picontrol_1850soc_default": {
-        "title": "Pre-industrial control"
-      },
-      "picontrol_nat_default": {
-        "title": "Pre-industrial control"
-      },
-      "picontrol_ssp1vlsoc-noadapt_default": {
-        "title": "Pre-industrial control"
-      },
-      "picontrol_ssp3hsoc-noadapt_default": {
-        "title": "Pre-industrial control"
-      },
-      "vl_2021soc-from-histsoc_default": {
-        "title": "Very Low emission scenario"
-      },
-      "vl_2021soc_default": {
-        "title": "Very Low emission scenario"
-      },
-      "vl_1850soc_default": {
-        "title": "Very Low emission scenario"
-      },
-      "vl_nat_default": {
-        "title": "Very Low emission scenario"
-      },
-      "vl_ssp1vlsoc-noadapt_default": {
-        "title": "Very Low emission scenario"
-      },
-      "vl_ssp1vlsoc-noadapt_extrasoc": {
-        "title": "Extrasoc sensitivity"
-      },
-      "vl_2021soc-from-histsoc_2021co2": {
-        "title": "CO₂ sensitivity"
-      },
-      "vl_2021soc-from-histsoc_vlndep": {
-        "title": "Nitrogen deposition sensitivity"
-      },
-      "h_2021soc-from-histsoc_default": {
+      "h": {
         "title": "High emission scenario"
-      },
-      "h_2021soc_default": {
-        "title": "High emission scenario"
-      },
-      "h_1850soc_default": {
-        "title": "High emission scenario"
-      },
-      "h_nat_default": {
-        "title": "High emission scenario"
-      },
-      "h_ssp3hsoc-noadapt_default": {
-        "title": "High emission scenario"
-      },
-      "h_ssp3hsoc-noadapt_extrasoc": {
-        "title": "Extrasoc sensitivity"
-      },
-      "h_2021soc-from-histsoc_2021co2": {
-        "title": "CO₂ sensitivity"
-      },
-      "h_2021soc_2021co2": {
-        "title": "CO₂ sensitivity"
-      },
-      "h_1850soc_2021co2": {
-        "title": "CO₂ sensitivity"
-      },
-      "h_nat_2021co2": {
-        "title": "CO₂ sensitivity"
-      },
-      "h_2021soc-from-histsoc_hndep": {
-        "title": "Nitrogen deposition sensitivity"
-      },
-      "h_2021soc-from-histsoc_nondep": {
-        "title": "No nitrogen cycling sensitivity"
-      },
-      "h_2021soc-from-histsoc_nondep2021co2": {
-        "title": "No nitrogen cycling and CO₂ sensitivity"
-      },
-      "vl_ssp1vlsoc-noadapt_nofire": {
-        "title": "No-fire sensitivity"
-      },
-      "h_ssp3hsoc-noadapt_nofire": {
-        "title": "No-fire sensitivity"
       }
     },
-    "harmonization": {
-      "default": {
-        "title": "Default",
-        "description": "Model should use their individual “best representation” of the historical period with regard to sowing dates, harvesting dates, fertilizer application rates and crop varieties."
+    "region": {
+      "global": {
+        "title": "Global"
       },
-      "fullharm": {
-        "title": "Fully harmonized",
-        "description": "Simulations based on prescribed “present day” fertilization rates (available for download) and fixed planting and harvesting dates (also available for download). Modelers should have planting as closely as possible to these dates, but it may be admissible to use these dates as indicators for planting windows (depending on model specifics)."
+      "europe": {
+        "title": "Europe"
       },
-      "harmnon": {
-        "title": "Harmonized seasons with no N constraints",
-        "description": "For models with an explicit description of the nitrogen cycle: harmnon simulations should be run with nitrogen stress turned off completely or (if that’s not possible) with very high N application rates to make model results comparable between those GGCMs that have explicit N dynamics and those that do not. For models without the nitrogen cycle: harmnon and fullharm simulations are the same and do not need to be duplicated. Please contact the sector coordination to push on with this side branch."
+      "along-track": {
+        "title": "Along storm track"
       }
     },
-    "sector": {
-      "agriculture": {
-        "title": "Agriculture",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/agriculture",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/agriculture"
-        }
-      },
-      "biodiversity": {
-        "title": "Terrestrial biodiversity",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/biodiversity",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/biodiversity"
-        }
-      },
-      "biomes": {
-        "title": "Biomes",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/biomes",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/biomes"
-        }
-      },
-      "coastal": {
-        "title": "Coastal systems",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/coastal",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/coastal"
-        }
-      },
-      "energy_demand": {
-        "title": "Energy (demand)",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/energy_demand",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/energy_demand"
-        }
-      },
-      "fire": {
-        "title": "Fire",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/fire",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/fire"
-        }
-      },
-      "forestry": {
-        "title": "Regional forests",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/forestry",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/forestry"
-        }
-      },
-      "fs-n": {
-        "title": "Food Security and Nutrition",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/fs-n",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/fs-n"
-        }
-      },
-      "groundwater": {
-        "title": "Groundwater",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/groundwater",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/groundwater"
-        }
-      },
-      "health": {
-        "title": "Temperature-related mortality",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/health",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/health"
-        }
-      },
-      "labour": {
-        "title": "Labour",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/labour",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/labour"
-        }
-      },
-      "lakes_global": {
-        "title": "Lakes (global)",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/lakes_global",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/lakes_global"
-        }
-      },
-      "lakes_local": {
-        "title": "Lakes (local)",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/lakes_local",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/lakes_local"
-        }
-      },
-      "marine-fishery_global": {
-        "title": "Fisheries and Marine Ecosystems (global)",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/marine-fishery_global",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/marine-fishery_global"
-        }
-      },
-      "marine-fishery_regional": {
-        "title": "Fisheries and Marine Ecosystems (regional)",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/marine-fishery_regional",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/marine-fishery_regional"
-        }
-      },
-      "peat": {
-        "title": "Peatland",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/peat",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/peat"
-        }
-      },
-      "permafrost": {
-        "title": "Permafrost",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/permafrost",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/permafrost"
-        }
-      },
-      "water_global": {
-        "title": "Water (global)",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/water_global",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/water_global"
-        }
-      },
-      "water_regional": {
-        "title": "Water (regional)",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/water_regional",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/water_regional"
-        }
-      },
-      "water_quality": {
-        "title": "Water quality",
-        "urls": {
-          "ISIMIP4a": "https://protocol.isimip.org/#ISIMIP4a/water_quality",
-          "ISIMIP4b": "https://protocol.isimip.org/#ISIMIP4b/water_quality"
-        }
-      }
-    },
-    "lu_model": {
-      "globiom": {
-        "title": "GLOBIOM"
-      },
-      "image": {
-        "title": "IMAGE"
-      },
-      "magpie": {
-        "title": "MAgPIE"
-      }
-    },
-    "variable": {
-      "resac": {
-        "long_name": "Residential air conditioning (AC) penetration"
-      },
-      "acely": {
-        "long_name": "Electricity consumption for cooling"
-      },
-      "ratefenely": {
-        "long_name": "Change in final energy consumption for adaptation (electricity)"
-      },
-      "ratefenfof": {
-        "long_name": "Change in final energy consumption for adaptation (fossil fuels)"
-      },
-      "levlfenely": {
-        "long_name": "Final energy consumption for adaptation (electricity)"
-      },
-      "levlfenfof": {
-        "long_name": "Final energy consumption for adaptation (fossil fuels)"
-      },
-      "shue": {
-        "long_name": "Useful energy demand for space heating"
-      },
-      "scue": {
-        "long_name": "Useful energy demand for space cooling"
-      },
-      "shfe": {
-        "long_name": "Final energy demand for space heating"
-      },
-      "scfe": {
-        "long_name": "Final energy demand for space cooling"
-      },
-      "dbh": {
-        "long_name": "Mean DBH"
-      },
-      "dbhdomhei": {
-        "long_name": "Mean DBH of 100 Highest Trees"
-      },
-      "hei": {
-        "long_name": "Stand Height"
-      },
-      "domhei": {
-        "long_name": "Dominant Height"
-      },
-      "density": {
-        "long_name": "Stand Density"
-      },
-      "ba": {
-        "long_name": "Basal Area"
-      },
-      "mort": {
-        "long_name": "Volume of Dead Trees"
-      },
-      "harv": {
-        "long_name": "Harvest by DBH-Class"
-      },
-      "stemno": {
-        "long_name": "Remaining Stem Number after Disturbance and Management by DBH-Class"
-      },
-      "vol": {
-        "long_name": "Stand Volume"
-      },
-      "age": {
-        "long_name": "Tree Age by DBH-Class"
-      },
-      "mai": {
-        "long_name": "Mean Annual Increment"
-      },
-      "species": {
-        "long_name": "Species Composition"
-      },
-      "mortstemno": {
-        "long_name": "Removed Stem Numbers by DBH-Class by Natural Mortality"
-      },
-      "harvstemno": {
-        "long_name": "Removed Stem Numbers by DBH-Class by Management"
-      },
-      "dist": {
-        "long_name": "Volume of Disturbance Damage"
-      },
-      "pirrww": {
-        "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply)"
-      },
-      "airrww": {
-        "long_name": "Actual Irrigation Water Withdrawal"
-      },
-      "pirruse": {
-        "long_name": "Potential Irrigation Water Consumption"
-      },
-      "pirnreqcum": {
-        "long_name": "Cumulative Potential Net Irrigation Water Requirement"
-      },
-      "airruse": {
-        "long_name": "Actual Irrigation Water Consumption"
-      },
-      "airrusegreen": {
-        "long_name": "Actual Irrigation Green Water Consumption on Irrigated Cropland"
-      },
-      "pirrusegreen": {
-        "long_name": "Potential Irrigation Green Water Consumption on Irrigated Cropland"
-      },
-      "arainfusegreen": {
-        "long_name": "Actual Green Water Consumption on Rainfed Cropland"
-      },
-      "adomww": {
-        "long_name": "Actual Domestic Water Withdrawal"
-      },
-      "adomuse": {
-        "long_name": "Actual Domestic Water Consumption"
-      },
-      "amanww": {
-        "long_name": "Actual Manufacturing Water Withdrawal"
-      },
-      "amanuse": {
-        "long_name": "Actual Manufacturing Water Consumption"
-      },
-      "aelecww": {
-        "long_name": "Actual Electricity Water Withdrawal"
-      },
-      "aelecuse": {
-        "long_name": "Actual Electricity Water Consumption"
-      },
-      "aliveww": {
-        "long_name": "Actual Livestock Water Withdrawal"
-      },
-      "aliveuse": {
-        "long_name": "Actual livestock Water Consumption"
-      },
-      "pdomww": {
-        "long_name": "Potential Domestic Water Withdrawal"
-      },
-      "pdomuse": {
-        "long_name": "Potential Domestic Water Consumption"
-      },
-      "pmanww": {
-        "long_name": "Potential Manufacturing Water Withdrawal"
-      },
-      "pmanuse": {
-        "long_name": "Potential manufacturing Water Consumption"
-      },
-      "pelecww": {
-        "long_name": "Potential electricity Water Withdrawal"
-      },
-      "pelecuse": {
-        "long_name": "Potential electricity Water Consumption"
-      },
-      "pliveww": {
-        "long_name": "Potential livestock Water Withdrawal"
-      },
-      "pliveuse": {
-        "long_name": "Potential livestock Water Consumption"
-      },
-      "atotww": {
-        "long_name": "Total Actual Water Withdrawal (all sectors)"
-      },
-      "atotuse": {
-        "long_name": "Total Actual Water Consumption (all sectors)"
-      },
-      "ptotww": {
-        "long_name": "Total Potential Water Withdrawal (all sectors)"
-      },
-      "ptotuse": {
-        "long_name": "Total Potential Water Consumption (all sectors)"
-      },
-      "ainduse": {
-        "long_name": "Actual Industrial Water Consumption"
-      },
-      "aindww": {
-        "long_name": "Actual Industrial Water Withdrawal"
-      },
-      "pinduse": {
-        "long_name": "Potential Industrial Water Consumption"
-      },
-      "pindww": {
-        "long_name": "Potential Industrial Water Withdrawal"
-      },
-      "pirrwwgw": {
-        "long_name": "Potential Irrigation Water Withdrawal (assuming unlimited water supply) from groundwater resources"
-      },
-      "airrwwgw": {
-        "long_name": "actual irrigation water withdrawal from groundwater resources"
-      },
-      "pirrusegw": {
-        "long_name": "Potential Irrigation Water Consumption from groundwater resources"
-      },
-      "airrusegw": {
-        "long_name": "Actual Irrigation Water Consumption from groundwater resources"
-      },
-      "pdomwwgw": {
-        "long_name": "Potential Domestic Water Withdrawal from groundwater resources"
-      },
-      "adomwwgw": {
-        "long_name": "Actual Domestic Water Withdrawal from groundwater resources"
-      },
-      "pdomusegw": {
-        "long_name": "Potential Domestic Water Consumption from groundwater resources"
-      },
-      "adomusegw": {
-        "long_name": "Actual Domestic Water Consumption from groundwater resources"
-      },
-      "pmanwwgw": {
-        "long_name": "Potential Manufacturing Water Withdrawal from groundwater resources"
-      },
-      "amanwwgw": {
-        "long_name": "Actual Manufacturing Water Withdrawal from groundwater resources"
-      },
-      "pmanusegw": {
-        "long_name": "Potential manufacturing Water Consumption from groundwater resources"
-      },
-      "amanusegw": {
-        "long_name": "Actual Manufacturing Water Consumption from groundwater resources"
-      },
-      "pelecwwgw": {
-        "long_name": "Potential electricity Water Withdrawal from groundwater resources"
-      },
-      "aelecwwgw": {
-        "long_name": "Actual Electricity Water Withdrawal from groundwater resources"
-      },
-      "pelecusegw": {
-        "long_name": "Potential electricity Water Consumption from groundwater resources"
-      },
-      "aelecusegw": {
-        "long_name": "Actual Electricity Water Consumption from groundwater resources"
-      },
-      "pindwwgw": {
-        "long_name": "Potential Industrial Water Withdrawal from groundwater resources"
-      },
-      "aindwwgw": {
-        "long_name": "Actual Industrial Water Withdrawal from groundwater resources"
-      },
-      "pindusegw": {
-        "long_name": "Potential Industrial Water Consumption from groundwater resources"
-      },
-      "aindusegw": {
-        "long_name": "Actual Industrial Water Consumption from groundwater resources"
-      },
-      "plivwwgw": {
-        "long_name": "Potential livestock Water Withdrawal from groundwater resources"
-      },
-      "alivwwgw": {
-        "long_name": "Actual Livestock Water Withdrawal from groundwater resources"
-      },
-      "plivusegw": {
-        "long_name": "Potential livestock Water Consumption from groundwater resources"
-      },
-      "alivusegw": {
-        "long_name": "Actual livestock Water Consumption from groundwater resources"
-      },
-      "ptotwwgw": {
-        "long_name": "Total Potential Water Withdrawal (all sectors) from groundwater resources"
-      },
-      "atotwwgw": {
-        "long_name": "Total Actual Water Withdrawal (all sectors) from groundwater resources"
-      },
-      "ptotusegw": {
-        "long_name": "Total Potential Water Consumption (all sectors) from groundwater resources"
-      },
-      "atotusegw": {
-        "long_name": "Total Actual Water Consumption (all sectors) from groundwater resources"
-      },
-      "cropfailure": {},
-      "wildfire": {},
-      "heatwave": {},
-      "floodedarea": {},
-      "driedarea": {},
-      "fapar": {
-        "long_name": "Fraction of Absorbed Photosynthetically Active Radiation"
-      },
-      "lai": {
-        "long_name": "Leaf Area Index"
-      },
-      "pft": {
-        "long_name": "Plant Functional Type Grid Fraction"
-      },
-      "intercep": {
-        "long_name": "Evaporation from Canopy (interception)"
-      },
-      "labsupp": {
-        "long_name": "Labour supply"
-      },
-      "labprod": {
-        "long_name": "Labour productivity"
-      },
-      "labeff": {
-        "long_name": "Effective labour"
-      },
-      "tcb": {
-        "long_name": "Total Consumer Biomass Density"
-      },
-      "tcblog10": {
-        "long_name": "Total Consumer Biomass Density in log10 Weight Bins"
-      },
-      "tpb": {
-        "long_name": "Total Pelagic Biomass Density"
-      },
-      "bp30cm": {
-        "long_name": "Biomass Density of Small Pelagics <30cm"
-      },
-      "bp30to90cm": {
-        "long_name": "Biomass Density of Medium Pelagics >=30cm and <90cm"
-      },
-      "bp90cm": {
-        "long_name": "Biomass Density of Large Pelagics >=90cm"
-      },
-      "tdb": {
-        "long_name": "Total Demersal Biomass Density"
-      },
-      "bd30cm": {
-        "long_name": "Biomass Density of Small Demersals <30cm"
-      },
-      "bd30to90cm": {
-        "long_name": "Biomass Density of Medium Demersals >=30cm and <90cm"
-      },
-      "bd90cm": {
-        "long_name": "Biomass Density of Large Demersals >=90cm"
-      },
-      "tc": {
-        "long_name": "Total Catch (all commercial functional groups / size classes)"
-      },
-      "tclog10": {
-        "long_name": "Total Catch in log10 Weight Bins"
-      },
-      "tpc": {
-        "long_name": "Total Pelagic Catch"
-      },
-      "cp30cm": {
-        "long_name": "Catch Density of Small Pelagics <30cm"
-      },
-      "cp30to90cm": {
-        "long_name": "Catch Density of Medium Pelagics >=30cm and <90cm"
-      },
-      "cp90cm": {
-        "long_name": "Catch Density of Large Pelagics >=90cm"
-      },
-      "tdc": {
-        "long_name": "Total Demersal Catch"
-      },
-      "cd30cm": {
-        "long_name": "Catch Density of Small Demersals <30cm"
-      },
-      "cd30to90cm": {
-        "long_name": "Catch Density of Medium Demersals >=30cm and <90cm"
-      },
-      "cd90cm": {
-        "long_name": "Catch Density of Large Demersals >=90cm"
-      },
-      "head": {
-        "long_name": "Hydraulic head"
-      },
-      "wtd": {
-        "long_name": "Water table depth"
-      },
-      "capillary": {
-        "long_name": "Capillary rise"
-      },
-      "gwdrn": {
-        "long_name": "Groundwater drainage/surface water capture"
-      },
-      "gwdrnriv": {
-        "long_name": "Groundwater drainage/surface water capture from rivers"
-      },
-      "gwdrnlak": {
-        "long_name": "Groundwater drainage/surface water capture from lakes"
-      },
-      "gwdrnwet": {
-        "long_name": "Groundwater drainage/surface water capture from wetlands"
-      },
-      "gwdrnspr": {
-        "long_name": "Groundwater drainage/surface water capture from from springs"
-      },
-      "sgd": {
-        "long_name": "Submarine groundwater discharge"
-      },
-      "abs": {
-        "long_name": "Groundwater abstractions"
-      },
-      "absd": {
-        "long_name": "Groundwater demands"
-      },
-      "absirr": {
-        "long_name": "Groundwater abstractions (irrigation)"
-      },
-      "absdom": {
-        "long_name": "Groundwater abstractions (domestic)"
-      },
-      "absind": {
-        "long_name": "Groundwater abstractions (industries)"
-      },
-      "absliv": {
-        "long_name": "Groundwater abstractions (livestock)"
-      },
-      "ret": {
-        "long_name": "Groundwater return flow"
-      },
-      "depl": {
-        "long_name": "Groundwater depletion"
-      },
-      "lfn": {
-        "long_name": "Lateral groundwater flux (net)"
-      },
-      "lfrf": {
-        "long_name": "Lateral groundwater flux (right face)"
-      },
-      "lfff": {
-        "long_name": "Lateral groundwater flux (front face)"
-      },
-      "lflf": {
-        "long_name": "Lateral groundwater flux (lower face)"
-      },
-      "fldfrcmax": {},
-      "fngasfire": {
-        "long_name": "Total Nitrogen lost to the atmosphere (including NHₓ, N₂O, N₂) from fire"
-      },
-      "fngas": {
-        "long_name": "Total nitrogen lost to the atmosphere (sum of NHₓ, NOₓ, N₂O, N₂)"
-      },
-      "fnleach": {
-        "long_name": "Total nitrogen loss due to leaching or runoff (sum of ammonium, nitrite and nitrate)"
-      },
-      "fnfert": {
-        "long_name": "Total nitrogen added for cropland fertilisation (artificial and manure)"
-      },
-      "nloss": {
-        "long_name": "Total nitrogen lost (including NHₓ, NOₓ, N₂O, N₂ and leaching)"
-      },
-      "fnproduct": {
-        "long_name": "Nitrogen in deforested or harvested biomass as a result of anthropogenic land-use or change"
-      },
-      "fnanthdisturb": {
-        "long_name": "Nitrogen mass flux out of land due to any human activity"
-      },
-      "fnveglitter": {
-        "long_name": "Total nitrogen mass flux from vegetation to litter"
-      },
-      "fnvegsoil": {
-        "long_name": "Total nitrogen mass flux from vegetation directly to soil"
-      },
-      "fnlittersoil": {
-        "long_name": "Total nitrogen mass flux from litter to soil"
-      },
-      "fbnf": {
-        "long_name": "Biological nitrogen fixation"
-      },
-      "fnh3": {
-        "long_name": "Total land NH₃ flux"
-      },
-      "fn2o": {
-        "long_name": "Total land N2O flux"
-      },
-      "fndep": {
-        "long_name": "Dry and wet deposition of reactive nitrogen onto land"
-      },
-      "fnnetmin": {
-        "long_name": "Net nitrogen release from soil and litter as the outcome of nitrogen immobilisation and gross mineralisation"
-      },
-      "ancold": {
-        "long_name": "Number of Deaths Attributable to Cold"
-      },
-      "anheat": {
-        "long_name": "Number of Deaths Attributable to Heat"
-      },
-      "btm": {
-        "long_name": "Baseline Total Mortality"
-      },
-      "pop": {
-        "long_name": "Population"
-      },
-      "nveg": {
-        "long_name": "Nitrogen Mass in Vegetation"
-      },
-      "nvegag": {
-        "long_name": "Nitrogen Mass in Above Ground Vegetation Biomass"
-      },
-      "nvegbg": {
-        "long_name": "Nitrogen Mass in Below Ground Vegetation Biomass"
-      },
-      "nmineral": {
-        "long_name": "Mineral nitrogen in the soil"
-      },
-      "nmineralnh4": {
-        "long_name": "Mineral ammonium (NH₄) in the soil"
-      },
-      "nmineralno3": {
-        "long_name": "Mineral nitrate (NO₃) in the soil"
-      },
-      "nproduct": {
-        "long_name": "Nitrogen in Products of Land Use Change"
-      },
-      "nlitterag": {
-        "long_name": "Nitrogen Mass in Above Ground Litter Pool"
-      },
-      "nlitterbg": {
-        "long_name": "Nitrogen Mass in Below Ground Litter Pool"
-      },
-      "nsoil": {
-        "long_name": "Nitrogen Mass in Soil"
-      },
-      "nleaf": {
-        "long_name": "Nitrogen Mass in Leaves"
-      },
-      "nroot": {
-        "long_name": "Nitrogen Mass in Roots"
-      },
-      "nwood": {
-        "long_name": "Nitrogen Mass in Wood"
-      },
-      "ncwd": {
-        "long_name": "Nitrogen mass in Coarse Woody Debris"
-      },
-      "strat": {
-        "long_name": "Thermal Stratification"
-      },
-      "thermodepth": {
-        "long_name": "Depth of Thermocline"
-      },
-      "watertemp": {
-        "long_name": "Temperature of Lake Water"
-      },
-      "surftemp": {
-        "long_name": "Temperature of Lake Surface Water"
-      },
-      "bottemp": {
-        "long_name": "Temperature of Lake Bottom Water"
-      },
-      "sedtemp": {
-        "long_name": "Temperature of Sediments"
-      },
-      "sedlittemp": {
-        "long_name": "Temperature of Littoral Zone Sediments"
-      },
-      "sedpeltemp": {
-        "long_name": "Temperature of Pelagic Zone Sediments"
-      },
-      "ice": {
-        "long_name": "Lake Ice Cover"
-      },
-      "lakeicefrac": {
-        "long_name": "Lake Layer Ice Mass Fraction"
-      },
-      "icethick": {
-        "long_name": "Ice Thickness"
-      },
-      "icetemp": {
-        "long_name": "Ice Temperature at Upper Surface"
-      },
-      "snowtemp": {
-        "long_name": "Snow Temperature at Upper Surface"
-      },
-      "sensheatf": {
-        "long_name": "Sensible Heat Flux at Lake-Atmosphere Interface"
-      },
-      "latentheatf": {
-        "long_name": "Latent Heat Flux at Lake-Atmosphere Interface"
-      },
-      "momf": {
-        "long_name": "Momentum Flux at Lake-Atmosphere Interface"
-      },
-      "swup": {
-        "long_name": "Upward Short-Wave Radiation Flux at Lake-Atmosphere Interface"
-      },
-      "lwup": {
-        "long_name": "Upward Long-Wave Radiation Flux at Lake-Atmosphere Interface"
-      },
-      "lakeheatf": {
-        "long_name": "Downward Heat Flux at Lake-Atmosphere Interface"
-      },
-      "turbdiffheat": {
-        "long_name": "Turbulent Diffusivity of Heat"
-      },
-      "extcoeff": {
-        "long_name": "Light Extinction Coefficient"
-      },
-      "sedheatf": {
-        "long_name": "Sediment Upward Heat Flux at Lake-Sediment Interface"
-      },
-      "modesevfipc": {
-        "long_name": "Fraction of population affected by moderate to severe food insecurity "
-      },
-      "sevfipc": {
-        "long_name": "Fraction of population affected by severe food insecurity "
-      },
-      "modesevfipop": {
-        "long_name": "Number of people affected by moderate to severe food insecurity"
-      },
-      "sevfipop": {
-        "long_name": "Number of people affected by severe food insecurity"
-      },
-      "burntarea": {
-        "long_name": "Burnt Area Fraction"
-      },
-      "burntarealuc": {
-        "long_name": "Burnt Area Fraction from Fire Mediated Land-Cover Change"
-      },
-      "burntareapeat": {
-        "long_name": "Burnt Area Fraction from Peat Fire"
-      },
-      "ffirepeat": {
-        "long_name": "Carbon emitted from peat fires"
-      },
-      "ffireluc": {
-        "long_name": "Carbon Mass Flux into Atmosphere from Fire Mediated Land-Cover Change"
-      },
-      "fireints": {
-        "long_name": "Weighted Mean Fireline Intensity"
-      },
-      "cfuel": {
-        "long_name": "Carbon in Different Fuel Classes"
-      },
-      "ccfuel": {
-        "long_name": "Combustion Completeness of Different Fuel Classes"
-      },
-      "mfuel": {
-        "long_name": "Fuel Moisture for Different Fuel Classes"
-      },
-      "firenr": {
-        "long_name": "Mean Number of Fires"
-      },
-      "firenrperc95": {
-        "long_name": "95th Percentile of Number of Fires"
-      },
-      "firemortality": {
-        "long_name": "Tree Mortality Caused by Fire"
-      },
-      "firesize": {
-        "long_name": "Weighted Mean Fire Size"
-      },
-      "firesizeperc95": {
-        "long_name": "95th Percentile of Fire Size"
-      },
-      "fireduration": {
-        "long_name": "Weighted Mean Fire Duration"
-      },
-      "fireros": {
-        "long_name": "Weighted Mean Fire Rate of Spread"
-      },
-      "ignhuman": {
-        "long_name": "Ignitions Caused by Human"
-      },
-      "ignlight": {
-        "long_name": "Ignitions Caused by Lightning"
-      },
-      "canopyheight": {
-        "long_name": "Mean Canopy Height"
-      },
-      "lowcover": {
-        "long_name": "Low Vegetation Cover"
-      },
-      "highcover": {
-        "long_name": "High Vegetation Cover"
-      },
-      "cveg": {
-        "long_name": "Carbon Mass in Vegetation"
-      },
-      "cvegag": {
-        "long_name": "Carbon Mass in Above Ground Vegetation Biomass"
-      },
-      "cvegbg": {
-        "long_name": "Carbon Mass in Below Ground Vegetation Biomass"
-      },
-      "clitterag": {
-        "long_name": "Carbon Mass in Above Ground Litter Pool"
-      },
-      "clitterbg": {
-        "long_name": "Carbon Mass in Below Ground Litter Pool"
-      },
-      "clitter": {
-        "long_name": "Total Carbon Mass in both Above and Below Ground Litter Pool"
-      },
-      "csoil": {
-        "long_name": "Carbon Mass in Soil Pool"
-      },
-      "csoillayer": {
-        "long_name": "Carbon Mass in Soil Pool in each layer"
-      },
-      "cproduct": {
-        "long_name": "Carbon in Products of Land Use Change"
-      },
-      "cleaf": {
-        "long_name": "Carbon Mass in Leaves"
-      },
-      "cwood": {
-        "long_name": "Carbon Mass in Wood"
-      },
-      "croot": {
-        "long_name": "Carbon Mass in Roots"
-      },
-      "ccwd": {
-        "long_name": "Carbon Mass in Coarse Woody Debris"
-      },
-      "qtot": {
-        "long_name": "Total Runoff"
-      },
-      "qs": {
-        "long_name": "Surface Runoff"
-      },
-      "qsb": {
-        "long_name": "Subsurface Runoff"
-      },
-      "qr": {
-        "long_name": "Total Groundwater Recharge"
-      },
-      "qrf": {
-        "long_name": "Focussed/Localised Groundwater Recharge"
-      },
-      "qrd": {
-        "long_name": "Diffuse Groundwater Recharge"
-      },
-      "qg": {
-        "long_name": "Groundwater Runoff"
-      },
-      "dis": {
-        "long_name": "Discharge"
-      },
-      "evap": {
-        "long_name": "Evapotranspiration"
-      },
-      "potevap": {
-        "long_name": "Potential Evapotranspiration"
-      },
-      "soilmoist": {
-        "long_name": "Total Soil Moisture Content"
-      },
-      "rootmoist": {
-        "long_name": "Soil Moisture Content at Root Zone"
-      },
-      "soilmoistfroz": {
-        "long_name": "Frozen Soil Moisture Content"
-      },
-      "tsl": {
-        "long_name": "Temperature of Soil"
-      },
-      "snd": {
-        "long_name": "Snow Depth"
-      },
-      "snm": {
-        "long_name": "Snow Melt"
-      },
-      "swe": {
-        "long_name": "Snow Water Equivalent"
-      },
-      "tws": {
-        "long_name": "Total Water Storage"
-      },
-      "canopystor": {
-        "long_name": "Canopy Water Storage"
-      },
-      "glacierstor": {
-        "long_name": "Glacier Water Storage"
-      },
-      "groundwstor": {
-        "long_name": "Groundwater Storage"
-      },
-      "lakestor": {
-        "long_name": "Lake Water Storage"
-      },
-      "wetlandstor": {
-        "long_name": "Wetland Water Storage"
-      },
-      "riverstor": {
-        "long_name": "River Water Storage"
-      },
-      "reservoirstor": {
-        "long_name": "Reservoir Water Storage"
-      },
-      "thawdepth": {
-        "long_name": "Maximum Thaw Depth"
-      },
-      "triver": {
-        "long_name": "River Water Temperature"
-      },
-      "esoil": {
-        "long_name": "Water Evaporation from Soil"
-      },
-      "trans": {
-        "long_name": "Transpiration"
-      },
-      "yield": {
-        "long_name": "Crop Yields"
-      },
-      "evapcum": {
-        "long_name": "Cumulative Evapotranspiration"
-      },
-      "initrcum": {
-        "long_name": "Cumulative Nitrogen Application"
-      },
-      "plantday": {
-        "long_name": "Planting Date"
-      },
-      "plantyear": {
-        "long_name": "Planting Year"
-      },
-      "anthday": {
-        "long_name": "Anthesis Date"
-      },
-      "matyday": {
-        "long_name": "Maturity Date"
-      },
-      "harvyear": {
-        "long_name": "Harvest Year"
-      },
-      "biom": {
-        "long_name": "Total Above Ground Biomass Dry Matter Yields"
-      },
-      "nupcum": {
-        "long_name": "Cumulative Nitrogen Uptake"
-      },
-      "nincum": {
-        "long_name": "Cumulative Nitrogen Inputs"
-      },
-      "nlosscum": {
-        "long_name": "Cumulative Nitrogen Losses"
-      },
-      "nleachcum": {
-        "long_name": "Cumulative Nitrogen Leached"
-      },
-      "yieldchange": {
-        "long_name": "Crop Yield Changes"
-      },
-      "lakealbedo": {
-        "long_name": "Surface Albedo of Lake"
-      },
-      "landalbedo": {
-        "long_name": "Surface Albedo of Land"
-      },
-      "gpp": {
-        "long_name": "Carbon Mass Flux out of Atmosphere due to Gross Primary Production on Land"
-      },
-      "ra": {
-        "long_name": "Carbon Mass Flux into Atmosphere due to Autotrophic (plant) Respiration on Land"
-      },
-      "npp": {
-        "long_name": "Carbon Mass Flux out of Atmosphere due to Net Primary Production on Land"
-      },
-      "rh": {
-        "long_name": "Carbon Mass Flux into Atmosphere due to Heterotrophic Respiration on Land"
-      },
-      "ffire": {
-        "long_name": "Carbon Mass Flux into Atmosphere due to C Emission from Fire"
-      },
-      "nbp": {
-        "long_name": "Carbon Mass Flux out of Atmosphere due to Net Biospheric Production on Land"
-      },
-      "rr": {
-        "long_name": "Root autotrophic respiration"
-      },
-      "fluc": {
-        "long_name": "Carbon Mass Flux into Atmosphere from Land Use Change"
-      },
-      "fgrazing": {
-        "long_name": "Carbon Mass Flux into Atmosphere from Grazing"
-      },
-      "fcropharvest": {
-        "long_name": "Carbon Mass Flux into Atmosphere from Crop Harvesting"
-      },
-      "flitter": {
-        "long_name": "Total Carbon Flux from Vegetation to Litter"
-      },
-      "flittersoil": {
-        "long_name": "Total Carbon Flux from Litter to Soil"
-      },
-      "flittersoillayer": {
-        "long_name": "Total Carbon Flux from Litter to Soil in each layer"
-      },
-      "fvegsoil": {
-        "long_name": "Total Carbon Flux from Vegetation Directly to Soil"
-      },
-      "fvegsoillayer": {
-        "long_name": "Total Carbon Mass Flux from Vegetation Directly to Soil in each layer"
-      },
-      "nee": {
-        "long_name": "Net Ecosystem Exchange"
-      },
-      "wetlandch4": {
-        "long_name": "Grid averaged methane emissions from wetland"
-      },
-      "ch4": {
-        "long_name": "Total Surface Carbon Mass Flux into CH4 emissions"
-      },
-      "rsoillayer": {
-        "long_name": "Carbon Mass Flux into Atmosphere due to Soil Respiration on Land of pools with different turnover time in each layer"
-      },
-      "rsoil": {
-        "long_name": "Carbon Mass Flux into Atmosphere due to Soil Respiration on Land"
-      },
-      "verticalcflux": {
-        "long_name": "Vertical Carbon Mass Flux between layers"
-      },
-      "rlitter": {
-        "long_name": "Carbon Mass Flux into Atmosphere due to Litter Respiration on Land in each layer"
-      },
-      "rhlayer": {
-        "long_name": "Carbon Mass Flux into Atmosphere due to Heterotrophic Respiration on Land in each layer"
-      },
-      "fbioenergyharvest": {
-        "long_name": "Carbon Mass Flux into Atmosphere from Bioenergy Harvesting"
-      },
-      "peattypefrac": {
-        "long_name": "Peat type fraction"
-      },
-      "peatdepth": {
-        "long_name": "Peat depth"
-      },
-      "hydcon": {
-        "long_name": "Saturated hydraulic conductivity"
-      },
-      "smsat": {
-        "long_name": "Porosity"
-      },
-      "wt": {
-        "long_name": "Water table"
-      },
-      "sm5": {
-        "long_name": "Volumetric soil moisture contents at -5 hPa"
-      },
-      "sm15": {
-        "long_name": "Volumetric soil moisture contents at -15 hPa"
-      },
-      "sm50": {
-        "long_name": "Volumetric soil moisture contents at -50 hPa"
-      },
-      "sm330": {
-        "long_name": "Volumetric soil moisture contents at -330 hPa"
-      },
-      "sm15000": {
-        "long_name": "Volumetric soil moisture contents at -15000 hPa"
-      },
-      "wf": {
-        "long_name": "Water fraction (area flooded)"
-      },
-      "drainagedepth": {
-        "long_name": "Drainage depth"
-      },
-      "drainagedensity": {
-        "long_name": "Drainage density"
-      },
-      "socage": {
-        "long_name": "Soil carbon age"
-      },
-      "regions": {
-        "long_name": "Regions"
-      },
-      "soil": {
-        "long_name": "Soil Types"
-      },
-      "cellarea": {
-        "long_name": "Grid Cell Area"
-      },
-      "contfrac": {
-        "long_name": "Continental Fraction of Grid Cell"
-      },
-      "landfrac": {
-        "long_name": "Land Fraction of Grid Cell"
-      },
-      "wetlandfrac": {
-        "long_name": "Wetland Fraction"
-      },
-      "amphibianprob": {
-        "long_name": "Amphibian Species Likelihood of Occurrence"
-      },
-      "amphibianocc": {
-        "long_name": "Amphibian Species Probability with Threshold of Occurrence"
-      },
-      "amphibianbuff": {
-        "long_name": "Amphibian Buffer"
-      },
-      "amphibianpbuffer": {
-        "long_name": "Amphibian Probability Buffer"
-      },
-      "amphibianoccbuff": {
-        "long_name": "Amphibian Occurrence Buffer"
-      },
-      "birdprob": {
-        "long_name": "Bird Species Likelihood of Occurrence"
-      },
-      "birdocc": {
-        "long_name": "Bird Species Probability with Threshold of Occurrence"
-      },
-      "birdbuff": {
-        "long_name": "Bird Buffer"
-      },
-      "birdpbuffer": {
-        "long_name": "Bird Probability Buffer"
-      },
-      "birdoccbuff": {
-        "long_name": "Bird Occurrence Buffer"
-      },
-      "mammalprob": {
-        "long_name": "Mammal Species Likelihood of Occurrence"
-      },
-      "mammalocc": {
-        "long_name": "Mammal Species Probability with Threshold of Occurrence"
-      },
-      "mammalbuff": {
-        "long_name": "Mammal Buffer"
-      },
-      "mammalpbuffer": {
-        "long_name": "Mammal Probability Buffer"
-      },
-      "mammaloccbuff": {
-        "long_name": "Mammal Occurrence Buffer"
-      },
-      "reptileprob": {
-        "long_name": "Reptile Species Likelihood of Occurrence"
-      },
-      "reptileocc": {
-        "long_name": "Reptile Species Probability with Threshold of Occurrence"
-      },
-      "reptilebuff": {
-        "long_name": "Reptile Buffer"
-      },
-      "reptilepbuffer": {
-        "long_name": "Reptile Probability Buffer"
-      },
-      "reptileoccbuff": {
-        "long_name": "Reptile Occurrence Buffer"
-      },
-      "chl": {
-        "long_name": "Chlorophyll Concentration"
-      },
-      "phytobio": {
-        "long_name": "Phytoplankton Functional Group Biomass"
-      },
-      "zoobio": {
-        "long_name": "Phytoplankton Functional Group Biomass"
-      },
-      "tp": {
-        "long_name": "Total Phosphorus"
-      },
-      "pp": {
-        "long_name": "Particulate Phosphorus"
-      },
-      "tpd": {
-        "long_name": "Total Dissolved Phosphorus"
-      },
-      "tn": {
-        "long_name": "Total Nitrogen"
-      },
-      "pn": {
-        "long_name": "Particulate Nitrogen"
-      },
-      "tdn": {
-        "long_name": "Total Dissolved Nitrogen"
-      },
-      "do": {
-        "long_name": "Dissolved Oxygen"
-      },
-      "doc": {
-        "long_name": "Dissolved Organic Carbon"
-      },
-      "si": {
-        "long_name": "Dissolved Silica"
-      },
-      "tdp": {
-        "long_name": "Total dissolved phosphorus"
-      },
-      "don": {
-        "long_name": "Dissolved organic nitrogen"
-      },
-      "din": {
-        "long_name": "Dissolved inorganic nitrogen"
-      },
-      "dop": {
-        "long_name": "Dissolved organic phosphorus"
-      },
-      "dip": {
-        "long_name": "Dissolved inorganic phosphorus"
-      },
-      "bod": {
-        "long_name": "Biochemical oxygen demand"
-      },
-      "tds": {
-        "long_name": "Total dissolved solids"
-      },
-      "as": {
-        "long_name": "Arsenic"
-      },
-      "dcl": {
-        "long_name": "Diclofenac"
-      },
-      "gly": {
-        "long_name": "Glyphosate"
-      },
-      "tcs": {
-        "long_name": "Triclosan"
-      },
-      "mip": {
-        "long_name": "Microplastics"
-      },
-      "map": {
-        "long_name": "Macroplastics"
-      },
-      "nap": {
-        "long_name": "Nanoplastics"
-      },
-      "fcol": {
-        "long_name": "Fecal coliform"
-      },
-      "crypto": {
-        "long_name": "Microorganisms: Cryptosporidium"
-      }
-    },
-    "geo_dataset": {
-      "landseamask": {},
-      "landseamask_no-ant": {},
-      "landseamask_water-global": {},
-      "countrymasks-binary": {},
-      "countrymasks-fractional": {},
-      "gadm": {},
-      "gswp3_hwsd": {
-        "title": "Soil data (gswp3_hwsd)"
-      },
-      "hwsd_soil_data_all_land": {
-        "title": "Soil data (hwsd_soil_data_all_land)"
-      },
-      "hwsd_soil_data_on_cropland": {
-        "title": "Soil data (hwsd_soil_data_on_cropland)"
-      },
-      "ddm30_basins_cru_neva": {
-        "title": "basins"
-      },
-      "ddm30_flowdir_cru_neva": {
-        "title": "flowdir"
-      },
-      "ddm30_slopes_cru_neva": {
-        "title": "slopes"
-      },
-      "hypso_volume": {
-        "title": "Hypsographic: Volume"
-      },
-      "hypso_area": {
-        "title": "Hypsographic: Area"
-      },
-      "lake_elevation": {
-        "title": "Lake Elevation"
-      },
-      "elevation": {
-        "title": "Lake Elevation"
-      },
-      "max_lakedepth": {
-        "title": "Maximum lake depth"
-      },
-      "mean_lakedepth": {
-        "title": "Mean lake depth"
-      },
-      "surface_area": {
-        "title": "Lake Surface Area"
-      },
-      "volume": {
-        "title": "Lake Volume"
-      },
-      "hydrolakes_id_biglakes": {
-        "title": "HydroLAKES ID for big lakes"
-      },
-      "biglakes_mask": {
-        "title": "Biglakes mask"
-      },
-      "hydrolakes_id": {
-        "title": "HydroLAKES ID"
-      },
-      "areacello": {
-        "title": "Grid-Cell Area for Ocean Variables"
-      },
-      "bathymetry": {
-        "title": "Sea Floor Depth"
-      },
-      "deptho": {
-        "title": "Sea Floor Depth"
-      },
-      "lme": {
-        "title": "Large Marine Ecosystems"
-      },
-      "LMEs66_masks": {
-        "title": "Large Marine Ecosystems"
-      },
-      "rme": {
-        "title": "Regional Marine Ecosystem masks"
-      },
-      "RME_masks": {
-        "title": "Regional Marine Ecosystem masks"
-      },
-      "mpa": {
-        "title": "Marine Protected Areas (MPA) masks"
-      },
-      "orog": {
-        "title": "Orography"
-      }
+    "ensemble_member": {
+      "r1i1p1f1": {},
+      "r1i1p1f2": {},
+      "r4i1p1f1": {}
     }
   }
 }
