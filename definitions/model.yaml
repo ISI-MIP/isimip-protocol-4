@@ -7,6 +7,15 @@
   - ISIMIP4a
   - ISIMIP4b
 
+- specifier: clm6-0-vub
+  title: CLM6-0-VUB
+  primary_sector: lakes_global
+  sectors:
+    - lakes_global
+  simulation_rounds:
+  - ISIMIP4a
+  - ISIMIP4b
+
 - specifier: colm-iap-dgvm
   title: CoLM-IAP-DGVM
   primary_sector: biomes
