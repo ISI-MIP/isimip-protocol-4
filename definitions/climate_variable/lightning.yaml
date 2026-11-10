@@ -6,11 +6,23 @@
   units: km-2 d-1
   frequency: monthly
   resolution: 0.5° grid
-  path:
-    ISIMIP4a: ISIMIP4a/InputData/climate/lightning/lightning_fixed.nc
-    ISIMIP4b: ISIMIP4b/InputData/climate/lightning/lightning_fixed.nc
+  path: ISIMIP4a/InputData/climate/lightning/lightning_fixed.nc
+  simulation_rounds:
+  - ISIMIP4a
   sectors:
   - fire
-  - water_quality
   comment: |
     Input dataset documentation → [Lightning](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/135/)
+
+- specifier: flashrate
+  long_name: Future flash rate
+  group: lightning
+  mandatory: true
+  units: km-2 d-1
+  frequency: monthly
+  resolution: 0.5° grid
+  path: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>_r1i1p1f1_nobasd_<climate-scenario>_flashrate_30arcsec_global_30arcmin_monthly_<start_year>_<end_year>.nc
+  simulation_rounds:
+  - ISIMIP4b
+  sectors:
+  - fire

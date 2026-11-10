@@ -69,8 +69,6 @@
   sectors:
   - fire
 
-
-
 - specifier: obsclim_lightning
   group: obsclim-forcing
   title: Lightning

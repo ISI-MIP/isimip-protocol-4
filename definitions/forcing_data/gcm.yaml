@@ -47,15 +47,15 @@
 
 - specifier: gcm_lightning
   group: gcm-forcing
-  title: Lightning
-  status: mandatory
-  doi:
-  - https://doi.org/10.5067/LIS/LIS-OTD/DATA303
-  path: ISIMIP4b/InputData/climate/lightning/lightning_fixed.nc
-  comment: |
-    Flash Rate Monthly Climatology, not changing with climate change
-
-    Input dataset documentation → [Lightning](https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/135/)
+  title: Varying lightning according to climate change
+  mandatory: true
+  status: under development
+  path:
+  - ISIMIP4b/InputData/climate/lightning/esm-hist/
+  - ISIMIP3b/InputData/climate/lightning/esm-scen7-vl/
+  - ISIMIP3b/InputData/climate/lightning/esm-scen7-h/
+  comment: >-
+    Varying lightning according to climate change.
   simulation_rounds:
   - ISIMIP4b
   sectors:
