@@ -63,6 +63,15 @@
   - ISIMIP4a
   - ISIMIP4b
 
+- specifier: globgm
+  title: GLOBGM
+  primary_sector: groundwater
+  sectors:
+    - groundwater
+  simulation_rounds:
+  - ISIMIP4a
+  - ISIMIP4b
+
 - specifier: gotm-ler
   title: GOTM-LER
   primary_sector: lakes_global
