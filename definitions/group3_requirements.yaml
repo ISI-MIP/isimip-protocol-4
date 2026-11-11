@@ -53,6 +53,7 @@
   sectors: []
   datasets:
   - Protein uptake per capita
+  hidden: true
 
 - specifier: landuse
   title: Land use
@@ -144,6 +145,7 @@
   - water_global
   datasets:
   - Animal manure N
+  hidden: true
 
 - specifier: irrigation
   title: Irrigation
@@ -186,6 +188,7 @@
   - forestry
   datasets:
   - Forest management
+  hidden: true
 
 - specifier: nutrient-uptake
   title: Nutrient uptake by vegetation
@@ -194,6 +197,7 @@
   sectors: []
   datasets:
   - Protein uptake per capita
+  hidden: true
 
 - specifier: growing-seasons
   title: Growing seasons
@@ -231,6 +235,7 @@
   sectors: []
   datasets:
   - Non-irrigation water use (withdrawal and consumption)
+  hidden: true
 
 - specifier: irrigation-techniques
   title: "Water management: irrigation techniques"
@@ -241,6 +246,7 @@
   - water_global
   datasets:
   - Irrigation techniques share
+  hidden: true
 
 - specifier: sea-water-desalination
   title: "Water management: sea water desalination"
@@ -251,6 +257,7 @@
   - water_global
   datasets:
   - Seawater desalination
+  hidden: true
 
 - specifier: inter-basin-water-transfer
   title: "Water management: inter-basin water transfer"
@@ -261,6 +268,7 @@
   - water_global
   datasets:
   - Inter-basin water transfer
+  hidden: true
 
 - specifier: biological-fixation
   title: Biological fixation
@@ -269,3 +277,4 @@
   sectors: []
   datasets:
   - Biological fixation (N, cropland/grassland/natural)
+  hidden: true
