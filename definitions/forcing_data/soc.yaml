@@ -265,6 +265,12 @@
   path:
     ISIMIP4a: ISIMIP4a/InputData/socioeconomic/crop_calendar/2021soc/
     ISIMIP4b: ISIMIP4b/InputData/socioeconomic/crop_calendar/2021soc/
+  comment: >
+    For ISIMIP4, we provide only a fixed 2021soc crop calendar (the same one used in ISIMIP3).
+    It is mandatory only for 2021soc simulations. For histsoc and future ISIMIP4b Group III runs,
+    models are free to use their own calendars: in adaptation runs, if the changes are a response
+    to climate change, and in no-adaptation runs, if the changes represent socio-economic
+    developments without accounting for climate change.
   sectors:
   - agriculture
   - biomes

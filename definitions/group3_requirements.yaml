@@ -108,8 +108,10 @@
 
 - specifier: n-fertilizer
   title: Synthetic N-fertilizer inputs
-  required: []
+  required:
+  - agriculture
   harmonized:
+  - agriculture
   - biomes
   - fire
   - forestry
@@ -201,11 +203,11 @@
 
 - specifier: growing-seasons
   title: Growing seasons
-  required: []
-  harmonized:
-  - water_global
+  required:
+  - agriculture
+  harmonized: []
   sectors:
-  - water_global
+  - agriculture
   datasets:
   - Crop calendar
 
