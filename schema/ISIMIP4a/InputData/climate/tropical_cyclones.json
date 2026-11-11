@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/climate/tropical_cyclones.yaml",
-  "commit": "6b0cec7e058a2ef4b79d5cecb2e1f7490b33b80b",
+  "commit": "450ed3effac9050c17e131132fd28738fa7fb7a8",
   "type": "object",
   "required": [
     "specifiers"
@@ -17,10 +17,10 @@
           "type": "string",
           "enum": [
             "obsclim",
-            "ctrlclim",
-            "spinclim",
             "counterclim",
-            "transclim"
+            "transclim",
+            "spinclim",
+            "ctrlclim"
           ]
         },
         "climate_dataset": {
@@ -32,24 +32,24 @@
         "region": {
           "type": "string",
           "enum": [
+            "global",
             "along-track",
-            "europe",
-            "global"
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "fixed",
-            "6hr",
-            "3hr",
-            "annual",
-            "annual-gs",
-            "monthly-gs",
             "2hr",
+            "fixed",
             "monthly",
-            "hourly",
-            "daily"
+            "6hr",
+            "daily",
+            "annual",
+            "3hr",
+            "monthly-gs",
+            "annual-gs",
+            "hourly"
           ]
         },
         "start_year": {

@@ -1,5 +1,5 @@
 {
-  "commit": "6b0cec7e058a2ef4b79d5cecb2e1f7490b33b80b",
+  "commit": "450ed3effac9050c17e131132fd28738fa7fb7a8",
   "region": [
     {
       "specifier": "global",
@@ -4135,8 +4135,7 @@
       "specifier": "gfdl-mom6-cobalt2",
       "title": "GFDL-MOM6-COBALT2",
       "time_period": "1961-2010",
-      "reanalysis": "JRA55",
-      "bias_adjustment_target": "none",
+      "sources": "GFDL-MOM6, COBALTv2\n",
       "priority": 1,
       "url": "https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/136",
       "simulation_rounds": [

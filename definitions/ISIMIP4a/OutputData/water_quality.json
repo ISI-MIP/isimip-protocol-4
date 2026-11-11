@@ -1,5 +1,5 @@
 {
-  "commit": "6b0cec7e058a2ef4b79d5cecb2e1f7490b33b80b",
+  "commit": "450ed3effac9050c17e131132fd28738fa7fb7a8",
   "region": [
     {
       "specifier": "global",
@@ -5870,8 +5870,7 @@
       "specifier": "gswp3-era5",
       "title": "GSWP3-ERA5",
       "time_period": "1901-2025",
-      "reanalysis": "GSWP3 (1901-1939), ERA5 (1940-2025)",
-      "bias_adjustment_target": "none",
+      "sources": "[GSWP3](https://doi.org/10.20783/DIAS.501) (1901-1978), [W5E5](https://doi.org/10.48364/ISIMIP.342217) (1979-2019)\n",
       "priority": 1,
       "url": "https://www.isimip.org/gettingstarted/input-data-bias-adjustment",
       "simulation_rounds": [
