@@ -1,5 +1,5 @@
 {
-  "commit": "96af2534cbadda8c93470af0698ba505306f7495",
+  "commit": "4cad541cd974dab67fd4f83f314f116e538a1c2c",
   "region": [
     {
       "specifier": "global",
@@ -5329,33 +5329,8 @@
       ],
       "variables": [
         {
-          "specifier": "rice1_irrigated",
-          "long_name": "irrigated rice, first growing season",
-          "units": "1"
-        },
-        {
-          "specifier": "rice1_rainfed",
-          "long_name": "rainfed rice, first growing season",
-          "units": "1"
-        },
-        {
-          "specifier": "rice2_irrigated",
-          "long_name": "irrigated rice, second growing season",
-          "units": "1"
-        },
-        {
-          "specifier": "rice2_rainfed",
-          "long_name": "rainfed rice, second growing season",
-          "units": "1"
-        },
-        {
-          "specifier": "temperate_cereals_others_irrigated",
-          "long_name": "irrigated temperate cereals, non-wheat (barley, rye, triticale)",
-          "units": "1"
-        },
-        {
-          "specifier": "temperate_cereals_others_rainfed",
-          "long_name": "rainfed temperate cereals, non-wheat (barley, rye, triticale)",
+          "specifier": "temperate_cereals_wwh_irrigated",
+          "long_name": "irrigated temperate cereals, winter wheat",
           "units": "1"
         },
         {
@@ -5364,18 +5339,43 @@
           "units": "1"
         },
         {
-          "specifier": "temperate_cereals_swh_rainfed",
-          "long_name": "rainfed temperate cereals, spring wheat",
-          "units": "1"
-        },
-        {
-          "specifier": "temperate_cereals_wwh_irrigated",
-          "long_name": "irrigated temperate cereals, winter wheat",
+          "specifier": "temperate_cereals_others_irrigated",
+          "long_name": "irrigated temperate cereals, non-wheat (barley, rye, triticale)",
           "units": "1"
         },
         {
           "specifier": "temperate_cereals_wwh_rainfed",
           "long_name": "rainfed temperate cereals, winter wheat",
+          "units": "1"
+        },
+        {
+          "specifier": "temperate_cereals_swh_rainfed",
+          "long_name": "rainfed temperate cereals, spring wheat",
+          "units": "1"
+        },
+        {
+          "specifier": "temperate_cereals_others_rainfed",
+          "long_name": "rainfed temperate cereals, non-wheat (barley, rye, triticale)",
+          "units": "1"
+        },
+        {
+          "specifier": "rice1_irrigated",
+          "long_name": "irrigated rice, first growing season",
+          "units": "1"
+        },
+        {
+          "specifier": "rice2_irrigated",
+          "long_name": "irrigated rice, second growing season",
+          "units": "1"
+        },
+        {
+          "specifier": "rice1_rainfed",
+          "long_name": "rainfed rice, first growing season",
+          "units": "1"
+        },
+        {
+          "specifier": "rice2_rainfed",
+          "long_name": "rainfed rice, second growing season",
           "units": "1"
         }
       ],

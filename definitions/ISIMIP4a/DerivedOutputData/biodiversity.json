@@ -1,5 +1,5 @@
 {
-  "commit": "96af2534cbadda8c93470af0698ba505306f7495",
+  "commit": "4cad541cd974dab67fd4f83f314f116e538a1c2c",
   "region": [
     {
       "specifier": "global",
@@ -4246,18 +4246,8 @@
       ],
       "variables": [
         {
-          "specifier": "pastures",
-          "long_name": "share of managed pastures or rangeland",
-          "units": "1"
-        },
-        {
-          "specifier": "forests_and_natural_vegetation",
-          "long_name": "share of forests and natural vegetation",
-          "units": "1"
-        },
-        {
-          "specifier": "cropland_rainfed",
-          "long_name": "share of the rainfed cropland",
+          "specifier": "cropland_total",
+          "long_name": "share of the total cropland",
           "units": "1"
         },
         {
@@ -4266,8 +4256,18 @@
           "units": "1"
         },
         {
-          "specifier": "cropland_total",
-          "long_name": "share of the total cropland",
+          "specifier": "cropland_rainfed",
+          "long_name": "share of the rainfed cropland",
+          "units": "1"
+        },
+        {
+          "specifier": "pastures",
+          "long_name": "share of managed pastures or rangeland",
+          "units": "1"
+        },
+        {
+          "specifier": "forests_and_natural_vegetation",
+          "long_name": "share of forests and natural vegetation",
           "units": "1"
         }
       ],
@@ -4324,13 +4324,13 @@
           "units": "1"
         },
         {
-          "specifier": "c3per_irrigated",
-          "long_name": "share of irrigated C3 perennial crops",
+          "specifier": "c4ann_irrigated",
+          "long_name": "share of irrigated C4 annual crops",
           "units": "1"
         },
         {
-          "specifier": "c3per_rainfed",
-          "long_name": "share of rainfed C3 perennial crops",
+          "specifier": "c4ann_rainfed",
+          "long_name": "share of rainfed C4 annual crops",
           "units": "1"
         },
         {
@@ -4344,18 +4344,8 @@
           "units": "1"
         },
         {
-          "specifier": "c3per_irrigated_bf",
-          "long_name": "irrigated C3 perennial bioenergy tree plantation",
-          "units": "1"
-        },
-        {
           "specifier": "c3per_irrigated_food",
           "long_name": "irrigated C3 perennial crops for food/feed production",
-          "units": "1"
-        },
-        {
-          "specifier": "c3per_rainfed_bf",
-          "long_name": "rainfed C3 perennial bioenergy tree plantation",
           "units": "1"
         },
         {
@@ -4364,18 +4354,13 @@
           "units": "1"
         },
         {
-          "specifier": "c4ann_irrigated",
-          "long_name": "share of irrigated C4 annual crops",
+          "specifier": "c3per_irrigated_bf",
+          "long_name": "irrigated C3 perennial bioenergy tree plantation",
           "units": "1"
         },
         {
-          "specifier": "c4ann_rainfed",
-          "long_name": "share of rainfed C4 annual crops",
-          "units": "1"
-        },
-        {
-          "specifier": "c4per_irrigated_bf",
-          "long_name": "irrigated C4 perennial bioenergy grass plantation",
+          "specifier": "c3per_rainfed_bf",
+          "long_name": "rainfed C3 perennial bioenergy tree plantation",
           "units": "1"
         },
         {
@@ -4384,13 +4369,23 @@
           "units": "1"
         },
         {
+          "specifier": "c4per_rainfed_food",
+          "long_name": "rainfed C4 perennial crops for food/feed production",
+          "units": "1"
+        },
+        {
+          "specifier": "c4per_irrigated_bf",
+          "long_name": "irrigated C4 perennial bioenergy grass plantation",
+          "units": "1"
+        },
+        {
           "specifier": "c4per_rainfed_bf",
           "long_name": "rainfed C4 perennial bioenergy grass plantation",
           "units": "1"
         },
         {
-          "specifier": "c4per_rainfed_food",
-          "long_name": "rainfed C4 perennial crops for food/feed production",
+          "specifier": "pastures",
+          "long_name": "managed grassland",
           "units": "1"
         }
       ],
@@ -4437,128 +4432,13 @@
       ],
       "variables": [
         {
-          "specifier": "c3per_irrigated_bf",
-          "long_name": "irrigated C3 perennial bioenergy tree plantation",
+          "specifier": "temperate_cereals_irrigated",
+          "long_name": "share of irrigated Temperate cereals",
           "units": "1"
         },
         {
-          "specifier": "c3per_irrigated_food",
-          "long_name": "irrigated C3 perennial crops for food/feed production",
-          "units": "1"
-        },
-        {
-          "specifier": "c3per_rainfed_bf",
-          "long_name": "rainfed C3 perennial bioenergy tree plantation",
-          "units": "1"
-        },
-        {
-          "specifier": "c3per_rainfed_food",
-          "long_name": "rainfed C3 perennial crops for food/feed production",
-          "units": "1"
-        },
-        {
-          "specifier": "c4per_irrigated_bf",
-          "long_name": "irrigated C4 perennial bioenergy grass plantation",
-          "units": "1"
-        },
-        {
-          "specifier": "c4per_irrigated_food",
-          "long_name": "irrigated C4 perennial crops for food/feed production",
-          "units": "1"
-        },
-        {
-          "specifier": "c4per_rainfed_bf",
-          "long_name": "rainfed C4 perennial bioenergy grass plantation",
-          "units": "1"
-        },
-        {
-          "specifier": "c4per_rainfed_food",
-          "long_name": "rainfed C4 perennial crops for food/feed production",
-          "units": "1"
-        },
-        {
-          "specifier": "maize_irrigated",
-          "long_name": "share of irrigated Maize",
-          "units": "1"
-        },
-        {
-          "specifier": "maize_rainfed",
-          "long_name": "share of rainfed Maize",
-          "units": "1"
-        },
-        {
-          "specifier": "oil_crops_groundnut_irrigated",
-          "long_name": "share of irrigated Oil crops groundnut",
-          "units": "1"
-        },
-        {
-          "specifier": "oil_crops_groundnut_rainfed",
-          "long_name": "share of rainfed Oil crops groundnut",
-          "units": "1"
-        },
-        {
-          "specifier": "oil_crops_rapeseed_irrigated",
-          "long_name": "share of irrigated Oil crops rapeseed",
-          "units": "1"
-        },
-        {
-          "specifier": "oil_crops_rapeseed_rainfed",
-          "long_name": "share of rainfed Oil crops rapeseed",
-          "units": "1"
-        },
-        {
-          "specifier": "oil_crops_soybean_irrigated",
-          "long_name": "share of irrigated ",
-          "units": "1"
-        },
-        {
-          "specifier": "oil_crops_soybean_rainfed",
-          "long_name": "share of rainfed ",
-          "units": "1"
-        },
-        {
-          "specifier": "oil_crops_sunflower_irrigated",
-          "long_name": "share of irrigated ",
-          "units": "1"
-        },
-        {
-          "specifier": "oil_crops_sunflower_rainfed",
-          "long_name": "share of rainfed ",
-          "units": "1"
-        },
-        {
-          "specifier": "others_c3ann_irrigated",
-          "long_name": "share of irrigated ",
-          "units": "1"
-        },
-        {
-          "specifier": "others_c3ann_rainfed",
-          "long_name": "share of rainfed ",
-          "units": "1"
-        },
-        {
-          "specifier": "others_c3nfx_irrigated",
-          "long_name": "share of irrigated ",
-          "units": "1"
-        },
-        {
-          "specifier": "others_c3nfx_rainfed",
-          "long_name": "share of rainfed ",
-          "units": "1"
-        },
-        {
-          "specifier": "pastures",
-          "long_name": "managed grassland",
-          "units": "1"
-        },
-        {
-          "specifier": "pulses_irrigated",
-          "long_name": "share of irrigated Pulses",
-          "units": "1"
-        },
-        {
-          "specifier": "pulses_rainfed",
-          "long_name": "share of rainfed Pulses",
+          "specifier": "temperate_cereals_rainfed",
+          "long_name": "share of rainfed Temperate cereals",
           "units": "1"
         },
         {
@@ -4572,16 +4452,6 @@
           "units": "1"
         },
         {
-          "specifier": "temperate_cereals_irrigated",
-          "long_name": "share of irrigated Temperate cereals",
-          "units": "1"
-        },
-        {
-          "specifier": "temperate_cereals_rainfed",
-          "long_name": "share of rainfed Temperate cereals",
-          "units": "1"
-        },
-        {
           "specifier": "temperate_roots_irrigated",
           "long_name": "share of irrigated Temperate roots",
           "units": "1"
@@ -4589,6 +4459,56 @@
         {
           "specifier": "temperate_roots_rainfed",
           "long_name": "share of rainfed Temperate roots",
+          "units": "1"
+        },
+        {
+          "specifier": "tropical_roots_irrigated",
+          "long_name": "share of irrigated Tropical roots",
+          "units": "1"
+        },
+        {
+          "specifier": "tropical_roots_rainfed",
+          "long_name": "share of rainfed Tropical roots",
+          "units": "1"
+        },
+        {
+          "specifier": "oil_crops_sunflower_irrigated",
+          "long_name": "share of irrigated ",
+          "units": "1"
+        },
+        {
+          "specifier": "oil_crops_sunflower_rainfed",
+          "long_name": "share of rainfed ",
+          "units": "1"
+        },
+        {
+          "specifier": "oil_crops_rapeseed_irrigated",
+          "long_name": "share of irrigated Oil crops rapeseed",
+          "units": "1"
+        },
+        {
+          "specifier": "oil_crops_rapeseed_rainfed",
+          "long_name": "share of rainfed Oil crops rapeseed",
+          "units": "1"
+        },
+        {
+          "specifier": "others_c3ann_irrigated",
+          "long_name": "share of irrigated ",
+          "units": "1"
+        },
+        {
+          "specifier": "others_c3ann_rainfed",
+          "long_name": "share of rainfed ",
+          "units": "1"
+        },
+        {
+          "specifier": "maize_irrigated",
+          "long_name": "share of irrigated Maize",
+          "units": "1"
+        },
+        {
+          "specifier": "maize_rainfed",
+          "long_name": "share of rainfed Maize",
           "units": "1"
         },
         {
@@ -4602,13 +4522,88 @@
           "units": "1"
         },
         {
-          "specifier": "tropical_roots_irrigated",
-          "long_name": "share of irrigated Tropical roots",
+          "specifier": "pulses_irrigated",
+          "long_name": "share of irrigated Pulses",
           "units": "1"
         },
         {
-          "specifier": "tropical_roots_rainfed",
-          "long_name": "share of rainfed Tropical roots",
+          "specifier": "pulses_rainfed",
+          "long_name": "share of rainfed Pulses",
+          "units": "1"
+        },
+        {
+          "specifier": "oil_crops_soybean_irrigated",
+          "long_name": "share of irrigated ",
+          "units": "1"
+        },
+        {
+          "specifier": "oil_crops_soybean_rainfed",
+          "long_name": "share of rainfed ",
+          "units": "1"
+        },
+        {
+          "specifier": "oil_crops_groundnut_irrigated",
+          "long_name": "share of irrigated Oil crops groundnut",
+          "units": "1"
+        },
+        {
+          "specifier": "oil_crops_groundnut_rainfed",
+          "long_name": "share of rainfed Oil crops groundnut",
+          "units": "1"
+        },
+        {
+          "specifier": "others_c3nfx_irrigated",
+          "long_name": "share of irrigated ",
+          "units": "1"
+        },
+        {
+          "specifier": "others_c3nfx_rainfed",
+          "long_name": "share of rainfed ",
+          "units": "1"
+        },
+        {
+          "specifier": "c3per_irrigated_food",
+          "long_name": "irrigated C3 perennial crops for food/feed production",
+          "units": "1"
+        },
+        {
+          "specifier": "c3per_rainfed_food",
+          "long_name": "rainfed C3 perennial crops for food/feed production",
+          "units": "1"
+        },
+        {
+          "specifier": "c3per_irrigated_bf",
+          "long_name": "irrigated C3 perennial bioenergy tree plantation",
+          "units": "1"
+        },
+        {
+          "specifier": "c3per_rainfed_bf",
+          "long_name": "rainfed C3 perennial bioenergy tree plantation",
+          "units": "1"
+        },
+        {
+          "specifier": "c4per_irrigated_food",
+          "long_name": "irrigated C4 perennial crops for food/feed production",
+          "units": "1"
+        },
+        {
+          "specifier": "c4per_rainfed_food",
+          "long_name": "rainfed C4 perennial crops for food/feed production",
+          "units": "1"
+        },
+        {
+          "specifier": "c4per_irrigated_bf",
+          "long_name": "irrigated C4 perennial bioenergy grass plantation",
+          "units": "1"
+        },
+        {
+          "specifier": "c4per_rainfed_bf",
+          "long_name": "rainfed C4 perennial bioenergy grass plantation",
+          "units": "1"
+        },
+        {
+          "specifier": "pastures",
+          "long_name": "managed grassland",
           "units": "1"
         }
       ],
@@ -4832,33 +4827,8 @@
       ],
       "variables": [
         {
-          "specifier": "rice1_irrigated",
-          "long_name": "irrigated rice, first growing season",
-          "units": "1"
-        },
-        {
-          "specifier": "rice1_rainfed",
-          "long_name": "rainfed rice, first growing season",
-          "units": "1"
-        },
-        {
-          "specifier": "rice2_irrigated",
-          "long_name": "irrigated rice, second growing season",
-          "units": "1"
-        },
-        {
-          "specifier": "rice2_rainfed",
-          "long_name": "rainfed rice, second growing season",
-          "units": "1"
-        },
-        {
-          "specifier": "temperate_cereals_others_irrigated",
-          "long_name": "irrigated temperate cereals, non-wheat (barley, rye, triticale)",
-          "units": "1"
-        },
-        {
-          "specifier": "temperate_cereals_others_rainfed",
-          "long_name": "rainfed temperate cereals, non-wheat (barley, rye, triticale)",
+          "specifier": "temperate_cereals_wwh_irrigated",
+          "long_name": "irrigated temperate cereals, winter wheat",
           "units": "1"
         },
         {
@@ -4867,18 +4837,43 @@
           "units": "1"
         },
         {
-          "specifier": "temperate_cereals_swh_rainfed",
-          "long_name": "rainfed temperate cereals, spring wheat",
-          "units": "1"
-        },
-        {
-          "specifier": "temperate_cereals_wwh_irrigated",
-          "long_name": "irrigated temperate cereals, winter wheat",
+          "specifier": "temperate_cereals_others_irrigated",
+          "long_name": "irrigated temperate cereals, non-wheat (barley, rye, triticale)",
           "units": "1"
         },
         {
           "specifier": "temperate_cereals_wwh_rainfed",
           "long_name": "rainfed temperate cereals, winter wheat",
+          "units": "1"
+        },
+        {
+          "specifier": "temperate_cereals_swh_rainfed",
+          "long_name": "rainfed temperate cereals, spring wheat",
+          "units": "1"
+        },
+        {
+          "specifier": "temperate_cereals_others_rainfed",
+          "long_name": "rainfed temperate cereals, non-wheat (barley, rye, triticale)",
+          "units": "1"
+        },
+        {
+          "specifier": "rice1_irrigated",
+          "long_name": "irrigated rice, first growing season",
+          "units": "1"
+        },
+        {
+          "specifier": "rice2_irrigated",
+          "long_name": "irrigated rice, second growing season",
+          "units": "1"
+        },
+        {
+          "specifier": "rice1_rainfed",
+          "long_name": "rainfed rice, first growing season",
+          "units": "1"
+        },
+        {
+          "specifier": "rice2_rainfed",
+          "long_name": "rainfed rice, second growing season",
           "units": "1"
         }
       ],
@@ -5002,43 +4997,8 @@
           "units": "kg ha-1 yr-1 (crop season)"
         },
         {
-          "specifier": "maize_fertl",
-          "long_name": "N input through fertilizer on cropland with maize",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "oil_crops_groundnut_fertl",
-          "long_name": "N input through fertilizer on cropland with groundnut oil crops",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "oil_crops_rapeseed_fertl",
-          "long_name": "N input through fertilizer on cropland with rapeseed oil crops",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "oil_crops_soybean_fertl",
-          "long_name": "N input through fertilizer on cropland with soybean oil crops",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "oil_crops_sunflower_fertl",
-          "long_name": "N input through fertilizer on cropland with sunflower oil crops",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "others_c3ann_fertl",
-          "long_name": "N input through fertilizer on cropland with other C3 annual crops",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "others_c3nfx_fertl",
-          "long_name": "N input through fertilizer on cropland with other C3 nitrogen-fixing crops",
-          "units": "kg ha-1 yr-1 (crop season)"
-        },
-        {
-          "specifier": "pulses_fertl",
-          "long_name": "N input through fertilizer on cropland with pulses",
+          "specifier": "temperate_cereals_fertl",
+          "long_name": "N input through fertilizer on cropland with temperate cereals",
           "units": "kg ha-1 yr-1 (crop season)"
         },
         {
@@ -5047,13 +5007,33 @@
           "units": "kg ha-1 yr-1 (crop season)"
         },
         {
-          "specifier": "temperate_cereals_fertl",
-          "long_name": "N input through fertilizer on cropland with temperate cereals",
+          "specifier": "temperate_roots_fertl",
+          "long_name": "N input through fertilizer on cropland with temperate roots",
           "units": "kg ha-1 yr-1 (crop season)"
         },
         {
-          "specifier": "temperate_roots_fertl",
-          "long_name": "N input through fertilizer on cropland with temperate roots",
+          "specifier": "tropical_roots_fertl",
+          "long_name": "N input through fertilizer on cropland with tropical roots",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "oil_crops_sunflower_fertl",
+          "long_name": "N input through fertilizer on cropland with sunflower oil crops",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "oil_crops_rapeseed_fertl",
+          "long_name": "N input through fertilizer on cropland with rapeseed oil crops",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "others_c3ann_fertl",
+          "long_name": "N input through fertilizer on cropland with other C3 annual crops",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "maize_fertl",
+          "long_name": "N input through fertilizer on cropland with maize",
           "units": "kg ha-1 yr-1 (crop season)"
         },
         {
@@ -5062,8 +5042,23 @@
           "units": "kg ha-1 yr-1 (crop season)"
         },
         {
-          "specifier": "tropical_roots_fertl",
-          "long_name": "N input through fertilizer on cropland with tropical roots",
+          "specifier": "pulses_fertl",
+          "long_name": "N input through fertilizer on cropland with pulses",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "oil_crops_soybean_fertl",
+          "long_name": "N input through fertilizer on cropland with soybean oil crops",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "oil_crops_groundnut_fertl",
+          "long_name": "N input through fertilizer on cropland with groundnut oil crops",
+          "units": "kg ha-1 yr-1 (crop season)"
+        },
+        {
+          "specifier": "others_c3nfx_fertl",
+          "long_name": "N input through fertilizer on cropland with other C3 nitrogen-fixing crops",
           "units": "kg ha-1 yr-1 (crop season)"
         }
       ],
