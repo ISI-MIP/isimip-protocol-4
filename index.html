@@ -7272,6 +7272,7 @@
         "ISIMIP4a": "ISIMIP4a/InputData/socioeconomic/crop_calendar/2021soc/",
         "ISIMIP4b": "ISIMIP4b/InputData/socioeconomic/crop_calendar/2021soc/"
       },
+      "comment": "For ISIMIP4, we provide only a fixed 2021soc crop calendar (the same one used in ISIMIP3). It is mandatory only for 2021soc simulations. For histsoc and future ISIMIP4b Group III runs, models are free to use their own calendars: in adaptation runs, if the changes are a response to climate change, and in no-adaptation runs, if the changes represent socio-economic developments without accounting for climate change.\n",
       "sectors": [
         "agriculture",
         "biomes",
@@ -16539,7 +16540,8 @@
       "sectors": [],
       "datasets": [
         "Protein uptake per capita"
-      ]
+      ],
+      "hidden": true
     },
     {
       "specifier": "landuse",
@@ -16604,8 +16606,11 @@
     {
       "specifier": "n-fertilizer",
       "title": "Synthetic N-fertilizer inputs",
-      "required": [],
+      "required": [
+        "agriculture"
+      ],
       "harmonized": [
+        "agriculture",
         "biomes",
         "fire",
         "forestry",
@@ -16647,7 +16652,8 @@
       ],
       "datasets": [
         "Animal manure N"
-      ]
+      ],
+      "hidden": true
     },
     {
       "specifier": "irrigation",
@@ -16703,7 +16709,8 @@
       ],
       "datasets": [
         "Forest management"
-      ]
+      ],
+      "hidden": true
     },
     {
       "specifier": "nutrient-uptake",
@@ -16713,17 +16720,18 @@
       "sectors": [],
       "datasets": [
         "Protein uptake per capita"
-      ]
+      ],
+      "hidden": true
     },
     {
       "specifier": "growing-seasons",
       "title": "Growing seasons",
-      "required": [],
-      "harmonized": [
-        "water_global"
+      "required": [
+        "agriculture"
       ],
+      "harmonized": [],
       "sectors": [
-        "water_global"
+        "agriculture"
       ],
       "datasets": [
         "Crop calendar"
@@ -16763,7 +16771,8 @@
       "sectors": [],
       "datasets": [
         "Non-irrigation water use (withdrawal and consumption)"
-      ]
+      ],
+      "hidden": true
     },
     {
       "specifier": "irrigation-techniques",
@@ -16777,7 +16786,8 @@
       ],
       "datasets": [
         "Irrigation techniques share"
-      ]
+      ],
+      "hidden": true
     },
     {
       "specifier": "sea-water-desalination",
@@ -16791,7 +16801,8 @@
       ],
       "datasets": [
         "Seawater desalination"
-      ]
+      ],
+      "hidden": true
     },
     {
       "specifier": "inter-basin-water-transfer",
@@ -16805,7 +16816,8 @@
       ],
       "datasets": [
         "Inter-basin water transfer"
-      ]
+      ],
+      "hidden": true
     },
     {
       "specifier": "biological-fixation",
@@ -16815,7 +16827,8 @@
       "sectors": [],
       "datasets": [
         "Biological fixation (N, cropland/grassland/natural)"
-      ]
+      ],
+      "hidden": true
     }
   ],
   "sector": [
@@ -19791,6 +19804,7 @@
         "ISIMIP4a": "ISIMIP4a/InputData/socioeconomic/crop_calendar/2021soc/ggcmi-crop-calendar_2021soc_<crop>_<irrigation>.nc",
         "ISIMIP4b": "ISIMIP4b/InputData/socioeconomic/crop_calendar/2021soc/ggcmi-crop-calendar_2021soc_<crop>_<irrigation>.nc"
       },
+      "comment": "For ISIMIP4, we provide only a fixed 2021soc crop calendar (the same one used in ISIMIP3). It is mandatory only for 2021soc simulations. For histsoc and future ISIMIP4b Group III runs, models are free to use their own calendars: in adaptation runs, if the changes are a response to climate change, and in no-adaptation runs, if the changes represent socio-economic developments without accounting for climate change.\n",
       "variables": [
         {
           "specifier": "planting_day",
@@ -23873,8 +23887,8 @@
     "water_quality": "No pattern has been defined for this simulation round and sector, yet."
   }
 },
-                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/6265da4f6c2d302317810f59581f100a8e4d23ac',
-                commit_hash: '6265da4f6c2d302317810f59581f100a8e4d23ac',
+                commit_url: 'https://github.com/ISI-MIP/isimip-protocol-4/commit/6b0cec7e058a2ef4b79d5cecb2e1f7490b33b80b',
+                commit_hash: '6b0cec7e058a2ef4b79d5cecb2e1f7490b33b80b',
                 commit_date: '11 November 2026'
             }
         </script>

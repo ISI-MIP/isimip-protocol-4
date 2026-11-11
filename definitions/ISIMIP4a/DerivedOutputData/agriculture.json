@@ -1,5 +1,5 @@
 {
-  "commit": "6265da4f6c2d302317810f59581f100a8e4d23ac",
+  "commit": "6b0cec7e058a2ef4b79d5cecb2e1f7490b33b80b",
   "region": [
     {
       "specifier": "global",
@@ -2216,6 +2216,7 @@
       "status": "mandatory",
       "doi": null,
       "path": "ISIMIP4a/InputData/socioeconomic/crop_calendar/2021soc/",
+      "comment": "For ISIMIP4, we provide only a fixed 2021soc crop calendar (the same one used in ISIMIP3). It is mandatory only for 2021soc simulations. For histsoc and future ISIMIP4b Group III runs, models are free to use their own calendars: in adaptation runs, if the changes are a response to climate change, and in no-adaptation runs, if the changes represent socio-economic developments without accounting for climate change.\n",
       "sectors": [
         "agriculture",
         "biomes",
@@ -3805,7 +3806,22 @@
       "specifier": "detrended"
     }
   ],
-  "group3_requirements": [],
+  "group3_requirements": [
+    {
+      "specifier": "growing-seasons",
+      "title": "Growing seasons",
+      "required": [
+        "agriculture"
+      ],
+      "harmonized": [],
+      "sectors": [
+        "agriculture"
+      ],
+      "datasets": [
+        "Crop calendar"
+      ]
+    }
+  ],
   "sector": [
     {
       "specifier": "agriculture",
@@ -5304,6 +5320,7 @@
       "frequency": "fixed",
       "resolution": "0.5° grid",
       "path": "ISIMIP4a/InputData/socioeconomic/crop_calendar/2021soc/ggcmi-crop-calendar_2021soc_<crop>_<irrigation>.nc",
+      "comment": "For ISIMIP4, we provide only a fixed 2021soc crop calendar (the same one used in ISIMIP3). It is mandatory only for 2021soc simulations. For histsoc and future ISIMIP4b Group III runs, models are free to use their own calendars: in adaptation runs, if the changes are a response to climate change, and in no-adaptation runs, if the changes represent socio-economic developments without accounting for climate change.\n",
       "variables": [
         {
           "specifier": "planting_day",
