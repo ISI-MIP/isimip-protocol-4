@@ -1,8 +1,9 @@
 - specifier: gswp3-era5
   title: GSWP3-ERA5
   time_period: 1901-2025
-  reanalysis: GSWP3 (1901-1939), ERA5 (1940-2025)
-  bias_adjustment_target: none
+  sources: >
+    [GSWP3](https://doi.org/10.20783/DIAS.501) (1901-1978),
+    [W5E5](https://doi.org/10.48364/ISIMIP.342217) (1979-2019)
   priority: 1
   url: https://www.isimip.org/gettingstarted/input-data-bias-adjustment
   simulation_rounds:
@@ -37,8 +38,8 @@
 - specifier: gfdl-mom6-cobalt2
   title: GFDL-MOM6-COBALT2
   time_period: 1961-2010
-  reanalysis: JRA55
-  bias_adjustment_target: none
+  sources: >
+    GFDL-MOM6, COBALTv2
   priority: 1
   url: https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/136
   simulation_rounds:
