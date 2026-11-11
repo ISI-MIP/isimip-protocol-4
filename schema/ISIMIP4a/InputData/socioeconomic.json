@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/socioeconomic.yaml",
-  "commit": "4cad541cd974dab67fd4f83f314f116e538a1c2c",
+  "commit": "6265da4f6c2d302317810f59581f100a8e4d23ac",
   "type": "object",
   "required": [
     "specifiers"
@@ -14,44 +14,44 @@
         "soc_dataset": {
           "type": "string",
           "enum": [
-            "population-countrylevel",
-            "population",
-            "n-fertilizer-5crops",
-            "gridded_artisanal_fishing_effort",
-            "effort-artisanal-gridded",
-            "pctlake",
-            "ggcmi-crop-calendar-2021soc",
-            "ndep-nhx",
-            "effort-industrial-gridded",
-            "landuse-forests-and-natural-vegetation",
-            "fishing_effort",
-            "gdp-ppp",
+            "gdp-per-capita-mer-countrylevel",
+            "ggcmi-crop-calendar",
+            "ndep-noy",
             "ndep-wetnoy",
-            "landuse-5crops",
-            "landuse-urbanareas",
+            "population-countrylevel",
+            "reservoirs-dams",
+            "landuse-pastures",
+            "landuse-forests-and-natural-vegetation",
+            "population",
+            "fishing_effort",
             "gdp-per-capita-ppp-countrylevel",
+            "landuse-urbanareas",
+            "n-fertilizer-15crops",
+            "wood_harvesting",
             "land-transformation",
+            "ggcmi-crop-calendar-2021soc",
+            "landuse-subgroups",
+            "gdp-mer-countrylevel",
             "population-gridded",
             "ndep-wetnhx",
-            "population-stratification",
-            "landuse-15crops",
-            "landuse-pastures",
-            "n-fertilizer-15crops",
-            "landuse-totals",
-            "reservoirs-dams",
-            "landuse-subgroups",
-            "fixed-asset-value",
-            "gdp-per-capita-ppp",
-            "ndep-drynoy",
-            "gdp-per-capita-mer-countrylevel",
-            "wood_harvesting",
-            "ndep-drynhx",
-            "ggcmi-crop-calendar",
             "effort",
+            "effort-industrial-gridded",
             "gdp-ppp-countrylevel",
+            "gdp-per-capita-ppp",
+            "ndep-drynhx",
+            "fixed-asset-value",
+            "n-fertilizer-5crops",
+            "pctlake",
+            "population-stratification",
+            "gdp-ppp",
+            "effort-artisanal-gridded",
+            "landuse-15crops",
+            "ndep-nhx",
             "gridded_industrial_fishing_effort",
-            "gdp-mer-countrylevel",
-            "ndep-noy"
+            "landuse-totals",
+            "landuse-5crops",
+            "ndep-drynoy",
+            "gridded_artisanal_fishing_effort"
           ]
         },
         "soc_variable": {
@@ -60,40 +60,40 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "1850soc-input-only",
-            "1901soc",
-            "2021soc",
             "histsoc",
-            "nat",
-            "1850soc"
+            "2021soc",
+            "1850soc",
+            "1901soc",
+            "1850soc-input-only",
+            "nat"
           ]
         },
         "resolution": {
           "type": "string",
           "enum": [
-            "6arcmin",
+            "15arcmin",
+            "1arcmin",
+            "national",
             "30arcmin",
             "60arcmin",
-            "1arcmin",
-            "15arcmin",
-            "national",
-            "30arcsec",
-            "5arcmin"
+            "6arcmin",
+            "5arcmin",
+            "30arcsec"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
             "daily",
-            "6hr",
-            "3hr",
-            "annual",
-            "monthly",
+            "fixed",
+            "hourly",
+            "monthly-gs",
             "annual-gs",
             "2hr",
-            "hourly",
-            "fixed",
-            "monthly-gs"
+            "3hr",
+            "monthly",
+            "annual",
+            "6hr"
           ]
         },
         "start_year": {
