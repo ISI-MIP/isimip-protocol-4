@@ -25,7 +25,7 @@
 - specifier: end_hist
   value:
     ISIMIP4a:
-      gswp3-era5: 2024
+      gswp3-era5: 2025
     ISIMIP4b: 2021
 
 - specifier: start_fut
