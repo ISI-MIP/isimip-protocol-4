@@ -2,8 +2,8 @@
   title: GSWP3-ERA5
   time_period: 1901-2025
   sources: >
-    [GSWP3](https://doi.org/10.20783/DIAS.501) (1901-1978),
-    [W5E5](https://doi.org/10.48364/ISIMIP.342217) (1979-2019)
+    [GSWP3](https://doi.org/10.20783/DIAS.501) (1901-1939),
+    [ERA5](https://doi.org/10.1002/qj.3803) (1940-2025)
   priority: 1
   url: https://www.isimip.org/gettingstarted/input-data-bias-adjustment
   simulation_rounds:
