@@ -1,5 +1,5 @@
 {
-  "commit": "c182028bac2209fdace8d5818ca41100848ae857",
+  "commit": "ee092dafe9c833f40e852bc492f16b91a775f780",
   "path": "(?P<simulation_round>(ISIMIP4b))/(?P<product>(InputData))/(?P<category>(geo_conditions))/(?P<subcategory>(ocean))$",
   "dataset": "^(?P<climate_forcing>[a-z0-9-]+)_(?P<ensemble_member>[a-z0-9]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<geo_dataset>[a-z]+)_(?P<region>(global))_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)",
   "file": "^(?P<climate_forcing>[a-z0-9-]+)_(?P<ensemble_member>[a-z0-9]+)_(?P<climate_scenario>[a-z0-9-]+)_(?P<geo_dataset>[a-z]+)_(?P<region>(global))_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)(.nc)$",
