@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/socioeconomic.yaml",
-  "commit": "7e540b9547faa0efe379789102a6b0e8ff6c102a",
+  "commit": "c182028bac2209fdace8d5818ca41100848ae857",
   "type": "object",
   "required": [
     "specifiers"
@@ -14,44 +14,44 @@
         "soc_dataset": {
           "type": "string",
           "enum": [
-            "ndep-drynhx",
-            "effort",
-            "n-fertilizer-15crops",
-            "land-transformation",
-            "ndep-drynoy",
-            "landuse-15crops",
+            "landuse-5crops",
             "landuse-subgroups",
-            "effort-industrial-gridded",
             "gdp-per-capita-ppp",
-            "effort-artisanal-gridded",
-            "population-countrylevel",
-            "landuse-totals",
-            "n-fertilizer-5crops",
-            "population-gridded",
-            "gdp-per-capita-ppp-countrylevel",
-            "gdp-per-capita-mer-countrylevel",
-            "ndep-nhx",
-            "landuse-pastures",
-            "landuse-forests-and-natural-vegetation",
-            "ggcmi-crop-calendar-2021soc",
-            "gdp-ppp",
-            "gridded_artisanal_fishing_effort",
-            "ndep-wetnoy",
-            "reservoirs-dams",
-            "pctlake",
-            "population-stratification",
-            "gdp-ppp-countrylevel",
             "fishing_effort",
+            "gdp-ppp",
+            "effort-industrial-gridded",
             "wood_harvesting",
-            "gdp-mer-countrylevel",
+            "pctlake",
+            "ndep-noy",
+            "landuse-urbanareas",
+            "ggcmi-crop-calendar",
+            "n-fertilizer-15crops",
+            "landuse-forests-and-natural-vegetation",
+            "reservoirs-dams",
+            "gdp-per-capita-mer-countrylevel",
+            "gridded_artisanal_fishing_effort",
             "fixed-asset-value",
             "gridded_industrial_fishing_effort",
+            "ndep-drynhx",
+            "ndep-nhx",
+            "landuse-15crops",
+            "gdp-mer-countrylevel",
             "population",
             "ndep-wetnhx",
-            "landuse-urbanareas",
-            "ndep-noy",
-            "landuse-5crops",
-            "ggcmi-crop-calendar"
+            "population-countrylevel",
+            "gdp-ppp-countrylevel",
+            "ndep-drynoy",
+            "ndep-wetnoy",
+            "ggcmi-crop-calendar-2021soc",
+            "landuse-totals",
+            "land-transformation",
+            "population-stratification",
+            "population-gridded",
+            "gdp-per-capita-ppp-countrylevel",
+            "n-fertilizer-5crops",
+            "effort-artisanal-gridded",
+            "effort",
+            "landuse-pastures"
           ]
         },
         "soc_variable": {
@@ -60,40 +60,40 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
+            "nat",
+            "1901soc",
             "1850soc-input-only",
             "1850soc",
             "histsoc",
-            "2021soc",
-            "nat",
-            "1901soc"
+            "2021soc"
           ]
         },
         "resolution": {
           "type": "string",
           "enum": [
-            "6arcmin",
+            "60arcmin",
             "5arcmin",
-            "15arcmin",
-            "30arcsec",
-            "national",
             "30arcmin",
+            "6arcmin",
             "1arcmin",
-            "60arcmin"
+            "national",
+            "15arcmin",
+            "30arcsec"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "hourly",
-            "annual-gs",
             "monthly",
+            "annual-gs",
+            "annual",
+            "hourly",
+            "daily",
             "monthly-gs",
-            "3hr",
+            "6hr",
             "fixed",
             "2hr",
-            "6hr",
-            "daily",
-            "annual"
+            "3hr"
           ]
         },
         "start_year": {
