@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/lakes_global.yaml",
-  "commit": "450ed3effac9050c17e131132fd28738fa7fb7a8",
+  "commit": "71ed19ee30df0089a5fbc0276565b661e9cb49a6",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,8 +27,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ec-earth3-esm-1-1",
-            "ukesm1-3-ll"
+            "ukesm1-3-ll",
+            "ec-earth3-esm-1-1"
           ]
         },
         "bias_adjustment": {
@@ -42,98 +42,98 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "scen7-h",
-            "esm-scen7-h",
             "esm-hist",
-            "picontrol",
-            "historical",
             "h",
             "scen7-vl",
-            "esm-picontrol",
+            "esm-scen7-vl",
+            "picontrol",
             "vl",
-            "esm-scen7-vl"
+            "esm-picontrol",
+            "esm-scen7-h",
+            "historical",
+            "scen7-h"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2021soc-from-histsoc",
-            "histsoc",
             "ssp1vlsoc-adapt",
-            "ssp1vlsoc-noadapt",
-            "2021soc",
-            "ssp3hsoc-noadapt",
             "ssp3hsoc-adapt",
-            "1850soc"
+            "2021soc",
+            "ssp1vlsoc-noadapt",
+            "ssp3hsoc-noadapt",
+            "1850soc",
+            "histsoc",
+            "2021soc-from-histsoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "2021co2",
-            "default"
+            "default",
+            "2021co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
             "si",
-            "pp",
-            "sedlittemp",
-            "tpd",
-            "icethick",
-            "doc",
-            "surftemp",
-            "bottemp",
-            "icetemp",
-            "ice",
-            "tn",
-            "zoobio",
-            "strat",
-            "extcoeff",
-            "thermodepth",
-            "phytobio",
-            "sedheatf",
-            "sedpeltemp",
-            "turbdiffheat",
-            "sensheatf",
-            "snowtemp",
-            "sedtemp",
-            "tp",
-            "snd",
-            "lakeicefrac",
-            "pn",
-            "lwup",
-            "latentheatf",
-            "lakeheatf",
-            "do",
-            "tdn",
             "swup",
-            "chl",
-            "watertemp",
+            "icetemp",
+            "lakealbedo",
+            "lakeicefrac",
+            "snowtemp",
+            "phytobio",
+            "strat",
             "momf",
-            "lakealbedo"
+            "sedlittemp",
+            "tp",
+            "tn",
+            "sedtemp",
+            "chl",
+            "sensheatf",
+            "surftemp",
+            "sedpeltemp",
+            "latentheatf",
+            "sedheatf",
+            "tdn",
+            "watertemp",
+            "snd",
+            "lakeheatf",
+            "turbdiffheat",
+            "do",
+            "lwup",
+            "pn",
+            "thermodepth",
+            "tpd",
+            "doc",
+            "extcoeff",
+            "pp",
+            "bottemp",
+            "zoobio",
+            "ice",
+            "icethick"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "global",
+            "europe",
             "along-track",
-            "europe"
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "2hr",
-            "monthly",
-            "6hr",
-            "daily",
-            "annual",
-            "3hr",
+            "hourly",
             "fixed",
-            "hourly"
+            "daily",
+            "3hr",
+            "2hr",
+            "6hr",
+            "monthly",
+            "annual"
           ]
         },
         "start_year": {
