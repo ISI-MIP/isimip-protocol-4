@@ -1,5 +1,5 @@
 {
-  "commit": "edac6aea0e71e901e3aaf13c9074c98cebf5a5f1",
+  "commit": "7e540b9547faa0efe379789102a6b0e8ff6c102a",
   "region": [
     {
       "specifier": "global",
@@ -86,23 +86,13 @@
     {
       "specifier": "start_hist",
       "value": {
-        "gswp3-w5e5": 1901,
-        "20crv3": 1901,
-        "20crv3-w5e5": 1901,
-        "20crv3-era5": 1901,
-        "chelsa-w5e5": 1979,
-        "gfdl-mom6-cobalt2": 1961,
-        "localclim": 1961
+        "gswp3-era5": 1901
       }
     },
     {
       "specifier": "end_hist",
       "value": {
-        "gswp3-w5e5": 2024,
-        "20crv3": 2024,
-        "20crv3-w5e5": 2024,
-        "20crv3-era5": 2024,
-        "localclim": 2024
+        "gswp3-era5": 2024
       }
     },
     {

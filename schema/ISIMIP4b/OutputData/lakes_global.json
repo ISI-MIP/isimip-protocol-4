@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/lakes_global.yaml",
-  "commit": "edac6aea0e71e901e3aaf13c9074c98cebf5a5f1",
+  "commit": "7e540b9547faa0efe379789102a6b0e8ff6c102a",
   "type": "object",
   "required": [
     "specifiers"
@@ -27,29 +27,29 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ec-earth3-esm-1-1",
-            "ukesm1-3-ll"
+            "ukesm1-3-ll",
+            "ec-earth3-esm-1-1"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
-            "era5",
             "w5e5",
-            "nobasd"
+            "nobasd",
+            "era5"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "esm-hist",
-            "scen7-h",
-            "esm-scen7-h",
-            "picontrol",
             "h",
             "vl",
-            "scen7-vl",
             "esm-picontrol",
+            "esm-hist",
+            "picontrol",
+            "esm-scen7-h",
+            "scen7-h",
+            "scen7-vl",
             "historical",
             "esm-scen7-vl"
           ]
@@ -57,14 +57,14 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "ssp1vlsoc-noadapt",
-            "2021soc",
-            "ssp3hsoc-adapt",
-            "2021soc-from-histsoc",
-            "ssp3hsoc-noadapt",
             "ssp1vlsoc-adapt",
             "1850soc",
-            "histsoc"
+            "histsoc",
+            "2021soc-from-histsoc",
+            "ssp3hsoc-noadapt",
+            "ssp1vlsoc-noadapt",
+            "2021soc",
+            "ssp3hsoc-adapt"
           ]
         },
         "sens_scenario": {
@@ -77,63 +77,63 @@
         "variable": {
           "type": "string",
           "enum": [
-            "sedheatf",
-            "icetemp",
-            "zoobio",
-            "pn",
+            "pp",
+            "sensheatf",
             "tdn",
-            "ice",
+            "tpd",
+            "pn",
+            "sedtemp",
+            "lakeheatf",
+            "zoobio",
+            "sedpeltemp",
+            "latentheatf",
+            "thermodepth",
+            "chl",
+            "snowtemp",
+            "tn",
+            "doc",
+            "tp",
+            "turbdiffheat",
+            "strat",
+            "momf",
+            "icetemp",
+            "swup",
             "si",
+            "lakealbedo",
+            "snd",
+            "bottemp",
             "lwup",
             "phytobio",
-            "pp",
-            "chl",
-            "doc",
-            "surftemp",
-            "swup",
-            "strat",
-            "snd",
-            "latentheatf",
-            "lakeheatf",
-            "lakealbedo",
-            "tn",
-            "turbdiffheat",
-            "sedlittemp",
-            "momf",
-            "tp",
-            "thermodepth",
-            "sedpeltemp",
-            "bottemp",
-            "icethick",
-            "sensheatf",
-            "lakeicefrac",
-            "tpd",
-            "extcoeff",
             "watertemp",
-            "snowtemp",
+            "sedlittemp",
+            "extcoeff",
+            "ice",
+            "sedheatf",
+            "surftemp",
             "do",
-            "sedtemp"
+            "lakeicefrac",
+            "icethick"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
+            "europe",
             "along-track",
-            "global",
-            "europe"
+            "global"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "2hr",
-            "annual",
-            "3hr",
             "hourly",
+            "monthly",
+            "fixed",
+            "3hr",
+            "2hr",
             "6hr",
             "daily",
-            "fixed",
-            "monthly"
+            "annual"
           ]
         },
         "start_year": {
