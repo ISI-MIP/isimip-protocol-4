@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/energy_demand.yaml",
+  "commit": "279261a5f2c890bba65a584ac24b8b68856fb69d",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "model",
+        "climate_forcing",
+        "climate_scenario",
+        "soc_scenario",
+        "sens_scenario",
+        "variable",
+        "region",
+        "resolution",
+        "time_step"
+      ],
+      "properties": {
+        "model": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "gswp3-era5"
+          ]
+        },
+        "detrending": {
+          "type": "string",
+          "enum": [
+            "detrended",
+            "observed"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "obsclim"
+          ]
+        },
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "2021soc"
+          ]
+        },
+        "sens_scenario": {
+          "type": "string",
+          "enum": [
+            "1901co2",
+            "default"
+          ]
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "scue",
+            "ratefenely",
+            "acely",
+            "levlfenfof",
+            "scfe",
+            "ratefenfof",
+            "regions",
+            "shue",
+            "levlfenely",
+            "resac",
+            "shfe"
+          ]
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "global",
+            "along-track",
+            "europe"
+          ]
+        },
+        "resolution": {
+          "type": "string",
+          "enum": [
+            "30arcmin"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "annual",
+            "6hr",
+            "3hr",
+            "hourly",
+            "2hr",
+            "fixed",
+            "daily",
+            "monthly"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

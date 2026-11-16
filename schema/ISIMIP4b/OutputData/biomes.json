@@ -1,0 +1,226 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/biomes.yaml",
+  "commit": "279261a5f2c890bba65a584ac24b8b68856fb69d",
+  "type": "object",
+  "required": [
+    "specifiers"
+  ],
+  "properties": {
+    "specifiers": {
+      "type": "object",
+      "required": [
+        "model",
+        "climate_forcing",
+        "bias_adjustment",
+        "climate_scenario",
+        "soc_scenario",
+        "sens_scenario",
+        "variable",
+        "region",
+        "resolution",
+        "time_step"
+      ],
+      "properties": {
+        "model": {
+          "type": "string"
+        },
+        "climate_forcing": {
+          "type": "string",
+          "enum": [
+            "ec-earth3-esm-1-1",
+            "ukesm1-3-ll"
+          ]
+        },
+        "bias_adjustment": {
+          "type": "string",
+          "enum": [
+            "nobasd",
+            "era5",
+            "w5e5"
+          ]
+        },
+        "climate_scenario": {
+          "type": "string",
+          "enum": [
+            "scen7-h",
+            "esm-picontrol",
+            "picontrol",
+            "historical",
+            "scen7-vl",
+            "esm-hist",
+            "vl",
+            "esm-scen7-vl",
+            "h",
+            "esm-scen7-h"
+          ]
+        },
+        "soc_scenario": {
+          "type": "string",
+          "enum": [
+            "ssp1vlsoc-adapt",
+            "ssp3hsoc-adapt",
+            "1850soc",
+            "histsoc",
+            "ssp1vlsoc-noadapt",
+            "nat",
+            "2021soc",
+            "2021soc-from-histsoc",
+            "ssp3hsoc-noadapt"
+          ]
+        },
+        "sens_scenario": {
+          "type": "string",
+          "enum": [
+            "vlndep",
+            "hndep",
+            "nondep2021co2",
+            "nofire",
+            "nondep",
+            "2021co2",
+            "default"
+          ]
+        },
+        "variable": {
+          "type": "string",
+          "enum": [
+            "rsoil",
+            "swe",
+            "ra",
+            "nleaf",
+            "fnanthdisturb",
+            "fnh3",
+            "contfrac",
+            "nsoil",
+            "cleaf",
+            "rh",
+            "nlitterag",
+            "harvyear",
+            "gpp",
+            "nincum",
+            "anthday",
+            "fnfert",
+            "cwood",
+            "qtot",
+            "rlitter",
+            "clitterbg",
+            "csoil",
+            "fnproduct",
+            "nvegag",
+            "fnveglitter",
+            "soil",
+            "landalbedo",
+            "cellarea",
+            "flitter",
+            "fbioenergyharvest",
+            "intercep",
+            "fngas",
+            "landfrac",
+            "pft",
+            "wetlandfrac",
+            "nleachcum",
+            "fngasfire",
+            "nloss",
+            "rr",
+            "nmineralnh4",
+            "nmineralno3",
+            "ccwd",
+            "ffireluc",
+            "esoil",
+            "soilmoistfroz",
+            "pirnreqcum",
+            "fnnetmin",
+            "cvegbg",
+            "fapar",
+            "snd",
+            "qsb",
+            "tsl",
+            "fnlittersoil",
+            "clitterag",
+            "fcropharvest",
+            "clitter",
+            "csoillayer",
+            "fbnf",
+            "fn2o",
+            "evapcum",
+            "initrcum",
+            "biom",
+            "npp",
+            "thawdepth",
+            "cveg",
+            "nvegbg",
+            "evap",
+            "matyday",
+            "nlosscum",
+            "nbp",
+            "ncwd",
+            "nveg",
+            "wetlandch4",
+            "nroot",
+            "croot",
+            "fluc",
+            "nlitterbg",
+            "ch4",
+            "fnleach",
+            "flittersoil",
+            "qs",
+            "trans",
+            "nwood",
+            "fgrazing",
+            "fvegsoil",
+            "cproduct",
+            "burntarea",
+            "nupcum",
+            "cvegag",
+            "plantday",
+            "soilmoist",
+            "plantyear",
+            "ffire",
+            "fnvegsoil",
+            "yield",
+            "fndep",
+            "lai",
+            "nproduct",
+            "nmineral"
+          ]
+        },
+        "pft": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "global",
+            "along-track",
+            "europe"
+          ]
+        },
+        "resolution": {
+          "type": "string",
+          "enum": [
+            "30arcmin"
+          ]
+        },
+        "time_step": {
+          "type": "string",
+          "enum": [
+            "annual",
+            "6hr",
+            "3hr",
+            "hourly",
+            "2hr",
+            "fixed",
+            "daily",
+            "monthly"
+          ]
+        },
+        "start_year": {
+          "type": "number"
+        },
+        "end_year": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

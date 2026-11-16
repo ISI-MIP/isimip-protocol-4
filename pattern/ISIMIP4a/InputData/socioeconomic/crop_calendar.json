@@ -1,5 +1,5 @@
 {
-  "commit": "fc74d5531ad50757041ce21a72206ad13aa8dcce",
+  "commit": "279261a5f2c890bba65a584ac24b8b68856fb69d",
   "path": "(?P<simulation_round>(ISIMIP4a))/(?P<product>(InputData))/(?P<category>(socioeconomic))/(?P<subcategory>(crop_calendar))/(?P<soc_scenario>[a-z0-9-]+)$",
   "dataset": "^(?P<soc_dataset>[a-z0-9-]+)(-phase3)?_(?P<soc_scenario>[a-z0-9]+)_(?P<crop>[a-z0-9]+)_(?P<irrigation>[a-z]+)",
   "file": "^(?P<soc_dataset>[a-z0-9-]+)(-phase3)?_(?P<soc_scenario>[a-z0-9]+)_(?P<crop>[a-z0-9]+)_(?P<irrigation>[a-z]+)(.nc)$",
