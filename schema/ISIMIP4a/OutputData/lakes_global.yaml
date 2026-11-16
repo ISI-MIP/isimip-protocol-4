@@ -11,6 +11,7 @@ properties:
     - soc_scenario
     - sens_scenario
     - variable
+    - resolution
     - region
     - time_step
     properties:
@@ -27,6 +28,8 @@ properties:
       sens_scenario:
         type: string
       variable:
+        type: string
+      resolution:
         type: string
       region:
         type: string
