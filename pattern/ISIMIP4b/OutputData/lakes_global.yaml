@@ -7,6 +7,7 @@ dataset: >-
   _(?P<sens_scenario>[a-z0-9-]+)
   _(?P<variable>[a-z0-9]+)(-(?P<pft>[a-z0-9]+))?
   _(?P<region>(global))
+  _(?P<resolution>([a-z0-9-]+))
   _(?P<time_step>[a-z0-9-]+)
 
 file: >-
@@ -18,6 +19,7 @@ file: >-
   _(?P<sens_scenario>[a-z0-9-]+)
   _(?P<variable>[a-z0-9]+)(-(?P<pft>[a-z0-9]+))?
   _(?P<region>(global))
+  _(?P<resolution>([a-z0-9-]+))
   _(?P<time_step>[a-z0-9-]+)
   _(?P<start_year>\d{4})
   _(?P<end_year>\d{4})

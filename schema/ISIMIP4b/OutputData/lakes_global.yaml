@@ -13,6 +13,7 @@ properties:
     - sens_scenario
     - variable
     - region
+    - resolution
     - time_step
     properties:
       model:
@@ -30,6 +31,8 @@ properties:
       variable:
         type: string
       region:
+        type: string
+      resolution:
         type: string
       time_step:
         type: string
