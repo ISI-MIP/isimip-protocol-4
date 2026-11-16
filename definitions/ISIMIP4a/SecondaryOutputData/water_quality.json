@@ -1,5 +1,5 @@
 {
-  "commit": "ee092dafe9c833f40e852bc492f16b91a775f780",
+  "commit": "fc74d5531ad50757041ce21a72206ad13aa8dcce",
   "region": [
     {
       "specifier": "global",
@@ -4022,7 +4022,7 @@
       "specifier": "historical",
       "title": "Historical",
       "description": "Historical simulation period.",
-      "end_year": 2024,
+      "end_year": 2025,
       "start_year": 1901
     }
   ],

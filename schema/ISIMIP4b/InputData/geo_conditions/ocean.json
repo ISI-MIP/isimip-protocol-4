@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/InputData/geo_conditions/ocean.yaml",
-  "commit": "ee092dafe9c833f40e852bc492f16b91a775f780",
+  "commit": "fc74d5531ad50757041ce21a72206ad13aa8dcce",
   "type": "object",
   "required": [
     "specifiers"
@@ -20,81 +20,81 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ukesm1-3-ll",
-            "ec-earth3-esm-1-1"
+            "ec-earth3-esm-1-1",
+            "ukesm1-3-ll"
           ]
         },
         "geo_dataset": {
           "type": "string",
           "enum": [
-            "countrymasks-fractional",
-            "countrymasks-binary",
-            "hydrolakes_id_biglakes",
-            "ddm30_basins_cru_neva",
             "ddm30_flowdir_cru_neva",
-            "landseamask_water-global",
+            "countrymasks-binary",
             "hydrolakes_id",
-            "lake_elevation",
-            "LMEs66_masks",
-            "rme",
-            "lme",
-            "RME_masks",
-            "mpa",
-            "gswp3_hwsd",
+            "hwsd_soil_data_all_land",
             "orog",
+            "hypso_area",
+            "lme",
+            "biglakes_mask",
+            "mean_lakedepth",
+            "LMEs66_masks",
+            "deptho",
+            "gswp3_hwsd",
             "surface_area",
             "gadm",
-            "ddm30_slopes_cru_neva",
-            "hwsd_soil_data_on_cropland",
-            "elevation",
-            "deptho",
-            "volume",
-            "hypso_area",
-            "landseamask",
+            "rme",
+            "countrymasks-fractional",
+            "ddm30_basins_cru_neva",
             "max_lakedepth",
-            "biglakes_mask",
-            "landseamask_no-ant",
-            "hwsd_soil_data_all_land",
             "bathymetry",
+            "landseamask_no-ant",
+            "mpa",
+            "ddm30_slopes_cru_neva",
+            "hydrolakes_id_biglakes",
+            "elevation",
+            "hwsd_soil_data_on_cropland",
+            "areacello",
             "hypso_volume",
-            "mean_lakedepth",
-            "areacello"
+            "volume",
+            "RME_masks",
+            "landseamask_water-global",
+            "lake_elevation",
+            "landseamask"
           ]
         },
         "resolution": {
           "type": "string",
           "enum": [
-            "30arcmin",
-            "1arcmin",
-            "national",
-            "6arcmin",
-            "15arcmin",
-            "60arcmin",
+            "30arcsec",
             "5arcmin",
-            "30arcsec"
+            "60arcmin",
+            "15arcmin",
+            "1arcmin",
+            "6arcmin",
+            "national",
+            "30arcmin"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "europe",
             "global",
-            "along-track"
+            "along-track",
+            "europe"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly-gs",
-            "annual-gs",
             "2hr",
-            "monthly",
-            "annual",
-            "3hr",
             "daily",
-            "hourly",
+            "monthly",
+            "annual-gs",
             "6hr",
-            "fixed"
+            "hourly",
+            "3hr",
+            "monthly-gs",
+            "fixed",
+            "annual"
           ]
         }
       }
