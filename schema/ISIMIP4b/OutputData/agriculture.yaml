@@ -12,10 +12,10 @@ properties:
     - soc_scenario
     - sens_scenario
     - variable
-    - resolution
     - crop
     - irrigation
     - region
+    - resolution
     - time_step
     properties:
       model:
@@ -32,13 +32,13 @@ properties:
         type: string
       variable:
         type: string
-      resolution:
-        type: string
       crop:
         type: string
       irrigation:
         type: string
       region:
+        type: string
+      resolution:
         type: string
       time_step:
         type: string
