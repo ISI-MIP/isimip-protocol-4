@@ -309,7 +309,7 @@ const ExperimentsTable = function({ definitions, config, caption, rows, toggleEx
                 <th style={{width: '70%'}}>Experiment</th>
                 <th style={{width: '30%'}}>
                   <p>Period: Historical</p>
-                  <p>1901-2019</p>
+                  <p>1901-2025</p>
                 </th>
               </React.Fragment>
             }
