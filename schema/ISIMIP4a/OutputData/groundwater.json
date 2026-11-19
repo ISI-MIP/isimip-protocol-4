@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/groundwater.yaml",
-  "commit": "279261a5f2c890bba65a584ac24b8b68856fb69d",
+  "commit": "e4e2e20aa87f7ba54a3f5bc48fe6535115e417e8",
   "type": "object",
   "required": [
     "specifiers"
@@ -47,53 +47,53 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
+            "1901soc",
             "2021soc",
-            "histsoc",
-            "1901soc"
+            "histsoc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "1901co2",
+            "nowatermgt",
             "default",
-            "nowatermgt"
+            "1901co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "absd",
-            "lfff",
-            "lfn",
-            "gwdrnriv",
-            "head",
-            "abs",
-            "absind",
-            "sgd",
-            "gwdrnwet",
-            "absirr",
-            "capillary",
-            "gwdrnspr",
-            "qrd",
             "lfrf",
-            "absliv",
-            "gwdrn",
-            "ret",
+            "qrd",
+            "capillary",
+            "absd",
+            "absind",
+            "lfff",
             "depl",
-            "groundwstor",
-            "gwdrnlak",
+            "ret",
+            "head",
+            "absirr",
+            "gwdrnriv",
             "absdom",
+            "abs",
+            "gwdrnwet",
+            "gwdrnlak",
+            "absliv",
             "wtd",
+            "gwdrnspr",
+            "gwdrn",
+            "groundwstor",
+            "sgd",
+            "lfn",
             "lflf"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
+            "europe",
             "global",
-            "along-track",
-            "europe"
+            "along-track"
           ]
         },
         "resolution": {
@@ -105,14 +105,14 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
-            "6hr",
-            "3hr",
-            "hourly",
-            "2hr",
             "fixed",
             "daily",
-            "monthly"
+            "2hr",
+            "hourly",
+            "6hr",
+            "monthly",
+            "3hr",
+            "annual"
           ]
         },
         "start_year": {

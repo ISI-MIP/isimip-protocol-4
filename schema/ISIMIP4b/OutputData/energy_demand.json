@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/energy_demand.yaml",
-  "commit": "279261a5f2c890bba65a584ac24b8b68856fb69d",
+  "commit": "e4e2e20aa87f7ba54a3f5bc48fe6535115e417e8",
   "type": "object",
   "required": [
     "specifiers"
@@ -28,8 +28,8 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ec-earth3-esm-1-1",
-            "ukesm1-3-ll"
+            "ukesm1-3-ll",
+            "ec-earth3-esm-1-1"
           ]
         },
         "bias_adjustment": {
@@ -43,26 +43,26 @@
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "scen7-h",
-            "esm-picontrol",
+            "esm-hist",
             "picontrol",
+            "vl",
+            "esm-picontrol",
+            "scen7-h",
+            "h",
             "historical",
             "scen7-vl",
-            "esm-hist",
-            "vl",
             "esm-scen7-vl",
-            "h",
             "esm-scen7-h"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "ssp3hsoc-adapt",
-            "ssp1vlsoc-noadapt",
-            "2021soc",
+            "ssp3hsoc-noadapt",
             "ssp1vlsoc-adapt",
-            "ssp3hsoc-noadapt"
+            "2021soc",
+            "ssp1vlsoc-noadapt",
+            "ssp3hsoc-adapt"
           ]
         },
         "sens_scenario": {
@@ -74,25 +74,25 @@
         "variable": {
           "type": "string",
           "enum": [
-            "scue",
             "ratefenely",
-            "acely",
-            "levlfenfof",
-            "scfe",
-            "ratefenfof",
-            "regions",
             "shue",
-            "levlfenely",
+            "scue",
+            "regions",
             "resac",
-            "shfe"
+            "acely",
+            "scfe",
+            "levlfenfof",
+            "shfe",
+            "ratefenfof",
+            "levlfenely"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
+            "europe",
             "global",
-            "along-track",
-            "europe"
+            "along-track"
           ]
         },
         "resolution": {
@@ -104,14 +104,14 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
-            "6hr",
-            "3hr",
-            "hourly",
-            "2hr",
             "fixed",
             "daily",
-            "monthly"
+            "2hr",
+            "hourly",
+            "6hr",
+            "monthly",
+            "3hr",
+            "annual"
           ]
         },
         "start_year": {

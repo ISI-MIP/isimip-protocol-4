@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/fs-n.yaml",
-  "commit": "279261a5f2c890bba65a584ac24b8b68856fb69d",
+  "commit": "e4e2e20aa87f7ba54a3f5bc48fe6535115e417e8",
   "type": "object",
   "required": [
     "specifiers"
@@ -58,10 +58,10 @@
         "variable": {
           "type": "string",
           "enum": [
-            "sevfipop",
+            "sevfipc",
             "modesevfipop",
             "modesevfipc",
-            "sevfipc"
+            "sevfipop"
           ]
         },
         "exp": {
@@ -70,9 +70,9 @@
         "region": {
           "type": "string",
           "enum": [
+            "europe",
             "global",
-            "along-track",
-            "europe"
+            "along-track"
           ]
         },
         "resolution": {
@@ -84,14 +84,14 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "annual",
-            "6hr",
-            "3hr",
-            "hourly",
-            "2hr",
             "fixed",
             "daily",
-            "monthly"
+            "2hr",
+            "hourly",
+            "6hr",
+            "monthly",
+            "3hr",
+            "annual"
           ]
         },
         "start_year": {
