@@ -18,9 +18,8 @@ const Group3RequirementsTable = function({ config, caption, rows }) {
       <thead className="table-dark">
         <tr>
           <th style={{width: '25%'}}>Forcing</th>
-          <th style={{width: '25%'}}>Required</th>
-          <th style={{width: '25%'}}>Harmonized</th>
-          <th style={{width: '25%'}}>Reference to data sets that are used for the harmonization</th>
+          <th style={{width: '25%'}}>Harmonized dataset</th>
+          <th style={{width: '50%'}}>Required for</th>
         </tr>
       </thead>
       <tbody>
@@ -29,16 +28,24 @@ const Group3RequirementsTable = function({ config, caption, rows }) {
             return (
               <tr key={index}>
                 <td>{row.title}</td>
-                <td><Sectors config={config} sectors={row.required} /></td>
-                <td><Sectors config={config} sectors={row.harmonized} /></td>
                 <td>
                   {
                     row.datasets && (
-                      <ul>
+                      <ul className="list-unstyled">
                         {
                           row.datasets.map((d, i) => <li key={i}>{d}</li>)
                         }
                       </ul>
+                    )
+                  }
+                </td>
+                <td>
+                  <Sectors config={config} sectors={row.required} />
+                  {
+                    !isEmpty(row.comment) && (
+                      <div className="mt-2">
+                        <ReactMarkdown>{row.comment}</ReactMarkdown>
+                      </div>
                     )
                   }
                 </td>
