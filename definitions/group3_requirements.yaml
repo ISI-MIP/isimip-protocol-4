@@ -1,56 +1,18 @@
 - specifier: economic-development
   title: Economic development
   required: []
-  harmonized:
-  - biomes
-  - energy_demand
-  - fire
-  - forestry
-  - groundwater
-  - peat
-  - permafrost
-  - water_global
-  sectors:
-  - biomes
-  - energy_demand
-  - fire
-  - forestry
-  - groundwater
-  - peat
-  - permafrost
-  - water_global
   datasets:
   - GDP data
 
 - specifier: population
   title: Population
   required: []
-  harmonized:
-  - biomes
-  - energy_demand
-  - fire
-  - forestry
-  - groundwater
-  - peat
-  - permafrost
-  - water_global
-  sectors:
-  - biomes
-  - energy_demand
-  - fire
-  - forestry
-  - groundwater
-  - peat
-  - permafrost
-  - water_global
   datasets:
   - Population data
 
 - specifier: diets
   title: Diets
   required: []
-  harmonized: []
-  sectors: []
   datasets:
   - Protein uptake per capita
   hidden: true
@@ -65,44 +27,19 @@
   - peat
   - permafrost
   - water_global
-  harmonized:
-  - biomes
-  - energy_demand
-  - fire
-  - forestry
-  - groundwater
-  - peat
-  - permafrost
-  - water_global
-  sectors:
-  - biomes
-  - energy_demand
-  - fire
-  - forestry
-  - groundwater
-  - peat
-  - permafrost
+  datasets:
+  - Land use and irrigation
+
+- specifier: irrigation
+  title: Irrigation
+  required:
   - water_global
   datasets:
-  - Land use and irrigation data
+  - Land use and irrigation
 
 - specifier: n-deposition
   title: Nitrogen Deposition
   required: []
-  harmonized:
-  - biomes
-  - fire
-  - forestry
-  - groundwater
-  - peat
-  - permafrost
-  sectors:
-  - biomes
-  - fire
-  - forestry
-  - groundwater
-  - peat
-  - permafrost
   datasets:
   - N-deposition
 
@@ -110,83 +47,32 @@
   title: Synthetic N-fertilizer inputs
   required:
   - agriculture
-  harmonized:
-  - agriculture
-  - biomes
-  - fire
-  - forestry
-  - peat
-  - permafrost
-  - water_global
-  sectors:
-  - biomes
-  - fire
-  - forestry
-  - peat
-  - permafrost
-  - water_global
   datasets:
-  - N-fertilizer inputs
+  - Synthetic fertilizers N
+
+- specifier: diets
+  title: Diets
+  required: []
+  datasets:
+  - Protein uptake per capita
+  hidden: true
 
 - specifier: animal-menure
   title: Animal manure N
   required: []
-  harmonized:
-  - biomes
-  - fire
-  - forestry
-  - peat
-  - permafrost
-  - water_global
-  sectors:
-  - biomes
-  - fire
-  - forestry
-  - peat
-  - permafrost
-  - water_global
   datasets:
   - Animal manure N
   hidden: true
 
-- specifier: irrigation
-  title: Irrigation
-  required:
-  - water_global
-  harmonized:
-  - water_global
-  sectors:
-  - water_global
-  datasets:
-  - Irrigation
-
 - specifier: forest-harvests
   title: Wood harvests
   required: []
-  harmonized:
-  - biomes
-  - fire
-  - forestry
-  - groundwater
-  - peat
-  - permafrost
-  sectors:
-  - biomes
-  - fire
-  - forestry
-  - groundwater
-  - peat
-  - permafrost
   datasets:
   - Wood harvest
 
 - specifier: forest-management
   title: Forest management
   required:
-  - forestry
-  harmonized:
-  - forestry
-  sectors:
   - forestry
   datasets:
   - Forest management
@@ -195,8 +81,6 @@
 - specifier: nutrient-uptake
   title: Nutrient uptake by vegetation
   required: []
-  harmonized: []
-  sectors: []
   datasets:
   - Protein uptake per capita
   hidden: true
@@ -205,11 +89,10 @@
   title: Growing seasons
   required:
   - agriculture
-  harmonized: []
-  sectors:
-  - agriculture
   datasets:
   - Crop calendar
+  comment: >
+    For ISIMIP4, we provide only a fixed 2021soc crop calendar (the same one used in ISIMIP3). It is mandatory only for 2021soc simulations. For histsoc and future ISIMIP4b Group III runs, models are free to use their own calendars: in adaptation runs, if the changes are a response to climate change, and in no-adaptation runs, if the changes represent socio-economic developments without accounting for climate change.
 
 - specifier: fishing-efforts
   title: Marine fishing efforts
