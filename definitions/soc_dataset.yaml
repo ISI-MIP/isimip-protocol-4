@@ -734,6 +734,7 @@
 - specifier: ndep-nhx
   title: Reduced nitrogen deposition
   group: n-deposition
+  mandatory: false
   frequency: monthly
   resolution: 0.5° grid
   group3: true
@@ -783,6 +784,7 @@
 - specifier: ndep-drynhx
   title: Dry reduced nitrogen deposition
   group: n-deposition
+  mandatory: false
   frequency: monthly
   resolution: 0.5° grid
   group3: true
@@ -832,6 +834,7 @@
 - specifier: ndep-wetnhx
   title: Wet reduced nitrogen deposition
   group: n-deposition
+  mandatory: false
   frequency: monthly
   resolution: 0.5° grid
   group3: true
@@ -881,6 +884,7 @@
 - specifier: ndep-noy
   title: Oxidized nitrogen deposition
   group: n-deposition
+  mandatory: false
   frequency: monthly
   resolution: 0.5° grid
   group3: true
@@ -930,6 +934,7 @@
 - specifier: ndep-drynoy
   title: Dry oxidized nitrogen deposition
   group: n-deposition
+  mandatory: false
   frequency: monthly
   resolution: 0.5° grid
   group3: true
@@ -979,6 +984,7 @@
 - specifier: ndep-wetnoy
   title: Wet oxidized nitrogen deposition
   group: n-deposition
+  mandatory: false
   frequency: monthly
   resolution: 0.5° grid
   group3: true
@@ -1066,6 +1072,7 @@
 - specifier: reservoirs-dams
   title: Reservoirs and dams
   group: reservoirs-dams
+  mandatory: false
   frequency: annual
   resolution: 0.5° grid and original coordinates (degree)
   path:
@@ -1155,6 +1162,7 @@
 - specifier: dams-reservoirs
   title: Reservoirs and dams (Group III)
   group: reservoirs-dams
+  mandatory: false
   frequency: annual
   resolution: 0.5° grid and original coordinates (degree)
   group3: true
@@ -1353,6 +1361,7 @@
 - specifier: wood_harvesting
   title: Wood harvesting
   group: wood_harvesting
+  mandatory: false
   frequency: annual
   resolution:
   - 30arcmin (0.5° grid)
@@ -1430,6 +1439,7 @@
 - specifier: land-transformation
   title: Land transformation
   group: land-transformation
+  mandatory: false
   frequency: annual
   resolution:
   - 30arcmin (0.5° grid)
@@ -1480,6 +1490,7 @@
 - specifier: pctlake
   title: Lake area fraction
   group: pctlake
+  mandatory: false
   frequency: annual
   resolution: 0.5° grid
   path:
