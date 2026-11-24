@@ -21,7 +21,7 @@
   units: km-2 d-1
   frequency: monthly
   resolution: 0.5° grid
-  path: ISIMIP4b/InputData/climate/atmosphere/bias-adjusted/global/daily/<climate-scenario>/<climate-forcing>_r1i1p1f1_nobasd_<climate-scenario>_flashrate_30arcsec_global_30arcmin_monthly_<start_year>_<end_year>.nc
+  path: ISIMIP4b/InputData/climate/lightning/<climate-scenario>/<climate-forcing>_r1i1p1f1_nobasd_<climate-scenario>_flashrate_30arcmin_global_monthly_<start_year>_<end_year>.nc
   simulation_rounds:
   - ISIMIP4b
   sectors:

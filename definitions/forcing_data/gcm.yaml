@@ -49,11 +49,12 @@
   group: gcm-forcing
   title: Varying lightning according to climate change
   mandatory: true
-  status: under development
+  status: mandatory
   path:
+  - ISIMIP4b/InputData/climate/lightning/esm-picontrol/
   - ISIMIP4b/InputData/climate/lightning/esm-hist/
-  - ISIMIP3b/InputData/climate/lightning/esm-scen7-vl/
-  - ISIMIP3b/InputData/climate/lightning/esm-scen7-h/
+  - ISIMIP4b/InputData/climate/lightning/esm-scen7-vl/
+  - ISIMIP4b/InputData/climate/lightning/esm-scen7-h/
   comment: >-
     Varying lightning according to climate change.
   simulation_rounds:
