@@ -1,5 +1,5 @@
 {
-  "commit": "62a0b1e53793f68a013c6dfe7e927a293b466d26",
+  "commit": "53d6351ea56a41b650ac8a127776a16b82ff90a7",
   "path": "(?P<simulation_round>(ISIMIP4b))/(?P<product>(SecondaryInputData))/(?P<category>(socioeconomic))/(?P<subcategory>(fixed-assets))/(?P<soc_scenario>[a-z0-9-]+)$",
   "dataset": "^(?P<soc_dataset>[a-z0-9-]+)_(?P<soc_scenario>(histsoc|2021soc|1850soc))?(?P<soc_pathway>ssp\\d)?_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)",
   "file": "^(?P<soc_dataset>[a-z0-9-]+)_(?P<soc_scenario>(histsoc|2021soc|1850soc))?(?P<soc_pathway>ssp\\d)?_(?P<resolution>[a-z0-9]+)_(?P<time_step>[a-z]+)_(?P<start_year>\\d{4})_(?P<end_year>\\d{4})(.csv|.nc)$",

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4b/OutputData/fs-n.yaml",
-  "commit": "62a0b1e53793f68a013c6dfe7e927a293b466d26",
+  "commit": "53d6351ea56a41b650ac8a127776a16b82ff90a7",
   "type": "object",
   "required": [
     "specifiers"
@@ -28,58 +28,58 @@
         "climate_forcing": {
           "type": "string",
           "enum": [
-            "ec-earth3-esm-1-1",
-            "ukesm1-3-ll"
+            "ukesm1-3-ll",
+            "ec-earth3-esm-1-1"
           ]
         },
         "bias_adjustment": {
           "type": "string",
           "enum": [
+            "era5",
             "nobasd",
-            "w5e5",
-            "era5"
+            "w5e5"
           ]
         },
         "climate_scenario": {
           "type": "string",
           "enum": [
-            "vl",
+            "historical",
+            "esm-scen7-h",
+            "scen7-h",
             "h",
+            "esm-scen7-vl",
             "esm-picontrol",
             "picontrol",
+            "vl",
             "esm-hist",
-            "scen7-vl",
-            "esm-scen7-vl",
-            "esm-scen7-h",
-            "historical",
-            "scen7-h"
+            "scen7-vl"
           ]
         },
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "ssp1vlsoc-adapt",
-            "ssp3hsoc-noadapt",
             "2021soc-from-histsoc",
-            "ssp3hsoc-adapt",
             "ssp1vlsoc-noadapt",
-            "histsoc"
+            "ssp3hsoc-noadapt",
+            "histsoc",
+            "ssp1vlsoc-adapt",
+            "ssp3hsoc-adapt"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "2021co2",
-            "default"
+            "default",
+            "2021co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "modesevfipop",
+            "modesevfipc",
             "sevfipc",
-            "sevfipop",
-            "modesevfipc"
+            "modesevfipop",
+            "sevfipop"
           ]
         },
         "exp": {
@@ -88,9 +88,9 @@
         "region": {
           "type": "string",
           "enum": [
-            "along-track",
             "europe",
-            "global"
+            "global",
+            "along-track"
           ]
         },
         "resolution": {
@@ -105,11 +105,11 @@
             "annual",
             "6hr",
             "2hr",
-            "monthly",
-            "fixed",
-            "hourly",
             "3hr",
-            "daily"
+            "hourly",
+            "daily",
+            "monthly",
+            "fixed"
           ]
         },
         "start_year": {

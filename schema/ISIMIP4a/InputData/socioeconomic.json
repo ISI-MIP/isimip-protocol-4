@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/InputData/socioeconomic.yaml",
-  "commit": "62a0b1e53793f68a013c6dfe7e927a293b466d26",
+  "commit": "53d6351ea56a41b650ac8a127776a16b82ff90a7",
   "type": "object",
   "required": [
     "specifiers"
@@ -14,44 +14,44 @@
         "soc_dataset": {
           "type": "string",
           "enum": [
-            "ndep-noy",
-            "gdp-ppp-countrylevel",
-            "n-fertilizer-15crops",
-            "effort-artisanal-gridded",
-            "gdp-per-capita-ppp",
-            "landuse-pastures",
-            "ndep-wetnhx",
-            "gdp-per-capita-mer-countrylevel",
-            "fishing_effort",
-            "gdp-ppp",
-            "landuse-5crops",
-            "landuse-15crops",
-            "landuse-subgroups",
-            "pctlake",
-            "n-fertilizer-5crops",
-            "landuse-totals",
             "ndep-drynoy",
-            "landuse-urbanareas",
-            "ndep-drynhx",
-            "reservoirs-dams",
-            "fixed-asset-value",
-            "effort",
-            "population",
-            "landuse-forests-and-natural-vegetation",
-            "gridded_industrial_fishing_effort",
-            "ggcmi-crop-calendar-2021soc",
-            "gridded_artisanal_fishing_effort",
-            "land-transformation",
-            "ndep-wetnoy",
-            "population-stratification",
-            "gdp-mer-countrylevel",
-            "gdp-per-capita-ppp-countrylevel",
-            "ggcmi-crop-calendar",
-            "wood_harvesting",
-            "population-gridded",
+            "ndep-wetnhx",
+            "landuse-5crops",
+            "fishing_effort",
             "population-countrylevel",
+            "gdp-ppp-countrylevel",
+            "gdp-ppp",
+            "ndep-noy",
+            "landuse-15crops",
+            "gdp-per-capita-mer-countrylevel",
+            "ndep-nhx",
+            "effort",
+            "effort-artisanal-gridded",
+            "fixed-asset-value",
+            "ndep-wetnoy",
+            "population",
+            "landuse-totals",
+            "reservoirs-dams",
+            "gdp-mer-countrylevel",
+            "n-fertilizer-15crops",
+            "landuse-urbanareas",
+            "landuse-pastures",
+            "land-transformation",
+            "gdp-per-capita-ppp",
+            "ndep-drynhx",
+            "population-gridded",
+            "n-fertilizer-5crops",
+            "wood_harvesting",
+            "landuse-subgroups",
+            "ggcmi-crop-calendar",
+            "pctlake",
             "effort-industrial-gridded",
-            "ndep-nhx"
+            "gridded_industrial_fishing_effort",
+            "gdp-per-capita-ppp-countrylevel",
+            "ggcmi-crop-calendar-2021soc",
+            "landuse-forests-and-natural-vegetation",
+            "gridded_artisanal_fishing_effort",
+            "population-stratification"
           ]
         },
         "soc_variable": {
@@ -60,40 +60,40 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
+            "2021soc",
+            "histsoc",
             "1901soc",
             "nat",
-            "histsoc",
             "1850soc-input-only",
-            "1850soc",
-            "2021soc"
+            "1850soc"
           ]
         },
         "resolution": {
           "type": "string",
           "enum": [
-            "30arcmin",
+            "1arcmin",
             "national",
             "60arcmin",
             "30arcsec",
             "5arcmin",
             "6arcmin",
             "15arcmin",
-            "1arcmin"
+            "30arcmin"
           ]
         },
         "time_step": {
           "type": "string",
           "enum": [
-            "monthly-gs",
             "annual",
             "6hr",
             "2hr",
+            "3hr",
+            "hourly",
+            "monthly-gs",
+            "daily",
             "monthly",
             "fixed",
-            "hourly",
-            "3hr",
-            "annual-gs",
-            "daily"
+            "annual-gs"
           ]
         },
         "start_year": {

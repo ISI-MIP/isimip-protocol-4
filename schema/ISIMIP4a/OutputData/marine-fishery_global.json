@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/marine-fishery_global.yaml",
-  "commit": "62a0b1e53793f68a013c6dfe7e927a293b466d26",
+  "commit": "53d6351ea56a41b650ac8a127776a16b82ff90a7",
   "type": "object",
   "required": [
     "specifiers"
@@ -46,8 +46,8 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "nat",
-            "histsoc"
+            "histsoc",
+            "nat"
           ]
         },
         "sens_scenario": {
@@ -59,34 +59,34 @@
         "variable": {
           "type": "string",
           "enum": [
-            "tcblog10",
-            "tclog10",
             "bd90cm",
-            "cp30cm",
+            "cd30to90cm",
+            "bp90cm",
             "tpc",
-            "tc",
-            "cd30cm",
-            "cd90cm",
-            "tcb",
-            "bd30cm",
-            "bp30to90cm",
-            "bd30to90cm",
+            "tcblog10",
             "tpb",
             "tdc",
-            "tdb",
             "bp30cm",
-            "cp90cm",
-            "bp90cm",
+            "tdb",
             "cp30to90cm",
-            "cd30to90cm"
+            "cp90cm",
+            "cp30cm",
+            "bp30to90cm",
+            "tcb",
+            "cd30cm",
+            "bd30cm",
+            "bd30to90cm",
+            "tclog10",
+            "cd90cm",
+            "tc"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "along-track",
             "europe",
-            "global"
+            "global",
+            "along-track"
           ]
         },
         "resolution": {
@@ -101,11 +101,11 @@
             "annual",
             "6hr",
             "2hr",
-            "monthly",
-            "fixed",
-            "hourly",
             "3hr",
-            "daily"
+            "hourly",
+            "daily",
+            "monthly",
+            "fixed"
           ]
         },
         "start_year": {
