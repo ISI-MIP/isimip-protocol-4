@@ -232,7 +232,8 @@
   units: km-2 day-1
   frequency: annual
   resolution: 0.5° grid
-  comment: ""
+  comment: >
+    The variable is called **ignhuman** (Ignitions Caused by Human) in ISIMIP3a/b
   sectors:
   - fire
   valid_max: 1000000.0
@@ -245,7 +246,8 @@
   units: km-2 day-1
   frequency: monthly
   resolution: 0.5° grid
-  comment: ""
+  comment: >
+    The variable is called **ignlight** (Ignitions Caused by Lightning) in ISIMIP3a/b
   sectors:
   - fire
   valid_max: 1000000.0
