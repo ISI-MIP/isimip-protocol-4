@@ -1,5 +1,5 @@
 {
-  "commit": "53d6351ea56a41b650ac8a127776a16b82ff90a7",
+  "commit": "a4f14234870c9666e5924591681c9468e6fcf79c",
   "variable": [
     {
       "specifier": "soil",
@@ -984,7 +984,7 @@
       "units": "km-2 day-1",
       "frequency": "annual",
       "resolution": "0.5° grid",
-      "comment": "The variable is called **ignhuman** (Ignitions Caused by Human) in ISIMIP3a/b\n",
+      "comment": "The variable is called **ignhuman** (Ignitions Caused by Human) in ISIMIP3a/b.\n",
       "sectors": [
         "fire"
       ],
@@ -999,7 +999,7 @@
       "units": "km-2 day-1",
       "frequency": "monthly",
       "resolution": "0.5° grid",
-      "comment": "The variable is called **ignlight** (Ignitions Caused by Lightning) in ISIMIP3a/b\n",
+      "comment": "The variable is called **ignlight** (Ignitions Caused by Lightning) in ISIMIP3a/b.\n",
       "sectors": [
         "fire"
       ],
