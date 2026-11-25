@@ -153,7 +153,7 @@
   - fuelclass
   - lat
   - lon
-  valid_max: 1.0
+  valid_max: 5.0
   valid_min: 0.0
 
 - specifier: firenr
@@ -164,20 +164,6 @@
   frequency: monthly
   resolution: 0.5° grid
   comment: ""
-  sectors:
-  - fire
-  valid_max: 1000000.0
-  valid_min: 0.0
-
-- specifier: firenrperc95
-  long_name: 95th Percentile of Number of Fires
-  group: fire-variables
-  extension: total
-  units: km-2 day-1
-  frequency: monthly
-  resolution: 0.5° grid
-  comment: >-
-    95th percentile of number of fires in one day during the month
   sectors:
   - fire
   valid_max: 1000000.0
@@ -211,20 +197,6 @@
   valid_max: 100000.0
   valid_min: 0.0
 
-- specifier: firesizeperc95
-  long_name: 95th Percentile of Fire Size
-  group: fire-variables
-  extension: total
-  units: km2
-  frequency: monthly
-  resolution: 0.5° grid
-  comment: >-
-    95th percentile of fire size computed during the month
-  sectors:
-  - fire
-  valid_max: 100000.0
-  valid_min: 0.0
-
 - specifier: fireduration
   long_name: Weighted Mean Fire Duration
   group: fire-variables
@@ -253,27 +225,29 @@
   valid_max: 150.0
   valid_min: 0.0
 
-- specifier: ignhuman
-  long_name: Ignitions Caused by Human
+- specifier: fnhuman
+  long_name: Fire Number Caused by Human
   group: fire-variables
   extension: total
   units: km-2 day-1
   frequency: annual
   resolution: 0.5° grid
-  comment: ""
+  comment: >
+    The variable is called **ignhuman** (Ignitions Caused by Human) in ISIMIP3a/b
   sectors:
   - fire
   valid_max: 1000000.0
   valid_min: 0.0
 
-- specifier: ignlight
-  long_name: Ignitions Caused by Lightning
+- specifier: fnlight
+  long_name: Fire Number Caused by Lightning
   group: fire-variables
   extension: total
   units: km-2 day-1
   frequency: monthly
   resolution: 0.5° grid
-  comment: ""
+  comment: >
+    The variable is called **ignlight** (Ignitions Caused by Lightning) in ISIMIP3a/b
   sectors:
   - fire
   valid_max: 1000000.0
