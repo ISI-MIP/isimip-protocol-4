@@ -233,7 +233,7 @@
   frequency: annual
   resolution: 0.5° grid
   comment: >
-    The variable is called **ignhuman** (Ignitions Caused by Human) in ISIMIP3a/b
+    The variable is called **ignhuman** (Ignitions Caused by Human) in ISIMIP3a/b.
   sectors:
   - fire
   valid_max: 1000000.0
@@ -247,7 +247,7 @@
   frequency: monthly
   resolution: 0.5° grid
   comment: >
-    The variable is called **ignlight** (Ignitions Caused by Lightning) in ISIMIP3a/b
+    The variable is called **ignlight** (Ignitions Caused by Lightning) in ISIMIP3a/b.
   sectors:
   - fire
   valid_max: 1000000.0
