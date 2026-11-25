@@ -1,24 +1,20 @@
 - specifier: economic-development
   title: Economic development
+  harmonized: "yes"
   required: []
   datasets:
   - GDP data
 
 - specifier: population
   title: Population
+  harmonized: "yes"
   required: []
   datasets:
   - Population data
 
-- specifier: diets
-  title: Diets
-  required: []
-  datasets:
-  - Protein uptake per capita
-  hidden: true
-
 - specifier: landuse
   title: Land use
+  harmonized: "yes"
   required:
   - biomes
   - fire
@@ -32,6 +28,7 @@
 
 - specifier: irrigation
   title: Irrigation
+  harmonized: "yes"
   required:
   - water_global
   datasets:
@@ -39,12 +36,14 @@
 
 - specifier: n-deposition
   title: Nitrogen Deposition
+  harmonized: "yes"
   required: []
   datasets:
   - N-deposition
 
 - specifier: n-fertilizer
   title: Synthetic N-fertilizer inputs
+  harmonized: "yes"
   required:
   - agriculture
   datasets:
@@ -52,6 +51,7 @@
 
 - specifier: diets
   title: Diets
+  harmonized: "yes"
   required: []
   datasets:
   - Protein uptake per capita
@@ -59,6 +59,7 @@
 
 - specifier: animal-menure
   title: Animal manure N
+  harmonized: "yes"
   required: []
   datasets:
   - Animal manure N
@@ -66,12 +67,14 @@
 
 - specifier: forest-harvests
   title: Wood harvests
+  harmonized: "yes"
   required: []
   datasets:
   - Wood harvest
 
 - specifier: forest-management
   title: Forest management
+  harmonized: "yes"
   required:
   - forestry
   datasets:
@@ -80,6 +83,7 @@
 
 - specifier: nutrient-uptake
   title: Nutrient uptake by vegetation
+  harmonized: "yes"
   required: []
   datasets:
   - Protein uptake per capita
@@ -87,6 +91,7 @@
 
 - specifier: growing-seasons
   title: Growing seasons
+  harmonized: "only 2021soc"
   required:
   - agriculture
   datasets:
@@ -96,69 +101,55 @@
 
 - specifier: fishing-efforts
   title: Marine fishing efforts
+  harmonized: "yes"
   required: []
-  harmonized: []
   sectors: []
   datasets:
   - Marine fishing effort
 
 - specifier: reservoirs-dams
   title: "Water management: Hydropower reservoirs and dams"
+  harmonized: "no"
   required: []
-  harmonized:
-  - water_global
-  sectors:
-  - water_global
   datasets:
   - Dams and reservoirs
 
 - specifier: water-use
   title: "Water management: non-irrigation water use"
+  harmonized: "no"
   required: []
-  harmonized:
-  - water_global
-  sectors: []
   datasets:
   - Non-irrigation water use (withdrawal and consumption)
   hidden: true
 
 - specifier: irrigation-techniques
   title: "Water management: irrigation techniques"
+  harmonized: "no"
   required: []
-  harmonized:
-  - water_global
-  sectors:
-  - water_global
   datasets:
   - Irrigation techniques share
   hidden: true
 
 - specifier: sea-water-desalination
   title: "Water management: sea water desalination"
+  harmonized: "no"
   required: []
-  harmonized:
-  - water_global
-  sectors:
-  - water_global
   datasets:
   - Seawater desalination
   hidden: true
 
 - specifier: inter-basin-water-transfer
   title: "Water management: inter-basin water transfer"
+  harmonized: "no"
   required: []
-  harmonized:
-  - water_global
-  sectors:
-  - water_global
   datasets:
   - Inter-basin water transfer
   hidden: true
 
 - specifier: biological-fixation
   title: Biological fixation
+  harmonized: "no"
   required: []
-  harmonized: []
   sectors: []
   datasets:
   - Biological fixation (N, cropland/grassland/natural)

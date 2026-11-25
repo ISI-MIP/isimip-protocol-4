@@ -18,8 +18,9 @@ const Group3RequirementsTable = function({ config, caption, rows }) {
       <thead className="table-dark">
         <tr>
           <th style={{width: '25%'}}>Forcing</th>
-          <th style={{width: '25%'}}>Harmonized dataset</th>
-          <th style={{width: '50%'}}>Required for</th>
+          <th style={{width: '20%'}}>Input Dataset</th>
+          <th style={{width: '15%'}}>Harmonized</th>
+          <th style={{width: '40%'}}>Required for</th>
         </tr>
       </thead>
       <tbody>
@@ -39,6 +40,7 @@ const Group3RequirementsTable = function({ config, caption, rows }) {
                     )
                   }
                 </td>
+                <td>{row.harmonized}</td>
                 <td>
                   <Sectors config={config} sectors={row.required} />
                   {
