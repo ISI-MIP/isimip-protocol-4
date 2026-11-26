@@ -99,7 +99,7 @@ items:
     increment:
       type: string
     harmonized:
-      type: array
+      type: string
     hidden:
       type: boolean
     historical:
