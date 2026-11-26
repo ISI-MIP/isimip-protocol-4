@@ -1,5 +1,5 @@
 {
-  "commit": "a4f14234870c9666e5924591681c9468e6fcf79c",
+  "commit": "a8d471308e67694e1c281dab23f8907138c0dc4d",
   "variable": [
     {
       "specifier": "regions",
@@ -18843,6 +18843,18 @@
       ]
     },
     {
+      "specifier": "clm6-0-vub",
+      "title": "CLM6-0-VUB",
+      "primary_sector": "lakes_global",
+      "sectors": [
+        "lakes_global"
+      ],
+      "simulation_rounds": [
+        "ISIMIP4a",
+        "ISIMIP4b"
+      ]
+    },
+    {
       "specifier": "colm-iap-dgvm",
       "title": "CoLM-IAP-DGVM",
       "primary_sector": "biomes",
@@ -18905,11 +18917,35 @@
       ]
     },
     {
+      "specifier": "globgm",
+      "title": "GLOBGM",
+      "primary_sector": "groundwater",
+      "sectors": [
+        "groundwater"
+      ],
+      "simulation_rounds": [
+        "ISIMIP4a",
+        "ISIMIP4b"
+      ]
+    },
+    {
       "specifier": "gotm-ler",
       "title": "GOTM-LER",
       "primary_sector": "lakes_global",
       "sectors": [
         "lakes_global"
+      ],
+      "simulation_rounds": [
+        "ISIMIP4a",
+        "ISIMIP4b"
+      ]
+    },
+    {
+      "specifier": "noah-mp",
+      "title": "Noah-MP",
+      "primary_sector": "water_global",
+      "sectors": [
+        "water_global"
       ],
       "simulation_rounds": [
         "ISIMIP4a",

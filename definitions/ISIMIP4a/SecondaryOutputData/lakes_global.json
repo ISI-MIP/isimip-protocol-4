@@ -1,5 +1,5 @@
 {
-  "commit": "a4f14234870c9666e5924591681c9468e6fcf79c",
+  "commit": "a8d471308e67694e1c281dab23f8907138c0dc4d",
   "variable": [
     {
       "specifier": "strat",
@@ -8702,6 +8702,18 @@
     {
       "specifier": "albm",
       "title": "ALBM",
+      "primary_sector": "lakes_global",
+      "sectors": [
+        "lakes_global"
+      ],
+      "simulation_rounds": [
+        "ISIMIP4a",
+        "ISIMIP4b"
+      ]
+    },
+    {
+      "specifier": "clm6-0-vub",
+      "title": "CLM6-0-VUB",
       "primary_sector": "lakes_global",
       "sectors": [
         "lakes_global"

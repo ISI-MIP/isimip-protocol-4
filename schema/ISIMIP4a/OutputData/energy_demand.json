@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/energy_demand.yaml",
-  "commit": "a4f14234870c9666e5924591681c9468e6fcf79c",
+  "commit": "a8d471308e67694e1c281dab23f8907138c0dc4d",
   "type": "object",
   "required": [
     "specifiers"
@@ -33,8 +33,8 @@
         "detrending": {
           "type": "string",
           "enum": [
-            "detrended",
-            "observed"
+            "observed",
+            "detrended"
           ]
         },
         "climate_scenario": {
@@ -52,32 +52,32 @@
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "default",
-            "1901co2"
+            "1901co2",
+            "default"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "ratefenfof",
             "resac",
-            "scfe",
-            "levlfenely",
-            "regions",
+            "ratefenfof",
             "ratefenely",
-            "levlfenfof",
-            "acely",
-            "scue",
+            "regions",
             "shfe",
-            "shue"
+            "levlfenfof",
+            "shue",
+            "acely",
+            "levlfenely",
+            "scfe",
+            "scue"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
             "europe",
-            "global",
-            "along-track"
+            "along-track",
+            "global"
           ]
         },
         "resolution": {
@@ -89,14 +89,14 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "6hr",
             "fixed",
-            "hourly",
-            "annual",
-            "daily",
             "monthly",
-            "3hr",
-            "2hr"
+            "6hr",
+            "2hr",
+            "annual",
+            "hourly",
+            "daily",
+            "3hr"
           ]
         },
         "start_year": {
