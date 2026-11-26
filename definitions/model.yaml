@@ -81,6 +81,15 @@
   - ISIMIP4a
   - ISIMIP4b
 
+- specifier: noah-mp
+  title: Noah-MP
+  primary_sector: water_global
+  sectors:
+    - water_global
+  simulation_rounds:
+  - ISIMIP4a
+  - ISIMIP4b
+
 - specifier: simstrat-ler
   title: Simstrat-LER
   primary_sector: lakes_global
