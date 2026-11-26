@@ -1,5 +1,5 @@
 {
-  "commit": "a8d471308e67694e1c281dab23f8907138c0dc4d",
+  "commit": "e1843dc1f40f445dd4733d06b6f82a24af6b99bf",
   "terms": {
     "variable": {
       "regions": {
@@ -2579,11 +2579,11 @@
       "population": {
         "title": "Population"
       },
-      "diets": {
-        "title": "Diets"
-      },
       "landuse": {
         "title": "Land use"
+      },
+      "irrigation": {
+        "title": "Irrigation"
       },
       "n-deposition": {
         "title": "Nitrogen Deposition"
@@ -2591,11 +2591,11 @@
       "n-fertilizer": {
         "title": "Synthetic N-fertilizer inputs"
       },
+      "diets": {
+        "title": "Diets"
+      },
       "animal-menure": {
         "title": "Animal manure N"
-      },
-      "irrigation": {
-        "title": "Irrigation"
       },
       "forest-harvests": {
         "title": "Wood harvests"

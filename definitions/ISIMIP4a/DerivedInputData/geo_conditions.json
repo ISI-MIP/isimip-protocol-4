@@ -1,5 +1,5 @@
 {
-  "commit": "a8d471308e67694e1c281dab23f8907138c0dc4d",
+  "commit": "e1843dc1f40f445dd4733d06b6f82a24af6b99bf",
   "variable": [
     {
       "specifier": "regions",
@@ -11063,27 +11063,8 @@
     {
       "specifier": "economic-development",
       "title": "Economic development",
+      "harmonized": "yes",
       "required": [],
-      "harmonized": [
-        "biomes",
-        "energy_demand",
-        "fire",
-        "forestry",
-        "groundwater",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
-      "sectors": [
-        "biomes",
-        "energy_demand",
-        "fire",
-        "forestry",
-        "groundwater",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
       "datasets": [
         "GDP data"
       ]
@@ -11091,45 +11072,16 @@
     {
       "specifier": "population",
       "title": "Population",
+      "harmonized": "yes",
       "required": [],
-      "harmonized": [
-        "biomes",
-        "energy_demand",
-        "fire",
-        "forestry",
-        "groundwater",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
-      "sectors": [
-        "biomes",
-        "energy_demand",
-        "fire",
-        "forestry",
-        "groundwater",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
       "datasets": [
         "Population data"
       ]
     },
     {
-      "specifier": "diets",
-      "title": "Diets",
-      "required": [],
-      "harmonized": [],
-      "sectors": [],
-      "datasets": [
-        "Protein uptake per capita"
-      ],
-      "hidden": true
-    },
-    {
       "specifier": "landuse",
       "title": "Land use",
+      "harmonized": "yes",
       "required": [
         "biomes",
         "fire",
@@ -11139,50 +11091,26 @@
         "permafrost",
         "water_global"
       ],
-      "harmonized": [
-        "biomes",
-        "energy_demand",
-        "fire",
-        "forestry",
-        "groundwater",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
-      "sectors": [
-        "biomes",
-        "energy_demand",
-        "fire",
-        "forestry",
-        "groundwater",
-        "peat",
-        "permafrost",
+      "datasets": [
+        "Land use and irrigation"
+      ]
+    },
+    {
+      "specifier": "irrigation",
+      "title": "Irrigation",
+      "harmonized": "yes",
+      "required": [
         "water_global"
       ],
       "datasets": [
-        "Land use and irrigation data"
+        "Land use and irrigation"
       ]
     },
     {
       "specifier": "n-deposition",
       "title": "Nitrogen Deposition",
+      "harmonized": "yes",
       "required": [],
-      "harmonized": [
-        "biomes",
-        "fire",
-        "forestry",
-        "groundwater",
-        "peat",
-        "permafrost"
-      ],
-      "sectors": [
-        "biomes",
-        "fire",
-        "forestry",
-        "groundwater",
-        "peat",
-        "permafrost"
-      ],
       "datasets": [
         "N-deposition"
       ]
@@ -11190,91 +11118,39 @@
     {
       "specifier": "n-fertilizer",
       "title": "Synthetic N-fertilizer inputs",
+      "harmonized": "yes",
       "required": [
         "agriculture"
       ],
-      "harmonized": [
-        "agriculture",
-        "biomes",
-        "fire",
-        "forestry",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
-      "sectors": [
-        "biomes",
-        "fire",
-        "forestry",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
       "datasets": [
-        "N-fertilizer inputs"
+        "Synthetic fertilizers N"
       ]
+    },
+    {
+      "specifier": "diets",
+      "title": "Diets",
+      "harmonized": "yes",
+      "required": [],
+      "datasets": [
+        "Protein uptake per capita"
+      ],
+      "hidden": true
     },
     {
       "specifier": "animal-menure",
       "title": "Animal manure N",
+      "harmonized": "yes",
       "required": [],
-      "harmonized": [
-        "biomes",
-        "fire",
-        "forestry",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
-      "sectors": [
-        "biomes",
-        "fire",
-        "forestry",
-        "peat",
-        "permafrost",
-        "water_global"
-      ],
       "datasets": [
         "Animal manure N"
       ],
       "hidden": true
     },
     {
-      "specifier": "irrigation",
-      "title": "Irrigation",
-      "required": [
-        "water_global"
-      ],
-      "harmonized": [
-        "water_global"
-      ],
-      "sectors": [
-        "water_global"
-      ],
-      "datasets": [
-        "Irrigation"
-      ]
-    },
-    {
       "specifier": "forest-harvests",
       "title": "Wood harvests",
+      "harmonized": "yes",
       "required": [],
-      "harmonized": [
-        "biomes",
-        "fire",
-        "forestry",
-        "groundwater",
-        "peat",
-        "permafrost"
-      ],
-      "sectors": [
-        "biomes",
-        "fire",
-        "forestry",
-        "groundwater",
-        "peat",
-        "permafrost"
-      ],
       "datasets": [
         "Wood harvest"
       ]
@@ -11282,13 +11158,8 @@
     {
       "specifier": "forest-management",
       "title": "Forest management",
+      "harmonized": "yes",
       "required": [
-        "forestry"
-      ],
-      "harmonized": [
-        "forestry"
-      ],
-      "sectors": [
         "forestry"
       ],
       "datasets": [
@@ -11299,9 +11170,8 @@
     {
       "specifier": "nutrient-uptake",
       "title": "Nutrient uptake by vegetation",
+      "harmonized": "yes",
       "required": [],
-      "harmonized": [],
-      "sectors": [],
       "datasets": [
         "Protein uptake per capita"
       ],
@@ -11310,22 +11180,20 @@
     {
       "specifier": "growing-seasons",
       "title": "Growing seasons",
+      "harmonized": "only 2021soc",
       "required": [
-        "agriculture"
-      ],
-      "harmonized": [],
-      "sectors": [
         "agriculture"
       ],
       "datasets": [
         "Crop calendar"
-      ]
+      ],
+      "comment": "For ISIMIP4, we provide only a fixed 2021soc crop calendar (the same one used in ISIMIP3). It is mandatory only for 2021soc simulations. For histsoc and future ISIMIP4b Group III runs, models are free to use their own calendars: in adaptation runs, if the changes are a response to climate change, and in no-adaptation runs, if the changes represent socio-economic developments without accounting for climate change.\n"
     },
     {
       "specifier": "fishing-efforts",
       "title": "Marine fishing efforts",
+      "harmonized": "yes",
       "required": [],
-      "harmonized": [],
       "sectors": [],
       "datasets": [
         "Marine fishing effort"
@@ -11334,13 +11202,8 @@
     {
       "specifier": "reservoirs-dams",
       "title": "Water management: Hydropower reservoirs and dams",
+      "harmonized": "no",
       "required": [],
-      "harmonized": [
-        "water_global"
-      ],
-      "sectors": [
-        "water_global"
-      ],
       "datasets": [
         "Dams and reservoirs"
       ]
@@ -11348,11 +11211,8 @@
     {
       "specifier": "water-use",
       "title": "Water management: non-irrigation water use",
+      "harmonized": "no",
       "required": [],
-      "harmonized": [
-        "water_global"
-      ],
-      "sectors": [],
       "datasets": [
         "Non-irrigation water use (withdrawal and consumption)"
       ],
@@ -11361,13 +11221,8 @@
     {
       "specifier": "irrigation-techniques",
       "title": "Water management: irrigation techniques",
+      "harmonized": "no",
       "required": [],
-      "harmonized": [
-        "water_global"
-      ],
-      "sectors": [
-        "water_global"
-      ],
       "datasets": [
         "Irrigation techniques share"
       ],
@@ -11376,13 +11231,8 @@
     {
       "specifier": "sea-water-desalination",
       "title": "Water management: sea water desalination",
+      "harmonized": "no",
       "required": [],
-      "harmonized": [
-        "water_global"
-      ],
-      "sectors": [
-        "water_global"
-      ],
       "datasets": [
         "Seawater desalination"
       ],
@@ -11391,13 +11241,8 @@
     {
       "specifier": "inter-basin-water-transfer",
       "title": "Water management: inter-basin water transfer",
+      "harmonized": "no",
       "required": [],
-      "harmonized": [
-        "water_global"
-      ],
-      "sectors": [
-        "water_global"
-      ],
       "datasets": [
         "Inter-basin water transfer"
       ],
@@ -11406,8 +11251,8 @@
     {
       "specifier": "biological-fixation",
       "title": "Biological fixation",
+      "harmonized": "no",
       "required": [],
-      "harmonized": [],
       "sectors": [],
       "datasets": [
         "Biological fixation (N, cropland/grassland/natural)"

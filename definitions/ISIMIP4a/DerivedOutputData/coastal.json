@@ -1,5 +1,5 @@
 {
-  "commit": "a8d471308e67694e1c281dab23f8907138c0dc4d",
+  "commit": "e1843dc1f40f445dd4733d06b6f82a24af6b99bf",
   "variable": [
     {
       "specifier": "yieldchange",
@@ -3352,7 +3352,186 @@
       "west": 0.0
     }
   ],
-  "group3_requirements": [],
+  "group3_requirements": [
+    {
+      "specifier": "economic-development",
+      "title": "Economic development",
+      "harmonized": "yes",
+      "required": [],
+      "datasets": [
+        "GDP data"
+      ]
+    },
+    {
+      "specifier": "population",
+      "title": "Population",
+      "harmonized": "yes",
+      "required": [],
+      "datasets": [
+        "Population data"
+      ]
+    },
+    {
+      "specifier": "landuse",
+      "title": "Land use",
+      "harmonized": "yes",
+      "required": [
+        "biomes",
+        "fire",
+        "forestry",
+        "groundwater",
+        "peat",
+        "permafrost",
+        "water_global"
+      ],
+      "datasets": [
+        "Land use and irrigation"
+      ]
+    },
+    {
+      "specifier": "irrigation",
+      "title": "Irrigation",
+      "harmonized": "yes",
+      "required": [
+        "water_global"
+      ],
+      "datasets": [
+        "Land use and irrigation"
+      ]
+    },
+    {
+      "specifier": "n-deposition",
+      "title": "Nitrogen Deposition",
+      "harmonized": "yes",
+      "required": [],
+      "datasets": [
+        "N-deposition"
+      ]
+    },
+    {
+      "specifier": "n-fertilizer",
+      "title": "Synthetic N-fertilizer inputs",
+      "harmonized": "yes",
+      "required": [
+        "agriculture"
+      ],
+      "datasets": [
+        "Synthetic fertilizers N"
+      ]
+    },
+    {
+      "specifier": "diets",
+      "title": "Diets",
+      "harmonized": "yes",
+      "required": [],
+      "datasets": [
+        "Protein uptake per capita"
+      ],
+      "hidden": true
+    },
+    {
+      "specifier": "animal-menure",
+      "title": "Animal manure N",
+      "harmonized": "yes",
+      "required": [],
+      "datasets": [
+        "Animal manure N"
+      ],
+      "hidden": true
+    },
+    {
+      "specifier": "forest-harvests",
+      "title": "Wood harvests",
+      "harmonized": "yes",
+      "required": [],
+      "datasets": [
+        "Wood harvest"
+      ]
+    },
+    {
+      "specifier": "forest-management",
+      "title": "Forest management",
+      "harmonized": "yes",
+      "required": [
+        "forestry"
+      ],
+      "datasets": [
+        "Forest management"
+      ],
+      "hidden": true
+    },
+    {
+      "specifier": "nutrient-uptake",
+      "title": "Nutrient uptake by vegetation",
+      "harmonized": "yes",
+      "required": [],
+      "datasets": [
+        "Protein uptake per capita"
+      ],
+      "hidden": true
+    },
+    {
+      "specifier": "growing-seasons",
+      "title": "Growing seasons",
+      "harmonized": "only 2021soc",
+      "required": [
+        "agriculture"
+      ],
+      "datasets": [
+        "Crop calendar"
+      ],
+      "comment": "For ISIMIP4, we provide only a fixed 2021soc crop calendar (the same one used in ISIMIP3). It is mandatory only for 2021soc simulations. For histsoc and future ISIMIP4b Group III runs, models are free to use their own calendars: in adaptation runs, if the changes are a response to climate change, and in no-adaptation runs, if the changes represent socio-economic developments without accounting for climate change.\n"
+    },
+    {
+      "specifier": "reservoirs-dams",
+      "title": "Water management: Hydropower reservoirs and dams",
+      "harmonized": "no",
+      "required": [],
+      "datasets": [
+        "Dams and reservoirs"
+      ]
+    },
+    {
+      "specifier": "water-use",
+      "title": "Water management: non-irrigation water use",
+      "harmonized": "no",
+      "required": [],
+      "datasets": [
+        "Non-irrigation water use (withdrawal and consumption)"
+      ],
+      "hidden": true
+    },
+    {
+      "specifier": "irrigation-techniques",
+      "title": "Water management: irrigation techniques",
+      "harmonized": "no",
+      "required": [],
+      "datasets": [
+        "Irrigation techniques share"
+      ],
+      "hidden": true
+    },
+    {
+      "specifier": "sea-water-desalination",
+      "title": "Water management: sea water desalination",
+      "harmonized": "no",
+      "required": [],
+      "datasets": [
+        "Seawater desalination"
+      ],
+      "hidden": true
+    },
+    {
+      "specifier": "inter-basin-water-transfer",
+      "title": "Water management: inter-basin water transfer",
+      "harmonized": "no",
+      "required": [],
+      "datasets": [
+        "Inter-basin water transfer"
+      ],
+      "hidden": true
+    }
+  ],
   "species": [
     {
       "specifier": "fasy",

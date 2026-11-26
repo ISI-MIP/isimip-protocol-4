@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://protocol.isimip.org/schema/schema/ISIMIP4a/OutputData/groundwater.yaml",
-  "commit": "a8d471308e67694e1c281dab23f8907138c0dc4d",
+  "commit": "e1843dc1f40f445dd4733d06b6f82a24af6b99bf",
   "type": "object",
   "required": [
     "specifiers"
@@ -33,8 +33,8 @@
         "detrending": {
           "type": "string",
           "enum": [
-            "observed",
-            "detrended"
+            "detrended",
+            "observed"
           ]
         },
         "climate_scenario": {
@@ -47,53 +47,53 @@
         "soc_scenario": {
           "type": "string",
           "enum": [
-            "2021soc",
+            "histsoc",
             "1901soc",
-            "histsoc"
+            "2021soc"
           ]
         },
         "sens_scenario": {
           "type": "string",
           "enum": [
-            "1901co2",
             "default",
-            "nowatermgt"
+            "nowatermgt",
+            "1901co2"
           ]
         },
         "variable": {
           "type": "string",
           "enum": [
-            "absd",
-            "gwdrnspr",
-            "lfff",
-            "qrd",
-            "gwdrnwet",
-            "lfrf",
-            "gwdrn",
-            "gwdrnlak",
-            "groundwstor",
-            "absind",
-            "head",
-            "absdom",
-            "sgd",
-            "abs",
-            "capillary",
-            "lflf",
-            "absirr",
-            "gwdrnriv",
-            "depl",
             "absliv",
             "wtd",
+            "absdom",
+            "groundwstor",
+            "gwdrn",
+            "lfff",
+            "absd",
+            "gwdrnspr",
+            "lflf",
+            "lfrf",
+            "absirr",
+            "abs",
+            "sgd",
+            "gwdrnriv",
+            "qrd",
+            "head",
+            "lfn",
+            "absind",
+            "gwdrnwet",
             "ret",
-            "lfn"
+            "depl",
+            "capillary",
+            "gwdrnlak"
           ]
         },
         "region": {
           "type": "string",
           "enum": [
-            "europe",
             "along-track",
-            "global"
+            "global",
+            "europe"
           ]
         },
         "resolution": {
@@ -105,14 +105,14 @@
         "time_step": {
           "type": "string",
           "enum": [
-            "fixed",
-            "monthly",
-            "6hr",
             "2hr",
-            "annual",
+            "monthly",
+            "3hr",
+            "6hr",
             "hourly",
             "daily",
-            "3hr"
+            "annual",
+            "fixed"
           ]
         },
         "start_year": {
